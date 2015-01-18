@@ -1,0 +1,25 @@
+@mixin logo {
+  font-family: "Proxima Nova Extra Condensed";
+  font-weight: 500;
+  font-size: 4em;
+
+  margin-top: -.15em;
+  padding: 0;
+
+  &, &:hover, &:visited, a, a:hover, a:visited  {
+    color: $base-font-color;
+
+    span {
+      color: $brand-primary;
+    }
+  }
+}
+
+.logo {
+  @include logo;
+}
+
+.logo-inverted {
+  @include logo;
+  color: $white;
+}

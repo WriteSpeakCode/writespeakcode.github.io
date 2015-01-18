@@ -1,0 +1,81 @@
+// Typography
+$sans-serif: $helvetica;
+$serif: $georgia;
+$base-font-family: $sans-serif;
+$header-font-family: 'Proxima Nova Extra Condensed';
+
+// Font Sizes
+$base-font-size: 1em;
+$h1-font-size: $base-font-size * 2.25;
+$h2-font-size: $base-font-size * 2;
+$h3-font-size: $base-font-size * 1.75;
+$h4-font-size: $base-font-size * 1.5;
+$h5-font-size: $base-font-size * 1.25;
+$h6-font-size: $base-font-size;
+
+// Line height
+$base-line-height: 1.5;
+$header-line-height: 1.25;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$base-z-index: 0;
+
+
+//Brand colors
+$red: #D84455;
+$yellow: #DEDA5C;
+$burgundy: #8B1E2B;
+$turquoise: #237BA5;
+$teal: #256A8B;
+
+$brand-primary: $red;
+$brand-primary-dark: $burgundy;
+$brand-secondary: $burgundy;
+$brand-accent: $turquoise;
+$brand-accent-dark: $teal;
+
+// Colors
+$dark-gray: #322D2E;
+$medium-gray: lighten($dark-gray, 15);
+$light-gray: lighten($dark-gray, 40);
+
+$white: #faf9f9;
+
+$light-red: lighten($burgundy, 40);
+$light-yellow: lighten($yellow, 40);
+$light-green: lighten($teal, 40);
+
+// Background Color
+$base-background-color: $white;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$base-accent-color: $brand-accent;
+
+// Link Colors
+$base-link-color: $brand-accent;
+$hover-link-color:  $brand-accent-dark; //darken($base-accent-color, 15);
+$base-button-color: $medium-gray;
+$hover-button-color: $hover-link-color;
+
+// Flash Colors
+$alert-color: $light-yellow;
+$error-color: $light-red;
+$notice-color: lighten($base-accent-color, 40);
+$success-color: $light-green;
+
+// Border color
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Forms
+$form-border-color: $base-border-color;
+$form-border-color-hover: darken($base-border-color, 10);
+$form-border-color-focus: $base-accent-color;
+$form-border-radius: $base-border-radius;
+$form-box-shadow: inset 0 1px 3px rgba(black,0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+$form-font-size: $base-font-size;
+$form-font-family: $base-font-family;

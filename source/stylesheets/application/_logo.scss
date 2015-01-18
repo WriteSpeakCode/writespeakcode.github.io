@@ -1,6 +1,5 @@
 @mixin logo {
-  font-family: "Proxima Nova Extra Condensed";
-  font-weight: 500;
+  @include display-font('thin');
   font-size: 4em;
 
   margin-top: -.15em;

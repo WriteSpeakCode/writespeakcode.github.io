@@ -1,3 +1,26 @@
+@mixin display-font($style: regular) {
+  font-family: $header-font-family;
+
+  $weight: 400;
+  @if $style == thin {
+    $weight: 200;
+  } @else if $style == light {
+    $weight: 300;
+  } @else if $style == semibold {
+    $weight: 600;
+  } @else if $style == bold {
+    $weight: 700;
+  } @else if $style == extrabold {
+    $weight: 800;
+  } @else if $style == black {
+    $weight: 900;
+  }
+
+  font-weight: $weight;
+  font-style: normal;
+
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   background-color: $base-background-color;

@@ -6,12 +6,8 @@
     $weight: 200;
   } @else if $style == light {
     $weight: 300;
-  } @else if $style == semibold {
-    $weight: 600;
   } @else if $style == bold {
     $weight: 700;
-  } @else if $style == extrabold {
-    $weight: 800;
   } @else if $style == black {
     $weight: 900;
   }

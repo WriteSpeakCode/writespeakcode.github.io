@@ -17,11 +17,13 @@
   $footer-color: $white;
   $footer-link-color: transparentize($footer-color, 0.5);
   $footer-disclaimer-color: transparentize($footer-color, 0.6);
+  $footer-height: 80px;
 
   background: $footer-background;
   color: $footer-link-color;
   padding: $base-spacing;
   width: 100%;
+  /*min-height: $footer-height;*/
   display: inline-block;
 
   .footer-logo {

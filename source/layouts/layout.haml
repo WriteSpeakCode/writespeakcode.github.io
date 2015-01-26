@@ -20,88 +20,89 @@
       try{Typekit.load();}catch(e){}
 
   %body{class: page_classes}
-    %header.navigation{ role: "banner" }
-      %h1.logo><
-        %a{ href: '/' }><
-          %span>< &lt;
-          write
-          %span>< /
-          speak
-          %span>< /
-          code
-          %span>< &gt;
-      .navigation-wrapper
-        %a#js-mobile-menu.navigation-menu-button{ href: "javascript:void(0)" }
-          MENU
+    .container
+      %header.navigation{ role: "banner" }
+        %h1.logo><
+          %a{ href: '/' }><
+            %span>< &lt;
+            write
+            %span>< /
+            speak
+            %span>< /
+            code
+            %span>< &gt;
+        .navigation-wrapper
+          %a#js-mobile-menu.navigation-menu-button{ href: "javascript:void(0)" }
+            MENU
 
-        %nav{ role: "navigation" }
-          %ul#js-navigation-menu.navigation-menu.show
-            %li.nav-link
-              %a{ href:"javascript:void(0)" } Products
-            %li.nav-link
-              %a{ href:"javascript:void(0)" } About Us
-            %li.nav-link
-              %a{ href:"javascript:void(0)" } Contact
-            %li.nav-link.more
-              %a{ href:"javascript:void(0)" } More
+          %nav{ role: "navigation" }
+            %ul#js-navigation-menu.navigation-menu.show
+              %li.nav-link
+                %a{ href:"javascript:void(0)" } Products
+              %li.nav-link
+                %a{ href:"javascript:void(0)" } About Us
+              %li.nav-link
+                %a{ href:"javascript:void(0)" } Contact
+              %li.nav-link.more
+                %a{ href:"javascript:void(0)" } More
 
-              %ul.submenu
-                %li
-                  %a{ href:"javascript:void(0)"} Submenu Item
-                %li
-                  %a{ href:"javascript:void(0)" } Another Item
-                %li.more
-                  %a{ href:"javascript:void(0)" } Item with submenu
+                %ul.submenu
+                  %li
+                    %a{ href:"javascript:void(0)"} Submenu Item
+                  %li
+                    %a{ href:"javascript:void(0)" } Another Item
+                  %li.more
+                    %a{ href:"javascript:void(0)" } Item with submenu
 
-                  %ul.submenu
-                    %li
-                      %a{ href:"javascript:void(0)"} Sub-submenu Item
-                    %li
-                      %a{ href:"javascript:void(0)" } Another Item
-                %li.more
-                  %a{ href:"javascript:void(0)" } Another submenu
+                    %ul.submenu
+                      %li
+                        %a{ href:"javascript:void(0)"} Sub-submenu Item
+                      %li
+                        %a{ href:"javascript:void(0)" } Another Item
+                  %li.more
+                    %a{ href:"javascript:void(0)" } Another submenu
 
-                  %ul.submenu
-                    %li
-                      %a{ href:"javascript:void(0)" }Sub-submenu
-                    %li
-                      %a{ href:"javascript:void(0)" } An Item
+                    %ul.submenu
+                      %li
+                        %a{ href:"javascript:void(0)" }Sub-submenu
+                      %li
+                        %a{ href:"javascript:void(0)" } An Item
 
-        %div.navigation-tools
-          %div.search-bar
-            %form{ role:"search" }
-              %input{ type:"search", placeholder:"Enter Search" }
-              %button{ type:"submit" }
-                %img{ src:"https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png", alt: "Search Icon" }
-          %a.sign-up{ href:"javascript:void(0)" } Sign Up
+          %div.navigation-tools
+            %div.search-bar
+              %form{ role:"search" }
+                %input{ type:"search", placeholder:"Enter Search" }
+                %button{ type:"submit" }
+                  %img{ src:"https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png", alt: "Search Icon" }
+            %a.sign-up{ href:"javascript:void(0)" } Sign Up
 
-    %section#main
-      = yield
+      %section#main
+        = yield
 
-    %footer.footer{ role: "contentinfo" }
-      .footer-logo
+      %footer.footer{ role: "contentinfo" }
+        .footer-logo
 
-      %ul
-        %li
-          = link_to "About", "#"
-        %li
-          = link_to "Organizers", "#"
-
-      .footer-secondary-links
         %ul
           %li
-            = link_to "Code of Conduct", "#"
-          %li Logo design by McKenna Lowry and Maryanne Ko
+            = link_to "About", "#"
           %li
-            = "&copy; Rebel Bee Creative 2013-#{DateTime.now.year}".html_safe
+            = link_to "Organizers", "#"
 
-        %ul.footer-social
-          %li
-            %a{ href: 'http://www.twitter.com/writespeakcode' }
-              %span.fa.fa-twitter
-          %li
-            %a{ href: 'http://www.github.com/writespeakcode' }
-              %span.fa.fa-github
-          %li
-            %a{ href: 'mailto:info@writespeakcode.com' }
-              %span.fa.fa-envelope
+        .footer-secondary-links
+          %ul
+            %li
+              = link_to "Code of Conduct", "#"
+            %li Logo design by McKenna Lowry and Maryanne Ko
+            %li
+              = "&copy; Rebel Bee Creative 2013-#{DateTime.now.year}".html_safe
+
+          %ul.footer-social
+            %li
+              %a{ href: 'http://www.twitter.com/writespeakcode' }
+                %span.fa.fa-twitter
+            %li
+              %a{ href: 'http://www.github.com/writespeakcode' }
+                %span.fa.fa-github
+            %li
+              %a{ href: 'mailto:info@writespeakcode.com' }
+                %span.fa.fa-envelope

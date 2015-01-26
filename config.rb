@@ -36,9 +36,9 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+ configure :development do
+   activate :livereload
+ end
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -52,6 +52,10 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+#Bower support
+sprockets.append_path File.join root, 'bower_components'
+sprockets.import_asset 'jquery'
 
 # Build-specific configuration
 configure :build do

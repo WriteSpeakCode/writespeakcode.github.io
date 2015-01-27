@@ -1,0 +1,39 @@
+days:
+  write: monday
+  speak: tuesday
+  code: wednesday
+
+actions:
+  learn:
+    icon: book
+    tooltip: Learn
+  write:
+    icon: pencil
+    tooltip: Write
+  speak:
+    icon: microphone
+    tooltip: Speak
+  code:
+    icon: code
+    tooltip: Code
+  talk:
+    icon: bullhorn
+    tooltip: Talk
+  panel:
+    icon: group
+    tooltip: Panel
+  action:
+    icon: bolt
+    tooltip: Do!
+  food:
+    icon: food
+    tooltip: Food
+  network:
+    icon: exchange
+    tooltip: Network
+  group:
+    icon: comments
+    tooltip: Group Workshop
+  inspire:
+    icon: rocket
+    tooltip: Inspiration!

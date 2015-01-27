@@ -1,0 +1,105 @@
+each_day:
+  headline: Each day will be tailored to the experience and expertise of each attendee
+  includes:
+    - giving and receiving feedback from peers and experts
+    - talks or panels from experienced women developers
+    - group and individual workshops
+    - creation of a usable prototype for the day's milestones
+    - a concrete, next-steps action plan
+
+days:
+  write:
+    weekday: Write day
+    icon: pencil
+    summary:
+      is the foundation of Write/Speak/Code. The day will challenge you to think more carefully and more expansively about
+      your knowledge and experience, and why it matters.  You will focus on owning your
+      expertise and presenting yourself and your accomplishments with confidence.
+      Listening to authors and editors, you will get a sense of the technical
+      publishing world.
+      You will emerge with a powerful argument for an idea or cause you believe in,
+      a professional bio, and a number of topics to speak or write about.
+
+    milestones:
+      -
+        header: Write
+        description: list a topics to write or speak about and an outline and draft of one topic.
+      -
+        header: Craft
+        description: a bio that best highlights your expertise &mdash; you are an expert
+
+    learn:
+      - the source of credibility and how to establish it
+      - how to overcome imposter syndrome and rule the world
+      - how to present ideas quickly and powerfully under pressure
+      - the difference between being right and being effective
+      - the ins and outs of technical publishing
+      - writing opportunities for developers that will further you goals and career.
+
+    do:
+      - frame yourself as an expert
+      - create an article outline with three powerful pieces of evidence
+      - practice responding to criticism
+      - generate a list of topics to write or speak about
+
+    themes:
+      - Solidify your expertise
+      - Communicate effectively
+      - Share knowledge
+
+  speak:
+    weekday: Speak day
+    icon: microphone
+    summary:
+      will give you all the tools necessary to speak powerfully at
+      conferences from choosing a topic and creating slides to
+      writing a proposal and public speaking. By the end of the day
+      day you'll have written a talk proposal and given a technical presentation!
+    milestones:
+      -
+        header: Speak
+        description: publicly about others, yourself, your knowledge, and presentation slides
+      -
+        header: Create
+        description: a talk proposal and slides for a presentation
+    learn:
+      - what conference organizers look for when selecting speakers
+      - strategies for starting and improving from experienced speakers
+      - creating powerful slides
+      - oppurtunities for speaking
+    do:
+      - write a talk proposal
+      - prepare slides
+      - give a presentation individually and with group
+      - analyze a video of yourself speaking <br /><small>(will not be shared publicly)</small>
+    themes:
+      - Own your expertise
+      - Share knowledge
+      - Create visibility
+  code:
+    icon: code
+    weekday: Code day
+    summary:
+      will focus on publishing open source code and contributing to open
+      source projects. We'll learn about git, licensing, and how to choose
+      projects. You'll be an open source contributor by the end of the day!
+    milestones:
+      -
+        header: Publish
+        description: a code project or a basic markdown page
+      -
+        header: Contribute
+        description: code, docs, tests, video, blogs, or promotion to open source projects
+    learn:
+      - open source as a movement &amp; feminist models of contributing
+      - open source licensing
+      - finding and choosing projects
+      - writing helpful bug reports and documentation
+    do:
+      - publish a new public project on <a href="http://www.github.com" target=_blank>GitHub</a>
+      - share your code &amp; your project &mdash; in real life and digitally
+      - contribute code for a feature or tests to an open source project
+    themes:
+      - Own your expertise
+      - Pursue improvement
+      - Create visibility

@@ -1,0 +1,34 @@
+- sort_include_type ||= false
+- talk_list = data.schedule.select { |k,v| [:thursday, :friday, :saturday].include?(k.to_sym) }.values.flatten.select { |v| v.has_key?('talk_id') }
+%ul
+  - data.people.select { |k, v| v.pages.include?(filter) }.sort_by { |k, v| (sort_include_type ? v.type : '') + v.name }.each do |k, v|
+    %li
+      %a
+      .info
+        - if v.image
+          %a.image{ href: v.url, target: '_blank' }
+            = image_tag v.image, alt: v.name
+        %ul
+          - (v[:social] || []).each do |type, url|
+            %li
+              %a{ href: url, target: '_blank' }
+                %span{ class: "icon-#{type}" }
+          - if v.url
+            %li
+              %a{ href: v.url, target: '_blank' }
+                %span.icon-link
+
+      - show_talk = !!show_talk && v.talk
+      - bio_name_class = show_talk ? '' : 'name'
+      - if show_talk
+        %p
+          %span.name= v.name
+          %br/
+          - talk_info = talk_list.select { |t| t['talk_id'] == v.talk }.first
+          = link_to talk_info.try(:[],'talk_name'), "/schedule.html##{v.talk}"
+      %p
+        - if v.url
+          = link_to v.name, v.url, target: '_blank', class: bio_name_class
+        - else
+          = v.name
+        = v.bio

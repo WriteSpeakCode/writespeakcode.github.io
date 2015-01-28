@@ -1,4 +1,5 @@
-%ul
-  - data.sponsors.select {|k,v| v.sponsoring.include?(filter) }.sort_by {|k,v| v.sponsor_level }.each do |k,v|
-    %li{ class: "#{v.sponsor_level}"}
-      = v.name
+%div
+  - data.sponsors.select {|k,v| v.sponsoring.include?(filter) }.sort_by {|k,v| level_to_num(v.sponsor_level) }.each do |k,v|
+    %p{ class: "#{v.sponsor_level}; sponsor_list"}
+      %a.image{ href: v.url, target: '_blank'}
+        = image_tag v.image, alt: v.name, class: "sponsor_image"

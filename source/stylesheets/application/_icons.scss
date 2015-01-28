@@ -1,3 +1,7 @@
+$icon_unit: 50px;
+$icon_color: white;
+$icon_bg: darkgrey;
+
 @mixin round-icon($icon_unit, $icon_color, $icon_bg) {
   @include border-top-radius(50%);
   @include border-bottom-radius(50%);
@@ -54,4 +58,8 @@
 
 .write-icon {
   @include write-icon;
+}
+
+.day_icon {
+  @include round-icon($icon_unit, $icon_color, $icon_bg);
 }

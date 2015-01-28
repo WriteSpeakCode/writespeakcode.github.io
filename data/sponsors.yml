@@ -1,7 +1,8 @@
 github:
   name: Github
+  url: https://github.com/
   email:
-  logo: sponsors/GitHub_logo.png
+  image: sponsors/GitHub_logo.png
   frontpage: true
   sponsoring: workshop
   sponsor_level: gold
@@ -10,8 +11,9 @@ github:
 
 code_montage:
   name: Code Montage
+  url:
   email:
-  logo: sponsors/code_montage.png
+  image: sponsors/code_montage.png
   frontpage: true
   sponsoring: conference
   sponsor_level: platinum
@@ -20,8 +22,9 @@ code_montage:
 
 pivotal_labs:
   name: Pivotal Labs
+  url: http://pivotallabs.com/
   email:
-  logo: sponsors/pivotal-300.png
+  image: sponsors/pivotal-300.png
   frontpage: true
   sponsoring: conference
   sponsor_level: gold
@@ -30,8 +33,9 @@ pivotal_labs:
 
 dev_bootcamp:
   name: Dev Bootcamp
+  url: http://devbootcamp.com/
   email:
-  logo: sponsors/dbc.png
+  image: sponsors/dbc.png
   frontpage: true
   sponsoring: conference
   sponsor_level: silver
@@ -40,8 +44,9 @@ dev_bootcamp:
 
 google:
   name: Google
+  url: https://www.google.com
   email:
-  logo: sponsors/google-logo.png
+  image: sponsors/google-logo.png
   frontpage: true
   sponsoring: conference
   sponsor_level: bronze
@@ -50,8 +55,9 @@ google:
 
 stripe:
   name: Stripe
+  url: https://stripe.com/
   email:
-  logo: sponsors/stripe-400.png
+  image: sponsors/stripe-400.png
   frontpage: true
   sponsoring: conference
   sponsor_level: gold
@@ -60,8 +66,9 @@ stripe:
 
 hewlett_packard:
   name: HP
+  url: http://www8.hp.com/us/en/cloud/helion-overview.html?jumpid=va_uezi8g75dv
   email:
-  logo: sponsors/hp-logo-print.png
+  image: sponsors/hp-logo-print.png
   frontpage: true
   sponsoring: conference
   sponsor_level: gold

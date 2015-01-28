@@ -30,6 +30,18 @@
 
 ###
 # Helpers
+helpers do
+  def level_to_num(level)
+    levels = {"platinum" => 1,
+              "gold" => 2,
+              "silver" => 3,
+              "bronze" => 4
+              }
+    levels[level]
+  end
+end
+
+
 ###
 
 # Automatic image dimensions on image_tag helper

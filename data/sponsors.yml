@@ -1,0 +1,69 @@
+github:
+  name: Github
+  email:
+  logo: sponsors/GitHub_logo.png
+  frontpage: true
+  sponsoring: workshop
+  sponsor_level: gold
+  pages:
+    - sponsors
+
+code_montage:
+  name: Code Montage
+  email:
+  logo: sponsors/code_montage.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: platinum
+  pages:
+    - sponsors
+
+pivotal_labs:
+  name: Pivotal Labs
+  email:
+  logo: sponsors/pivotal-300.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: gold
+  pages:
+    - sponsors
+
+dev_bootcamp:
+  name: Dev Bootcamp
+  email:
+  logo: sponsors/dbc.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  pages:
+    - sponsors
+
+google:
+  name: Google
+  email:
+  logo: sponsors/google-logo.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: bronze
+  pages:
+    - sponsors
+
+stripe:
+  name: Stripe
+  email:
+  logo: sponsors/stripe-400.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: gold
+  pages:
+    - sponsors
+
+hewlett_packard:
+  name: HP
+  email:
+  logo: sponsors/hp-logo-print.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: gold
+  pages:
+    - sponsors

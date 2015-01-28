@@ -1,0 +1,4 @@
+%ul
+  - data.sponsors.select {|k,v| v.sponsoring.include?(filter) }.sort_by {|k,v| v.sponsor_level }.each do |k,v|
+    %li{ class: "#{v.sponsor_level}"}
+      = v.name

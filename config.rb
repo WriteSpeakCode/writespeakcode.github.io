@@ -56,6 +56,8 @@ end
  activate :blog do |blog|
   blog.paginate = true
   blog.prefix = "blog"
+  blog.layout = "blog/blog_layout"
+  blog.taglink = "tags/tag"
  end
 
 # Methods defined in the helpers block are available in templates

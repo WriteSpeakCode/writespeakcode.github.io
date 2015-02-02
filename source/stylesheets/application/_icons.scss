@@ -1,0 +1,57 @@
+@mixin round-icon($icon_unit, $icon_color, $icon_bg) {
+  @include border-top-radius(50%);
+  @include border-bottom-radius(50%);
+  @include border-right-radius(50%);
+  @include border-left-radius(50%);
+
+  background-color: $icon_bg;
+  width: $icon_unit;
+  height: $icon_unit;
+
+  text-align: center;
+  color: $icon_color;
+  font-size: $icon_unit - 10;
+
+  padding: 5px 3px;
+
+  @media only screen and (min-width: 768px) {
+    position: absolute;
+
+    & + div, & + p, & + ul {
+      margin-left: $icon_unit + 30px;
+      min-height: $icon_unit;
+      padding-top: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin: 0 auto 20px auto;
+  }
+}
+
+@mixin code-icon {
+  @extend .fa;
+  @extend .fa-code;
+}
+
+.code-icon {
+  @include code-icon;
+}
+
+@mixin speak-icon {
+  @extend .fa;
+  @extend .fa-microphone;
+}
+
+.speak-icon {
+  @include speak-icon;
+}
+
+@mixin write-icon {
+  @extend .fa;
+  @extend .fa-pencil;
+}
+
+.write-icon {
+  @include write-icon;
+}

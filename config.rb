@@ -56,9 +56,12 @@ end
  activate :blog do |blog|
   blog.paginate = true
   blog.prefix = "blog"
-  blog.layout = "blog/blog_layout"
-  blog.taglink = "tags/tag"
+  blog.layout = "blog_layout"
+  blog.tag_template = "blog/tag.html"
+  blog.calendar_template = "blog/calendar.html"
  end
+
+ page "/feed.xml", layout: false
 
 # Methods defined in the helpers block are available in templates
 # helpers do

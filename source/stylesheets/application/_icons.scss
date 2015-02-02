@@ -2,7 +2,7 @@ $icon_unit: 50px;
 $icon_color: white;
 $icon_bg: darkgrey;
 
-@mixin round-icon($icon_unit, $icon_color, $icon_bg) {
+@mixin round-icon($icon_unit: 50px, $icon_color: white, $icon_bg: darkgrey) {
   @include border-top-radius(50%);
   @include border-bottom-radius(50%);
   @include border-right-radius(50%);
@@ -60,6 +60,18 @@ $icon_bg: darkgrey;
   @include write-icon;
 }
 
-.day_icon {
+.day_icon i {
   @include round-icon($icon_unit, $icon_color, $icon_bg);
+}
+
+.day_icons {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  height: $icon_unit + 10px;
+}
+
+li.day_icon {
+  margin: $icon_unit + 10px;
+  display: inline;
 }

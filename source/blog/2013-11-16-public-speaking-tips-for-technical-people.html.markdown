@@ -3,13 +3,14 @@ title: "Public Speaking Tips for Technical People"
 date: 2013-11-16 22:10 UTC
 social: true
 author: Alli Treman
+tags: speak, 2013
 ---
 
 # Public Speaking Tips for Technical People
 
 #### by [Alli Treman](http://www.allirense.com/)
 
-One of the great things about Speak Day was that many of the experts who came to speak with us about speaking hadn’t always been experts. Many of them have, and still do, experience many of the same fears about public speaking that we do. Given that background, their tips for presenting at a tech conference, or any other public speaking event, really hit home. 
+One of the great things about Speak Day was that many of the experts who came to speak with us about speaking hadn’t always been experts. Many of them have, and still do, experience many of the same fears about public speaking that we do. Given that background, their tips for presenting at a tech conference, or any other public speaking event, really hit home.
 
 Tips on Knowing Your Material
 

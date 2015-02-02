@@ -1,0 +1,120 @@
+vanessa:
+  name: Vanessa Hurst
+  image: organizers/vhurst.jpeg
+  url: http://vanessahurst.com
+  bio: is a data-focused technologist and advocate of coding for humanity,
+       currently building <a href="http://codemontage.com" target="_blank">CodeMontage</a>.
+       She founded <a href="http://developersforgood.org" target="_blank">Developers for Good</a>
+       and co-founded <a href="http://girldevelopit.com" target="_blank">Girl Develop It</a>.
+       Vanessa advises <a href="http://ohours.org" target="_blank">Ohours</a> and scouts
+       for awesome open source projects for
+       <a href="http://webfwd.org" target="_blank">Mozilla WebFWD</a>.
+       She love tigers, marshmallows, chai lattes, and really big ideas.
+  pages:
+    - code
+    - organizers
+  type: person
+  social:
+    twitter: http://www.twitter.com/dbness
+    github: http://www.github.com/dbness
+
+code_montage:
+  name: Code Montage
+  url: http://codemontage.com
+  image: sponsors/code_montage.png
+  bio: promotes social innovation while helping coders improve their skills.
+    CodeMontage was born out of the belief that computing is the most efficient
+    way to improve the human experience, and that software developers become the
+    best through lots of practice building real applications. We know from teaching
+    beginners that there’s a frustrating gap between learning to code and being
+    able to build robust applications, and we know from hiring and mentoring
+    developers that experience can’t be replaced with canned tutorials.
+  pages:
+    - code
+  type: company
+  social:
+    twitter: https://twitter.com/CodeMontage
+    facebook: https://www.facebook.com/CodeMontage
+
+rebecca:
+  name: Rebecca Miller-Webster
+  url: http://www.rebeccamiller-webster.com
+  image: organizers/rebecca-web1-sq.jpg
+  bio: is a software engineer, conference organizer, and teacher at
+    <a href="http://www.devbootcamp.com" target=_blank">Dev Bootcamp</a>.
+    She's been developing software professionally for over 10 years
+    for large corporations, non-profits, and start-ups,
+    including as VP of Engineering for an seed-stage start up in NYC.
+    Rebecca founded <a href="http://www.writespeakcode.com">Write/Speak/Code</a>,
+    co-organizes <a href="http://goruco.com" target=_blank>GORUCO</a> and makes
+    <a href="http://www.patternedapp.com" target=_blank>Patterned</a>. She also makes
+    <a href="http://www.thebeccacomplex.com">music</a> and jewelry and loves cupcakes,
+    pizza, and crab rangoon. Rebecca lives in Sunnyside, Queens with her husband,
+    black pug, and rescued havenese. And she changes her hair. A lot.
+  pages:
+    - speak
+    - write
+    - organizers
+    - speaker
+  type: person
+  social:
+    twitter: http://www.twitter.com/rmillerwebster
+    github: http://www.github.com/rmw
+  talk: thursday_welcome
+
+rachel:
+  name: Rachel Ober
+  url: http://rachelober.com
+  image: organizers/rachel.jpg
+  bio: is a developer at <a href="http://paperlesspost.com" target=_blank>
+    Paperless Post</a> in New York City. She helps co-organize
+    <a href="http://meetup.com/NYC-Ruby-Women" target=_blank>NYC Ruby Women</a>,
+    teaches Ruby and Ruby on Rails at
+    <a href="http://generalassemb.ly" target=_blank>General Assembly</a> in
+    Manhattan and volunteers her time organizing workshops for
+    <a href="http://railsbridgenyc.org" target=_blank>RailsBridge NYC</a>.
+    Rachel is an avid scrapbooker and loves to talk about her Pembroke Welsh
+    Corgi, Isabella.
+  social:
+    twitter: http://www.twitter.com/rachelober
+    github: https://github.com/rachelober
+  pages:
+    - speak
+    - organizers
+  type: person
+
+celia:
+  name: Celia La
+  image: organizers/celia.jpg
+  bio: is a .Net/SQL Server developer at <a href='http://mediaradar.com/' target='_blank'>MediaRadar</a>. She co-organizes the <a href='http://meetup.com/tonguetiedtechs' target='_blank'>Tongue-Tied Techs</a> meetup, is the technical co-chair for the <a href='http://unwomen-metrony.org/' target='_blank'>NYC Chapter of UN Women, US National Committee</a> and
+       volunteers for <a href='http://coderdojonyc.com/' target='_blank'>CoderDojo NYC</a>. Celia also is an accomplished jazz vocalist, loves to dance
+       bhangra and volunteer for <a href='http://rightrides.org/'>RightRides.org</a>.
+  pages:
+    - speak
+    - organizers
+  social:
+    twitter: https://twitter.com/celiala
+    github: https://github.com/celiala
+    linkedin: http://www.linkedin.com/in/celiala
+  type: person
+
+chrys:
+  name: Chrys Wu
+  url: http://about.chryswu.com/
+  image: organizers/chrys.jpg
+  bio: is a journalist and user engagement strategist who works with businesses
+    interested in deepening connection to their audiences through research,
+    community-building strategy and user-centric design. She founded the coding
+    and social group <a href="http://meetup.com/NYC-Ruby-Women" target=_blank>NYC Ruby Women</a>
+    and organizes <a href="http://meetupnyc.hackshackers.com" target=_blank>Hacks/Hackers NYC</a>.
+    She also speaks on <a href="http://find.chryswu.com" target=_blank>data journalism, online engagement and
+    coding</a>.
+  pages:
+    - sponsor
+    - organizers
+    - speaker
+  social:
+    twitter: https://twitter.com/MacDiva
+    github: https://github.com/MacDiva
+  type: person
+  talk: writing_opportunity

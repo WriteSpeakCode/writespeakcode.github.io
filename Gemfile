@@ -3,11 +3,15 @@
 source 'https://rubygems.org'
 
 gem "middleman", "~>3.3.7"
+gem "middleman-blog"
 
 gem "bourbon"
 gem "neat"
 gem "bitters"
 gem 'font-awesome-sass'
+
+# nokogiri for showing article summaries
+gem 'nokogiri', '~> 1.6.6.2'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"

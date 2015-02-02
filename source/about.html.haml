@@ -1,0 +1,72 @@
+---
+title: Write/Speak/Code National Conference
+---
+
+.conference
+  .hero-unit
+    %h1
+      2015 National Conference <br />for Women Developers
+
+    %h2
+      March 19, 20, &amp; 21, 2015
+      %i.icon-star-empty.muted
+      Pace University, New York City
+
+    %h3
+      %span.downplay Empowering ourselves to become
+      %br
+      %em.downplay Thought leaders, Conference Speakers and Open Source Contributors
+
+    %h3
+      Tickets on sale NOW!
+    %p
+      %a.btn.btn-primary.btn-large{ href: 'https://guestlistapp.com/events/306111' }
+        Register NOW!
+        %i.icon-double-angle-right
+    %p
+      %a.btn.btn-info{ href: '/sponsor.html' }
+        Sponsor
+        %i.icon-double-angle-right
+      %a.btn.btn-info{ href: 'https://docs.google.com/forms/d/1kl6GhFdTTdujIWC7kYwoBIqdtdjd4y0AvX0SVGjw860/viewform' }
+        Nominate a Speaker
+        %i.icon-double-angle-right
+
+    %h4
+      %i.icon-star-empty.text-error
+      3 intense days of workshops, seminars, and talks
+      %i.icon-star-empty.text-error
+      %br/
+      %i.icon-star-empty.text-error
+      Build a personal blueprint &amp; list of concrete next steps
+      %i.icon-star-empty.text-error
+      %br/
+      %i.icon-star-empty.text-error
+      Take your career to the next level
+      %i.icon-star-empty.text-error
+
+  .day_summaries
+    %p Each of the three days will focus on a single area and consist of highly interactive panels, workshops, and talks.
+
+    %ul.days
+      - data.days.days.each do |name, info|
+        %li
+          .day_icon
+            %span{ class: "icon-#{info.icon}" }
+          .day_summary
+            %strong.area= name
+            %p
+              %strong.weekday= info.weekday
+              = info.summary
+
+              %a.primary{ href: "/about/#{name}.html" }
+                Learn more
+                %i.icon-double-angle-right
+
+  %hr
+
+  %p
+    %strong= data.days[:each_day][:headline]
+    and will include:
+    %ul
+      - data.days[:each_day][:includes].each do |item|
+        %li= item

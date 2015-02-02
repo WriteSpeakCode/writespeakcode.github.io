@@ -1,0 +1,76 @@
+github:
+  name: Github
+  url: https://github.com/
+  email:
+  image: sponsors/GitHub_logo.png
+  frontpage: true
+  sponsoring: workshop
+  sponsor_level: gold
+  pages:
+    - sponsors
+
+code_montage:
+  name: Code Montage
+  url:
+  email:
+  image: sponsors/code_montage.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: platinum
+  pages:
+    - sponsors
+
+pivotal_labs:
+  name: Pivotal Labs
+  url: http://pivotallabs.com/
+  email:
+  image: sponsors/pivotal-300.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: gold
+  pages:
+    - sponsors
+
+dev_bootcamp:
+  name: Dev Bootcamp
+  url: http://devbootcamp.com/
+  email:
+  image: sponsors/dbc.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  pages:
+    - sponsors
+
+google:
+  name: Google
+  url: https://www.google.com
+  email:
+  image: sponsors/google-logo.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: bronze
+  pages:
+    - sponsors
+
+stripe:
+  name: Stripe
+  url: https://stripe.com/
+  email:
+  image: sponsors/stripe-400.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: gold
+  pages:
+    - sponsors
+
+hewlett_packard:
+  name: HP
+  url: http://www8.hp.com/us/en/cloud/helion-overview.html?jumpid=va_uezi8g75dv
+  email:
+  image: sponsors/hp-logo-print.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: gold
+  pages:
+    - sponsors

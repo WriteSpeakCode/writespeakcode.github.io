@@ -16,6 +16,8 @@
   border-color: #D4D2D6;
   border-radius: 3px;
   margin-bottom: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .gold, .silver, .bronze {
@@ -24,9 +26,8 @@
   border-color: #D4D2D6;
   border-radius: 3px;
   margin-bottom: 15px;
-}
-
-.silver {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .well {
@@ -59,9 +60,7 @@
   padding: 10px;
 }
 
-#main {
-  margin: 50px;
-}
+
 
 .clearfix {
   clear: both;

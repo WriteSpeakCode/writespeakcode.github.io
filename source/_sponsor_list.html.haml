@@ -13,8 +13,9 @@
 - data.sponsors.select {|k,v| v.sponsoring.include?(filter) && v.sponsor_level == 'gold' }.each do |k,v|
   %div{ class: "sponsor_list; #{v.sponsor_level}"}
     .well
-      %a{ href: '#{v.url}', target:'_blank'}
-        = image_tag v.image
+      .img_container
+        %a{ href: '#{v.url}', target:'_blank'}
+          = image_tag v.image
       %p.description
         = v.description
       .clearfix
@@ -23,8 +24,9 @@
 - data.sponsors.select {|k,v| v.sponsoring.include?(filter) && v.sponsor_level == 'silver' }.each do |k,v|
   %div{ class: "sponsor_list; #{v.sponsor_level}"}
     .well
-      %a{ href: '#{v.url}', target:'_blank'}
-        = image_tag v.image
+      .img_container
+        %a{ href: '#{v.url}', target:'_blank'}
+          = image_tag v.image
       %p.description
         = v.description
       .clearfix
@@ -33,8 +35,9 @@
 - data.sponsors.select {|k,v| v.sponsoring.include?(filter) && v.sponsor_level == 'bronze' }.each do |k,v|
   %div{ class: "sponsor_list; #{v.sponsor_level}"}
     .well
-      %a{ href: '#{v.url}', target:'_blank'}
-        = image_tag v.image
+      .img_container
+        %a{ href: '#{v.url}', target:'_blank'}
+          = image_tag v.image
       %p.description
         = v.description
       .clearfix

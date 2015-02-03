@@ -1,0 +1,68 @@
+.sponsors h2 {
+  color: #D84455;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sponsor_list {
+  margin: 10px 45px;
+  display: block;
+}
+
+.platinum {
+  background-color: #E6E6E6;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D4D2D6;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.gold, .silver, .bronze {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D4D2D6;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.silver {
+}
+
+.well {
+  margin-top: 15px;
+}
+
+.platinum img {
+  float: left;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.gold img, .silver img, .bronze img {
+  float: left;
+  max-width: 200px;
+  margin: 20px;
+}
+
+.well .img_container {
+  max-width: 300px;
+}
+
+.platinum .description {
+  margin-left: 350px;
+  padding: 10px;
+}
+
+.gold .description {
+  margin-left: 250px;
+  padding: 10px;
+}
+
+#main {
+  margin: 50px;
+}
+
+.clearfix {
+  clear: both;
+}

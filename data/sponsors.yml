@@ -6,6 +6,7 @@ github:
   frontpage: true
   sponsoring: workshop
   sponsor_level: gold
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   pages:
     - sponsors
 
@@ -17,6 +18,7 @@ code_montage:
   frontpage: true
   sponsoring: conference
   sponsor_level: platinum
+  description: Code Montage empowers coders to improve their impact on the world.
   pages:
     - sponsors
 
@@ -27,7 +29,8 @@ pivotal_labs:
   image: sponsors/pivotal-300.png
   frontpage: true
   sponsoring: conference
-  sponsor_level: gold
+  sponsor_level: platinum
+  description: Pivotal Labs is at the forefront of modern software development having built some of the world’s most effective and innovative business platforms. We provide expertise in design, development and product management to deliver applications and enterprise systems that perform reliably, scale easily and adapt quickly to changing demands. We partner with technical teams ranging in experience from the newly minted to the seasoned; together we’ve launched hundreds of web and mobile products and built complex enterprise infrastructures. Our highly-disciplined agile practice revolves around communication, collaboration, transparency, and a relentless focus on customer and business needs. At Pivotal, we don’t just build products, we help transform your ideas into software, your code into solutions, and your aspiration into application.
   pages:
     - sponsors
 
@@ -39,6 +42,7 @@ dev_bootcamp:
   frontpage: true
   sponsoring: conference
   sponsor_level: silver
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   pages:
     - sponsors
 
@@ -50,6 +54,7 @@ google:
   frontpage: true
   sponsoring: conference
   sponsor_level: bronze
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   pages:
     - sponsors
 
@@ -61,6 +66,7 @@ stripe:
   frontpage: true
   sponsoring: conference
   sponsor_level: gold
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   pages:
     - sponsors
 
@@ -72,5 +78,18 @@ hewlett_packard:
   frontpage: true
   sponsoring: conference
   sponsor_level: gold
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  pages:
+    - sponsors
+
+mail_chimp:
+  name: MailChimp
+  url: http://mailchimp.com/
+  email:
+  image: sponsors/mailchimp-300.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: platinum
+  description: MailChimp helps you design email newsletters, share them on social networks, integrate with services you already use, and track your results. It's like your own personal publishing platform.
   pages:
     - sponsors

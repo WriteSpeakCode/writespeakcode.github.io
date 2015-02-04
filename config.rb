@@ -39,6 +39,19 @@ helpers do
               }
     levels[level]
   end
+
+  def time_converter(hour, minutes)
+    result = ""
+    minutes = "00" if minutes == 0
+    if hour > 12
+      result += "#{hour-12}:#{minutes} PM"
+    elsif hour == 12
+      result += "#{hour}:#{minutes} PM"
+    else
+      result += "#{hour}:#{minutes} AM"
+    end
+    result
+  end
 end
 
 

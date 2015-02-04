@@ -4,9 +4,6 @@
   list-style-type: none;
 }
 
-.dots li:before {
-}
-
 .dots li {
   padding-bottom: 30px;
   display: block;
@@ -14,12 +11,7 @@
 }
 
 .dots li:last-child {
-  padding-bottom: 30px;
-  display: block;
   border-left: 2px solid #faf9f9;
-}
-
-.dots li p {
 }
 
 .fa-circle:before {
@@ -45,6 +37,9 @@
   opacity: .5;
 }
 
+.fa-circle p a:visited {
+  color: #D84455;
+}
 
 .schedule_container {
   max-width: 600px;

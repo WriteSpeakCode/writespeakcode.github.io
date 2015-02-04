@@ -39,6 +39,19 @@ helpers do
               }
     levels[level]
   end
+
+  def time_converter(hour, minutes)
+    result = ""
+    minutes = "00" if minutes == 0
+    if hour > 12
+      result += "#{hour-12}:#{minutes}pm"
+    elsif hour == 12
+      result += "#{hour}:#{minutes}pm"
+    else
+      result += "#{hour}:#{minutes}am"
+    end
+    result
+  end
 end
 
 
@@ -97,3 +110,5 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+activate :alias

@@ -1,0 +1,67 @@
+.dots {
+  margin-left: 60px;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.dots li:before {
+}
+
+.dots li {
+  padding-bottom: 30px;
+  display: block;
+  border-left: 2px solid #D84455;
+}
+
+.dots li:last-child {
+  padding-bottom: 30px;
+  display: block;
+  border-left: 2px solid #faf9f9;
+}
+
+.dots li p {
+}
+
+.fa-circle:before {
+  margin-left: -9px;
+  color: #D84455;
+  font-size: 19px;
+  line-height: 0px;
+}
+
+.fa-circle p {
+  margin-top: -15px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  color: #D84455;
+}
+
+.fa-circle p a {
+  color: #D84455;
+}
+
+.fa-circle p a:hover {
+  color: #D84455;
+  opacity: .5;
+}
+
+
+.schedule_container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: solid 1px lightgrey;
+  border-radius: 4px;
+}
+
+.schedule_container h2 {
+  text-align: center;
+  padding: 25px;
+  color: #D84455;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+}
+
+.schedule_container h3 {
+  padding: 20px 30px;
+  color: #D84455;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+}

@@ -1,0 +1,50 @@
+# hours should be in military time (ex: 2pm is 14 hours)
+
+first_speaker:
+  name: Hello World
+  day: Saturday
+  hour: 9
+  minutes: 30
+  description: learn more
+  url: "/"
+
+panel:
+  name: Panel Discussion
+  day: Friday
+  hour: 10
+  minutes: 30
+  description: learn more
+  url: "/"
+
+
+hello:
+  name: Hello World
+  day: Friday
+  hour: 11
+  minutes: 00
+  description: learn more
+  url: "/"
+
+hiya:
+  name: Speaker
+  day: Thursday
+  hour: 12
+  minutes: 30
+  description: learn more
+  url: "/"
+
+dog:
+  name: Jenny Smith
+  day: Thursday
+  hour: 14
+  minutes: 45
+  description: learn more
+  url: "/"
+
+cat:
+  name: Helen Greg
+  day: Thursday
+  hour: 15
+  minutes: 30
+  description: learn more
+  url: "/"

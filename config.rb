@@ -44,11 +44,11 @@ helpers do
     result = ""
     minutes = "00" if minutes == 0
     if hour > 12
-      result += "#{hour-12}:#{minutes} PM"
+      result += "#{hour-12}:#{minutes}pm"
     elsif hour == 12
-      result += "#{hour}:#{minutes} PM"
+      result += "#{hour}:#{minutes}pm"
     else
-      result += "#{hour}:#{minutes} AM"
+      result += "#{hour}:#{minutes}am"
     end
     result
   end

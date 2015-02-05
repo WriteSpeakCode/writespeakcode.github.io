@@ -13,6 +13,38 @@
 
 .sponsor_announce {
   text-align: center;
+  font-style: italic;
 }
 
+.sponsor_announce h3 {
+  font-style: normal;
+}
 
+.sponsor_icons {
+  margin: 25px auto 10px;
+  max-width: 438px;
+}
+
+.sponsor_icons ul li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+li.day_icon {
+  margin-left: 0px;
+}
+
+.day_icon i {
+  width: 60px;
+  height: 60px;
+  background-color: #bcbcbc;
+}
+
+i.write-icon:before, i.speak-icon:before, i.code-icon:before {
+  font-size: 30px;
+}
+
+.center_header {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

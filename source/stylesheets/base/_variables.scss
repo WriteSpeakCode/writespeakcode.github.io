@@ -1,7 +1,7 @@
 // Typography
 $sans-serif: $helvetica;
 $serif: $georgia;
-$base-font-family: $sans-serif;
+$base-font-family: $serif;
 $header-font-family: 'Proxima Nova Extra Condensed';
 
 // Font Sizes
@@ -56,9 +56,9 @@ $base-accent-color: $brand-accent;
 
 // Link Colors
 $base-link-color: $brand-accent;
-$hover-link-color:  $brand-accent-dark; //darken($base-accent-color, 15);
+$hover-link-color:  $brand-accent-dark;
 $base-button-color: $medium-gray;
-$hover-button-color: $hover-link-color;
+$hover-button-color: $dark-gray;
 
 // Flash Colors
 $alert-color: $light-yellow;

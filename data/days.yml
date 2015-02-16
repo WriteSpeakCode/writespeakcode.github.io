@@ -1,15 +1,29 @@
 each_day:
   headline: Each day will be tailored to the experience and expertise of each attendee
   includes:
-    - giving and receiving feedback from peers and experts
-    - talks or panels from experienced women developers
-    - group and individual workshops
-    - creation of a usable prototype for the day's milestones
-    - a concrete, next-steps action plan
+    -
+      action: giving and receiving feedback from peers and experts
+      icon: thumbs-o-up
+    -
+      action: talks or panels from experienced women developers
+      icon: comments-o
+    -
+      action: group and individual workshops
+      icon: bolt
+    -
+      action: creation of a usable prototype for the day's milestones
+      icon: cloud-download
+    -
+      action: a concrete, next-steps action plan
+      icon: check
 
 days:
   write:
     weekday: Write day
+    actions:
+      - Get over your Imposter Syndrome and learn to <b>Own Your Expertise</b>
+      - Write a draft of a <b>blog post</b>
+      - Generate a list of <b>20 topics</b> you can talk or speak about
     icon: pencil
     summary:
       is the foundation of Write/Speak/Code. The day will challenge you to think more carefully and more expansively about
@@ -49,6 +63,10 @@ days:
 
   speak:
     weekday: Speak day
+    actions:
+      - Write a <b>talk proposal</b> &amp; receive feedback from conference organizers
+      - Create <b>slides</b> for a talk
+      - Give a <b>tech-related talk</b> to supportive peers &amp; mentors
     icon: microphone
     summary:
       will give you all the tools necessary to speak powerfully at
@@ -79,6 +97,10 @@ days:
   code:
     icon: code
     weekday: Code day
+    actions:
+      - Learn the ins &amp; outs of <b>git, Github, and open source</b>
+      - Publish an open source project
+      - Contribute to an <b>existing open source project</b>
     summary:
       will focus on publishing open source code and contributing to open
       source projects. We'll learn about git, licensing, and how to choose

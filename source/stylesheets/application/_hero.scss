@@ -1,0 +1,65 @@
+.hero {
+  $hero-color: white;
+  $hero-image: '/images/2013-conf/2013-heads-down-overlay2.jpg';
+
+
+  @include background(url($hero-image), no-repeat $brand-accent-dark scroll);
+  background-color: $brand-accent-dark;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-bottom: 3em;
+
+  .hero-logo img {
+    height: 4em;
+    margin-bottom: 1em;
+  }
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+
+    color: $hero-color;
+
+    margin: auto;
+    padding: 1.5em 1.5em 3em 1.5em;
+    text-align: center;
+
+    @include media($large-screen) {
+      padding: 3em;
+    }
+
+    .hero-copy {
+      text-align: center;
+
+      p {
+        font-weight: 200;
+        line-height: 1.4em;
+        margin: 1em auto; 
+
+        @include media($large-screen) {
+          font-size: 1.4em;
+          max-width: 80%;
+        }
+      }
+
+     a:not(.button) {
+       font-weight: 200;
+        &, &:visited {
+          color: $brand-primary;
+        }
+
+        &:hover {
+          color: $brand-primary-dark;
+        }
+     }
+    }
+
+    button {
+      @include button(flat, $base-accent-color);
+      padding: 0.7em 1em;
+    }
+  }
+}
+

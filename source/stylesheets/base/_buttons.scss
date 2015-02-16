@@ -1,10 +1,23 @@
 button,
-input[type="submit"] {
+input[type="submit"], .button {
   @extend %button;
   @include appearance(none);
+
+  font-family: $sans-serif;
   border: none;
   cursor: pointer;
+
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
+
+  &.primary {
+    background-color: $brand-primary;
+  }
+
+  &.alert { background-color: $brand-secondary; color: $dark-gray; }
+  &.error { background-color: $brand-primary-dark; }
+  &.notice { background-color: $brand-accent; }
+  &.success { background-color: $brand-accent-dark; }
+
 }

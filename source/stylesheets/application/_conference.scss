@@ -1,0 +1,39 @@
+#main.conference {
+  background-color: $brand-accent-dark;
+
+  #content {
+    margin-top: -100px;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 1em;
+
+      span {
+        @include display-font('thin');
+      }
+
+      .fa { color: $brand-primary; }
+
+      @include media($large-screen) {
+        font-size: $h1-font-size * 1.2;
+      }
+    }
+
+    h4 {
+      margin-bottom: 1em;
+
+      .fa {
+        color: $notice-color;
+        padding: 0 .5em;
+      }
+    }
+
+    .actions {
+      .fa-li { 
+        position: relative;
+        color: $notice-color;
+        left: 0;
+      }
+    }
+  }
+}

@@ -1,6 +1,3 @@
-$icon_unit: 50px;
-$icon_color: white;
-$icon_bg: darkgrey;
 
 @mixin round-icon($icon_unit: 50px, $icon_color: white, $icon_bg: darkgrey) {
   @include border-top-radius(50%);
@@ -14,23 +11,23 @@ $icon_bg: darkgrey;
 
   text-align: center;
   color: $icon_color;
-  font-size: $icon_unit - 10;
+  font-size: $icon_unit * .8;
 
-  padding: 5px 3px;
+  padding: ($icon_unit*.1) ($icon_unit*.06);
 
-  @media only screen and (min-width: 768px) {
-    position: absolute;
+  /*@media only screen and (min-width: 768px) {*/
+    /*position: absolute;*/
 
-    & + div, & + p, & + ul {
-      margin-left: $icon_unit + 30px;
-      min-height: $icon_unit;
-      padding-top: 10px;
-    }
-  }
+    /*& + div, & + p, & + ul {*/
+      /*margin-left: $icon_unit + 30px;*/
+      /*min-height: $icon_unit;*/
+      /*padding-top: 10px;*/
+    /*}*/
+  /*}*/
 
-  @media only screen and (max-width: 768px) {
-    margin: 0 auto 20px auto;
-  }
+  /*@media only screen and (max-width: 768px) {*/
+    /*margin: 0 auto 20px auto;*/
+  /*}*/
 }
 
 @mixin code-icon {
@@ -60,18 +57,28 @@ $icon_bg: darkgrey;
   @include write-icon;
 }
 
-.day_icon i {
-  @include round-icon($icon_unit, $icon_color, $icon_bg);
+
+$day_icon_unit: 100px;
+$day_icon_color: white;
+$day_icon_bg: $brand-primary;
+
+.day_icon {
+  width: $day_icon_unit;
+  margin: 0 auto;
+
+  i {
+    @include round-icon($day_icon_unit, $day_icon_color, $day_icon_bg);
+  }
 }
 
 .day_icons {
   margin: 0 auto;
   text-align: center;
   display: block;
-  height: $icon_unit + 10px;
+  height: $day_icon_unit + 10px;
 }
 
 li.day_icon {
-  margin: $icon_unit + 10px;
+  margin: $day_icon_unit + 10px;
   display: inline;
 }

@@ -1,0 +1,18 @@
+.days {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+
+  li {
+    @include flex-basis(15em);
+    @include flex-grow(1);
+    @include transition (all 0.2s ease-in-out);
+
+    text-align: center;
+    padding: 1em;
+  }
+}
+
+.day_summary {
+  margin-top: 1em;
+}

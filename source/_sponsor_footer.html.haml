@@ -1,0 +1,19 @@
+.sponsor_icons
+  %ul.day_icons
+    %li.day_icon
+      %i.write-icon
+    %li.day_icon
+      %i.speak-icon
+    %li.day_icon
+      %i.code-icon
+
+%p.sponsor_announce
+  Write/Speak/Code 2015 would not be possible without the generous support of our amazing sponsors.
+%h3.center_header
+  Thank You
+
+%div
+  - data.sponsors.select {|k,v| v.sponsoring.include?(filter) }.sort_by {|k,v| level_to_num(v.sponsor_level) }.each do |k,v|
+    %p{ class: "#{v.sponsor_level}; sponsor_list"}
+      %a.image{ href: v.url, target: '_blank'}
+        = image_tag v.image, alt: v.name, class: "sponsor_image"

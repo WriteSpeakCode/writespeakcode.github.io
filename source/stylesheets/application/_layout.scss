@@ -5,32 +5,18 @@ body {
    height:100%;
 }
 
-/*.container {*/
-   /*min-height:100%;*/
-   /*position:relative;*/
-/*}*/
-
-/*.navigation {*/
-   /*background:#ff0;*/
-   /*padding:10px;*/
-/*}*/
-
-/*#main {*/
-   /*padding:10px;*/
-   /*padding-bottom:60px;   [> Height of the footer <]*/
-/*}*/
-
-/*.footer {*/
-   /*position:absolute;*/
-   /*bottom:0;*/
-   /*width:100%;*/
-/*}*/
-
 .navigation {
 }
 
 #main {
- /*@include outer-container;*/
+  background-color: $light-red;
+}
+
+#content {
+ @include outer-container;
+
+ padding: 3%;
+ background-color: $white;
 }
 
 .footer {

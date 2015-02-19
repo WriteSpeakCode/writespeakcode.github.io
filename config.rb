@@ -65,11 +65,13 @@ end
    activate :livereload
  end
 
+ activate :directory_indexes
+
  # add blog functionality
  activate :blog do |blog|
   blog.paginate = true
   blog.prefix = "blog"
-  blog.layout = "blog_layout"
+  #blog.layout = "blog_layout"
   blog.tag_template = "blog/tag.html"
   blog.calendar_template = "blog/calendar.html"
  end

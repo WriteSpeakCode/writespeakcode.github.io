@@ -4,8 +4,8 @@
   }
 
   $navigation-padding: 1em;
-  $navigation-background: $white; //desaturate($dark-gray, 30%);
-  $navigation-color: transparentize($dark-gray, 0.3);
+  $navigation-background: desaturate($dark-gray, 30%);
+  $navigation-color: $white; //transparentize($dark-gray, 0.3);
   $navigation-color-hover: $medium-gray;
   $navigation-height: 60px;
   $navigation-search-background: lighten($navigation-background, 5);
@@ -63,6 +63,8 @@
     float: none;
     min-height: $navigation-height;
     z-index: 9999999;
+
+    margin-left: 1em;
 
     @include media ($horizontal-bar-mode) {
       float: left;
@@ -133,7 +135,6 @@
     padding-bottom: 3px;
   }
 
-  
 // Sub menus
 
   li.more.nav-link {
@@ -249,7 +250,6 @@
     }
   }
 
-  
 // Elements on the far right
 
   .navigation-tools {
@@ -277,7 +277,7 @@
     text-transform: uppercase;
   }
 
-  
+
 // Search bar
 
   .search-bar {

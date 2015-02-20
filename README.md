@@ -3,12 +3,30 @@
 ## Getting Started
 
 ### Develop
-`bundle install`
-`bower install`
-`middleman`
 
-launch localhost:4567
+#### Install dependencies
+```
+> bundle install
+> bower install
+```
 
-### Build static files
+#### Launch the server
+```
+> middleman
+```
 
-`middleman build`
+Visit [http://localhost:4567/](http://localhost:4567/)
+
+#### Create a pull request
+
+- Create changes on a feature branch
+- Submit a pull request to the `dev` branch
+- Ping [Rebecca](@rmw)
+
+### Publish
+
+To publish changes (in the `dev` branch) to Github Pages, run:
+
+```
+> rake publish
+```

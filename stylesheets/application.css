@@ -12,7 +12,7 @@
   font-weight: normal;
   font-style: normal; }
 /* line 4, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/font-awesome-sass-4.2.2/assets/stylesheets/font-awesome/_core.scss */
-.fa, .code-icon, .speak-icon, .write-icon, .footer .footer-logo {
+.fa, blockquote, .code-icon, .speak-icon, .write-icon, .footer .footer-logo {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -83,10 +83,10 @@
   float: left; }
 
 /* line 14, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/font-awesome-sass-4.2.2/assets/stylesheets/font-awesome/_bordered-pulled.scss */
-.fa.pull-left, .pull-left.code-icon, .pull-left.speak-icon, .pull-left.write-icon, .footer .pull-left.footer-logo {
+.fa.pull-left, blockquote.pull-left, .pull-left.code-icon, .pull-left.speak-icon, .pull-left.write-icon, .footer .pull-left.footer-logo {
   margin-right: .3em; }
 /* line 15, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/font-awesome-sass-4.2.2/assets/stylesheets/font-awesome/_bordered-pulled.scss */
-.fa.pull-right, .pull-right.code-icon, .pull-right.speak-icon, .pull-right.write-icon, .footer .pull-right.footer-logo {
+.fa.pull-right, blockquote.pull-right, .pull-right.code-icon, .pull-right.speak-icon, .pull-right.write-icon, .footer .pull-right.footer-logo {
   margin-left: .3em; }
 
 /* line 4, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/font-awesome-sass-4.2.2/assets/stylesheets/font-awesome/_spinning.scss */
@@ -1174,7 +1174,7 @@
   content: ""; }
 
 /* line 274, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/font-awesome-sass-4.2.2/assets/stylesheets/font-awesome/_icons.scss */
-.fa-quote-left:before {
+.fa-quote-left:before, blockquote:before {
   content: ""; }
 
 /* line 275, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/font-awesome-sass-4.2.2/assets/stylesheets/font-awesome/_icons.scss */
@@ -2207,7 +2207,7 @@ input[type="submit"], .button {
     cursor: not-allowed;
     opacity: 0.5; }
 
-/* line 20, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 35, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 body {
   -webkit-font-smoothing: antialiased;
   background-color: #faf9f9;
@@ -2216,11 +2216,11 @@ body {
   font-size: 1em;
   line-height: 1.5; }
   @media screen and (min-width: 53.75em) {
-    /* line 20, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 35, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     body {
-      font-size: 1.1em; } }
+      font-size: 1.2em; } }
 
-/* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 48, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h1,
 h2,
 h3,
@@ -2234,56 +2234,81 @@ h6 {
   margin: 0;
   text-rendering: optimizeLegibility; }
 
-/* line 45, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 60, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+h1 {
+  text-align: center; }
+
+/* line 62, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h1 {
   font-family: "Proxima Nova Extra Condensed";
   font-weight: 900;
   font-style: normal;
+  color: #D84455;
   font-size: 2.25em; }
+  @media screen and (min-width: 53.75em) {
+    /* line 62, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    h1 {
+      font-size: 4em; } }
 
-/* line 50, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 73, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h2 {
   font-family: "Proxima Nova Extra Condensed";
   font-weight: 700;
   font-style: normal;
   font-size: 2em; }
+  @media screen and (min-width: 53.75em) {
+    /* line 73, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    h2 {
+      font-size: 2.5em; } }
 
-/* line 55, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 82, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h3 {
   font-size: 1.75em; }
+  @media screen and (min-width: 53.75em) {
+    /* line 82, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    h3 {
+      font-size: 1.75em; } }
 
-/* line 59, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 90, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h4 {
   font-size: 1.5em; }
+  @media screen and (min-width: 53.75em) {
+    /* line 90, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    h4 {
+      font-size: 1.5em; } }
 
-/* line 63, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 98, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h5 {
   font-size: 1.25em; }
+  @media screen and (min-width: 53.75em) {
+    /* line 98, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    h5 {
+      font-size: 1.25em; } }
 
-/* line 67, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 106, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h6 {
   font-size: 1em; }
 
-/* line 71, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 110, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 p {
   margin: 0 0 0.75em; }
 
-/* line 75, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 114, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 a {
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
   transition: color 0.1s linear;
   color: #237BA5;
   text-decoration: none; }
-  /* line 80, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 119, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   a:hover {
     color: #256A8B; }
-  /* line 84, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 123, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   a:active, a:focus {
     color: #256A8B;
     outline: none; }
 
-/* line 90, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 129, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 hr {
   border-bottom: 1px solid #9b9092;
   border-left: none;
@@ -2291,26 +2316,39 @@ hr {
   border-top: none;
   margin: 1.5em 0; }
 
-/* line 98, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 137, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 img,
 picture {
   margin: 0;
   max-width: 100%; }
 
-/* line 104, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 143, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 blockquote {
   border-left: 2px solid #9b9092;
   color: #5a5153;
   margin: 1.5em 0;
   padding-left: 0.75em; }
 
-/* line 111, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 150, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 cite {
   color: #75696c;
   font-style: italic; }
-  /* line 115, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 154, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   cite:before {
     content: "\2014 \00A0"; }
+
+/* line 159, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.callout-primary, .callout-accent, .callout {
+  font-weight: bold;
+  font-size: 1.2em; }
+
+/* line 163, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.callout-primary {
+  color: #D84455; }
+
+/* line 164, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.callout-accent {
+  color: #237BA5; }
 
 /* line 1, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
 fieldset {
@@ -2477,27 +2515,44 @@ input[type="submit"], .button {
   input[type="submit"].success, .button.success {
     background-color: #256A8B; }
 
-/* line 65, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+/* line 40, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_base.scss */
+blockquote {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  background-color: #DEDA5C;
+  padding: 1em; }
+  /* line 46, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_base.scss */
+  blockquote:nth-child(even) {
+    background-color: #237BA5;
+    color: #faf9f9; }
+
+/* line 68, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
 .day_icon {
-  width: 100px;
-  margin: 0 auto; }
-  /* line 69, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+  margin: 0 auto;
+  width: 100px; }
+  /* line 72, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
   .day_icon i {
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 50%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
     background-color: #D84455;
     width: 100px;
     height: 100px;
     text-align: center;
     color: white;
-    font-size: 80px;
-    padding: 10px 6px;
+    font-size: 70px;
+    padding: 15px 6px;
     /*@media only screen and (min-width: 768px) {*/
     /*position: absolute;*/
     /*& + div, & + p, & + ul {*/
@@ -2508,19 +2563,89 @@ input[type="submit"], .button {
     /*}*/
     /*@media only screen and (max-width: 768px) {*/
     /*margin: 0 auto 20px auto;*/
-    /*}*/ }
+    /*}*/
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%; }
 
-/* line 74, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+/* line 77, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
 .day_icons {
   margin: 0 auto;
   text-align: center;
   display: block;
-  height: 110px; }
+  height: 110.0px; }
 
-/* line 81, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+/* line 84, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
 li.day_icon {
-  margin: 110px;
+  margin: 110.0px;
   display: inline; }
+
+/* line 90, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+h1 .fa, h1 blockquote, h1 .code-icon, h1 .speak-icon, h1 .write-icon, h1 .footer .footer-logo, .footer h1 .footer-logo {
+  color: #e78e99; }
+
+/* line 94, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+h1.icon i {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  background-color: #D84455;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 7.5px 3px;
+  /*@media only screen and (min-width: 768px) {*/
+  /*position: absolute;*/
+  /*& + div, & + p, & + ul {*/
+  /*margin-left: $icon_unit + 30px;*/
+  /*min-height: $icon_unit;*/
+  /*padding-top: 10px;*/
+  /*}*/
+  /*}*/
+  /*@media only screen and (max-width: 768px) {*/
+  /*margin: 0 auto 20px auto;*/
+  /*}*/ }
+  @media screen and (min-width: 53.75em) {
+    /* line 94, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+    h1.icon i {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+      border-top-right-radius: 3px;
+      border-bottom-left-radius: 3px;
+      border-top-left-radius: 3px;
+      background-color: #D84455;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      color: white;
+      font-size: 70px;
+      padding: 15px 6px;
+      /*@media only screen and (min-width: 768px) {*/
+      /*position: absolute;*/
+      /*& + div, & + p, & + ul {*/
+      /*margin-left: $icon_unit + 30px;*/
+      /*min-height: $icon_unit;*/
+      /*padding-top: 10px;*/
+      /*}*/
+      /*}*/
+      /*@media only screen and (max-width: 768px) {*/
+      /*margin: 0 auto 20px auto;*/
+      /*}*/ } }
 
 /* line 1, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_layout.scss */
 html,
@@ -2546,40 +2671,291 @@ body {
     content: "";
     display: table; }
 
-/* line 1, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-#main.conference {
-  background-color: #256A8B; }
-  /* line 4, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-  #main.conference #content {
-    margin-top: -100px;
+/* line 3, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+.blog {
+  /*h2, h3, h4 {*/
+  /*color: $darkGray;*/
+  /*}*/
+  /*.details {*/
+  /*li {*/
+  /*border-bottom: 1px dashed $yellow;*/
+  /*margin-bottom: 20px;*/
+  /*}*/
+  /*}*/
+  /*.callout, .takeaway {*/
+  /*@extend .alert;*/
+  /*p {*/
+  /*padding: $paddingLarge;*/
+  /*padding-right: 0;*/
+  /*font-size: $fontSizeLarge;*/
+  /*}*/
+  /*&.pull-right {*/
+  /*margin: $paddingSmall;*/
+  /*}*/
+  /*}*/
+  /*.callout {*/
+  /*@extend .alert-info;*/
+  /*}*/
+  /*.takeaway {*/
+  /*@extend .alert-error;*/
+  /*margin-top: 60px;*/
+  /*p {*/
+  /*font-weight: bold;*/
+  /*}*/
+  /*}*/ }
+  /* line 4, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  .blog h1 {
+    color: #8B1E2B; }
+  /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  .blog a, .blog a:hover, .blog a:visited, .blog a:active {
+    color: #D84455; }
+  /* line 10, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  .blog #main {
+    background-color: #8B1E2B; }
+  /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  .blog.blog_index a, .blog.blog_index a:hover, .blog.blog_index a:visited, .blog.blog_index a:active {
+    color: #256A8B; }
+  /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  .blog.blog_index h2 a, .blog.blog_index h2 a:hover, .blog.blog_index h2 a:visited, .blog.blog_index h2 a:active {
+    color: #8B1E2B; }
+  /* line 22, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  .blog aside {
+    border-top: 3px dashed #DEDA5C;
+    padding-top: 1em;
+    margin-top: 5em;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    -o-justify-content: flex-start;
+    justify-content: flex-start;
+    -ms-flex-pack: start; }
+    /* line 31, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    .blog aside section {
+      -webkit-flex-basis: 5em;
+      -moz-flex-basis: 5em;
+      flex-basis: 5em;
+      -ms-flex-preferred-size: 5em;
+      -webkit-flex-grow: 1;
+      -moz-flex-grow: 1;
+      flex-grow: 1;
+      -ms-flex-positive: 1;
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+      /* line 36, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+      .blog aside section.recent {
+        -webkit-flex-grow: 3;
+        -moz-flex-grow: 3;
+        flex-grow: 3;
+        -ms-flex-positive: 3; }
+  /* line 42, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  .blog .callout, .blog .takeaway {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    font-family: "Proxima Nova Extra Condensed";
+    font-weight: 300;
+    font-style: normal;
+    background-color: #256A8B;
+    padding: .5em;
+    color: #faf9f9;
+    font-size: 2.5em;
+    line-height: 1em; }
+    /* line 53, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    .blog .callout p, .blog .takeaway p {
+      margin: 0 0 0 1.5em; }
+    /* line 57, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    .blog .callout .fa, .blog .callout blockquote, .blog .callout .code-icon, .blog .callout .speak-icon, .blog .callout .write-icon, .blog .callout .footer .footer-logo, .footer .blog .callout .footer-logo, .blog .takeaway .fa, .blog .takeaway blockquote, .blog .takeaway .code-icon, .blog .takeaway .speak-icon, .blog .takeaway .write-icon, .blog .takeaway .footer .footer-logo, .footer .blog .takeaway .footer-logo {
+      color: #98cbe4; }
+  /* line 60, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  .blog .takeaway {
+    margin-bottom: 2em; }
+  /* line 65, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  .blog #content header {
     text-align: center; }
-    /* line 8, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    #main.conference #content h2 {
-      margin-bottom: 1em; }
-      /* line 11, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-      #main.conference #content h2 span {
-        font-family: "Proxima Nova Extra Condensed";
-        font-weight: 200;
-        font-style: normal; }
-      /* line 15, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-      #main.conference #content h2 .fa, #main.conference #content h2 .code-icon, #main.conference #content h2 .speak-icon, #main.conference #content h2 .write-icon, #main.conference #content h2 .footer .footer-logo, .footer #main.conference #content h2 .footer-logo {
-        color: #D84455; }
-      @media screen and (min-width: 53.75em) {
-        /* line 8, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-        #main.conference #content h2 {
-          font-size: 2.7em; } }
-    /* line 22, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    #main.conference #content h4 {
-      margin-bottom: 1em; }
-      /* line 25, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-      #main.conference #content h4 .fa, #main.conference #content h4 .code-icon, #main.conference #content h4 .speak-icon, #main.conference #content h4 .write-icon, #main.conference #content h4 .footer .footer-logo, .footer #main.conference #content h4 .footer-logo {
-        color: #a8d6ec;
-        padding: 0 .5em; }
-    /* line 32, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    #main.conference #content .actions .fa-li {
-      position: relative;
-      color: #a8d6ec;
-      left: 0; }
+    /* line 68, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    .blog #content header h4 {
+      border-bottom: 3px dashed #DEDA5C;
+      padding-bottom: 1em;
+      margin-bottom: 2em; }
+  /* line 76, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  .blog ul {
+    list-style-type: disc;
+    padding-left: 1em;
+    margin: -0.5em 1em 1em 1em; }
+  /* line 112, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  .blog .tweets_blog {
+    border: none;
+    text-align: center; }
+    /* line 115, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    .blog .tweets_blog ul {
+      list-style-type: none; }
+    /* line 120, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    .blog .tweets_blog img {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+      border-top-right-radius: 3px;
+      border-bottom-left-radius: 3px;
+      border-top-left-radius: 3px;
+      width: 520px;
+      margin: 10px;
+      border: 1px solid #237BA5; }
+    /* line 127, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    .blog .tweets_blog .tweets {
+      border-top: 3px dashed #DEDA5C;
+      border-top-width: 2px;
+      padding-top: 2em; }
+      /* line 132, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+      .blog .tweets_blog .tweets:first-of-type {
+        border-top: none;
+        padding-top: .5em; }
+
+/* line 1, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+#main.conference, #main.sponsors {
+  background-color: #256A8B; }
+
+/* line 7, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout .childcare {
+  text-transform: uppercase;
+  background-color: #322D2E; }
+/* line 12, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout .hero {
+  padding-bottom: 52px; }
+  @media screen and (min-width: 53.75em) {
+    /* line 12, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    .conference_layout .hero {
+      padding-bottom: 42px; } }
+  /* line 17, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout .hero .hero-inner .hero-copy h4.childcare a {
+    color: #faf9f9; }
+/* line 22, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout #content {
+  margin-top: -100px;
+  text-align: center; }
+  /* line 26, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout #content h1 {
+    color: #237BA5; }
+    /* line 28, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    .conference_layout #content h1 .fa, .conference_layout #content h1 blockquote, .conference_layout #content h1 .code-icon, .conference_layout #content h1 .speak-icon, .conference_layout #content h1 .write-icon, .conference_layout #content h1 .footer .footer-logo, .footer .conference_layout #content h1 .footer-logo {
+      color: #98cbe4; }
+  /* line 31, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout #content h3 {
+    margin: 1em auto; }
+  /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout #content h2.change-world {
+    margin-bottom: 1em; }
+    /* line 36, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    .conference_layout #content h2.change-world span {
+      font-family: "Proxima Nova Extra Condensed";
+      font-weight: 200;
+      font-style: normal; }
+    /* line 40, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    .conference_layout #content h2.change-world .fa, .conference_layout #content h2.change-world blockquote, .conference_layout #content h2.change-world .code-icon, .conference_layout #content h2.change-world .speak-icon, .conference_layout #content h2.change-world .write-icon, .conference_layout #content h2.change-world .footer .footer-logo, .footer .conference_layout #content h2.change-world .footer-logo {
+      color: #D84455; }
+    @media screen and (min-width: 53.75em) {
+      /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      .conference_layout #content h2.change-world {
+        font-size: 4em; } }
+  /* line 48, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout #content h4 .fa, .conference_layout #content h4 blockquote, .conference_layout #content h4 .code-icon, .conference_layout #content h4 .speak-icon, .conference_layout #content h4 .write-icon, .conference_layout #content h4 .footer .footer-logo, .footer .conference_layout #content h4 .footer-logo {
+    color: #53afdb;
+    padding: 0 .5em; }
+  /* line 55, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout #content .actions .fa-li {
+    position: relative;
+    color: #53afdb;
+    left: 0; }
+/* line 64, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout .breadcrumbs li {
+  display: inline-block; }
+  /* line 67, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout .breadcrumbs li:first-child:after {
+    content: '/'; }
+/* line 74, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout.sub_page .hero {
+  font-size: .8em;
+  padding-bottom: 62px; }
+  /* line 75, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout.sub_page .hero .details, .conference_layout.sub_page .hero .header-break {
+    display: none; }
+  @media screen and (min-width: 53.75em) {
+    /* line 74, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    .conference_layout.sub_page .hero {
+      padding-bottom: 52px; } }
+  /* line 83, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout.sub_page .hero h1 {
+    font-family: "Proxima Nova Extra Condensed";
+    font-weight: 700;
+    font-style: normal; }
+    @media screen and (min-width: 53.75em) {
+      /* line 83, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      .conference_layout.sub_page .hero h1 {
+        font-size: 2.25em; } }
+  /* line 88, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout.sub_page .hero h2 {
+    font-family: "Proxima Nova Extra Condensed";
+    font-weight: 800;
+    font-style: normal; }
+    @media screen and (min-width: 53.75em) {
+      /* line 88, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      .conference_layout.sub_page .hero h2 {
+        font-size: 2em; } }
+/* line 95, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout.sub_page #content h2 {
+  margin: 1em auto; }
+  /* line 98, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout.sub_page #content h2 .fa, .conference_layout.sub_page #content h2 blockquote, .conference_layout.sub_page #content h2 .code-icon, .conference_layout.sub_page #content h2 .speak-icon, .conference_layout.sub_page #content h2 .write-icon, .conference_layout.sub_page #content h2 .footer .footer-logo, .footer .conference_layout.sub_page #content h2 .footer-logo {
+    padding: 0 .5em; }
+/* line 103, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout.sub_page #content .themes {
+  color: #D84455;
+  margin-bottom: 1em; }
+/* line 111, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout .developer-definition {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin-top: 3em;
+  background-color: #efedb1;
+  padding: .5em;
+  border: 1px solid #9b9092; }
+/* line 119, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout a.small {
+  font-size: .8em;
+  color: #faf9f9; }
+  /* line 123, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout a.small, .conference_layout a.small:hover, .conference_layout a.small:linked, .conference_layout a.small:visited {
+    color: #faf9f9; }
 
 /* line 1, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_days.scss */
 .days {
@@ -2620,9 +2996,15 @@ body {
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     text-align: center;
-    padding: 1em; }
+    padding: .5em; }
+    /* line 14, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_days.scss */
+    .days li .learn_more {
+      font-weight: bold; }
+    /* line 18, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_days.scss */
+    .days li h3 {
+      margin-top: 0; }
 
-/* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_days.scss */
+/* line 22, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_days.scss */
 .day_summary {
   margin-top: 1em; }
 
@@ -2646,21 +3028,21 @@ body {
     text-decoration: none; }
   /* line 28, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
   .footer .footer-logo {
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 50%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
     background-color: #D84455;
     width: 50px;
     height: 50px;
     text-align: center;
     color: #faf9f9;
-    font-size: 40px;
-    padding: 5px 3px;
+    font-size: 35px;
+    padding: 7.5px 3px;
     /*@media only screen and (min-width: 768px) {*/
     /*position: absolute;*/
     /*& + div, & + p, & + ul {*/
@@ -2672,6 +3054,14 @@ body {
     /*@media only screen and (max-width: 768px) {*/
     /*margin: 0 auto 20px auto;*/
     /*}*/
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
     margin-top: -10px; }
     @media screen and (min-width: 53.75em) {
       /* line 28, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
@@ -2780,7 +3170,7 @@ body {
         display: none; } }
     /* line 53, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation .navigation-menu-button:focus, .navigation .navigation-menu-button:hover {
-      color: #5a5153; }
+      color: #e78e99; }
   /* line 62, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation nav {
     float: none;
@@ -2839,7 +3229,7 @@ body {
           padding-right: 1em; } }
       /* line 126, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation ul li.nav-link a:focus, .navigation ul li.nav-link a:hover {
-        color: #5a5153; }
+        color: #e78e99; }
   /* line 133, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation .active-nav-item a {
     border-bottom: 1px solid rgba(250, 249, 249, 0.5);
@@ -2850,7 +3240,7 @@ body {
     @media screen and (min-width: 53.75em) {
       /* line 140, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation li.more.nav-link {
-        padding-right: 1em; } }
+        margin-right: 1em; } }
     /* line 147, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation li.more.nav-link > ul > li:first-child a {
       padding-top: 1em; }
@@ -2864,7 +3254,7 @@ body {
     .navigation li.more.nav-link > a:after {
       position: absolute;
       top: auto;
-      right: -0.4em;
+      right: -0.2em;
       bottom: auto;
       left: auto;
       content: '\25BE';
@@ -2908,42 +3298,48 @@ body {
         left: -1em;
         position: absolute;
         top: 1.5em; } }
+    /* line 211, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    .navigation ul.submenu .divided a {
+      border-top: 2px solid #e78e99; }
+      /* line 214, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      .navigation ul.submenu .divided a:hover {
+        border-top-color: #faf9f9; }
     @media screen and (min-width: 53.75em) {
-      /* line 211, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 219, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation ul.submenu .submenu {
         left: 11.8em;
         top: 0; } }
-    /* line 218, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 226, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation ul.submenu li {
       display: block;
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
-        /* line 218, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+        /* line 226, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
         .navigation ul.submenu li {
           line-height: 46.15385px; }
-          /* line 225, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+          /* line 233, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
           .navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
-          /* line 230, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+          /* line 238, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
           .navigation ul.submenu li:last-child > a {
             border-bottom-left-radius: 3px;
             border-bottom-right-radius: 3px;
             padding-bottom: 0.7em; } }
-      /* line 237, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 245, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation ul.submenu li a {
         background-color: #282828;
         display: inline-block;
         text-align: right;
         width: 100%; }
         @media screen and (min-width: 53.75em) {
-          /* line 237, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+          /* line 245, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
           .navigation ul.submenu li a {
             background-color: #303030;
             padding-left: 1em;
             text-align: left;
             width: 12em; } }
-  /* line 255, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 263, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation .navigation-tools {
     background: #505050;
     clear: both;
@@ -2952,12 +3348,12 @@ body {
     padding-left: 0.5em;
     padding-right: 1em; }
     @media screen and (min-width: 53.75em) {
-      /* line 255, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 263, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation .navigation-tools {
         background: transparent;
         clear: none;
         float: right; } }
-  /* line 270, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 278, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation .sign-up {
     background-color: #5a5153;
     border-radius: 3px;
@@ -2987,16 +3383,16 @@ body {
     .navigation .sign-up:disabled {
       opacity: 0.5;
       cursor: not-allowed; }
-  /* line 283, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 291, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation .search-bar {
     float: left;
     padding: 0.85em 0.6em 0.7em 0.6em;
     width: 60%; }
-    /* line 292, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 300, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation .search-bar form {
       position: relative; }
-      /* line 295, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
-      .navigation .search-bar form input[type=search] {
+      /* line 303, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      .navigation .search-bar form input[type=email] {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -3008,13 +3404,13 @@ body {
         font-style: italic;
         margin: 0;
         padding: 0.5em 0.8em;
-        width: 100%; }
+        width: 40%; }
         @media screen and (min-width: 53.75em) {
-          /* line 295, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
-          .navigation .search-bar form input[type=search] {
-            width: 100%; } }
-      /* line 312, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
-      .navigation .search-bar form button[type=submit] {
+          /* line 303, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+          .navigation .search-bar form input[type=email] {
+            width: 55%; } }
+      /* line 320, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      .navigation .search-bar form input[type=submit] {
         background-color: #3c3c3c;
         border-radius: 3px;
         border: none;
@@ -3043,42 +3439,174 @@ body {
         right: 0.3em;
         top: 0.3em; }
         /* line 351, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/bourbon-4.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
-        .navigation .search-bar form button[type=submit]:hover:not(:disabled) {
+        .navigation .search-bar form input[type=submit]:hover:not(:disabled) {
           background-color: #494949;
           cursor: pointer; }
         /* line 362, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/bourbon-4.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
-        .navigation .search-bar form button[type=submit]:active:not(:disabled), .navigation .search-bar form button[type=submit]:focus:not(:disabled) {
+        .navigation .search-bar form input[type=submit]:active:not(:disabled), .navigation .search-bar form input[type=submit]:focus:not(:disabled) {
           background-color: #303030;
           cursor: pointer; }
         /* line 351, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/bourbon-4.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
-        .navigation .search-bar form button[type=submit]:hover:not(:disabled) {
+        .navigation .search-bar form input[type=submit]:hover:not(:disabled) {
           background-color: #4c4647;
           cursor: pointer; }
         /* line 362, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/bourbon-4.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
-        .navigation .search-bar form button[type=submit]:active:not(:disabled), .navigation .search-bar form button[type=submit]:focus:not(:disabled) {
+        .navigation .search-bar form input[type=submit]:active:not(:disabled), .navigation .search-bar form input[type=submit]:focus:not(:disabled) {
           background-color: #303030;
           cursor: pointer; }
         /* line 59, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/bourbon-4.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
-        .navigation .search-bar form button[type=submit]:disabled {
+        .navigation .search-bar form input[type=submit]:disabled {
           opacity: 0.5;
           cursor: not-allowed; }
-        /* line 322, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
-        .navigation .search-bar form button[type=submit] img {
+        /* line 330, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+        .navigation .search-bar form input[type=submit] img {
           height: 12px;
           opacity: 0.7;
           padding: 1px; }
     @media screen and (min-width: 53.75em) {
-      /* line 283, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 291, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation .search-bar {
         display: inline-block;
         position: relative;
         width: 16em; }
-        /* line 335, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+        /* line 343, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
         .navigation .search-bar input {
           -webkit-box-sizing: border-box;
           -moz-box-sizing: border-box;
           box-sizing: border-box;
           display: block; } }
+
+/* line 352, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+.conference .navigation li.conference {
+  font-weight: bold;
+  color: #322D2E; }
+  /* line 354, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .conference .navigation li.conference .divided a {
+    border-top-color: #322D2E; }
+  /* line 358, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .conference .navigation li.conference a {
+    border-right: 8px solid #e78e99;
+    border-left: 2px solid #e78e99;
+    background-color: #e78e99; }
+  /* line 366, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .conference .navigation li.conference a, .conference .navigation li.conference a:after, .conference .navigation li.conference a:hover, .conference .navigation li.conference a:visited {
+    color: #322D2E; }
+  /* line 370, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .conference .navigation li.conference a:hover {
+    color: #faf9f9; }
+  /* line 374, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .conference .navigation li.conference > a:hover {
+    color: #5a5153; }
+
+/* line 352, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+.meetups .navigation li.meetups {
+  font-weight: bold;
+  color: #322D2E; }
+  /* line 354, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .meetups .navigation li.meetups .divided a {
+    border-top-color: #322D2E; }
+  /* line 358, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .meetups .navigation li.meetups a {
+    border-right: 8px solid #e78e99;
+    border-left: 2px solid #e78e99;
+    background-color: #e78e99; }
+  /* line 366, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .meetups .navigation li.meetups a, .meetups .navigation li.meetups a:after, .meetups .navigation li.meetups a:hover, .meetups .navigation li.meetups a:visited {
+    color: #322D2E; }
+  /* line 370, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .meetups .navigation li.meetups a:hover {
+    color: #faf9f9; }
+  /* line 374, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .meetups .navigation li.meetups > a:hover {
+    color: #5a5153; }
+
+/* line 352, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+.events .navigation li.events {
+  font-weight: bold;
+  color: #322D2E; }
+  /* line 354, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .events .navigation li.events .divided a {
+    border-top-color: #322D2E; }
+  /* line 358, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .events .navigation li.events a {
+    border-right: 8px solid #e78e99;
+    border-left: 2px solid #e78e99;
+    background-color: #e78e99; }
+  /* line 366, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .events .navigation li.events a, .events .navigation li.events a:after, .events .navigation li.events a:hover, .events .navigation li.events a:visited {
+    color: #322D2E; }
+  /* line 370, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .events .navigation li.events a:hover {
+    color: #faf9f9; }
+  /* line 374, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .events .navigation li.events > a:hover {
+    color: #5a5153; }
+
+/* line 352, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+.about .navigation li.about {
+  font-weight: bold;
+  color: #322D2E; }
+  /* line 354, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .about .navigation li.about .divided a {
+    border-top-color: #322D2E; }
+  /* line 358, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .about .navigation li.about a {
+    border-right: 8px solid #e78e99;
+    border-left: 2px solid #e78e99;
+    background-color: #e78e99; }
+  /* line 366, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .about .navigation li.about a, .about .navigation li.about a:after, .about .navigation li.about a:hover, .about .navigation li.about a:visited {
+    color: #322D2E; }
+  /* line 370, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .about .navigation li.about a:hover {
+    color: #faf9f9; }
+  /* line 374, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .about .navigation li.about > a:hover {
+    color: #5a5153; }
+
+/* line 352, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+.blog .navigation li.blog {
+  font-weight: bold;
+  color: #322D2E; }
+  /* line 354, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .blog .navigation li.blog .divided a {
+    border-top-color: #322D2E; }
+  /* line 358, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .blog .navigation li.blog a {
+    border-right: 8px solid #e78e99;
+    border-left: 2px solid #e78e99;
+    background-color: #e78e99; }
+  /* line 366, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .blog .navigation li.blog a, .blog .navigation li.blog a:after, .blog .navigation li.blog a:hover, .blog .navigation li.blog a:visited {
+    color: #322D2E; }
+  /* line 370, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .blog .navigation li.blog a:hover {
+    color: #faf9f9; }
+  /* line 374, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .blog .navigation li.blog > a:hover {
+    color: #5a5153; }
+
+/* line 352, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+.sponsors .navigation li.sponsors {
+  font-weight: bold;
+  color: #322D2E; }
+  /* line 354, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .sponsors .navigation li.sponsors .divided a {
+    border-top-color: #322D2E; }
+  /* line 358, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .sponsors .navigation li.sponsors a {
+    border-right: 8px solid #e78e99;
+    border-left: 2px solid #e78e99;
+    background-color: #e78e99; }
+  /* line 366, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .sponsors .navigation li.sponsors a, .sponsors .navigation li.sponsors a:after, .sponsors .navigation li.sponsors a:hover, .sponsors .navigation li.sponsors a:visited {
+    color: #322D2E; }
+  /* line 370, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .sponsors .navigation li.sponsors a:hover {
+    color: #faf9f9; }
+  /* line 374, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  .sponsors .navigation li.sponsors > a:hover {
+    color: #5a5153; }
 
 /* line 1, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
 .hero {
@@ -3088,12 +3616,16 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 3em; }
-  /* line 14, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+  padding-bottom: 2.9em; }
+  @media screen and (min-width: 53.75em) {
+    /* line 1, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+    .hero {
+      padding-bottom: 2.7em; } }
+  /* line 15, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
   .hero .hero-logo img {
     height: 4em;
     margin-bottom: 1em; }
-  /* line 19, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+  /* line 20, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
   .hero .hero-inner {
     max-width: 68em;
     margin-left: auto;
@@ -3113,32 +3645,37 @@ body {
       content: "";
       display: table; }
     @media screen and (min-width: 53.75em) {
-      /* line 19, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+      /* line 20, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
       .hero .hero-inner {
         padding: 3em; } }
-    /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+    /* line 34, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+    .hero .hero-inner h1, .hero .hero-inner h2 {
+      text-shadow: 1px 1px 2px #322D2E;
+      color: #faf9f9; }
+    /* line 40, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
     .hero .hero-inner .hero-copy {
       text-align: center; }
-      /* line 36, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+      /* line 43, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
       .hero .hero-inner .hero-copy p {
         font-weight: 200;
         line-height: 1.4em;
-        margin: 1em auto; }
+        margin: 1em auto;
+        text-shadow: 1px 1px 1px #322D2E; }
         @media screen and (min-width: 53.75em) {
-          /* line 36, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+          /* line 43, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
           .hero .hero-inner .hero-copy p {
             font-size: 1.4em;
             max-width: 80%; } }
-      /* line 47, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+      /* line 56, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
       .hero .hero-inner .hero-copy a:not(.button) {
         font-weight: 200; }
-        /* line 49, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+        /* line 58, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
         .hero .hero-inner .hero-copy a:not(.button), .hero .hero-inner .hero-copy a:not(.button):visited {
           color: #D84455; }
-        /* line 53, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+        /* line 62, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
         .hero .hero-inner .hero-copy a:not(.button):hover {
           color: #8B1E2B; }
-    /* line 59, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+    /* line 68, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
     .hero .hero-inner button {
       background-color: #237BA5;
       border-radius: 3px;
@@ -3180,7 +3717,10 @@ body {
 /* line 17, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
 .index #main {
   padding: 0; }
-/* line 21, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 20, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  .index #main h1 {
+    color: #faf9f9; }
+/* line 23, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
 .index #banner {
   margin: 0;
   background-image: url("/images/2013-conf/wsc-sign.jpg");
@@ -3189,7 +3729,7 @@ body {
   position: relative;
   height: 600px;
   color: #faf9f9; }
-  /* line 30, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 32, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #banner .overlay {
     position: absolute;
     top: 0px;
@@ -3198,7 +3738,7 @@ body {
     left: 0px;
     display: block;
     background-color: rgba(139, 30, 43, 0.6); }
-  /* line 36, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 38, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #banner .wrap {
     max-width: 68em;
     margin-left: auto;
@@ -3211,7 +3751,7 @@ body {
       clear: both;
       content: "";
       display: table; }
-  /* line 44, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 46, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #banner .copy-wrap {
     float: left;
     display: block;
@@ -3223,25 +3763,24 @@ body {
     /* line 87, /Users/rmw/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
     .index #banner .copy-wrap:last-child {
       margin-right: 0; }
-    /* line 51, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    /* line 53, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index #banner .copy-wrap h1 {
       font-size: 3em; }
-    /* line 55, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    /* line 57, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index #banner .copy-wrap h1, .index #banner .copy-wrap h2 {
       text-shadow: 1px 1px 2px #322D2E; }
-    /* line 59, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    /* line 61, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index #banner .copy-wrap p {
       font-size: 1.3em;
       padding-top: 2em;
-      /*font-weight: bold;*/
       text-shadow: 1px 1px 1px #322D2E; }
 @media only screen and (min-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 69, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 70, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #banner .wrap {
     height: auto;
     padding-top: 5.625em;
     padding-bottom: 2.8125em; }
-  /* line 75, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 76, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #banner .copy-wrap {
     float: left;
     display: block;
@@ -3254,12 +3793,12 @@ body {
     .index #banner .copy-wrap:last-child {
       margin-right: 0; } }
 @media screen and (max-width: 480px) {
-  /* line 85, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 86, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #banner .wrap {
     height: auto;
     padding-top: 5.625em;
     padding-bottom: 2.8125em; }
-  /* line 91, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 92, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #banner .copy-wrap {
     float: left;
     display: block;
@@ -3278,7 +3817,7 @@ body {
   font-weight: 200;
   font-style: normal;
   font-size: 4em;
-  margin-top: -.15em;
+  margin-top: -.25em;
   padding: 0; }
   /* line 8, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
   .logo, .logo:hover, .logo:visited, .logo a, .logo a:hover, .logo a:visited {
@@ -3293,7 +3832,7 @@ body {
   font-weight: 200;
   font-style: normal;
   font-size: 4em;
-  margin-top: -.15em;
+  margin-top: -.25em;
   padding: 0;
   color: #faf9f9; }
   /* line 8, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
@@ -3302,6 +3841,103 @@ body {
     /* line 11, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
     .logo-inverted span, .logo-inverted:hover span, .logo-inverted:visited span, .logo-inverted a span, .logo-inverted a:hover span, .logo-inverted a:visited span {
       color: #D84455; }
+
+/* line 2, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_meetups.scss */
+.meetups .meetup {
+  margin-bottom: 2em; }
+/* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_meetups.scss */
+.meetups ul {
+  list-style-type: disc;
+  margin-left: 1em;
+  padding-left: .5em; }
+
+/* line 5, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+.people_list {
+  list-style-type: none;
+  margin-top: 20px; }
+  /* line 8, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+  .people_list img {
+    width: 100px; }
+  /* line 12, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+  .people_list .social {
+    font-size: .8em;
+    margin-top: -10px; }
+    /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    .people_list .social li {
+      display: inline-block; }
+  /* line 19, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+  .people_list > li {
+    clear: both;
+    margin: 1em;
+    padding: 1em;
+    min-height: 160px;
+    height: auto; }
+    @media only screen and (max-width: 767px) {
+      /* line 26, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      .people_list > li .info {
+        text-align: center;
+        margin: 0 auto 20px auto; } }
+    @media only screen and (min-width: 768px) {
+      /* line 26, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      .people_list > li .info {
+        float: left; } }
+    /* line 35, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    .people_list > li p {
+      padding-right: 20px; }
+      @media only screen and (min-width: 768px) {
+        /* line 35, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+        .people_list > li p {
+          margin-left: 180px; } }
+      /* line 40, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      .people_list > li p .name, .people_list > li p a.name, .people_list > li p a.name:hover, .people_list > li p a.name:active, .people_list > li p a.name:visited {
+        color: #D84455;
+        font-weight: bold; }
+    /* line 46, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    .people_list > li .social {
+      margin-top: -10px;
+      text-align: center;
+      font-size: .6em; }
+      /* line 51, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      .people_list > li .social li {
+        display: inline-block;
+        padding: 0 .1em; }
+      /* line 56, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      .people_list > li .social a {
+        font-size: 2.25em; }
+    /* line 59, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    .people_list > li .talk {
+      font-style: italic;
+      font-weight: bold; }
+      /* line 62, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      .people_list > li .talk, .people_list > li .talk a, .people_list > li .talk a:hover, .people_list > li .talk a:visited, .people_list > li .talk a:active {
+        color: #DEDA5C; }
+      /* line 65, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      .people_list > li .talk .name {
+        font-size: 2em; }
+    /* line 71, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    .people_list > li.company img {
+      width: 150px; }
+    /* line 76, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    .people_list > li.person .info {
+      margin-left: 30px; }
+
+/* line 83, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+.person {
+  border: 3px dashed #DEDA5C; }
+  /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  .person a.image, .person a.image:hover, .person a.image:visited, .person a.image:active {
+    color: #237BA5; }
+  /* line 90, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+  .person img {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border: 4px solid #237BA5; }
 
 /* line 1, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .dots {
@@ -3367,18 +4003,30 @@ body {
   color: #D84455;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
-/* line 1, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 5, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+.sponsors .conference_layout #content h1:not(.recruit) {
+  color: #322D2E; }
+/* line 9, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+.sponsors .developer-definition, .sponsors .each_day {
+  display: none; }
+/* line 13, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+.sponsors .images img {
+  border: 2px solid #D84455;
+  width: 35%;
+  margin: 2px 10px; }
+
+/* line 21, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .sponsors h2 {
   color: #D84455;
   text-align: center;
   margin-bottom: 10px; }
 
-/* line 7, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 27, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .sponsor_list {
   margin: 10px 45px;
   display: block; }
 
-/* line 12, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 32, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .platinum {
   background-color: #E6E6E6;
   border-style: solid;
@@ -3389,7 +4037,7 @@ body {
   margin-left: 50px;
   margin-right: 50px; }
 
-/* line 23, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 43, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .gold, .silver, .bronze {
   border-style: solid;
   border-width: 1px;
@@ -3399,37 +4047,37 @@ body {
   margin-left: 50px;
   margin-right: 50px; }
 
-/* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 53, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .well {
   margin-top: 15px; }
 
-/* line 37, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 57, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .platinum img {
   float: left;
   max-width: 300px;
   margin: 20px; }
 
-/* line 43, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 63, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .gold img, .silver img, .bronze img {
   float: left;
   max-width: 200px;
   margin: 20px; }
 
-/* line 49, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 69, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .well .img_container {
   max-width: 300px; }
 
-/* line 53, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 73, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .platinum .description {
   margin-left: 350px;
   padding: 10px; }
 
-/* line 58, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 78, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .gold .description {
   margin-left: 250px;
   padding: 10px; }
 
-/* line 65, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 85, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .clearfix {
   clear: both; }
 

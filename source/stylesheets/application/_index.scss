@@ -20,14 +20,44 @@
     h1 { color: $white; }
   }
 
-  #banner {
+  .banner {
     margin: 0;
+    position: relative;
+    min-height: 600px;
+    color: $white;
+    text-align: center;
+
+    .wrap {
+      @include outer-container;
+
+      overflow: hidden;
+      text-align: center;
+
+      height: auto;
+
+      @include media($large-screen) {
+        height: 100%;
+      }
+    }
+
+    .copy-wrap {
+      text-align: center;
+      color: $white;
+      a { @include colored-link($white); }
+
+      h1 {
+        font-size: 3em;
+      }
+    }
+
+    border-bottom: 10px solid $brand-primary-dark;
+  }
+
+  #banner {
     background-image: url(image_path('2013-conf/wsc-sign.jpg'));
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    height: 600px;
-    color: $white;
+
 
     .overlay {
       @include position(absolute, 0px 0px 0px 0px);
@@ -35,23 +65,18 @@
       background-color: transparentize($brand-primary-dark, .4);
     }
 
-    .wrap {
-      @include outer-container;
-
-      height: 100%;
-      overflow: hidden;
-      text-align: center;
-    }
-
     .copy-wrap {
-      @include span-columns(7);
+      @include span-columns(12);
 
       position: relative;
-      margin-top: -15%;
-      top: 50%;
+      top: auto;
+      margin-top: 5em;
 
-      h1 {
-        font-size: 3em;
+      @include media($large-screen) {
+        @include span-columns(7);
+
+        margin-top: 8em;
+        top: 50%;
       }
 
       h1, h2 {
@@ -64,37 +89,58 @@
         text-shadow: 1px 1px 1px $dark-gray;
       }
     }
+
+     .fa-caret-down {
+       @include media($large-screen) {
+        @include span-columns(7);
+        /*bottom: -25px;*/
+       }
+     }
+
   }
 
-  @media only screen and (min-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-    #banner .wrap {
-      height: auto;
-      padding-top: 5.625em;
-      padding-bottom: 2.8125em;
+  #banner2 {
+    background-color: $brand-accent;
+    border-bottom-color: $brand-accent-dark;
+
+    .wrap {
     }
 
-    #banner .copy-wrap {
+    .image-wrap {
+      max-width: 100%;
+      max-height: 590px;
+      margin: 0;
+      padding: 0;
+
+      @include media($large-screen) {
+        float: left;
+        max-width: 32%;
+      }
+
+      img {
+        max-height: 590px;
+      }
+    }
+
+    .copy-wrap {
       @include span-columns(12);
 
-      position: relative;
-      margin-top: 0;
-      top: auto;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    #banner .wrap {
+      padding: 1em;
       height: auto;
-      padding-top: 5.625em;
-      padding-bottom: 2.8125em;
-    }
 
-    #banner .copy-wrap {
-      @include span-columns(12);
+      h1 { font-size: $sm-h1-font-size; }
+      h2 { font-size: $sm-h2-font-size; }
+      h2, h3 { text-align: center; }
 
-      position: relative;
-      top: auto;
-      margin-top: 10%;
+      p, h3 {
+        padding: .5em 0 0 0;
+      }
+
+      .header-break { display: none; }
+
+      @include media($large-screen) {
+        .header-break { display: block; }
+      }
     }
   }
 }

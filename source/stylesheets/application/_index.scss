@@ -16,6 +16,8 @@
 
   #main {
     padding: 0;
+
+    h1 { color: $white; }
   }
 
   #banner {
@@ -59,7 +61,6 @@
       p {
         font-size: 1.3em;
         padding-top: 2em;
-        /*font-weight: bold;*/
         text-shadow: 1px 1px 1px $dark-gray;
       }
     }

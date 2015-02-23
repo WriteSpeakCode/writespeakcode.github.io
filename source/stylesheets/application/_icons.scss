@@ -1,9 +1,5 @@
-
-@mixin round-icon($icon_unit: 50px, $icon_color: white, $icon_bg: darkgrey) {
-  @include border-top-radius(50%);
-  @include border-bottom-radius(50%);
-  @include border-right-radius(50%);
-  @include border-left-radius(50%);
+@mixin square-icon($icon_unit: 50px, $icon_color: white, $icon_bg: $dark-gray) {
+  @include square-border;
 
   background-color: $icon_bg;
   width: $icon_unit;
@@ -11,9 +7,9 @@
 
   text-align: center;
   color: $icon_color;
-  font-size: $icon_unit * .8;
+  font-size: $icon_unit * .7;
 
-  padding: ($icon_unit*.1) ($icon_unit*.06);
+  padding: ($icon_unit*.15) ($icon_unit*.06);
 
   /*@media only screen and (min-width: 768px) {*/
     /*position: absolute;*/
@@ -28,6 +24,13 @@
   /*@media only screen and (max-width: 768px) {*/
     /*margin: 0 auto 20px auto;*/
   /*}*/
+}
+
+
+
+@mixin round-icon($icon_unit: 50px, $icon_color: white, $icon_bg: $dark-gray) {
+  @include square-icon($icon_unit, $icon_color, $icon_bg);
+  @include round-border;
 }
 
 @mixin code-icon {
@@ -63,8 +66,8 @@ $day_icon_color: white;
 $day_icon_bg: $brand-primary;
 
 .day_icon {
-  width: $day_icon_unit;
   margin: 0 auto;
+  width: $day_icon_unit;
 
   i {
     @include round-icon($day_icon_unit, $day_icon_color, $day_icon_bg);
@@ -75,10 +78,24 @@ $day_icon_bg: $brand-primary;
   margin: 0 auto;
   text-align: center;
   display: block;
-  height: $day_icon_unit + 10px;
+  height: $day_icon_unit * 1.1;
 }
 
 li.day_icon {
-  margin: $day_icon_unit + 10px;
+  margin: $day_icon_unit * 1.1;
   display: inline;
+}
+
+h1 {
+  .fa { color: $light-red; }
+}
+
+h1.icon {
+  i {
+    @include square-icon($day_icon_unit/2, $day_icon_color, $day_icon_bg);
+
+    @include media($large-screen) {
+      @include square-icon($day_icon_unit, $day_icon_color, $day_icon_bg);
+    }
+  }
 }

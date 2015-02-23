@@ -52,6 +52,21 @@ helpers do
     end
     result
   end
+
+  def author_link(article, tag = "")
+    d = article.data
+    str = ""
+
+    str = d.author unless d.author.nil?
+    str = "<a href=#{d.author_url}>#{str}</a>" unless d.author_url.nil?
+
+    unless str.empty?
+      str = "by #{str}"
+      str = "<#{tag}>#{str}</#{tag}>" unless tag.empty?
+    end
+
+    str
+  end
 end
 
 

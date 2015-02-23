@@ -1,0 +1,7 @@
+%header
+  %h1= article.data.title
+
+  - if article.data.subtitle
+    %h3= article.data.subtitle
+
+  = author_link(article, 'h4')

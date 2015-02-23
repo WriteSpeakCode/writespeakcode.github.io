@@ -17,6 +17,21 @@
 
 }
 
+@mixin display-font-normal { @include display-font; }
+
+@mixin display-font-bold { @include display-font('bold'); }
+@mixin display-font-boldest { @include display-font(black); }
+
+@mixin display-font-light { @include display_font('light'); }
+@mixin display-font-lightest { @include display-font('thin'); }
+
+@mixin colored-link($color) {
+  &, &:hover, &:visited, &:active {
+    color: $color;
+  }
+}
+
+
 body {
   -webkit-font-smoothing: antialiased;
   background-color: $base-background-color;
@@ -26,7 +41,7 @@ body {
   line-height: $base-line-height;
 
    @include media($large-screen) {
-      font-size: $base-font-size * 1.1;
+      font-size: $base-font-size * 1.2;
    }
 }
 
@@ -36,32 +51,56 @@ h3,
 h4,
 h5,
 h6 {
-  @include display-font;
+  @include display-font-normal;
   line-height: $header-line-height;
   margin: 0;
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 
+h1 { text-align: center }
+
 h1 {
-  @include display-font(black);
-  font-size: $h1-font-size;
+  @include display-font-boldest;
+  color: $brand-primary;
+  font-size: $sm-h1-font-size;
+
+  @include media($large-screen) {
+    font-size: $h1-font-size;
+  }
+
 }
 
 h2 {
-  @include display-font('bold');
-  font-size: $h2-font-size;
+  @include display-font-bold;
+  font-size: $sm-h2-font-size;
+
+  @include media($large-screen) {
+    font-size: $h2-font-size;
+  }
 }
 
 h3 {
-  font-size: $h3-font-size;
+  font-size: $sm-h3-font-size;
+
+  @include media($large-screen) {
+    font-size: $h3-font-size;
+  }
 }
 
 h4 {
-  font-size: $h4-font-size;
+  font-size: $sm-h4-font-size;
+
+  @include media($large-screen) {
+    font-size: $h4-font-size;
+  }
 }
 
 h5 {
-  font-size: $h5-font-size;
+  font-size: $sm-h5-font-size;
+
+  @include media($large-screen) {
+    font-size: $h5-font-size;
+  }
 }
 
 h6 {
@@ -116,3 +155,10 @@ cite {
     content: "\2014 \00A0";
   }
 }
+
+.callout-primary, .callout-accent, .callout {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.callout-primary { color: $brand-primary; }
+.callout-accent { color: $brand-accent; }

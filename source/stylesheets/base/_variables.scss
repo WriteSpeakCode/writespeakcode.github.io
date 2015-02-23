@@ -6,12 +6,18 @@ $header-font-family: 'Proxima Nova Extra Condensed';
 
 // Font Sizes
 $base-font-size: 1em;
-$h1-font-size: $base-font-size * 2.25;
-$h2-font-size: $base-font-size * 2;
+$h1-font-size: $base-font-size * 4;
+$h2-font-size: $base-font-size * 2.5;
 $h3-font-size: $base-font-size * 1.75;
 $h4-font-size: $base-font-size * 1.5;
 $h5-font-size: $base-font-size * 1.25;
 $h6-font-size: $base-font-size;
+
+$sm-h1-font-size: $base-font-size * 2.25;
+$sm-h2-font-size: $base-font-size * 2;
+$sm-h3-font-size: $base-font-size * 1.75;
+$sm-h4-font-size: $base-font-size * 1.5;
+$sm-h5-font-size: $base-font-size * 1.25;
 
 // Line height
 $base-line-height: 1.5;
@@ -43,9 +49,13 @@ $light-gray: lighten($dark-gray, 40);
 
 $white: #faf9f9;
 
-$light-red: lighten($burgundy, 40);
-$light-yellow: lighten($yellow, 40);
-$light-green: lighten($teal, 40);
+$light-primary: lighten($burgundy, 40);
+$light-secondary: lighten($yellow, 20);
+$light-accent: lighten($teal, 40);
+
+$light-red: $light-primary;
+$light-yellow: $light-secondary;
+$light-green: $light-accent;
 
 // Background Color
 $base-background-color: $white;
@@ -63,12 +73,13 @@ $hover-button-color: $dark-gray;
 // Flash Colors
 $alert-color: $light-yellow;
 $error-color: $light-red;
-$notice-color: lighten($base-accent-color, 40);
+$notice-color: lighten($base-accent-color, 20);
 $success-color: $light-green;
 
 // Border color
 $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
+$section-border: 3px dashed $brand-secondary;
 
 // Forms
 $form-border-color: $base-border-color;

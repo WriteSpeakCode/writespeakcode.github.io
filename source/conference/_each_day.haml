@@ -1,0 +1,11 @@
+.each_day
+  = data.days[:each_day][:headline]
+  and will include:
+  %ul.actions.fa-ul
+    - data.days[:each_day][:includes].each do |item|
+      %li
+        %i{ class: "fa-li fa fa-#{item.icon}" }
+        = item.action
+        %i{ class: "fa-li fa fa-#{item.icon}" }
+
+

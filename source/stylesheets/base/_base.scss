@@ -22,3 +22,29 @@
 @import "tables";
 @import "lists";
 @import "buttons";
+
+@mixin square-border {
+  @include border-top-radius($base-border-radius);
+  @include border-bottom-radius($base-border-radius);
+  @include border-right-radius($base-border-radius);
+  @include border-left-radius($base-border-radius);
+}
+
+@mixin round-border {
+  @include border-top-radius(50%);
+  @include border-bottom-radius(50%);
+  @include border-right-radius(50%);
+  @include border-left-radius(50%);
+}
+
+blockquote {
+  @extend .fa, .fa-quote-left;
+  @include square-border;
+  background-color: $brand-secondary;
+  padding: 1em;
+
+  &:nth-child(even) {
+    background-color: $brand-accent;
+    color: $white;
+  }
+}

@@ -1,0 +1,138 @@
+$callout-bg: $brand-accent-dark;
+
+.blog {
+  h1 { color: $brand-primary-dark; }
+
+  a {
+    @include colored-link($brand-primary);
+  }
+
+  #main {
+    background-color: $brand-primary-dark;
+  }
+
+  &.blog_index {
+    a { @include colored-link($brand-accent-dark); }
+
+    h2 a {
+      @include colored-link($brand-primary-dark);
+    }
+  }
+
+  aside {
+    border-top: $section-border;
+    padding-top: 1em;
+    margin-top: 5em;
+
+    @include display(flex);
+    @include flex-wrap(wrap);
+    @include justify-content(flex-start);
+
+    section {
+      @include flex-basis(5em);
+      @include flex-grow(1);
+      @include transition (all 0.2s ease-in-out);
+
+      &.recent {
+        @include flex-grow(3);
+      }
+    }
+  }
+
+  .callout, .takeaway {
+    @include square-border;
+    @include display-font-light;
+
+    background-color: $callout-bg;
+    padding: .5em;
+    color: $white;
+
+    font-size: $h2-font-size;
+    line-height: 1em;
+
+    p {
+      margin: 0 0 0 1.5em;
+    }
+
+    .fa { color: $light-green; }
+  }
+
+  .takeaway {
+    margin-bottom: 2em;
+  }
+
+  #content {
+    header {
+      text-align: center;
+
+      h4 {
+        border-bottom: $section-border;
+        padding-bottom: 1em;
+        margin-bottom: 2em;
+      }
+    }
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 1em;
+    margin: -0.5em 1em 1em 1em;
+  }
+  /*h2, h3, h4 {*/
+    /*color: $darkGray;*/
+  /*}*/
+  /*.details {*/
+    /*li {*/
+      /*border-bottom: 1px dashed $yellow;*/
+      /*margin-bottom: 20px;*/
+    /*}*/
+  /*}*/
+  /*.callout, .takeaway {*/
+    /*@extend .alert;*/
+    /*p {*/
+      /*padding: $paddingLarge;*/
+      /*padding-right: 0;*/
+      /*font-size: $fontSizeLarge;*/
+    /*}*/
+    /*&.pull-right {*/
+      /*margin: $paddingSmall;*/
+    /*}*/
+  /*}*/
+  /*.callout {*/
+    /*@extend .alert-info;*/
+  /*}*/
+  /*.takeaway {*/
+    /*@extend .alert-error;*/
+    /*margin-top: 60px;*/
+    /*p {*/
+      /*font-weight: bold;*/
+    /*}*/
+  /*}*/
+
+  .tweets_blog {
+    border: none;
+    text-align: center;
+    ul { list-style-type: none; }
+
+    h2 {
+    }
+
+    img {
+      @include square-border;
+      width: 520px;
+      margin: 10px;
+      border: 1px solid $brand-accent;
+    }
+
+    .tweets {
+      border-top: $section-border;
+      border-top-width: 2px;
+      padding-top: 2em;
+
+      &:first-of-type {
+        border-top: none;
+        padding-top: .5em;
+      }
+    }
+  }
+}

@@ -40,16 +40,15 @@ rebecca:
   name: Rebecca Miller-Webster
   url: http://www.rebeccamiller-webster.com
   image: organizers/rebecca-web1-sq.jpg
-  bio: is a software engineer, conference organizer, and teacher at
-    <a href="http://www.devbootcamp.com" target=_blank">Dev Bootcamp</a>.
-    She's been developing software professionally for over 10 years
-    for large corporations, non-profits, and start-ups,
-    including as VP of Engineering for an seed-stage start up in NYC.
-    Rebecca founded <a href="http://www.writespeakcode.com">Write/Speak/Code</a>,
-    co-organizes <a href="http://goruco.com" target=_blank>GORUCO</a> and makes
-    <a href="http://www.patternedapp.com" target=_blank>Patterned</a>. She also makes
-    <a href="http://www.thebeccacomplex.com">music</a> and jewelry and loves cupcakes,
-    pizza, and crab rangoon. Rebecca lives in Sunnyside, Queens with her husband,
+  bio: is a software engineer, conference organizer, and teacher. She is the founder
+    of <a href="http://www.writespeakcode.com">Write/Speak/Code</a> and
+    Managing Director for <a href="http://www.thoughtbot.com">thoughtbot</a> Chicago.
+    Rebecca has been developing software professionally for over 10 years,
+    including as VP of Engineering for an seed-stage start up in NYC.  She was the
+    founding teacher at Dev Bootcamp NYC and has taught hundreds of students 
+    software development as well as lead
+    workshops on public speaking, leadership, and oppression.
+    Rebecca lives in Oak Park, IL with her husband,
     black pug, and rescued havenese. And she changes her hair. A lot.
   pages:
     - speak
@@ -57,9 +56,11 @@ rebecca:
     - organizers
     - speaker
   type: person
+  weight: A
   social:
     twitter: http://www.twitter.com/rmillerwebster
     github: http://www.github.com/rmw
+    linkedin: https://www.linkedin.com/in/rjmillerwebster
   talk: thursday_welcome
 
 rachel:
@@ -85,10 +86,15 @@ rachel:
 
 celia:
   name: Celia La
+  url: http://about.me/celiala
   image: organizers/celia.jpg
-  bio: is a .Net/SQL Server developer at <a href='http://mediaradar.com/' target='_blank'>MediaRadar</a>. She co-organizes the <a href='http://meetup.com/tonguetiedtechs' target='_blank'>Tongue-Tied Techs</a> meetup, is the technical co-chair for the <a href='http://unwomen-metrony.org/' target='_blank'>NYC Chapter of UN Women, US National Committee</a> and
-       volunteers for <a href='http://coderdojonyc.com/' target='_blank'>CoderDojo NYC</a>. Celia also is an accomplished jazz vocalist, loves to dance
-       bhangra and volunteer for <a href='http://rightrides.org/'>RightRides.org</a>.
+  bio: is a software engineer at <a href="http://www.knewton.com/">Knewton</a> 
+       and conference and meetup organizer, including <a href="http://meetup.com/nycpython">NYC Python</a>
+       and <a href="http://pygotham.org/">PyGotham</a>. 
+       Celia is a former board member for the 
+       <a href="http://www.unwomen-metrony.org/">Metro NY Chapter of UN Women USNC</a> 
+       (UN entity for gender equality), and former <a href="https://play.spotify.com/album/3xw342YkRQve5swrCIN0nm">jazz musician</a>.
+       Her hobbies include biking, hiking, cooking and sketching.
   pages:
     - speak
     - organizers
@@ -104,7 +110,10 @@ chrys:
   image: organizers/chrys.jpg
   bio: is a journalist and user engagement strategist who works with businesses
     interested in deepening connection to their audiences through research,
-    community-building strategy and user-centric design. She founded the coding
+    community-building strategy and user-centric design. She is currently 
+    Developer Advocate for The New York Times, where she leads internal and public-facing
+    projects that advance and highlight the technology made by 
+    <a href="http://developers.nytimes.com/">New York Times Developers.</a> Chrys founded the coding
     and social group <a href="http://meetup.com/NYC-Ruby-Women" target=_blank>NYC Ruby Women</a>
     and organizes <a href="http://meetupnyc.hackshackers.com" target=_blank>Hacks/Hackers NYC</a>.
     She also speaks on <a href="http://find.chryswu.com" target=_blank>data journalism, online engagement and

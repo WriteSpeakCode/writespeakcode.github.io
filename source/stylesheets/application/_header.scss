@@ -5,8 +5,8 @@
 
   $navigation-padding: 1em;
   $navigation-background: desaturate($dark-gray, 30%);
-  $navigation-color: $white; //transparentize($dark-gray, 0.3);
-  $navigation-color-hover: $medium-gray;
+  $navigation-color: $white;
+  $navigation-color-hover: $light-primary;
   $navigation-height: 60px;
   $navigation-search-background: lighten($navigation-background, 5);
   $navigation-search-border: 1px solid darken($navigation-background, 5);
@@ -141,7 +141,7 @@
     padding-right: 0;
 
     @include media($large-screen) {
-      padding-right: $navigation-submenu-padding;
+      margin-right: $navigation-submenu-padding;
     }
 
     > ul > li:first-child a  {
@@ -157,7 +157,7 @@
     }
 
     > a:after {
-      @include position(absolute, auto -0.4em auto auto);
+      @include position(absolute, auto -0.2em auto auto);
       content: '\25BE';
       color: $navigation-color;
     }
@@ -206,6 +206,14 @@
       left: -$navigation-submenu-padding;
       position: absolute;
       top: 1.5em;
+    }
+
+    .divided a {
+      border-top: 2px solid $navigation-color-hover;
+
+      &:hover {
+        border-top-color: $navigation-color;
+      }
     }
 
     .submenu {
@@ -292,7 +300,7 @@
     form {
       position: relative;
 
-      input[type=search] {
+      input[type=email] {
         @include box-sizing(border-box);
         background: $navigation-search-background;
         border-radius: $base-border-radius * 2;
@@ -302,14 +310,14 @@
         font-style: italic;
         margin: 0;
         padding: 0.5em 0.8em;
-        width: 100%;
+        width: 40%;
 
         @include media($large-screen) {
-          width: 100%;
+          width: 55%;
         }
       }
 
-      button[type=submit] {
+      input[type=submit] {
         @include button(flat, $navigation-search-background);
         bottom: 0.3em;
         left: auto;
@@ -336,6 +344,35 @@
         @include box-sizing(border-box);
         display: block;
       }
+    }
+  }
+}
+
+@each $page in conference, meetups, events, about, blog, sponsors {
+  .#{$page} .navigation li.#{$page} {
+
+    .divided a {
+      border-top-color: $dark-gray;
+    }
+
+    a {
+      border-right: 8px solid $light-primary;
+      border-left: 2px solid $light-primary;
+      background-color: $light-primary;
+    }
+
+    font-weight: bold;
+    color: $dark-gray;
+    a, a:after, a:hover, a:visited {
+      color: $dark-gray; 
+    }
+
+    a:hover {
+      color: $white;
+    }
+
+    > a:hover {
+      color: $medium-gray;
     }
   }
 }

@@ -1,0 +1,94 @@
+$person_img_width: 100px;
+$company_img_width: 150px;
+$img_left_offset: 30px;
+
+.people_list {
+  list-style-type: none;
+  margin-top: 20px;
+  img {
+    width: $person_img_width;
+  }
+
+  .social {
+    font-size: .8em;
+    margin-top: -10px;
+
+    li { display: inline-block; }
+  }
+
+  > li {
+    clear: both;
+    margin: 1em;
+    padding: 1em;
+    min-height: $person_img_width + 60px;
+    height: auto;
+
+    .info {
+      @media only screen and (max-width: 767px) {
+        text-align: center;
+        margin: 0 auto 20px auto;
+      }
+      @media only screen and (min-width: 768px) {
+        float: left;
+      }
+    }
+    p {
+      padding-right: 20px;
+      @media only screen and (min-width: 768px) {
+        margin-left: $company_img_width + $img_left_offset;
+      }
+      .name, a.name, a.name:hover, a.name:active, a.name:visited {
+        color: $brand-primary;
+        font-weight: bold;
+      }
+    }
+
+    .social {
+      margin-top: -10px;
+      text-align: center;
+      font-size: .6em;
+
+      li {
+        display: inline-block;
+        padding: 0 .1em;
+      }
+
+      a { font-size: $sm-h1-font-size; }
+    }
+
+    .talk {
+      font-style: italic;
+      font-weight: bold;
+      &, a, a:hover, a:visited, a:active {
+        color: $brand-secondary;
+      }
+      .name {
+        font-size: $sm-h2-font-size;
+      }
+    }
+
+    &.company {
+      img {
+        width: $company_img_width;
+      }
+    }
+    &.person {
+      .info {
+        margin-left: $img_left_offset;
+      }
+    }
+  }
+}
+
+.person {
+  border: $section-border;
+
+  a.image {
+    @include colored-link($brand-accent);
+  }
+
+  img {
+    @include round-border;
+    border: 4px solid $brand-accent;
+  }
+}

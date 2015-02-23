@@ -27,41 +27,58 @@
             %a{ href: '/' }><
               = image_tag '/images/logo/writespeakcode-inverted.png'
           %a#js-mobile-menu.navigation-menu-button{ href: "javascript:void(0)" }
-            MENU
+            %i.fa.fa-bars
 
           %nav{ role: "navigation" }
             %ul#js-navigation-menu.navigation-menu.show
-              %li.nav-link 
-                -#.more
+              %li.nav-link.more.conference
                 %a{ href:"/conference" } Conference
-                -#%ul.submenu
-                  -#%li
-                    -#= link_to 'Write', '/conference/write'
-
-              %li.nav-link.more
-                %a{ href:"javascript:void(0)" } Events
                 %ul.submenu
                   %li
-                    %a{ href:"/events/workshops"} Workshops
+                    = link_to 'Write - Thurs 3/19', '/conference/write'
                   %li
-                    %a{ href:"/events/custom" } Training &amp; Custom
+                    = link_to 'Speak - Fri 3/20', '/conference/speak'
+                  %li
+                    = link_to 'Code - Sat 3/21', '/conference/code'
+                  %li.divided
+                    = link_to 'Sponsor', '/sponsor'
+                  %li
+                    = link_to 'Testimonials', '/conference/testimonials'
+                    -#= link_to 'Speakers', '/conference/speakers'
+                  -#%li
+                  %li.divided
+                    = link_to 'Childcare', '/conference/childcare'
+                  %li
+                    = link_to 'Accessibility', '/conference/childcare'
 
-              %li.nav-link
+              %li.nav-link.meetups
+                %a{ href:"/meetups" } Meetups
+
+              -#%li.nav-link.more.events
+                -#%a{ href:"/events" } Events
+                -#%ul.submenu
+                  -#%li
+                    -#%a{ href:"/events/workshops"} Workshops
+                  -#%li
+                    -#%a{ href:"/events/custom" } Training &amp; Custom
+
+              %li.nav-link.about.more
                 %a{ href:"/about" } About
+                %ul.submenu
+                  %li
+                    %a{ href:"/about/organizers"} Organizers
+                  %li
+                    = link_to "Code of Conduct", "/about/code-of-conduct"
 
-              %li.nav-link
+              %li.nav-link.blog
                 %a{ href:"/blog" } Blog
 
-              %li.nav-link
+              %li.nav-link.sponsors
                 %a{ href:"/sponsors" } Sponsor
 
           %div.navigation-tools
             %div.search-bar
-              %form{ role:"search" }
-                %input{ type:"search", placeholder:"Enter Search" }
-                %button{ type:"submit" }
-                  %img{ src:"https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png", alt: "Search Icon" }
-            %a.sign-up{ href:"javascript:void(0)" } Sign Up
+              = partial "mailchimp"
 
       %section#main{ class: "#{current_page.data.page_class}" }
         = yield
@@ -71,14 +88,14 @@
 
         %ul
           %li
-            = link_to "About", "#"
+            = link_to "About", "/about"
           %li
-            = link_to "Organizers", "#"
+            = link_to "Organizers", "/about/organizers"
 
         .footer-secondary-links
           %ul
             %li
-              = link_to "Code of Conduct", "#"
+              = link_to "Code of Conduct", "/about/code-of-conduct"
             %li Logo design by McKenna Lowry and Maryanne Ko
             %li
               = "&copy; Rebecca Miller-Webster 2013-#{DateTime.now.year}".html_safe

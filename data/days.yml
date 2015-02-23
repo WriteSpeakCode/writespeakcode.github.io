@@ -19,42 +19,43 @@ each_day:
 
 days:
   write:
-    weekday: Write day
+    num: 1
+    weekday: Thursday
+    date: March 19, 2015
     actions:
       - Get over your Imposter Syndrome and learn to <b>Own Your Expertise</b>
       - Write a draft of a <b>blog post</b>
       - Generate a list of <b>20 topics</b> you can talk or speak about
     icon: pencil
+    elevator: is the foundation of Write/Speak/Code.
     summary:
-      is the foundation of Write/Speak/Code. The day will challenge you to think more carefully and more expansively about
-      your knowledge and experience, and why it matters.  You will focus on owning your
-      expertise and presenting yourself and your accomplishments with confidence.
-      Listening to authors and editors, you will get a sense of the technical
-      publishing world.
-      You will emerge with a powerful argument for an idea or cause you believe in,
-      a professional bio, and a number of topics to speak or write about.
+      Starting with the most common
+      barrier to thought leadership &mdash; ourselves &mdash; we will tackle
+      imposter syndrome and learn to own our expertise. By diving into your knowledge
+      and experience, you will understand why your story is valuable to the world.
+
 
     milestones:
       -
         header: Write
-        description: list a topics to write or speak about and an outline and draft of one topic.
+        description: a list of topics to write or speak about and an outline and draft of one topic.
       -
         header: Craft
         description: a bio that best highlights your expertise &mdash; you are an expert
 
     learn:
-      - the source of credibility and how to establish it
-      - how to overcome imposter syndrome and rule the world
-      - how to present ideas quickly and powerfully under pressure
-      - the difference between being right and being effective
-      - the ins and outs of technical publishing
-      - writing opportunities for developers that will further you goals and career.
+      - How to <b>overcome imposter syndrome</b> and rule the world
+      - The <b>source of credibility</b> and how to establish it
+      - Powerful <b>brainstorming exercises</b> &amp; outlining techniques you can use again &amp; again
+      - <b>Writing opportunities</b> for developers &amp; the ins and outs of <b>technical publishing</b>
 
     do:
-      - frame yourself as an expert
-      - create an article outline with three powerful pieces of evidence
-      - practice responding to criticism
-      - generate a list of topics to write or speak about
+      - <b>Craft a bio</b> &amp; deliver it with confidence
+      - Frame yourself as an <b>expert</b>
+      - Generate <b>20+ topics</b> you can write or speak about
+      - <b>Outline</b> a topic with a number of reusable techniques
+      - Draft a <b>blog post</b> &amp; get feedback from peers and mentors
+
 
     themes:
       - Solidify your expertise
@@ -62,49 +63,57 @@ days:
       - Share knowledge
 
   speak:
-    weekday: Speak day
+    num: 2
+    weekday: Friday
+    date: March 20, 2015
     actions:
       - Write a <b>talk proposal</b> &amp; receive feedback from conference organizers
       - Create <b>slides</b> for a talk
       - Give a <b>tech-related talk</b> to supportive peers &amp; mentors
     icon: microphone
+    elevator: will turn you into a conference speaker!
     summary:
-      will give you all the tools necessary to speak powerfully at
-      conferences from choosing a topic and creating slides to
-      writing a proposal and public speaking. By the end of the day
-      day you'll have written a talk proposal and given a technical presentation!
+      From choosing a topic and creating slides to writing a proposal and public
+      speaking, you will walk through all the steps necessary to become a
+      technical speaker.  Feedback on your proposal, presentation, and speaking
+      from experienced women technical speakers and conference organizers
+      will put you well on your way to becoming a confident, powerful speaker.
     milestones:
       -
         header: Speak
-        description: publicly about others, yourself, your knowledge, and presentation slides
+        description: publicly about yourself and your knowledge
       -
         header: Create
         description: a talk proposal and slides for a presentation
     learn:
-      - what conference organizers look for when selecting speakers
-      - strategies for starting and improving from experienced speakers
-      - creating powerful slides
-      - oppurtunities for speaking
+      - What <b>conference organizers look for</b> when selecting speakers
+      - How to find the perfect <b>speaking opportunities</b> for you
+      - What makes some <b>presentations more memorable</b> than others
+      - Receive individualed <b>tips &amp; tricks from experienced women speakers</b>
     do:
-      - write a talk proposal
-      - prepare slides
-      - give a presentation individually and with group
-      - analyze a video of yourself speaking <br /><small>(will not be shared publicly)</small>
+      - Write a <b>talk proposal</b> &amp; get feedback from women conference organizers
+      - Give feedback on proposals, slides, and speaking to peers
+      - Prepare <b>slides</b> for a technical talk
+      - <b>Give a presentation</b> individually and/or with a group
     themes:
       - Own your expertise
       - Share knowledge
       - Create visibility
   code:
+    num: 3
+    weekday: Saturday
+    date: March 21, 2015
     icon: code
-    weekday: Code day
     actions:
       - Learn the ins &amp; outs of <b>git, Github, and open source</b>
       - Publish an open source project
       - Contribute to an <b>existing open source project</b>
+    elevator: will turn you into an Open Source contributor!
     summary:
-      will focus on publishing open source code and contributing to open
-      source projects. We'll learn about git, licensing, and how to choose
-      projects. You'll be an open source contributor by the end of the day!
+      From git to licensing, you'll learn all about open source logistics and culture.
+      Learn where to find projects and how to determine which projects are best for you.
+      Get the low-down on how best to contribute and engage with open source maintainers.
+      Publish and contribute to open source by the end of the day!
     milestones:
       -
         header: Publish
@@ -113,14 +122,11 @@ days:
         header: Contribute
         description: code, docs, tests, video, blogs, or promotion to open source projects
     learn:
-      - open source as a movement &amp; feminist models of contributing
-      - open source licensing
-      - finding and choosing projects
-      - writing helpful bug reports and documentation
+      - How to <b>find and choose projects</b>
+      - What makes a <b>helpful issue, bug report, and documentation</b>
     do:
-      - publish a new public project on <a href="http://www.github.com" target=_blank>GitHub</a>
-      - share your code &amp; your project &mdash; in real life and digitally
-      - contribute code for a feature or tests to an open source project
+      - <b>Share your code &amp; your project</b> &mdash; in real life and digitally
+      - <b>Contribute code</b> for a feature or tests to an open source project
     themes:
       - Own your expertise
       - Pursue improvement

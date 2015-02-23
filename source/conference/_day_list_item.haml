@@ -1,0 +1,13 @@
+%li
+  %h3= header
+
+  .day_icon
+    %i{ class: "#{icon_class}" }
+
+  .day_summary
+    %ul.actions
+      - actions.each do |item|
+        %li
+          = item
+      = yield if block_given?
+

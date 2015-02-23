@@ -1,0 +1,32 @@
+- title = day_name.titleize
+
+%ul.breadcrumbs
+  %li
+    %a{ href: '/conference' } Conference
+  %li #{title} Day
+
+%h1
+  %i.fa.fa-pencil
+  = title
+  to change the world!
+  %i.fa.fa-pencil
+
+%h2
+  Day #{day_info.num} &mdash; #{day_info.weekday}, #{day_info.date}
+
+%p
+  %strong= "#{title} Day"
+  = day_info.elevator
+%p
+  = day_info.summary
+
+.day_summaries
+  %ul.days
+    = partial 'conference/day_list_item', locals: { header: "Learn", icon_class: "fa fa-book", actions: day_info.learn }
+    = partial 'conference/day_list_item', locals: { header: "Do", icon_class: "fa fa-list-ul", actions: day_info.do }
+
+.themes
+  %h2
+    = day_info.themes.join("<i class='fa fa-star-o'></i>")
+
+= partial 'conference/each_day'

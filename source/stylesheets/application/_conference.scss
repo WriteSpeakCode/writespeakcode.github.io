@@ -1,11 +1,36 @@
-#main.conference {
+#main.conference, #main.sponsors {
   background-color: $brand-accent-dark;
+}
+
+.conference_layout {
+
+  .childcare {
+    text-transform: uppercase;
+    background-color: $dark-gray;
+  }
+
+  .hero {
+    $hero-bottom: 52px;
+    padding-bottom: $hero-bottom;
+    @include media($large-screen) { padding-bottom: $hero-bottom - 10; }
+
+    .hero-inner .hero-copy h4.childcare a {
+      color: $white;
+    }
+  }
 
   #content {
     margin-top: -100px;
     text-align: center;
 
-    h2 {
+    h1 {
+      color: $brand-accent;
+      .fa { color: $light-accent; }
+    }
+
+    h3 { margin: 1em auto; }
+
+    h2.change-world {
       margin-bottom: 1em;
 
       span {
@@ -15,13 +40,11 @@
       .fa { color: $brand-primary; }
 
       @include media($large-screen) {
-        font-size: $h1-font-size * 1.2;
+        font-size: $h1-font-size ;
       }
     }
 
     h4 {
-      margin-bottom: 1em;
-
       .fa {
         color: $notice-color;
         padding: 0 .5em;
@@ -29,11 +52,74 @@
     }
 
     .actions {
-      .fa-li { 
+      .fa-li {
         position: relative;
         color: $notice-color;
         left: 0;
       }
     }
+  }
+
+  .breadcrumbs {
+    li {
+      display: inline-block;
+
+      &:first-child:after {
+        content: '/';
+      }
+    }
+  }
+
+  &.sub_page {
+    .hero {
+      .details, .header-break { display: none; }
+
+      font-size: .8em;
+
+      $hero-bottom: 62px;
+      padding-bottom: $hero-bottom;
+      @include media($large-screen) { padding-bottom: $hero-bottom - 10; }
+
+      h1 {
+        @include display-font-bold;
+        @include media($large-screen) { font-size: $sm-h1-font-size; }
+      }
+
+      h2 {
+        @include display-font-normal;
+        @include media($large-screen) { font-size: $sm-h2-font-size; }
+      }
+    }
+
+    #content {
+      h2 {
+        margin: 1em auto;
+
+        .fa {
+          padding: 0 .5em;
+        }
+      }
+
+      .themes {
+        color: $brand-primary;
+        margin-bottom: 1em;
+      }
+    }
+
+  }
+
+  .developer-definition {
+    @include square-border;
+    margin-top: 3em;
+    background-color: $alert-color;
+    padding: .5em;
+    border: 1px solid $light-gray;
+  }
+
+  a.small {
+    font-size: .8em;
+    color: $white;
+
+    &, &:hover, &:linked, &:visited { color: $white; }
   }
 }

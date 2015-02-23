@@ -9,7 +9,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  padding-bottom: 3em;
+  padding-bottom: 2.9em;
+   @include media($large-screen) { padding-bottom: 2.7em; }
 
   .hero-logo img {
     height: 4em;
@@ -30,13 +31,21 @@
       padding: 3em;
     }
 
+    h1, h2 {
+      text-shadow: 1px 1px 2px $dark-gray;
+      color: $white;
+    }
+
+
     .hero-copy {
       text-align: center;
 
       p {
         font-weight: 200;
         line-height: 1.4em;
-        margin: 1em auto; 
+
+        margin: 1em auto;
+        text-shadow: 1px 1px 1px $dark-gray;
 
         @include media($large-screen) {
           font-size: 1.4em;

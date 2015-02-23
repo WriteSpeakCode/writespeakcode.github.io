@@ -5,7 +5,7 @@
 
   .dots
     %ul
-      - data.events.select {|k,v| v.day == 'Thursday'}.each do |k,v|
+      - data.schedule.details.select {|k,v| v.day == 'Thursday'}.each do |k,v|
         %li.fa.fa-circle
           %p
             %strong
@@ -18,7 +18,7 @@
 
   .dots
     %ul
-      - data.events.select {|k,v| v.day == 'Friday'}.each do |k,v|
+      - data.schedule.details.select {|k,v| v.day == 'Friday'}.each do |k,v|
         %li.fa.fa-circle
           %p
             %strong
@@ -31,7 +31,7 @@
 
   .dots
     %ul
-      - data.events.select {|k,v| v.day == 'Saturday'}.each do |k,v|
+      - data.schedule.details {|k,v| v.day == 'Saturday'}.each do |k,v|
         %li.fa.fa-circle
           %p
             %strong

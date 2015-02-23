@@ -1,7 +1,7 @@
 days:
-  write: monday
-  speak: tuesday
-  code: wednesday
+  write: thursday
+  speak: friday
+  code: saturday
 
 actions:
   learn:
@@ -37,3 +37,47 @@ actions:
   inspire:
     icon: rocket
     tooltip: Inspiration!
+
+details:
+  first_speaker:
+    name: Hello World
+    day: Saturday
+    hour: 9
+    minutes: 30
+    url: "/"
+
+  panel:
+    name: Panel Discussion
+    day: Friday
+    hour: 10
+    minutes: 30
+    url: "/"
+
+
+  hello:
+    name: Hello World
+    day: Friday
+    hour: 11
+    minutes: 00
+    url: "/"
+
+  hiya:
+    name: Speaker
+    day: Thursday
+    hour: 12
+    minutes: 30
+    url: "/"
+
+  dog:
+    name: Jenny Smith
+    day: Thursday
+    hour: 14
+    minutes: 45
+    url: "/"
+
+  cat:
+    name: A really really long workshop name and description is happening at this time
+    day: Thursday
+    hour: 15
+    minutes: 30
+    url: "/"

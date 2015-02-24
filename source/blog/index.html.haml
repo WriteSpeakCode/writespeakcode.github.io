@@ -15,21 +15,11 @@ per_page: 10
     = article.date.strftime('%b %e, %Y')
 
   = author_link(article, 'h4')
-  -#- if article.data.author
-    -#%h4
-      -#by
-      -#-if article.data.author_url
-        -#= link_to article.data.author, article.data.author_url
-      -#- else
-        -##{article.data.author}
-  /
-    use article.summary(250) if you have Nokogiri available to show just
-    the first 250 characters
   = article.data.excerpt || article.summary(250)
+
   %p
-    %a{:href => article.url}
-      Read more
-      %i.fa.fa-angle-double-right
+    = partial :arrow_button, locals: { link: article.url, text: "Read more", classes: %w(inverted skinny) }
+
 - if paginate
   - if next_page
     %p= link_to 'Next page', next_page

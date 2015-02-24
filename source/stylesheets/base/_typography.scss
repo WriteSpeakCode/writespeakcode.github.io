@@ -29,6 +29,11 @@
   &, &:hover, &:visited, &:active {
     color: $color;
   }
+
+  &:hover {
+    color: darken($color, 20);
+    text-decoration: underline;
+  }
 }
 
 @mixin normal-list {

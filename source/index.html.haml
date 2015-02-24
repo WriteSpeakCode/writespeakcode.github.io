@@ -53,13 +53,12 @@ layout: base_layout
             Take your career to the next level
             %i.fa.fa-rocket
 
-      %p
-        %a.button.primary{ href: '/conference' }
-          Learn more
-          %i.fa.fa-angle-double-right
-        %a.button.success{ href: '/sponsor.html' }
-          Sponsor
-        %br/
-        = link_to 'Childcare Available!', '/conference/childcare'
+      %ul.button-list
+        %li
+          = partial :arrow_button,
+            locals: { link: "/conference", text: "Learn more", classes: %w(primary) }
+        %li
+          = partial :arrow_button,
+            locals: { link: "/sponsor", text: "Sponsor", classes: %w(error) }
 
-      %i.fa.fa-chevron-down
+      = link_to 'Childcare Available!', '/conference/childcare'

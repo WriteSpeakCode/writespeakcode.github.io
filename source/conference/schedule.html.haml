@@ -27,9 +27,8 @@ sub_page: true
       to Change the World!
 
 
-    %a.button.inverted.skinny.more_info{ href: "/conference/#{day}" }
-      More
-      %i.fa.fa-angle-double-right
+    = partial :arrow_button,
+      locals: { link: "/conference/#{day}", text: "More", classes: %w(inverted skinny more_info) }
 
     %ul.events
       - unless data.schedule[weekday].nil?

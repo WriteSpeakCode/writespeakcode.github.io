@@ -43,7 +43,7 @@
     .copy-wrap {
       text-align: center;
       color: $white;
-      a { @include colored-link($white); }
+      a:not(.button) { @include colored-link($white); }
 
       h1 {
         font-size: 3em;

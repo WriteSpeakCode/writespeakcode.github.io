@@ -34,15 +34,10 @@
 .day_summaries
   %ul.days
     = partial 'conference/day_list_item', locals: { header: "Learn", icon_class: "fa fa-book", actions: day_info.learn } do
-      %li
-        %a.button.inverted.notice.skinny{ href: "/conference/schedule##{day_name}" }
-          Schedule
-          %i.fa.fa-angle-double-right
+      %li= partial :arrow_button, locals: { link: "/conference/schedule##{day_name}", text: "Schedule", classes: %w(inverted notice skinny) }
+
     = partial 'conference/day_list_item', locals: { header: "Do", icon_class: "fa fa-list-ul", actions: day_info.do } do
-      %li
-        %a.button.inverted.notice.skinny{ href: "#speakers" }
-          Speakers
-          %i.fa.fa-angle-double-right
+      %li= partial :arrow_button, locals: { link: "#speakers", text: "Speakers", classes: %w(inverted notice skinny) }
 
 .themes
   %h2
@@ -58,7 +53,4 @@
 
   = partial 'people_list', locals: { filter: day_name, sort_include_type: true }
 
-  %p
-    %a.button.inverted.notice{ href: "/conference/speakers" }
-      All Speakers
-      %i.fa.fa-angle-double-right
+  %p= partial :arrow_button, locals: { link: "/conference/speakers", text: "All Speakers", classes: %w(inverted notice`) }

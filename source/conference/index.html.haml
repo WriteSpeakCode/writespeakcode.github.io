@@ -30,9 +30,7 @@ page_class: 'conference'
       - i = i+1
       = partial 'conference/day_list_item', locals: { header: "Day #{i}", icon_class: "#{name}-icon", actions: info.actions } do
         %li.learn_more
-          %a.button.inverted.notice.skinny{ href: "/conference/#{name}" }
-            Learn more
-            %i.fa.fa-angle-double-right
+          = partial :arrow_button, locals: { link: "/conference/#{name}", text: "Learn more", classes: %w(inverted notice skinny) }
 
 %h2.change-world
   %i.fa.fa-child
@@ -42,4 +40,4 @@ page_class: 'conference'
 
 = partial 'conference/each_day'
 
-= partial :arrow_button_list, locals: { links: conference_button_links, classes: ['inverted'] }
+= partial :arrow_button_list, locals: { links: conference_button_links, classes: ['inverted', 'skinny'] }

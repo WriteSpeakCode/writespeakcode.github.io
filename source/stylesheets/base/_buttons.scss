@@ -4,7 +4,8 @@ $white) {
   color: $contrast-color;
 
   &:hover {
-    background-color: lighten($main-color, 20);
+    background-color: darken($main-color, 20);
+    text-decoration: none;
   }
 }
 
@@ -41,8 +42,7 @@ $white) {
 }
 
 button,
-input[type="submit"], .button {
-  /*@extend %button;*/
+input[type="submit"], .button, a.button {
   @include std-button;
   @include colored-link($white);
   @include appearance(none);

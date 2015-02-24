@@ -59,6 +59,9 @@ layout: base_layout
             locals: { link: "/conference", text: "Learn more", classes: %w(primary) }
         %li
           = partial :arrow_button,
-            locals: { link: "/sponsor", text: "Sponsor", classes: %w(error) }
+            locals: { link: "/sponsors", text: "Sponsor", classes: %w(error) }
+        %li
+          = partial :arrow_button,
+            locals: { link: "/conference/scholarships", text: "Scholarships", classes: %w(success) }
 
       = link_to 'Childcare Available!', '/conference/childcare'

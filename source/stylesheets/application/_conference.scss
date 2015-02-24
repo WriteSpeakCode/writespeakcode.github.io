@@ -131,3 +131,22 @@
     &, &:hover, &:linked, &:visited { color: $white; }
   }
 }
+
+#main.scholarships {
+  #content {
+    .breadcrumbs li a { @include colored-link($brand-primary) }
+    .scholarship {
+      margin: 3em 1em 1em;
+      text-align: left;
+
+      h2 {
+        margin-bottom: .5em;
+      }
+    }
+
+    .closed {
+      margin-top: 5em;
+      border-top: $section-border;
+    }
+  }
+}

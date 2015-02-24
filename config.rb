@@ -106,7 +106,7 @@ helpers do
   end
 
   def conference_button_links
-    links = %w(speakers schedule childcare)
+    links = %w(speakers schedule scholarships childcare)
     links.map! do |link|
       { url: "/conference/#{link}", text: link.titleize }
     end

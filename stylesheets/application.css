@@ -2183,7 +2183,7 @@ html {
  * http://bitters.bourbon.io
  * Copyright 2013–2014 thoughtbot, inc.
  * MIT License */
-/* line 41, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 46, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 body {
   -webkit-font-smoothing: antialiased;
   background-color: #faf9f9;
@@ -2192,11 +2192,11 @@ body {
   font-size: 1em;
   line-height: 1.5; }
   @media screen and (min-width: 53.75em) {
-    /* line 41, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 46, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     body {
       font-size: 1.2em; } }
 
-/* line 54, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 59, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h1,
 h2,
 h3,
@@ -2210,11 +2210,11 @@ h6 {
   margin: 0;
   text-rendering: optimizeLegibility; }
 
-/* line 66, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 71, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h1 {
   text-align: center; }
 
-/* line 68, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 73, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h1 {
   font-family: "Proxima Nova Extra Condensed";
   font-weight: 900;
@@ -2222,69 +2222,69 @@ h1 {
   color: #D84455;
   font-size: 2.25em; }
   @media screen and (min-width: 53.75em) {
-    /* line 68, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 73, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     h1 {
       font-size: 4em; } }
 
-/* line 79, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 84, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h2 {
   font-family: "Proxima Nova Extra Condensed";
   font-weight: 700;
   font-style: normal;
   font-size: 2em; }
   @media screen and (min-width: 53.75em) {
-    /* line 79, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 84, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     h2 {
       font-size: 2.5em; } }
 
-/* line 88, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 93, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h3 {
   font-size: 1.75em; }
   @media screen and (min-width: 53.75em) {
-    /* line 88, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 93, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     h3 {
       font-size: 1.75em; } }
 
-/* line 96, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 101, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h4 {
   font-size: 1.5em; }
   @media screen and (min-width: 53.75em) {
-    /* line 96, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 101, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     h4 {
       font-size: 1.5em; } }
 
-/* line 104, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 109, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h5 {
   font-size: 1.25em; }
   @media screen and (min-width: 53.75em) {
-    /* line 104, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 109, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     h5 {
       font-size: 1.25em; } }
 
-/* line 112, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 117, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h6 {
   font-size: 1em; }
 
-/* line 116, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 121, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 p {
   margin: 0 0 0.75em; }
 
-/* line 120, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 125, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 a {
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
   transition: color 0.1s linear;
   color: #237BA5;
   text-decoration: none; }
-  /* line 125, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 130, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   a:hover {
     color: #256A8B; }
-  /* line 129, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 134, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   a:active, a:focus {
     color: #256A8B;
     outline: none; }
 
-/* line 135, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 140, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 hr {
   border-bottom: 1px solid #9b9092;
   border-left: none;
@@ -2292,37 +2292,37 @@ hr {
   border-top: none;
   margin: 1.5em 0; }
 
-/* line 143, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 148, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 img,
 picture {
   margin: 0;
   max-width: 100%; }
 
-/* line 149, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 154, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 blockquote {
   border-left: 2px solid #9b9092;
   color: #5a5153;
   margin: 1.5em 0;
   padding-left: 0.75em; }
 
-/* line 156, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 161, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 cite {
   color: #75696c;
   font-style: italic; }
-  /* line 160, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 165, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   cite:before {
     content: "\2014 \00A0"; }
 
-/* line 165, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 170, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .callout-primary, .callout-accent, .callout {
   font-weight: bold;
   font-size: 1.2em; }
 
-/* line 169, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 174, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .callout-primary {
   color: #D84455; }
 
-/* line 170, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 175, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .callout-accent {
   color: #237BA5; }
 
@@ -2455,10 +2455,9 @@ dl {
   dl dd {
     margin: 0; }
 
-/* line 43, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+/* line 44, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
 button,
-input[type="submit"], .button {
-  /*@extend %button;*/
+input[type="submit"], .button, a.button {
   background-color: #5a5153;
   color: #faf9f9;
   border-radius: 3px;
@@ -2481,63 +2480,74 @@ input[type="submit"], .button {
   white-space: nowrap; }
   /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button:hover,
-  input[type="submit"]:hover, .button:hover {
-    background-color: #8f8385; }
+  input[type="submit"]:hover, .button:hover, a.button:hover {
+    background-color: #252122;
+    text-decoration: none; }
   /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   button, button:hover, button:visited, button:active,
   input[type="submit"],
   input[type="submit"]:hover,
   input[type="submit"]:visited,
-  input[type="submit"]:active, .button, .button:hover, .button:visited, .button:active {
+  input[type="submit"]:active, .button, .button:hover, .button:visited, .button:active, a.button, a.button:hover, a.button:visited, a.button:active {
     color: #faf9f9; }
+  /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  button:hover,
+  input[type="submit"]:hover, .button:hover, a.button:hover {
+    color: #ccc1c1;
+    text-decoration: underline; }
   /* line 58, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.primary,
-  input[type="submit"].primary, .button.primary {
+  input[type="submit"].primary, .button.primary, a.button.primary {
     background-color: #D84455;
     color: #faf9f9; }
     /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.primary:hover,
-    input[type="submit"].primary:hover, .button.primary:hover {
-      background-color: #ea98a2; }
+    input[type="submit"].primary:hover, .button.primary:hover, a.button.primary:hover {
+      background-color: #971f2d;
+      text-decoration: none; }
   /* line 59, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.alert,
-  input[type="submit"].alert, .button.alert {
+  input[type="submit"].alert, .button.alert, a.button.alert {
     background-color: #DEDA5C;
     color: #322D2E; }
     /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.alert:hover,
-    input[type="submit"].alert:hover, .button.alert:hover {
-      background-color: #efedb1; }
+    input[type="submit"].alert:hover, .button.alert:hover, a.button.alert:hover {
+      background-color: #b0ac24;
+      text-decoration: none; }
   /* line 60, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.error,
-  input[type="submit"].error, .button.error {
+  input[type="submit"].error, .button.error, a.button.error {
     background-color: #8B1E2B;
     color: #faf9f9; }
     /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.error:hover,
-    input[type="submit"].error:hover, .button.error:hover {
-      background-color: #d53a4d; }
+    input[type="submit"].error:hover, .button.error:hover, a.button.error:hover {
+      background-color: #370c11;
+      text-decoration: none; }
   /* line 61, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.notice,
-  input[type="submit"].notice, .button.notice {
+  input[type="submit"].notice, .button.notice, a.button.notice {
     background-color: #237BA5;
     color: #faf9f9; }
     /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.notice:hover,
-    input[type="submit"].notice:hover, .button.notice:hover {
-      background-color: #53afdb; }
+    input[type="submit"].notice:hover, .button.notice:hover, a.button.notice:hover {
+      background-color: #113c51;
+      text-decoration: none; }
   /* line 62, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.success,
-  input[type="submit"].success, .button.success {
+  input[type="submit"].success, .button.success, a.button.success {
     background-color: #256A8B;
     color: #faf9f9; }
     /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.success:hover,
-    input[type="submit"].success:hover, .button.success:hover {
-      background-color: #48a3ce; }
+    input[type="submit"].success:hover, .button.success:hover, a.button.success:hover {
+      background-color: #102d3a;
+      text-decoration: none; }
   /* line 64, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.inverted,
-  input[type="submit"].inverted, .button.inverted {
+  input[type="submit"].inverted, .button.inverted, a.button.inverted {
     background-color: #faf9f9;
     color: #5a5153;
     border-radius: 3px;
@@ -2551,67 +2561,76 @@ input[type="submit"], .button {
     color: #5a5153; }
     /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted:hover,
-    input[type="submit"].inverted:hover, .button.inverted:hover {
-      background-color: white; }
-    /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    input[type="submit"].inverted:hover, .button.inverted:hover, a.button.inverted:hover {
+      background-color: #ccc1c1;
+      text-decoration: none; }
+    /* line 17, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted:hover,
-    input[type="submit"].inverted:hover, .button.inverted:hover {
+    input[type="submit"].inverted:hover, .button.inverted:hover, a.button.inverted:hover {
       background-color: #5a5153;
       color: #faf9f9; }
     /* line 67, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.primary,
-    input[type="submit"].inverted.primary, .button.inverted.primary {
+    input[type="submit"].inverted.primary, .button.inverted.primary, a.button.inverted.primary {
       border: 3px solid #D84455;
       color: #D84455; }
-      /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      /* line 17, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.primary:hover,
-      input[type="submit"].inverted.primary:hover, .button.inverted.primary:hover {
+      input[type="submit"].inverted.primary:hover, .button.inverted.primary:hover, a.button.inverted.primary:hover {
         background-color: #D84455;
         color: #faf9f9; }
     /* line 68, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.alert,
-    input[type="submit"].inverted.alert, .button.inverted.alert {
+    input[type="submit"].inverted.alert, .button.inverted.alert, a.button.inverted.alert {
       border: 3px solid #DEDA5C;
       color: #DEDA5C; }
-      /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      /* line 17, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.alert:hover,
-      input[type="submit"].inverted.alert:hover, .button.inverted.alert:hover {
+      input[type="submit"].inverted.alert:hover, .button.inverted.alert:hover, a.button.inverted.alert:hover {
         background-color: #DEDA5C;
         color: #322D2E; }
     /* line 69, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.error,
-    input[type="submit"].inverted.error, .button.inverted.error {
+    input[type="submit"].inverted.error, .button.inverted.error, a.button.inverted.error {
       border: 3px solid #8B1E2B;
       color: #8B1E2B; }
-      /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      /* line 17, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.error:hover,
-      input[type="submit"].inverted.error:hover, .button.inverted.error:hover {
+      input[type="submit"].inverted.error:hover, .button.inverted.error:hover, a.button.inverted.error:hover {
         background-color: #8B1E2B;
         color: #faf9f9; }
     /* line 70, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.notice,
-    input[type="submit"].inverted.notice, .button.inverted.notice {
+    input[type="submit"].inverted.notice, .button.inverted.notice, a.button.inverted.notice {
       border: 3px solid #237BA5;
       color: #237BA5; }
-      /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      /* line 17, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.notice:hover,
-      input[type="submit"].inverted.notice:hover, .button.inverted.notice:hover {
+      input[type="submit"].inverted.notice:hover, .button.inverted.notice:hover, a.button.inverted.notice:hover {
         background-color: #237BA5;
         color: #faf9f9; }
     /* line 71, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.success,
-    input[type="submit"].inverted.success, .button.inverted.success {
+    input[type="submit"].inverted.success, .button.inverted.success, a.button.inverted.success {
       border: 3px solid #256A8B;
       color: #256A8B; }
-      /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      /* line 17, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.success:hover,
-      input[type="submit"].inverted.success:hover, .button.inverted.success:hover {
+      input[type="submit"].inverted.success:hover, .button.inverted.success:hover, a.button.inverted.success:hover {
         background-color: #256A8B;
         color: #faf9f9; }
   /* line 74, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.skinny,
-  input[type="submit"].skinny, .button.skinny {
+  input[type="submit"].skinny, .button.skinny, a.button.skinny {
     padding: .25em .5em; }
+
+/* line 79, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+.button-list {
+  margin: 1em; }
+  /* line 81, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  .button-list li {
+    display: inline-block;
+    padding: 1em; }
 
 /* line 40, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_base.scss */
 blockquote {
@@ -2772,19 +2791,31 @@ body {
 /* line 4, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog h1 {
   color: #8B1E2B; }
-/* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-.blog a, .blog a:hover, .blog a:visited, .blog a:active {
-  color: #D84455; }
-/* line 10, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog #main {
   background-color: #8B1E2B; }
+  /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  .blog #main a:not(.button), .blog #main a:not(.button):hover, .blog #main a:not(.button):visited, .blog #main a:not(.button):active {
+    color: #D84455; }
+  /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  .blog #main a:not(.button):hover {
+    color: #971f2d;
+    text-decoration: underline; }
 /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-.blog.blog_index a, .blog.blog_index a:hover, .blog.blog_index a:visited, .blog.blog_index a:active {
+.blog.blog_index #main a:not(.button), .blog.blog_index #main a:not(.button):hover, .blog.blog_index #main a:not(.button):visited, .blog.blog_index #main a:not(.button):active {
   color: #256A8B; }
+/* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.blog.blog_index #main a:not(.button):hover {
+  color: #102d3a;
+  text-decoration: underline; }
 /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-.blog.blog_index h2 a, .blog.blog_index h2 a:hover, .blog.blog_index h2 a:visited, .blog.blog_index h2 a:active {
+.blog.blog_index #main h2 a, .blog.blog_index #main h2 a:hover, .blog.blog_index #main h2 a:visited, .blog.blog_index #main h2 a:active {
   color: #8B1E2B; }
-/* line 22, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.blog.blog_index #main h2 a:hover {
+  color: #370c11;
+  text-decoration: underline; }
+/* line 24, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog aside {
   border-top: 3px dashed #DEDA5C;
   padding-top: 1em;
@@ -2812,7 +2843,7 @@ body {
   -o-justify-content: flex-start;
   justify-content: flex-start;
   -ms-flex-pack: start; }
-  /* line 31, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog aside section {
     -webkit-flex-basis: 5em;
     -moz-flex-basis: 5em;
@@ -2825,13 +2856,13 @@ body {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
-    /* line 36, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    /* line 38, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
     .blog aside section.recent {
       -webkit-flex-grow: 3;
       -moz-flex-grow: 3;
       flex-grow: 3;
       -ms-flex-positive: 3; }
-/* line 42, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 44, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog .callout, .blog .takeaway {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -2849,36 +2880,36 @@ body {
   color: #faf9f9;
   font-size: 2.5em;
   line-height: 1em; }
-  /* line 53, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 55, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog .callout p, .blog .takeaway p {
     margin: 0 0 0 1.5em; }
-  /* line 57, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 59, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog .callout .fa, .blog .callout blockquote, .blog .callout .code-icon, .blog .callout .speak-icon, .blog .callout .write-icon, .blog .callout .footer .footer-logo, .footer .blog .callout .footer-logo, .blog .takeaway .fa, .blog .takeaway blockquote, .blog .takeaway .code-icon, .blog .takeaway .speak-icon, .blog .takeaway .write-icon, .blog .takeaway .footer .footer-logo, .footer .blog .takeaway .footer-logo {
     color: #98cbe4; }
-/* line 60, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 62, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog .takeaway {
   margin-bottom: 2em; }
-/* line 65, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 67, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog #content header {
   text-align: center; }
-  /* line 68, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 70, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog #content header h4 {
     border-bottom: 3px dashed #DEDA5C;
     padding-bottom: 1em;
     margin-bottom: 2em; }
-/* line 76, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 78, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog ul {
   list-style-type: disc;
   padding-left: 1em;
   margin: -0.5em 1em 1em 1em; }
-/* line 82, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 84, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog .tweets_blog {
   border: none;
   text-align: center; }
-  /* line 85, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 87, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog .tweets_blog ul {
     list-style-type: none; }
-  /* line 90, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 92, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog .tweets_blog img {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -2891,12 +2922,12 @@ body {
     width: 520px;
     margin: 10px;
     border: 1px solid #237BA5; }
-  /* line 97, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 99, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog .tweets_blog .tweets {
     border-top: 3px dashed #DEDA5C;
     border-top-width: 2px;
     padding-top: 2em; }
-    /* line 102, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    /* line 104, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
     .blog .tweets_blog .tweets:first-of-type {
       border-top: none;
       padding-top: .5em; }
@@ -2905,131 +2936,152 @@ body {
 #main.conference, #main.sponsors {
   background-color: #256A8B; }
 
-/* line 5, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-.conference_layout {
-  /*.people_list {*/
-  /*text-align: left;*/
-  /*}*/ }
-  /* line 7, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-  .conference_layout .childcare {
-    text-transform: uppercase;
-    background-color: #322D2E; }
-  /* line 12, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-  .conference_layout .hero {
-    padding-bottom: 52px; }
-    @media screen and (min-width: 53.75em) {
-      /* line 12, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-      .conference_layout .hero {
-        padding-bottom: 42px; } }
-    /* line 17, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout .hero .hero-inner .hero-copy h4.childcare a {
-      color: #faf9f9; }
-  /* line 22, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-  .conference_layout #content {
-    margin-top: -100px;
-    text-align: center; }
-    /* line 26, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout #content h1 {
-      color: #237BA5; }
-      /* line 28, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-      .conference_layout #content h1 .fa, .conference_layout #content h1 blockquote, .conference_layout #content h1 .code-icon, .conference_layout #content h1 .speak-icon, .conference_layout #content h1 .write-icon, .conference_layout #content h1 .footer .footer-logo, .footer .conference_layout #content h1 .footer-logo {
-        color: #98cbe4; }
-    /* line 31, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout #content h3 {
-      margin: 1em auto; }
-    /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout #content h2.change-world {
-      margin-bottom: 1em; }
-      /* line 36, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-      .conference_layout #content h2.change-world span {
-        font-family: "Proxima Nova Extra Condensed";
-        font-weight: 200;
-        font-style: normal; }
-      /* line 40, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-      .conference_layout #content h2.change-world .fa, .conference_layout #content h2.change-world blockquote, .conference_layout #content h2.change-world .code-icon, .conference_layout #content h2.change-world .speak-icon, .conference_layout #content h2.change-world .write-icon, .conference_layout #content h2.change-world .footer .footer-logo, .footer .conference_layout #content h2.change-world .footer-logo {
-        color: #D84455; }
-      @media screen and (min-width: 53.75em) {
-        /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-        .conference_layout #content h2.change-world {
-          font-size: 4em; } }
-    /* line 48, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout #content h4 .fa, .conference_layout #content h4 blockquote, .conference_layout #content h4 .code-icon, .conference_layout #content h4 .speak-icon, .conference_layout #content h4 .write-icon, .conference_layout #content h4 .footer .footer-logo, .footer .conference_layout #content h4 .footer-logo {
-      color: #53afdb;
-      padding: 0 .5em; }
-    /* line 55, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout #content .actions .fa-li {
-      position: relative;
-      color: #53afdb;
-      left: 0; }
-  /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-  .conference_layout .breadcrumbs.write li.write a, .conference_layout .breadcrumbs.write li.write a:hover, .conference_layout .breadcrumbs.write li.write a:visited, .conference_layout .breadcrumbs.write li.write a:active, .conference_layout .breadcrumbs.speak li.speak a, .conference_layout .breadcrumbs.speak li.speak a:hover, .conference_layout .breadcrumbs.speak li.speak a:visited, .conference_layout .breadcrumbs.speak li.speak a:active, .conference_layout .breadcrumbs.code li.code a, .conference_layout .breadcrumbs.code li.code a:hover, .conference_layout .breadcrumbs.code li.code a:visited, .conference_layout .breadcrumbs.code li.code a:active {
-    color: #D84455; }
-  /* line 68, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-  .conference_layout .breadcrumbs li {
-    display: inline-block; }
-    /* line 71, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout .breadcrumbs li:not(:last-child):after {
-      content: '/'; }
-  /* line 78, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-  .conference_layout.sub_page .hero {
-    font-size: .8em;
-    padding-bottom: 62px; }
-    /* line 79, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout.sub_page .hero .details, .conference_layout.sub_page .hero .header-break {
-      display: none; }
-    @media screen and (min-width: 53.75em) {
-      /* line 78, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-      .conference_layout.sub_page .hero {
-        padding-bottom: 52px; } }
-    /* line 87, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout.sub_page .hero h1 {
-      font-family: "Proxima Nova Extra Condensed";
-      font-weight: 700;
-      font-style: normal; }
-      @media screen and (min-width: 53.75em) {
-        /* line 87, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-        .conference_layout.sub_page .hero h1 {
-          font-size: 2.25em; } }
-    /* line 92, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout.sub_page .hero h2 {
-      font-family: "Proxima Nova Extra Condensed";
-      font-weight: 800;
-      font-style: normal; }
-      @media screen and (min-width: 53.75em) {
-        /* line 92, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-        .conference_layout.sub_page .hero h2 {
-          font-size: 2em; } }
-  /* line 99, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-  .conference_layout.sub_page #content h2 {
-    margin: 1em auto; }
-    /* line 102, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout.sub_page #content h2 .fa, .conference_layout.sub_page #content h2 blockquote, .conference_layout.sub_page #content h2 .code-icon, .conference_layout.sub_page #content h2 .speak-icon, .conference_layout.sub_page #content h2 .write-icon, .conference_layout.sub_page #content h2 .footer .footer-logo, .footer .conference_layout.sub_page #content h2 .footer-logo {
-      padding: 0 .5em; }
-  /* line 107, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-  .conference_layout.sub_page #content .themes {
-    color: #D84455;
-    margin-bottom: 1em; }
-  /* line 119, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-  .conference_layout .developer-definition {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px;
-    margin-top: 3em;
-    background-color: #efedb1;
-    padding: .5em;
-    border: 1px solid #9b9092; }
-  /* line 127, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-  .conference_layout a.small {
-    font-size: .8em;
+/* line 7, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout .childcare {
+  text-transform: uppercase;
+  background-color: #322D2E; }
+/* line 12, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout .hero {
+  padding-bottom: 52px; }
+  @media screen and (min-width: 53.75em) {
+    /* line 12, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    .conference_layout .hero {
+      padding-bottom: 42px; } }
+  /* line 17, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout .hero .hero-inner .hero-copy h4.childcare a {
     color: #faf9f9; }
-    /* line 131, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-    .conference_layout a.small, .conference_layout a.small:hover, .conference_layout a.small:linked, .conference_layout a.small:visited {
-      color: #faf9f9; }
+/* line 22, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout #content {
+  margin-top: -100px;
+  text-align: center; }
+  /* line 26, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout #content h1 {
+    color: #237BA5; }
+    /* line 28, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    .conference_layout #content h1 .fa, .conference_layout #content h1 blockquote, .conference_layout #content h1 .code-icon, .conference_layout #content h1 .speak-icon, .conference_layout #content h1 .write-icon, .conference_layout #content h1 .footer .footer-logo, .footer .conference_layout #content h1 .footer-logo {
+      color: #98cbe4; }
+  /* line 31, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout #content h3 {
+    margin: 1em auto; }
+  /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout #content h2.change-world {
+    margin-bottom: 1em; }
+    /* line 36, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    .conference_layout #content h2.change-world span {
+      font-family: "Proxima Nova Extra Condensed";
+      font-weight: 200;
+      font-style: normal; }
+    /* line 40, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    .conference_layout #content h2.change-world .fa, .conference_layout #content h2.change-world blockquote, .conference_layout #content h2.change-world .code-icon, .conference_layout #content h2.change-world .speak-icon, .conference_layout #content h2.change-world .write-icon, .conference_layout #content h2.change-world .footer .footer-logo, .footer .conference_layout #content h2.change-world .footer-logo {
+      color: #D84455; }
+    @media screen and (min-width: 53.75em) {
+      /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      .conference_layout #content h2.change-world {
+        font-size: 4em; } }
+  /* line 48, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout #content h4 .fa, .conference_layout #content h4 blockquote, .conference_layout #content h4 .code-icon, .conference_layout #content h4 .speak-icon, .conference_layout #content h4 .write-icon, .conference_layout #content h4 .footer .footer-logo, .footer .conference_layout #content h4 .footer-logo {
+    color: #53afdb;
+    padding: 0 .5em; }
+  /* line 55, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout #content .actions .fa-li {
+    position: relative;
+    color: #53afdb;
+    left: 0; }
+/* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.conference_layout .breadcrumbs.write li.write a, .conference_layout .breadcrumbs.write li.write a:hover, .conference_layout .breadcrumbs.write li.write a:visited, .conference_layout .breadcrumbs.write li.write a:active, .conference_layout .breadcrumbs.speak li.speak a, .conference_layout .breadcrumbs.speak li.speak a:hover, .conference_layout .breadcrumbs.speak li.speak a:visited, .conference_layout .breadcrumbs.speak li.speak a:active, .conference_layout .breadcrumbs.code li.code a, .conference_layout .breadcrumbs.code li.code a:hover, .conference_layout .breadcrumbs.code li.code a:visited, .conference_layout .breadcrumbs.code li.code a:active {
+  color: #D84455; }
+/* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.conference_layout .breadcrumbs.write li.write a:hover, .conference_layout .breadcrumbs.speak li.speak a:hover, .conference_layout .breadcrumbs.code li.code a:hover {
+  color: #971f2d;
+  text-decoration: underline; }
+/* line 68, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout .breadcrumbs li {
+  display: inline-block; }
+  /* line 71, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout .breadcrumbs li:not(:last-child):after {
+    content: '/'; }
+/* line 78, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout.sub_page .hero {
+  font-size: .8em;
+  padding-bottom: 62px; }
+  /* line 79, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout.sub_page .hero .details, .conference_layout.sub_page .hero .header-break {
+    display: none; }
+  @media screen and (min-width: 53.75em) {
+    /* line 78, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    .conference_layout.sub_page .hero {
+      padding-bottom: 52px; } }
+  /* line 87, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout.sub_page .hero h1 {
+    font-family: "Proxima Nova Extra Condensed";
+    font-weight: 700;
+    font-style: normal; }
+    @media screen and (min-width: 53.75em) {
+      /* line 87, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      .conference_layout.sub_page .hero h1 {
+        font-size: 2.25em; } }
+  /* line 92, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout.sub_page .hero h2 {
+    font-family: "Proxima Nova Extra Condensed";
+    font-weight: 800;
+    font-style: normal; }
+    @media screen and (min-width: 53.75em) {
+      /* line 92, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      .conference_layout.sub_page .hero h2 {
+        font-size: 2em; } }
+/* line 99, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout.sub_page #content h2 {
+  margin: 0 auto 1em auto; }
+  /* line 102, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout.sub_page #content h2 .fa, .conference_layout.sub_page #content h2 blockquote, .conference_layout.sub_page #content h2 .code-icon, .conference_layout.sub_page #content h2 .speak-icon, .conference_layout.sub_page #content h2 .write-icon, .conference_layout.sub_page #content h2 .footer .footer-logo, .footer .conference_layout.sub_page #content h2 .footer-logo {
+    padding: 0 .5em; }
+/* line 107, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout.sub_page #content .themes {
+  color: #D84455;
+  margin-bottom: 1em; }
+/* line 112, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout.sub_page #content .credits {
+  margin-top: 1em; }
+/* line 119, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout .developer-definition {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin-top: 3em;
+  background-color: #efedb1;
+  padding: .5em;
+  border: 1px solid #9b9092; }
+/* line 127, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+.conference_layout a.small {
+  font-size: .8em;
+  color: #faf9f9; }
+  /* line 131, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  .conference_layout a.small, .conference_layout a.small:hover, .conference_layout a.small:linked, .conference_layout a.small:visited {
+    color: #faf9f9; }
+
+/* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+#main.scholarships #content .breadcrumbs li a, #main.scholarships #content .breadcrumbs li a:hover, #main.scholarships #content .breadcrumbs li a:visited, #main.scholarships #content .breadcrumbs li a:active {
+  color: #D84455; }
+/* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+#main.scholarships #content .breadcrumbs li a:hover {
+  color: #971f2d;
+  text-decoration: underline; }
+/* line 138, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+#main.scholarships #content .scholarship {
+  margin: 3em 1em 1em;
+  text-align: left; }
+  /* line 142, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  #main.scholarships #content .scholarship h2 {
+    margin-bottom: .5em; }
+/* line 147, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+#main.scholarships #content .closed {
+  margin-top: 5em;
+  border-top: 3px dashed #DEDA5C; }
 
 /* line 1, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_days.scss */
 .days {
@@ -3072,13 +3124,10 @@ body {
     text-align: center;
     padding: .5em; }
     /* line 14, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_days.scss */
-    .days li .learn_more {
-      font-weight: bold; }
-    /* line 18, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_days.scss */
     .days li h3 {
       margin-top: 0; }
 
-/* line 22, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_days.scss */
+/* line 18, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_days.scss */
 .day_summary {
   margin-top: 1em; }
 
@@ -3836,8 +3885,12 @@ body {
     text-align: center;
     color: #faf9f9; }
     /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-    .index .banner .copy-wrap a, .index .banner .copy-wrap a:hover, .index .banner .copy-wrap a:visited, .index .banner .copy-wrap a:active {
+    .index .banner .copy-wrap a:not(.button), .index .banner .copy-wrap a:not(.button):hover, .index .banner .copy-wrap a:not(.button):visited, .index .banner .copy-wrap a:not(.button):active {
       color: #faf9f9; }
+    /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    .index .banner .copy-wrap a:not(.button):hover {
+      color: #ccc1c1;
+      text-decoration: underline; }
     /* line 48, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index .banner .copy-wrap h1 {
       font-size: 3em; }
@@ -4039,6 +4092,10 @@ ul.people_list {
         /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
         ul.people_list > li p .name, ul.people_list > li p .name:hover, ul.people_list > li p .name:visited, ul.people_list > li p .name:active, ul.people_list > li .talk .name, ul.people_list > li .talk .name:hover, ul.people_list > li .talk .name:visited, ul.people_list > li .talk .name:active {
           color: #D84455; }
+        /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+        ul.people_list > li p .name:hover, ul.people_list > li .talk .name:hover {
+          color: #971f2d;
+          text-decoration: underline; }
     /* line 54, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
     ul.people_list > li p .name {
       font-size: 1.5em;
@@ -4086,6 +4143,10 @@ ul.people_list {
           /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
           ul.people_list > li .talk ul li a, ul.people_list > li .talk ul li a:hover, ul.people_list > li .talk ul li a:visited, ul.people_list > li .talk ul li a:active {
             color: #237BA5; }
+          /* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+          ul.people_list > li .talk ul li a:hover {
+            color: #113c51;
+            text-decoration: underline; }
           /* line 98, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
           ul.people_list > li .talk ul li a:hover {
             color: #256A8B; }
@@ -4103,22 +4164,27 @@ ul.people_list {
       margin-left: 0; }
 
 /* line 127, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
-.person {
+.person, .company {
   border: 3px dashed #DEDA5C; }
-  /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-  .person a.image, .person a.image:hover, .person a.image:visited, .person a.image:active {
-    color: #237BA5; }
-  /* line 134, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
-  .person img {
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 50%;
-    border: 4px solid #237BA5; }
+
+/* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.person a.image, .person a.image:hover, .person a.image:visited, .person a.image:active {
+  color: #237BA5; }
+/* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.person a.image:hover {
+  color: #113c51;
+  text-decoration: underline; }
+/* line 136, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+.person img {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  border: 4px solid #237BA5; }
 
 /* line 2, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .schedule .events {
@@ -4126,6 +4192,10 @@ ul.people_list {
 /* line 29, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .schedule .day_schedule li a, .schedule .day_schedule li a:hover, .schedule .day_schedule li a:visited, .schedule .day_schedule li a:active {
   color: #D84455; }
+/* line 33, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.schedule .day_schedule li a:hover {
+  color: #971f2d;
+  text-decoration: underline; }
 /* line 12, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .schedule .event {
   border-left: 10px solid #D84455;

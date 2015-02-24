@@ -2455,7 +2455,7 @@ dl {
   dl dd {
     margin: 0; }
 
-/* line 42, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+/* line 43, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
 button,
 input[type="submit"], .button {
   /*@extend %button;*/
@@ -2490,7 +2490,7 @@ input[type="submit"], .button {
   input[type="submit"]:visited,
   input[type="submit"]:active, .button, .button:hover, .button:visited, .button:active {
     color: #faf9f9; }
-  /* line 57, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 58, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.primary,
   input[type="submit"].primary, .button.primary {
     background-color: #D84455;
@@ -2499,7 +2499,7 @@ input[type="submit"], .button {
     button.primary:hover,
     input[type="submit"].primary:hover, .button.primary:hover {
       background-color: #ea98a2; }
-  /* line 58, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 59, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.alert,
   input[type="submit"].alert, .button.alert {
     background-color: #DEDA5C;
@@ -2508,7 +2508,7 @@ input[type="submit"], .button {
     button.alert:hover,
     input[type="submit"].alert:hover, .button.alert:hover {
       background-color: #efedb1; }
-  /* line 59, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 60, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.error,
   input[type="submit"].error, .button.error {
     background-color: #8B1E2B;
@@ -2517,7 +2517,7 @@ input[type="submit"], .button {
     button.error:hover,
     input[type="submit"].error:hover, .button.error:hover {
       background-color: #d53a4d; }
-  /* line 60, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 61, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.notice,
   input[type="submit"].notice, .button.notice {
     background-color: #237BA5;
@@ -2526,7 +2526,7 @@ input[type="submit"], .button {
     button.notice:hover,
     input[type="submit"].notice:hover, .button.notice:hover {
       background-color: #53afdb; }
-  /* line 61, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 62, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.success,
   input[type="submit"].success, .button.success {
     background-color: #256A8B;
@@ -2535,7 +2535,7 @@ input[type="submit"], .button {
     button.success:hover,
     input[type="submit"].success:hover, .button.success:hover {
       background-color: #48a3ce; }
-  /* line 63, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 64, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.inverted,
   input[type="submit"].inverted, .button.inverted {
     background-color: #faf9f9;
@@ -2547,127 +2547,68 @@ input[type="submit"], .button {
     line-height: 1;
     padding: 0.75em 1em;
     text-decoration: none;
-    border: 3px solid #5a5153; }
+    border: 3px solid #5a5153;
+    color: #5a5153; }
     /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted:hover,
     input[type="submit"].inverted:hover, .button.inverted:hover {
       background-color: white; }
-    /* line 15, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted:hover,
     input[type="submit"].inverted:hover, .button.inverted:hover {
       background-color: #5a5153;
       color: #faf9f9; }
-    /* line 66, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 67, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.primary,
     input[type="submit"].inverted.primary, .button.inverted.primary {
-      background-color: #faf9f9;
-      color: #D84455;
-      border-radius: 3px;
-      display: inline-block;
-      font-size: 1em;
-      font-weight: bold;
-      line-height: 1;
-      padding: 0.75em 1em;
-      text-decoration: none;
-      border: 3px solid #D84455; }
-      /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
-      button.inverted.primary:hover,
-      input[type="submit"].inverted.primary:hover, .button.inverted.primary:hover {
-        background-color: white; }
-      /* line 15, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      border: 3px solid #D84455;
+      color: #D84455; }
+      /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.primary:hover,
       input[type="submit"].inverted.primary:hover, .button.inverted.primary:hover {
         background-color: #D84455;
         color: #faf9f9; }
-    /* line 67, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 68, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.alert,
     input[type="submit"].inverted.alert, .button.inverted.alert {
-      background-color: #322D2E;
-      color: #DEDA5C;
-      border-radius: 3px;
-      display: inline-block;
-      font-size: 1em;
-      font-weight: bold;
-      line-height: 1;
-      padding: 0.75em 1em;
-      text-decoration: none;
-      border: 3px solid #DEDA5C; }
-      /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
-      button.inverted.alert:hover,
-      input[type="submit"].inverted.alert:hover, .button.inverted.alert:hover {
-        background-color: #685d5f; }
-      /* line 15, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      border: 3px solid #DEDA5C;
+      color: #DEDA5C; }
+      /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.alert:hover,
       input[type="submit"].inverted.alert:hover, .button.inverted.alert:hover {
         background-color: #DEDA5C;
         color: #322D2E; }
-    /* line 68, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 69, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.error,
     input[type="submit"].inverted.error, .button.inverted.error {
-      background-color: #faf9f9;
-      color: #8B1E2B;
-      border-radius: 3px;
-      display: inline-block;
-      font-size: 1em;
-      font-weight: bold;
-      line-height: 1;
-      padding: 0.75em 1em;
-      text-decoration: none;
-      border: 3px solid #8B1E2B; }
-      /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
-      button.inverted.error:hover,
-      input[type="submit"].inverted.error:hover, .button.inverted.error:hover {
-        background-color: white; }
-      /* line 15, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      border: 3px solid #8B1E2B;
+      color: #8B1E2B; }
+      /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.error:hover,
       input[type="submit"].inverted.error:hover, .button.inverted.error:hover {
         background-color: #8B1E2B;
         color: #faf9f9; }
-    /* line 69, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 70, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.notice,
     input[type="submit"].inverted.notice, .button.inverted.notice {
-      background-color: #faf9f9;
-      color: #237BA5;
-      border-radius: 3px;
-      display: inline-block;
-      font-size: 1em;
-      font-weight: bold;
-      line-height: 1;
-      padding: 0.75em 1em;
-      text-decoration: none;
-      border: 3px solid #237BA5; }
-      /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
-      button.inverted.notice:hover,
-      input[type="submit"].inverted.notice:hover, .button.inverted.notice:hover {
-        background-color: white; }
-      /* line 15, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      border: 3px solid #237BA5;
+      color: #237BA5; }
+      /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.notice:hover,
       input[type="submit"].inverted.notice:hover, .button.inverted.notice:hover {
         background-color: #237BA5;
         color: #faf9f9; }
-    /* line 70, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 71, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.success,
     input[type="submit"].inverted.success, .button.inverted.success {
-      background-color: #faf9f9;
-      color: #256A8B;
-      border-radius: 3px;
-      display: inline-block;
-      font-size: 1em;
-      font-weight: bold;
-      line-height: 1;
-      padding: 0.75em 1em;
-      text-decoration: none;
-      border: 3px solid #256A8B; }
-      /* line 6, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
-      button.inverted.success:hover,
-      input[type="submit"].inverted.success:hover, .button.inverted.success:hover {
-        background-color: white; }
-      /* line 15, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      border: 3px solid #256A8B;
+      color: #256A8B; }
+      /* line 16, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.success:hover,
       input[type="submit"].inverted.success:hover, .button.inverted.success:hover {
         background-color: #256A8B;
         color: #faf9f9; }
-  /* line 73, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 74, /Users/rmw/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.skinny,
   input[type="submit"].skinny, .button.skinny {
     padding: .25em .5em; }

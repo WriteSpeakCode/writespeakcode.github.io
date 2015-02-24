@@ -125,6 +125,9 @@ thursday:
     talk_description: Join a diverse group of technical editors, publishers, 
       and authors to discuss writing for professional publishers, self-
       publishing, magazines, and online course.
+  -
+    talk_id: thurs_party
+    talk_name: Opening night party &amp; networking
 
 friday:
   -
@@ -192,4 +195,7 @@ saturday:
     talk_description: After a lot of work, we will arrive at the end of the
       conference. Let's reflect on why it's so important that we share
       our expertise with the world and leave inspired and rejuvenated!
+  -
+    talk_id: sat_party
+    talk_name: Closing party &amp; networking
 

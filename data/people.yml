@@ -135,7 +135,7 @@ chrys:
     She also speaks on <a href="http://find.chryswu.com" target=_blank>data journalism, online engagement and
     coding</a>.
   pages:
-    - sponsor
+    - write
     - organizers
   social:
     twitter: https://twitter.com/MacDiva
@@ -286,6 +286,7 @@ coraline:
     and created the Open Source <a href="http://contributor-covenant.org/">
     Contributor Covenant</a>.
   pages:
+    - code
     - speak
     - speaker
   social:

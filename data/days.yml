@@ -20,7 +20,7 @@ each_day:
 days:
   write:
     num: 1
-    weekday: Thursday
+    weekday: thursday
     date: March 19, 2015
     actions:
       - Get over your Imposter Syndrome and learn to <b>Own Your Expertise</b>
@@ -64,7 +64,7 @@ days:
 
   speak:
     num: 2
-    weekday: Friday
+    weekday: friday
     date: March 20, 2015
     actions:
       - Write a <b>talk proposal</b> &amp; receive feedback from conference organizers
@@ -101,7 +101,7 @@ days:
       - Create visibility
   code:
     num: 3
-    weekday: Saturday
+    weekday: saturday
     date: March 21, 2015
     icon: code
     actions:

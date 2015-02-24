@@ -1,6 +1,49 @@
+@mixin set-button-color($main-color: $base-button-color, $contrast-color:
+$white) {
+  background-color: $main-color;
+  color: $contrast-color;
+
+  &:hover {
+    background-color: lighten($main-color, 20);
+  }
+}
+
+@mixin set-inverted-button-color($main-color: $base-button-color, $contrast-color:
+$white) {
+  border: $base-border-radius solid $contrast-color;
+
+  &:hover {
+    background-color: $contrast-color;
+    color: $main-color;
+  }
+}
+
+
+@mixin std-button($main-color: $base-button-color, $contrast-color:
+$white) {
+  @include set-button-color($main-color, $contrast-color);
+  border-radius: $base-border-radius;
+
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+}
+
+@mixin inverted-button($main-color: $base-button-color, $contrast-color:
+$white) {
+  @include std-button($contrast-color, $main-color);
+  @include set-inverted-button-color($contrast-color, $main-color);
+}
+
 button,
 input[type="submit"], .button {
-  @extend %button;
+  /*@extend %button;*/
+  @include std-button;
+  @include colored-link($white);
   @include appearance(none);
 
   font-family: $sans-serif;
@@ -11,13 +54,23 @@ input[type="submit"], .button {
   vertical-align: middle;
   white-space: nowrap;
 
-  &.primary {
-    background-color: $brand-primary;
+  &.primary { @include set-button-color($brand-primary); }
+  &.alert { @include set-button-color($brand-secondary, $dark-gray); }
+  &.error { @include set-button-color($brand-primary-dark); }
+  &.notice { @include set-button-color($brand-accent); }
+  &.success { @include set-button-color($brand-accent-dark); }
+
+  &.inverted {
+    @include inverted-button;
+
+    &.primary { @include inverted-button($brand-primary); }
+    &.alert { @include inverted-button($brand-secondary, $dark-gray); }
+    &.error { @include inverted-button($brand-primary-dark); }
+    &.notice { @include inverted-button($brand-accent); }
+    &.success { @include inverted-button($brand-accent-dark); }
   }
 
-  &.alert { background-color: $brand-secondary; color: $dark-gray; }
-  &.error { background-color: $brand-primary-dark; }
-  &.notice { background-color: $brand-accent; }
-  &.success { background-color: $brand-accent-dark; }
-
+  &.skinny {
+    padding: .25em .5em;
+  }
 }

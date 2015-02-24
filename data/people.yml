@@ -39,7 +39,7 @@ code_montage:
 rebecca:
   name: Rebecca Miller-Webster
   url: http://www.rebeccamiller-webster.com
-  image: organizers/rebecca-web1-sq.jpg
+  image: organizers/rmw.png
   bio: is a software engineer, conference organizer, and teacher. She is the founder
     of <a href="http://www.writespeakcode.com">Write/Speak/Code</a> and
     Managing Director for <a href="http://www.thoughtbot.com">thoughtbot</a> Chicago.
@@ -61,7 +61,24 @@ rebecca:
     twitter: http://www.twitter.com/rmillerwebster
     github: http://www.github.com/rmw
     linkedin: https://www.linkedin.com/in/rjmillerwebster
-  talk: thursday_welcome
+  talks:
+    - wsc_2yrs
+
+lateesha:
+  name: LaTeesha Thomas
+  image: organizers/lateesha.jpg
+  bio: is the Director of Diversity at <a href="http://www.devbootcamp.com">Dev
+    Bootcamp</a>, where she manages programming and initiatives to create a
+    safe and inclusive learning environment for new coders.  Previously, she managed
+    Admissions at Dev Bootcamp, ran community intiatives for lululemon, and did
+    QA testing for the insurance industry.  LaTeesha co-founded <a href="https://twitter.com/CodeLiftProject">
+    Code Lift</a>, which teaches women of color how to code.
+  pages:
+    - organizers
+  type: person
+  social:
+    twitter: https://twitter.com/lateeshathomas
+    linkedin: https://www.linkedin.com/pub/lateesha-thomas/51/998/6a8
 
 rachel:
   name: Rachel Ober
@@ -80,7 +97,6 @@ rachel:
     twitter: http://www.twitter.com/rachelober
     github: https://github.com/rachelober
   pages:
-    - speak
     - organizers
   type: person
 
@@ -121,9 +137,191 @@ chrys:
   pages:
     - sponsor
     - organizers
-    - speaker
   social:
     twitter: https://twitter.com/MacDiva
     github: https://github.com/MacDiva
   type: person
-  talk: writing_opportunity
+
+
+chiu_ki:
+  name: Chiu-Ki Chan
+  url: https://chiuki.github.io/
+  image: speakers/chiuki.jpg
+  bio: is an Android developer with a passion in speaking and teaching. 
+    She has spoken at numerous conferences all over the world, and has been
+    recognized as a Google Developer Expert for her extensive knowledge in Android.
+    Chiu-Ki is author of several Android video courses for PluralSight.
+    She runs her own mobile development company, producing delightful apps such as
+    "Monkey Write" for learning Chinese writing and "Heart Collage" for
+    snapping photos to stitch into a heart.
+  pages:
+    - speak
+    - write
+    - speaker
+  social:
+    twitter: https://twitter.com/chiuki
+    github: https://github.com/chiuki
+  type: person
+  talks:
+    - writing_panel
+    - speaker_mentor
+
+pam_selle:
+  name: Pam Selle
+  url: http://thewebivore.com/
+  image: speakers/pam.jpg
+  bio: is a software engineer, published author, and public speaker. She develops 
+    software professionally in Philadelphia, PA and is known to appear at 
+    hackathons from time to time. She’s the author of <a href="http://thewebivore.com/book/">
+    Choosing a JavaScript</a> Framework and several articles. For public 
+    speaking, she has spoken at local user groups and regional and national 
+    conferences on HTML5, CSS, Sass, and JavaScript. She has taught students 
+    JavaScript, HTML/CSS, Python, Ruby, and more as an instructor for 
+    GirlDevelopIT and other organizations. A passionate community builder, Pam 
+    co-organizes <a href="http://meetup.com/Philadelphia-JavaScript-Developers/">
+    Philadelphia JavaScript Developers</a>, the premier JavaScript user group 
+    in Philadelphia. She also volunteers with <a href="http://www.thehumaneleague.com/">
+    The Humane League</a> and is involved in the civic hacking community.
+  pages:
+    - write
+    - speaker
+  social:
+    twitter: http://www.twitter.com/pamasaur
+    linkedin: http://linkedin.com/in/pamelaselle
+  type: person
+  talks:
+    - writing_panel
+
+sarah_mei:
+  name: Sarah Mei
+  url: http://www.sarahmei.com/
+  image: speakers/sarah-mei.jpg
+  bio: is a Ruby and JavaScript developer based in San Francisco, California. 
+    She is the Chief Consultant at <a href="http://devmynd.com/">DevMynd
+    Software</a>, where I spend most of my time pairing with my clients’
+    developers, helping level up their team. My particular areas of interest
+    are OOP, service refactorings, growing teams, and inter-developer dynamics.
+    Sarah is working on a book with <a href="http://sandimetz.com/">Sandi Metz</a>
+    about <a href="http://practicalrailsbook.com/">how to refactor Rails 
+    applications</a> towards happiness, founded <a href="http://railsbridge.org/">
+    RailsBridge</a> in 2009 with <a href="http://www.ultrasaurus.com/">Sarah Allen</a>,
+    and is the director of the non-profit, <a href="http://rubycentral.org/">
+    RubyCentral</a>, which runs the two largest Ruby conferences in the world &mdash;
+    <a href="http://rubyconf.org/">RubyConf</a> and <a href="http://railsconf.com/">
+    RailsConf</a>.
+  pages:
+    - speak
+    - speaker
+  social:
+    twitter: https://twitter.com/sarahmei
+    github: https://github.com/sarahmei
+    linkedin: https://www.linkedin.com/in/sarahmei
+  type: person
+  talks:
+    - speaker_mentor
+    - conf_org_panel
+
+claudina:
+  name: Claudina Sarahe
+  url: http://itsmisscs.me/
+  image: speakers/claudina.jpeg
+  bio: is an entrepreneur. Her background is in front-end web development with 
+    a focus on large, scale web applications and sites. She's worked for Pop 
+    Art, The New Group, The Huffington Post, New York Road Runners, and Method. 
+    She's lead front-end development for sites such for FEI.com, Charlie Rose, 
+    PBS, Scholastic, Count Me In, and LocalVox. She lead the strategy and 
+    initial product development for Vestify, a crowdfunding web application 
+    for entrepreneurs powering the MassChallenge Global Start-Up. Claundina organizes 
+    the monthly New York City Sass and Compass Meetup and was one 
+    of the founding members of UNICEF Innovation. In 2010, she developed a 
+    pilot program to teach development to less advantaged high schoolers in 
+    the Dominican Republic. She is a 2012 StartupBus aluma. A firm believer in 
+    a balanced lifestyle she keeps her mind and body elastic with Bikram Yoga, 
+    Crossfit, and biking NYC streets. 
+  pages:
+    - speak
+    - speaker
+  social:
+    twitter: http://www.twitter.com/misscs
+    linkedin: https://www.linkedin.com/in/claudinasarahe
+    github: https://github.com/misscs
+  type: person
+  talks:
+    - speaker_mentor
+    - conf_org_panel
+
+melissa_xie:
+  name: Melissa Xie
+  url: http://melissaxie.com/
+  image: speakers/melissa_xie.jpg
+  bio: is a developer at <a href="http://thoughtbot.com">thoughtbot</a>. She 
+    organizes the <a href="http://bostonrubywomen.org/">Boston Ruby Women 
+    meetups</a>, <a href="http://railsbridgeboston.org/">RailsBridge Boston</a>
+    workshops, and <a href="http://boston.io/">Boston I/O</a> conference.  Melissa 
+    sings in the <a href="http://bostonskylinechorus.groupanizer.com/">Boston 
+    Skyline Chorus</a> and might have a slight addiction to <a href="http://travel.melissaxie.com/">traveling</a>.
+  pages:
+    - speak
+    - speaker
+  social:
+    twitter: https://twitter.com/mxie
+    linkedin: https://www.linkedin.com/in/melissaxie
+    github: https://github.com/mxie
+  type: person
+  talks:
+    - speaker_mentor
+    - conf_org_panel
+
+coraline:
+  name: Coraline Ehmke
+  url: http://where.coraline.codes/
+  image: speakers/coraline_bright_square.png
+  bio: is an intersectional technologist with a passion for mentoring, learning, 
+    refactoring, and developing artificially intelligent IRC bots. She's a
+    senior engineer at Instructure, developing software used by millions of
+    students and teachers. Coraline organizes Chicago Women Developers,
+    <a href="http://www.opensourceforwomen.org/">OpenSourceForWomen.org</a>, and <a href="https://twitter.com/lgbtechorg">
+    LGBTech.org</a>.  She is on the
+    speaker selection committee for <a href="http://railsconf.com/">RailsConf</a>
+    and created the Open Source <a href="http://contributor-covenant.org/">
+    Contributor Covenant</a>.
+  pages:
+    - speak
+    - speaker
+  social:
+    twitter: https://twitter.com/CoralineAda
+    linkedin: https://www.linkedin.com/in/melissaxie
+    github: https://github.com/CoralineAda/
+  type: person
+  talks:
+    - speaker_mentor
+    - conf_org_panel
+    - open_source_values
+
+jen_myers:
+  name: Jen Myers
+  url: http://jenmyers.net/
+  image: speakers/jen.png
+  bio: is a web designer/developer, speaker, teacher and writer located in 
+    Chicago, and the Director of Open Source Curriculum at online training 
+    course provider <a href="http://pluralsight.com/">Pluralsight</a>. In 2014, 
+    she founded <a href="http://codeandcupcakes.net/">Code and Cupcakes</a>, 
+    a series of mother/daughter beginner coding events and currently lead workshops 
+    on a regular basis.  In 2011, Jen founded the Columbus, Ohio chapter of 
+    <a href="http://girldevelopit.com/">Girl Develop It</a>, a group that 
+    provides introductory coding classes aimed at women, and have been 
+    involved with GDI as an instructor and advisor since. Jen speaks widely 
+    about topics related to design, development and diversity in the technology 
+    field, and focus on finding new ways to make both technology and technology 
+    education accessible to everyone.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/antiheroine
+    github: https://github.com/jenmyers
+  type: person
+  talks:
+    - speaker_mentor
+    - closing_keynote

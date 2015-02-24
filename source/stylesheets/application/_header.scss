@@ -106,6 +106,10 @@
     width: 100%;
     z-index: 9999;
 
+    @include media($large-screen) {
+      padding-right: 0;
+    }
+
     @include media ($horizontal-bar-mode) {
       background: transparent;
       display: inline;
@@ -140,10 +144,6 @@
   li.more.nav-link {
     padding-right: 0;
 
-    @include media($large-screen) {
-      margin-right: $navigation-submenu-padding;
-    }
-
     > ul > li:first-child a  {
       padding-top: 1em;
     }
@@ -161,23 +161,15 @@
       content: '\25BE';
       color: $navigation-color;
     }
+
   }
 
   li.more {
     overflow: visible;
     padding-right: 0;
 
-    a {
-      padding-right: 0.8em;
-    }
-
     > a {
-      padding-right: 1.6em;
       position: relative;
-
-      @include media($large-screen) {
-        margin-right: $navigation-submenu-padding;
-      }
 
       &:after {
         content: '›';

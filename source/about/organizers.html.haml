@@ -18,4 +18,4 @@ page_class: 'about organizers'
   -#- people = data.people.select { |k, v| v.pages.include?('organizers') }.sort_by { |k, v| v.type + v.name }
   -#= people.map { |k, v| "<a href='##{k}'>#{v.name}</a>" }.join("<span class='fa fa-star-o'></span>")
 
-= partial 'people_list', locals: { filter: 'organizers' }
+= partial 'people_list', locals: { filter: 'organizers', sort_include_weight: true }

@@ -36,7 +36,7 @@ helpers do
               "gold" => 2,
               "silver" => 3,
               "bronze" => 4
-              }
+    }
     levels[level]
   end
 
@@ -54,11 +54,7 @@ helpers do
   end
 
   def author_link(article, tag = "")
-    d = article.data
-    str = ""
-
-    str = d.author unless d.author.nil?
-    str = "<a href=#{d.author_url}>#{str}</a>" unless d.author_url.nil?
+    str = link_or_text(article.data.author, article.data.author_url)
 
     unless str.empty?
       str = "by #{str}"
@@ -66,6 +62,47 @@ helpers do
     end
 
     str
+  end
+
+  def link_or_text(name, link='', classes='')
+    str = ""
+    str = name if there?(name)
+
+    if there?(link)
+      lnk = "<a href=#{link}"
+      lnk = lnk + " class='#{classes}'" if there?(classes)
+      str = lnk + ">#{str}</a>"
+    elsif there?(str) && there?(classes)
+      str = "<span class='#{classes}'>#{str}</span>"
+    end
+
+    str
+  end
+
+  def there?(item)
+    !(item.nil? || item.empty?)
+  end
+
+  def person_comparator(p, sorts)
+    comparator = p.name
+    comparator = p.type + comparator if sorts[:by_type]
+    comparator = (p.weight || '') + comparator if sorts[:by_weight]
+    comparator
+  end
+
+  def people_filtered_and_sorted(d, filter, sorts)
+    d.people.select { |k, v|
+      v.pages.include?(filter)
+    }.sort_by { |k, v|
+      person_comparator(v, sorts)
+    }.tap { |data| return data.reverse if sorts[:reverse] }
+  end
+
+  def speakers_for_talk(all_speakers, talk)
+    all_speakers.inject([]) do |r, e|
+      r << link_to(e.last['name'], "/conference/speakers##{e.first}") if e.last['talks'].include?(talk.talk_id);
+      r
+    end
   end
 end
 
@@ -76,22 +113,22 @@ end
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
- configure :development do
-   activate :livereload
- end
+configure :development do
+  activate :livereload
+end
 
- activate :directory_indexes
+activate :directory_indexes
 
- # add blog functionality
- activate :blog do |blog|
+# add blog functionality
+activate :blog do |blog|
   blog.paginate = true
   blog.prefix = "blog"
   blog.layout = "blog_layout"
   blog.tag_template = "blog/tag.html"
   blog.calendar_template = "blog/calendar.html"
- end
+end
 
- page "/feed.xml", layout: false
+page "/feed.xml", layout: false
 
 # Methods defined in the helpers block are available in templates
 # helpers do

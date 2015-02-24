@@ -3,9 +3,5 @@
     margin-bottom: 2em;
   }
 
-  ul {
-    list-style-type: disc;
-    margin-left: 1em;
-    padding-left: .5em;
-  }
+  ul { @include normal-list }
 }

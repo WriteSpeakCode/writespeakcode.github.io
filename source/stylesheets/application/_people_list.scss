@@ -2,11 +2,16 @@ $person_img_width: 100px;
 $company_img_width: 150px;
 $img_left_offset: 30px;
 
-.people_list {
+ul.people_list {
   list-style-type: none;
+
+  text-align: center;
+  @include media($large-screen) { text-align: left; }
+
   margin-top: 20px;
   img {
     width: $person_img_width;
+    height: $person_img_width;
   }
 
   .social {
@@ -32,14 +37,23 @@ $img_left_offset: 30px;
         float: left;
       }
     }
-    p {
+    p, .talk {
       padding-right: 20px;
       @media only screen and (min-width: 768px) {
         margin-left: $company_img_width + $img_left_offset;
       }
-      .name, a.name, a.name:hover, a.name:active, a.name:visited {
-        color: $brand-primary;
+      .name {
+        @include display-font;
+        @include colored-link($brand-primary);
+
         font-weight: bold;
+      }
+    }
+
+    p {
+      .name {
+        font-size: $sm-h4-font-size;
+        line-height: 1em;
       }
     }
 
@@ -59,11 +73,31 @@ $img_left_offset: 30px;
     .talk {
       font-style: italic;
       font-weight: bold;
-      &, a, a:hover, a:visited, a:active {
-        color: $brand-secondary;
-      }
+      margin-bottom: .5em;
+
       .name {
         font-size: $sm-h2-font-size;
+        @include media($large-screen) { font-size: $h2-font-size; }
+      }
+
+      ul {
+        li {
+          display: inline-block;
+          font-size: $sm-h3-font-size;
+
+          &:first-child .fa { display: none; }
+          .fa {
+            color: $success-color;
+            font-size: .8em;
+          }
+
+          a {
+            @include display-font-light;
+            @include colored-link($brand-accent);
+
+            &:hover { color: $brand-accent-dark; }
+          }
+        }
       }
     }
 
@@ -75,6 +109,16 @@ $img_left_offset: 30px;
     &.person {
       .info {
         margin-left: $img_left_offset;
+      }
+    }
+
+    &.talk {
+      .talk {
+        min-height: 135px;
+      }
+
+      .bio {
+        margin-left: 0;
       }
     }
   }

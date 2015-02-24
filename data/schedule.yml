@@ -81,3 +81,115 @@ details:
     hour: 15
     minutes: 30
     url: "/"
+
+thursday:
+  -
+    talk_id: thursday_welcome
+    talk_name: Welcome, Networking, &amp; Breakfast
+  -
+    talk_id: wsc_2yrs
+    talk_name: "We are not black unicorns: Two years of Write/Speak/Code"
+    talk_description: Write/Speak/Code began with a late night email two and 
+      a half years ago.  Since then we have helped empower hundreds of women 
+      software engineers to own their expertise, speak at conferences, and 
+      contribute to open source.  Let's reflect on what we've learned and 
+      where we can go.
+  -
+    talk_id: own_expertise
+    talk_name: "Imposter syndrome workshop & own your expertise!"
+    talk_description: Starting with the most common with the most common
+      barrier to thought leadership &mdash; ourselves &mdash; we will 
+      tackle imposter syndrome and learn to own our expertise. By diving into
+      your knowledge and experience, you will understand why your story is
+      valuable to the world.
+  -
+    talk_id: exp_cred
+    talk_name: "Find your expertise & craft a Bio"
+    talk_description: Using fun and reusable brainstorming exercises as well
+      as the support of your peers, we will dive into our knowledge and
+      experience to establish our own credibility.
+  -
+    talk_id: topic_gen
+    talk_name: Topic generation &amp; outlining
+    talk_description: Twenty topics. Five minutes. Go! With fast-paced
+      exercises, hands-on workshops, and peer feedback, we'll generate a
+      number of topics to write or speak about. Then, we'll explore a
+      variety of techniques for going from idea to outline. 
+  -
+    talk_id: write_post
+    talk_name: Write a blog post &amp; peer feedback
+    talk_description: "Write. Give Feedback. Get Feedback. Rinse. Repeat."
+  -
+    talk_id: writing_panel
+    talk_name: Writing for developers panel
+    talk_description: Join a diverse group of technical editors, publishers, 
+      and authors to discuss writing for professional publishers, self-
+      publishing, magazines, and online course.
+
+friday:
+  -
+    talk_id: cfp
+    talk_name: Navigating the CFP process and understanding talk proposals
+    talk_description: Starting with learning the ins &amp; outs of the CFP
+      process, we will begin to understand the purpose of all the
+      parts of a talk proposal.  After, reviewing successful talk proposal
+      we will write our own!
+  -
+    talk_id: write_proposal
+    talk_name: Write your talk proposal
+  -
+    talk_id: slides
+    talk_name: Creating a great presentation
+    talk_description: From color to font to showing code, we'll learn the
+      best practices for creating slides for tech-related talks.
+  -
+    talk_id: conf_org_panel
+    talk_name: Conference Organizer Panel &amp; Talk Proposal Feedback
+    talk_description: Hear how a handful of women conference organizers select speakers and gets tips for navigating the CFP process.  Afterwards, the conference organizers will give attendees feedback on their talk proposals.
+  -
+    talk_id: speaker_mentor
+    talk_name: Speaker Mentoring
+    talk_description: Each attendee will work with speaker mentors to develop their slides and presentation. Speaker mentors will give feedback on the final talks.
+
+saturday:
+  -
+    talk_id: open_source_values
+    talk_name: Open Source Values
+    talk_description: "<i>Coming soon!</i>"
+  -
+    talk_id: find_project
+    talk_name: Finding an open source project
+    talk_description: We'll discover, not just how to find, open source
+      projects, but also how to evaluate whether they are a good fit for
+      our skills and goals.
+  -
+    talk_id: featured_project
+    talk_name: Featured project intros
+    talk_description: This year we'll have the added benefit of working with
+      existing contributors to a handfull of projects.
+  -
+    talk_id: fork
+    talk_name: Fork a project &amp; run it locally
+      existing contributors to a handfull of projects.
+  -
+    talk_id: share_project
+    talk_name: "Share: How I found my open source project"
+  -
+    talk_id: oss_license
+    talk_name: Open source licenses
+  -
+    talk_id: oss_code
+    talk_name: Code! Contribute to open source!
+  -
+    talk_id: oss_share
+    talk_name: Share your contributions &amp; what you learned
+  -
+    talk_id: closing_keynote
+    talk_name: Owning It
+  -
+    talk_id: wsc_why
+    talk_name: Why we must Write/Speak/Code
+    talk_description: After a lot of work, we will arrive at the end of the
+      conference. Let's reflect on why it's so important that we share
+      our expertise with the world and leave inspired and rejuvenated!
+

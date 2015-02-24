@@ -1,0 +1,23 @@
+.events {
+  .workshop {
+    ul { @include normal-list; }
+    padding-bottom: 1em;
+
+    h5 {
+      padding-bottom: .5em;
+    }
+  }
+
+  .past-workshops {
+    li {
+      margin-bottom: .5em;
+      padding: .5em;
+
+      border-left: 10px solid $brand-primary;
+
+      &:nth-child(even) {
+        border-left-color: $light-red;
+      }
+    }
+  }
+}

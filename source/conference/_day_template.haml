@@ -1,15 +1,20 @@
 - title = day_name.titleize
 
-%ul.breadcrumbs
+%ul.breadcrumbs{ class: "#{day_name}" }
   %li
-    %a{ href: '/conference' } Conference
-  %li #{title} Day
+    %a{ href: '/conference' } Overview
+  %li.write
+    = link_to 'Write Day', '/conference/write'
+  %li.speak
+    = link_to 'Speak Day', '/conference/speak'
+  %li.code
+    = link_to 'Code Day', '/conference/code'
 
 %h1
-  %i.fa.fa-pencil
+  %i{ class: "#{day_name}-icon" }
   = title
   to change the world!
-  %i.fa.fa-pencil
+  %i{ class: "#{day_name}-icon" }
 
 %h2
   Day #{day_info.num} &mdash; #{day_info.weekday}, #{day_info.date}

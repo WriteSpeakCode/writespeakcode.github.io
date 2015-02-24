@@ -1,3 +1,43 @@
+.schedule {
+  .events {
+    text-align: left;
+  }
+
+  .day_schedule {
+    li a {
+      @include colored-link($brand-primary);
+    }
+  }
+
+  .event {
+    border-left: 10px solid $brand-primary;
+    padding: .5em;
+    margin: 1em 0;
+
+    &:nth-child(even) {
+      border-left-color: $brand-primary-dark;
+    }
+
+    h5 {
+      margin-top: 0;
+      margin-bottom: .5em;
+    }
+  }
+
+  #content {
+    .schedules {
+      > h2, > h3 {
+        margin-bottom: 0;
+        color: $brand-accent;
+      }
+
+      > h3 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
 .dots {
   margin-left: 60px;
   margin-top: 20px;

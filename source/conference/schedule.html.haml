@@ -1,41 +1,89 @@
-.schedule_container
-  %h2 Conference Schedule
+---
+title: Schedule for Write/Speak/Code International Conference
+alias: schedule.html
+page_class: 'conference schedule'
+layout: conference_layout
+sub_page: true
+---
 
-  %h3 Thursday, March 19
+- all_speakers = data.people.select { |k,v| v['pages'].try(:include?, 'speaker') }
 
-  .dots
-    %ul
-      - data.schedule.details.select {|k,v| v.day == 'Thursday'}.each do |k,v|
-        %li.fa.fa-circle
-          %p
-            %strong
-              = time_converter(v.hour, v.minutes)
-          %p
-            %a{href: v.url}
-              = v.name
+%ul.day_schedule.breadcrumbs
+  - [:write, :speak, :code].each do |day|
+    - weekday = data.schedule.days[day]
+    - txt = "#{weekday.titleize}, #{data.days.days[day].date} &mdash; #{day.to_s.titleize} Day"
+    %li
+      = link_to txt, "##{day}"
 
-  %h3 Friday, March 20
+.schedules
+  - [:write, :speak, :code].each do |day|
+    %a{ id: day }
 
-  .dots
-    %ul
-      - data.schedule.details.select {|k,v| v.day == 'Friday'}.each do |k,v|
-        %li.fa.fa-circle
-          %p
-            %strong
-              = time_converter(v.hour, v.minutes)
-          %p
-            %a{href: v.url}
-              = v.name
+    - weekday = data.schedule.days[day]
+    %h2= "#{weekday.titleize}, #{data.days.days[day].date}"
 
-  %h3 Saturday, March 21
+    %h3
+      = day.to_s.titleize
+      to Change the World!
 
-  .dots
-    %ul
-      - data.schedule.details {|k,v| v.day == 'Saturday'}.each do |k,v|
-        %li.fa.fa-circle
-          %p
-            %strong
-              = time_converter(v.hour, v.minutes)
-          %p
-            %a{href: v.url}
-              = v.name
+
+    %a.button.inverted.skinny.more_info{ href: "/conference/#{day}" }
+      More
+      %i.fa.fa-angle-double-right
+
+    %ul.events
+      - unless data.schedule[weekday].nil?
+        - data.schedule[weekday].map { |item| OpenStruct.new(item) }.each do |item|
+          %li.event
+            %a{ id: item.talk_id }
+            %h4.talk_name
+              = item.talk_name
+            - speakers = speakers_for_talk(all_speakers, item)
+            - unless speakers.nil?
+              %h5.speakers
+                - speakers.push('<em>more!</em>') if item.more
+                = speakers.to_sentence
+            - if item.talk_description
+              %p.talk_description= item.talk_description
+
+-#.schedule_container
+  -#%h2 Conference Schedule
+
+  -#%h3 Thursday, March 19
+
+  -#.dots
+    -#%ul
+      -#- data.schedule.details.select {|k,v| v.day == 'Thursday'}.each do |k,v|
+        -#%li.fa.fa-circle
+          -#%p
+            -#%strong
+              -#= time_converter(v.hour, v.minutes)
+          -#%p
+            -#%a{href: v.url}
+              -#= v.name
+
+  -#%h3 Friday, March 20
+
+  -#.dots
+    -#%ul
+      -#- data.schedule.details.select {|k,v| v.day == 'Friday'}.each do |k,v|
+        -#%li.fa.fa-circle
+          -#%p
+            -#%strong
+              -#= time_converter(v.hour, v.minutes)
+          -#%p
+            -#%a{href: v.url}
+              -#= v.name
+
+  -#%h3 Saturday, March 21
+
+  -#.dots
+    -#%ul
+      -#- data.schedule.details {|k,v| v.day == 'Saturday'}.each do |k,v|
+        -#%li.fa.fa-circle
+          -#%p
+            -#%strong
+              -#= time_converter(v.hour, v.minutes)
+          -#%p
+            -#%a{href: v.url}
+              -#= v.name

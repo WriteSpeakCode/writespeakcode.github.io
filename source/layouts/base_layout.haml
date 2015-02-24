@@ -42,10 +42,12 @@
                     = link_to 'Code - Sat 3/21', '/conference/code'
                   %li.divided
                     = link_to 'Sponsor', '/sponsor'
+                  %li.divided
+                    = link_to 'Speakers', '/conference/speakers'
+                  %li
+                    = link_to 'Schedule', '/conference/schedule'
                   %li
                     = link_to 'Testimonials', '/conference/testimonials'
-                    -#= link_to 'Speakers', '/conference/speakers'
-                  -#%li
                   %li.divided
                     = link_to 'Childcare', '/conference/childcare'
                   %li
@@ -54,8 +56,8 @@
               %li.nav-link.meetups
                 %a{ href:"/meetups" } Meetups
 
-              -#%li.nav-link.more.events
-                -#%a{ href:"/events" } Events
+              %li.nav-link.events
+                %a{ href:"/events" } Workshops
                 -#%ul.submenu
                   -#%li
                     -#%a{ href:"/events/workshops"} Workshops

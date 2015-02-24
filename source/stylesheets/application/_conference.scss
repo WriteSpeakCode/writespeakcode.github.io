@@ -61,10 +61,14 @@
   }
 
   .breadcrumbs {
+    &.write li.write, &.speak li.speak, &.code li.code {
+      a { @include colored-link($brand-primary) }
+    }
+
     li {
       display: inline-block;
 
-      &:first-child:after {
+      &:not(:last-child):after {
         content: '/';
       }
     }
@@ -107,6 +111,10 @@
     }
 
   }
+
+  /*.people_list {*/
+    /*text-align: left;*/
+  /*}*/
 
   .developer-definition {
     @include square-border;

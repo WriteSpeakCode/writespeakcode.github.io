@@ -26,13 +26,31 @@
 
   #content {
     .schedules {
-      > h2, > h3 {
+      h2, h3 {
         margin-bottom: 0;
         color: $brand-accent;
       }
 
-      > h3 {
+      h3 {
         margin-top: 0;
+      }
+
+      /*h2 {*/
+        /*border-top: $section-border;*/
+        /*padding-top: 1em;*/
+        /*&:first-of-type {*/
+          /*border: none;*/
+          /*margin-top: 1em;*/
+        /*}*/
+      /*}*/
+
+      header {
+        margin-top: 3em;
+        border: $section-border;
+      }
+
+      .more_info {
+        @include colored-link($dark-gray);
       }
     }
   }

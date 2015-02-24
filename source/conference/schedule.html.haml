@@ -19,16 +19,20 @@ sub_page: true
   - [:write, :speak, :code].each do |day|
     %a{ id: day }
 
-    - weekday = data.schedule.days[day]
-    %h2= "#{weekday.titleize}, #{data.days.days[day].date}"
+    %header
+      - weekday = data.schedule.days[day]
+      %h2= "#{weekday.titleize}, #{data.days.days[day].date}"
 
-    %h3
-      = day.to_s.titleize
-      to Change the World!
+      %h3
+        = day.to_s.titleize
+        to Change the World!
 
 
-    = partial :arrow_button,
-      locals: { link: "/conference/#{day}", text: "More", classes: %w(inverted skinny more_info) }
+      -#= partial :arrow_button,
+        -#locals: { link: "/conference/#{day}", text: "More", classes: %w(inverted skinny more_info) }
+      %a.more_info{ href: "/conference/#{day}" }
+        More
+        %i.fa.fa-angle-double-right
 
     %ul.events
       - unless data.schedule[weekday].nil?

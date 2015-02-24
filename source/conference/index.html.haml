@@ -1,5 +1,5 @@
 ---
-title: Write/Speak/Code National Conference
+title: Write/Speak/Code International Conference
 alias : about.html
 layout: conference_layout
 page_class: 'conference'
@@ -30,7 +30,8 @@ page_class: 'conference'
       - i = i+1
       = partial 'conference/day_list_item', locals: { header: "Day #{i}", icon_class: "#{name}-icon", actions: info.actions } do
         %li.learn_more
-          = partial :arrow_button, locals: { link: "/conference/#{name}", text: "Learn more", classes: %w(inverted notice skinny) }
+          = partial :arrow_button, 
+            locals: { link: "/conference/#{name}", text: "#{name.titleize} Day", classes: %w(inverted notice skinny) }
 
 %h2.change-world
   %i.fa.fa-child

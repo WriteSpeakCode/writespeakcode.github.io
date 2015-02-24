@@ -10,11 +10,12 @@ $white) {
 
 @mixin set-inverted-button-color($main-color: $base-button-color, $contrast-color:
 $white) {
-  border: $base-border-radius solid $contrast-color;
+  border: $base-border-radius solid $main-color;
+  color: $main-color;
 
   &:hover {
-    background-color: $contrast-color;
-    color: $main-color;
+    background-color: $main-color;
+    color: $contrast-color;
   }
 }
 
@@ -36,7 +37,7 @@ $white) {
 @mixin inverted-button($main-color: $base-button-color, $contrast-color:
 $white) {
   @include std-button($contrast-color, $main-color);
-  @include set-inverted-button-color($contrast-color, $main-color);
+  @include set-inverted-button-color($main-color, $contrast-color);
 }
 
 button,
@@ -63,11 +64,11 @@ input[type="submit"], .button {
   &.inverted {
     @include inverted-button;
 
-    &.primary { @include inverted-button($brand-primary); }
-    &.alert { @include inverted-button($brand-secondary, $dark-gray); }
-    &.error { @include inverted-button($brand-primary-dark); }
-    &.notice { @include inverted-button($brand-accent); }
-    &.success { @include inverted-button($brand-accent-dark); }
+    &.primary { @include set-inverted-button-color($brand-primary); }
+    &.alert { @include set-inverted-button-color($brand-secondary, $dark-gray); }
+    &.error { @include set-inverted-button-color($brand-primary-dark); }
+    &.notice { @include set-inverted-button-color($brand-accent); }
+    &.success { @include set-inverted-button-color($brand-accent-dark); }
   }
 
   &.skinny {

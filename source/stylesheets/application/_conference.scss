@@ -97,7 +97,7 @@
 
     #content {
       h2 {
-        margin: 1em auto;
+        margin: 0 auto 1em auto;
 
         .fa {
           padding: 0 .5em;
@@ -108,13 +108,13 @@
         color: $brand-primary;
         margin-bottom: 1em;
       }
+
+      .credits {
+        margin-top: 1em;
+      }
     }
 
   }
-
-  /*.people_list {*/
-    /*text-align: left;*/
-  /*}*/
 
   .developer-definition {
     @include square-border;

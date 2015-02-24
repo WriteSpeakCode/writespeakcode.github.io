@@ -17,21 +17,48 @@
   %i{ class: "#{day_name}-icon" }
 
 %h2
-  Day #{day_info.num} &mdash; #{day_info.weekday}, #{day_info.date}
+  Day #{day_info.num} &mdash; #{day_info.weekday.titleize}, #{day_info.date}
 
 %p
-  %strong= "#{title} Day"
-  = day_info.elevator
-%p
+  %strong
+    %em= "#{title} Day"
+    = day_info.elevator
   = day_info.summary
+
+%p
+  - day_info.milestones.each do |m|
+    %strong= m.header
+    = m.description
+    %br/
 
 .day_summaries
   %ul.days
-    = partial 'conference/day_list_item', locals: { header: "Learn", icon_class: "fa fa-book", actions: day_info.learn }
-    = partial 'conference/day_list_item', locals: { header: "Do", icon_class: "fa fa-list-ul", actions: day_info.do }
+    = partial 'conference/day_list_item', locals: { header: "Learn", icon_class: "fa fa-book", actions: day_info.learn } do
+      %li
+        %a.button.inverted.notice.skinny{ href: "/conference/schedule##{day_name}" }
+          Schedule
+          %i.fa.fa-angle-double-right
+    = partial 'conference/day_list_item', locals: { header: "Do", icon_class: "fa fa-list-ul", actions: day_info.do } do
+      %li
+        %a.button.inverted.notice.skinny{ href: "#speakers" }
+          Speakers
+          %i.fa.fa-angle-double-right
 
 .themes
   %h2
     = day_info.themes.join("<i class='fa fa-star-o'></i>")
 
 = partial 'conference/each_day'
+
+.credits
+  %a{ name: "speakers" }
+  %h4
+    = title 
+    to Change the World Day will feature:
+
+  = partial 'people_list', locals: { filter: day_name, sort_include_type: true }
+
+  %p
+    %a.button.inverted.notice{ href: "/conference/speakers" }
+      All Speakers
+      %i.fa.fa-angle-double-right

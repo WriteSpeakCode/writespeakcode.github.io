@@ -124,9 +124,11 @@ ul.people_list {
   }
 }
 
-.person {
+.person, .company {
   border: $section-border;
+}
 
+.person {
   a.image {
     @include colored-link($brand-accent);
   }

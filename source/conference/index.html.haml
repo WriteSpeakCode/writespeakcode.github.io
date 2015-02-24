@@ -41,3 +41,5 @@ page_class: 'conference'
   %i.fa.fa-child
 
 = partial 'conference/each_day'
+
+= partial :arrow_button_list, locals: { links: conference_button_links, classes: ['inverted'] }

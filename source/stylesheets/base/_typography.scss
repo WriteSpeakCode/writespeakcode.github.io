@@ -26,13 +26,19 @@
 @mixin display-font-lightest { @include display-font('thin'); }
 
 @mixin colored-link($color) {
-  &, &:hover, &:visited, &:active {
+  &, &:hover, &:visited {
     color: $color;
+    text-decoration: none;
   }
 
   &:hover {
     color: darken($color, 20);
     text-decoration: underline;
+  }
+
+  &:active, &:focus {
+    color: darken($color, 20);
+    outline: none;
   }
 }
 
@@ -124,8 +130,7 @@ p {
 
 a {
   @include transition(color 0.1s linear);
-  color: $base-link-color;
-  text-decoration: none;
+  @include colored-link($base-link-color);
 
   &:hover {
     color: $hover-link-color;

@@ -44,7 +44,9 @@ ul.people_list {
       }
       .name {
         @include display-font;
-        @include colored-link($brand-primary);
+
+        color: $brand-primary;
+        &a { @include colored-link($brand-primary); }
 
         font-weight: bold;
       }

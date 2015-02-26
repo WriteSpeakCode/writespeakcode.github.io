@@ -273,10 +273,10 @@ melissa_xie:
     - conf_org_panel
 
 coraline:
-  name: Coraline Ehmke
+  name: Coraline Ada Ehmke
   url: http://where.coraline.codes/
   image: speakers/coraline_bright_square.png
-  bio: is an intersectional technologist with a passion for mentoring, learning, 
+  bio: is an intersectional technologist with a passion for mentoring, learning,
     refactoring, and developing artificially intelligent IRC bots. She's a
     senior engineer at Instructure, developing software used by millions of
     students and teachers. Coraline organizes Chicago Women Developers,

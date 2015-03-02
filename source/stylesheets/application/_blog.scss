@@ -9,6 +9,21 @@ $callout-bg: $brand-accent-dark;
     a:not(.button) {
       @include colored-link($brand-primary);
     }
+
+    img {
+      @include square-border;
+      display: block;
+      width: 520px;
+      margin: 1em auto 0 auto;
+      border: 3px solid $brand-accent;
+
+      & + small {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 1em;
+      }
+    }
   }
 
   &.blog_index {
@@ -17,6 +32,25 @@ $callout-bg: $brand-accent-dark;
 
       h2 a {
         @include colored-link($brand-primary-dark);
+      }
+
+      .article {
+        border-bottom: $section-border;
+        margin-bottom: 2em;
+
+        &:nth-child(odd) {
+          h2 a { @include colored-link($brand-accent); }
+        }
+
+        &:first-child {
+          background-color: lighten($brand-primary, 35);
+          padding: 1em;
+          h2 a { @include colored-link($brand-primary); }
+        }
+
+        p:last-child {
+          margin-top: 1em;
+        }
       }
     }
   }
@@ -73,37 +107,31 @@ $callout-bg: $brand-accent-dark;
         margin-bottom: 2em;
       }
     }
-  }
 
-  ul {
-    list-style-type: disc;
-    padding-left: 1em;
-    margin: -0.5em 1em 1em 1em;
-  }
-
-  .tweets_blog {
-    border: none;
-    text-align: center;
-    ul { list-style-type: none; }
-
-    h2 {
+    ul {
+      list-style-type: disc;
+      padding-left: 1em;
+      margin: -0.5em 1em 1em 1em;
     }
 
-    img {
-      @include square-border;
-      width: 520px;
-      margin: 10px;
-      border: 1px solid $brand-accent;
-    }
+    .tweets_blog {
+      border: none;
+      text-align: center;
+      ul { list-style-type: none; }
 
-    .tweets {
-      border-top: $section-border;
-      border-top-width: 2px;
-      padding-top: 2em;
+        img {
+          border-width: 1px;
+        }
 
-      &:first-of-type {
-        border-top: none;
-        padding-top: .5em;
+      .tweets {
+        border-top: $section-border;
+        border-top-width: 2px;
+        padding-top: 2em;
+
+        &:first-of-type {
+          border-top: none;
+          padding-top: .5em;
+        }
       }
     }
   }

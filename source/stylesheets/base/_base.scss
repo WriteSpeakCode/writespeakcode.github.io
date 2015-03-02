@@ -40,11 +40,18 @@
 blockquote {
   @extend .fa, .fa-quote-left;
   @include square-border;
-  background-color: $brand-secondary;
+
+  background-color: transparentize($brand-secondary, .5);
   padding: 1em;
+  line-height: $base-line-height * 1.1;
+
+  &:before {
+    margin-right: 10px;
+  }
 
   &:nth-child(even) {
-    background-color: $brand-accent;
+    background-color: transparentize($brand-accent, .2);
+    border-left-color: $dark-gray;
     color: $white;
   }
 }

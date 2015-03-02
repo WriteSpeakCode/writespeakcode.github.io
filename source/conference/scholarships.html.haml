@@ -12,6 +12,7 @@ sub_page: true
   %li= link_to 'Documentarian', '#documentarian'
   %li= link_to 'Women of Color', '#woc'
   %li= link_to 'LBTQA', '#lbtqa'
+  %li= link_to 'Mothers & Caregivers', '#mothers'
   %li= link_to 'International', '#github'
 
 %section.scholarship
@@ -68,6 +69,7 @@ sub_page: true
     locals: { link: 'https://docs.google.com/forms/d/1F-htHXoph3yzHR3TsRJ_H2pKCnCQ2nI1iA8o0cojyL8/viewform', text: 'Apply now', classes: %w(primary) }
 
   %h5 Deadline: March 5, 2015
+  %h5 Notification: March 10, 2015
 
 %section.scholarship
   %a{ name: 'woc' }
@@ -97,6 +99,7 @@ sub_page: true
     locals: { link: 'https://docs.google.com/forms/d/1F-htHXoph3yzHR3TsRJ_H2pKCnCQ2nI1iA8o0cojyL8/viewform', text: 'Apply now', classes: %w(primary) }
 
   %h5 Deadline: March 5, 2015
+  %h5 Notification: March 10, 2015
 
 %section.scholarship
   %a{ name: 'lbtqa' }
@@ -126,6 +129,38 @@ sub_page: true
     locals: { link: 'https://docs.google.com/forms/d/1F-htHXoph3yzHR3TsRJ_H2pKCnCQ2nI1iA8o0cojyL8/viewform', text: 'Apply now', classes: %w(primary) }
 
   %h5 Deadline: March 5, 2015
+  %h5 Notification: March 10, 2015
+
+
+%section.scholarship
+  %a{ name: 'mothers' }
+  %h2 Mothers &amp; Caregivers Scholarship
+
+  %h4 Moms &amp; caregivers &mdash; are you ready to represent?
+
+  %p
+    We ask that you write at
+    least one post for the
+    = link_to "Write/Speak/Code blog", "/blog"
+    in return for the scholarship.
+
+  %p
+    This scholarship covers the cost of a 3-day 
+    %strong ticket only
+    and is available to any
+    = link_to 'software developer', '#developer-definition'
+    who is a mother or caregiver.
+
+  %p
+    %em
+      We mainly consider potential for community impact
+      when choosing recipients.
+
+  = partial :arrow_button, 
+    locals: { link: 'https://docs.google.com/forms/d/13IryhejgYQbDY3qJsfUIfI2LNRH5gnfLBupOMrr4QMU/viewform', text: 'Apply now', classes: %w(primary) }
+
+  %h5 Deadline: March 8, 2015
+  %h5 Notification: March 10, 2015
 
 .closed
   %section.scholarship

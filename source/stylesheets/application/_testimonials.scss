@@ -1,0 +1,10 @@
+.testimonials {
+  blockquote {
+    background-color: $brand-secondary;
+    &:nth-child(even) { background-color: $brand-accent; }
+
+    &:before {
+      margin-right: 0px;
+    }
+  }
+}

@@ -431,3 +431,21 @@ lauren_voswinkel:
   type: person
   talks:
     - speaker
+
+  rebecca_garcia:
+  name: Rebecca Garcia
+  url: http://www.rebeccagarcia.me/
+  image: speakers/rebecca_garcia.jpeg
+  bio: is the Co-founder of CoderDojo NYC, a non-profit teaching youth to code. In 2013 she was awarded as a U.S. White House 'Champion of Change' for Tech Inclusion for her work to bring STEM education to underrepresented groups, especially youth and women. She currently is a Developer Evangelist at Squarespace, empowering people to build their ideas on the web.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/geekgirlweb
+    github: https://github.com/geekgirlweb
+    linkedin: https://www.linkedin.com/in/rebeccaegarcia
+  type: person
+  talks:
+    - speaker
+

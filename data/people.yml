@@ -339,6 +339,7 @@ tracey_welson_rossman:
     - speaker
   social:
     twitter: https://twitter.com/TWelsonRossman
+    linkedin: https://www.linkedin.com/in/traceywelsonrossman
   type: person
   talks:
    - conf_org_panel
@@ -356,6 +357,7 @@ corey_latislaw:
   social:
     twitter: https://twitter.com/corey_latislaw
     github: https://github.com/colabug
+    linkedin: https://www.linkedin.com/in/coreylatislaw
   type: person
   talks:
     - writing_panel

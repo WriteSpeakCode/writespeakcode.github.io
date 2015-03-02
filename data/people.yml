@@ -448,4 +448,20 @@ lauren_voswinkel:
   type: person
   talks:
     - speaker
+  
+  dominique:
+  name: Dominique DeGuzman
+  url: http://dominiquedeguzman.com/
+  image: speakers/dominique.jpg
+  bio:
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/itshella_dom
+    linkedin: https://www.linkedin.com/in/ddeguzman
+  type: person
+  talks:
+    - speaker
 

@@ -397,3 +397,20 @@ sarah_guido:
   talks:
     - conf_org_panel
 
+
+mary_scotton:
+  name: Mary Scotton
+  url: http://www.maryscotton.com/
+  image: speakers/mary_scotton.jpeg
+  bio: has over 20 years of experience in enterprise software, loves the ease of development in the cloud, and is a regular presenter at Salesforce events. As one of the early members of the Platform Product Management team at Salesforce, Mary designed the core “point & click” tools that make customization and app building accessible to non-programmers. She holds several patents for those designs. These days, she spends her time educating, enabling, and having fun with the awesome Salesforce Admin and Developer community. She is focused on raising the visibility of underrepresented people in tech, and is not afraid to have the hard conversations to encourage radical inclusivity.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/rockchick322004
+    github: https://github.com/mscotton
+    linkedin: https://www.linkedin.com/pub/mary-scotton/0/5b0/586
+  type: person
+  talks:
+    - conf_org_panel

@@ -414,3 +414,20 @@ mary_scotton:
   type: person
   talks:
     - conf_org_panel
+
+lauren_voswinkel:
+  name: Lauren Voswinkel
+  url:
+  image: speakers/lauren_voswinkel.jpeg
+  bio:
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/laurenvoswinkel
+    github: https://github.com/Valarissa
+    linkedin: https://www.linkedin.com/profile/view?id=78364738
+  type: person
+  talks:
+    - speaker

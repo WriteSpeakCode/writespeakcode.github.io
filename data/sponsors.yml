@@ -1,19 +1,19 @@
 github:
   name: Github
   url: https://github.com/
-  email:
+  email: 
   image: sponsors/GitHub_logo.png
   frontpage: true
   sponsoring: workshop
   sponsor_level: gold
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Github is a web-based Git repository hosting service for source code management and distributed revision control.  In addition to providing the functionality of Git, GitHub also provides a web-based graphical interface, desktop and mobile integration, access control, and collaboration features.  
   pages:
     - sponsors
 
 code_montage:
   name: Code Montage
-  url:
-  email:
+  url: https://www.codemontage.com/
+  email: hello@codemontage.com
   image: sponsors/code_montage.png
   frontpage: true
   sponsoring: conference
@@ -25,7 +25,7 @@ code_montage:
 pivotal_labs:
   name: Pivotal Labs
   url: http://pivotallabs.com/
-  email:
+  email: 
   image: sponsors/pivotal-300.png
   frontpage: true
   sponsoring: conference
@@ -42,7 +42,7 @@ dev_bootcamp:
   frontpage: true
   sponsoring: conference
   sponsor_level: silver
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: A pioneering, immersive 'developer bootcamp' which transforms beginners into full-stack web developers.
   pages:
     - sponsors
 
@@ -54,7 +54,7 @@ google:
   frontpage: true
   sponsoring: conference
   sponsor_level: bronze
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Google is a multi-national corporation specializing in internet related services and products, including online advertising technologies, search, cloud computing, and software.
   pages:
     - sponsors
 
@@ -66,7 +66,7 @@ stripe:
   frontpage: true
   sponsoring: conference
   sponsor_level: gold
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Stripe is a company which provides a suite of APIs that powers commerce for businesses of all sizes to accept and manage online payments.
   pages:
     - sponsors
 
@@ -78,8 +78,92 @@ hewlett_packard:
   frontpage: true
   sponsoring: conference
   sponsor_level: gold
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: HP is a multi-national information technology corporation which provides hardware, software and services to consumers, small and medium-sized businesses, and large enterprises.
   pages:
+      - sponsors
+
+venmo: 
+  name: Venmo
+  url: https://venmo.com/
+  email:
+  image: sponsors/venmo-340.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  description: Venmo is a money-transmitting app and authorized delegate of Pay Pal which allows you to exchange payments with people in your social circles via your smarphone.
+  pages:
+    - sponsors
+
+thought_bot:
+  name: ThoughtBot
+  url: https://thoughtbot.com/
+  email:
+  image: sponsors/thoughtbot-300.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: bronze
+  description: ThoughtBot is a consulting firm which develops web and mobile apps for early-stage startups.
+  pages:
+    - sponsors 
+
+chartbeat:
+  name: Chartbeat 
+  url: https://chartbeat.com/
+  email:
+  image: sponsors/chartbeat-400.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: bronze
+  description: Chartbeat provides real-time analytics for publishers and media content creators. 
+  pages: 
+    - sponsors
+
+twilio:
+  name: Twilio
+  url: https://www.twilio.com/
+  email:
+  image: sponsors/twilio-300.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  description: Twilio is a cloud communications company which allows software developers to programmatically make and recieve phone calls and send and recieve text messages using its web service API.
+  pages:
+    - sponsors
+
+braintree:
+  name: Braintree
+  url: https://www.braintreepayments.com/
+  email:
+  image: sponsors/braintree.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  description: Braintree is a company which helps online businesses easily process credit card payments online and on a mobile app.
+  pages:
+    - sponsors
+
+chariot_solutions:
+  name: Chariot Solutions
+  url: http://chariotsolutions.com/
+  email: 
+  image: sponsors/chariot-solutions-450.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: bronze
+  description: Chariot Solutions is a software application development consulting and training firm specializing in open source technologies, enterprise and mobile application development.
+  pages: 
+    - sponsors
+
+track_maven:
+  name: TrackMaven
+  url: http://trackmaven.com/
+  email:
+  image: sponsors/track-maven.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: bronze
+  description: TrackMaven helps companies identify market opportunities, optimize content distribution, and report on real-time progress.
+  pages: 
     - sponsors
 
 mail_chimp:
@@ -89,7 +173,8 @@ mail_chimp:
   image: sponsors/mailchimp-300.png
   frontpage: true
   sponsoring: conference
-  sponsor_level: platinum
+  sponsor_level: gold
   description: MailChimp helps you design email newsletters, share them on social networks, integrate with services you already use, and track your results. It's like your own personal publishing platform.
-  pages:
+  pages: 
     - sponsors
+

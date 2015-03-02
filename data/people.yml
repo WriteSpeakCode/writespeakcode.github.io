@@ -360,6 +360,22 @@ corey_latislaw:
   talks:
     - writing_panel
 
+carol_willing:
+  name: Carol Willing
+  url: https://willingconsulting.com/author/carol/
+  image: speakers/carol_willing.jpeg
+  bio:
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/willingcarol
+    github: https://github.com/willingc
+  type: person
+  talks:
+    - speaker
+    - conf_org_panel
 
 
 

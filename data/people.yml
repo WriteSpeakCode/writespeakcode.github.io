@@ -326,3 +326,23 @@ jen_myers:
   talks:
     - speaker_mentor
     - closing_keynote
+
+corey:
+  name: Corey Latislaw
+  url: http://coreylatislaw.com/
+  image: speakers/corey_latislaw.jpeg
+  bio: is co-founder of a food tech start-up, <a href="http://www.bushel.me"> Bushel</a> , that makes hyper local food accessible and social. She is the Senior Android Manager at Capital One. Corey runs an Android and full-stack consulting firm, Green Life Software Development.  She is the founder and organizer of the Philadelphia Google Developer Group and serves as Director of Operations on the Board of Kids on Computers. Corey is passionate about encouraging broader participation in the computing sciences, local food, the outdoors, photography, and living in downtown Philly.
+  pages:
+    - speak
+    - write
+  social:
+    twitter: https://twitter.com/corey_latislaw
+    github: https://github.com/colabug
+  type: person
+  talks:
+    - writing_panel
+
+
+
+
+

@@ -237,7 +237,7 @@ claudina:
     pilot program to teach development to less advantaged high schoolers in 
     the Dominican Republic. She is a 2012 StartupBus aluma. A firm believer in 
     a balanced lifestyle she keeps her mind and body elastic with Bikram Yoga, 
-    Crossfit, and biking NYC streets. 
+    Crossfit, and biking NYC streets.
   pages:
     - speak
     - speaker
@@ -326,3 +326,142 @@ jen_myers:
   talks:
     - speaker_mentor
     - closing_keynote
+
+
+tracey_welson_rossman:
+  name: Tracey Welson-Rossman
+  url:
+  image: speakers/tracey.png
+  bio: is a Founding Member and Chief Marketing Officer at <a href="http://chariotsolutions.com/">Chariot Solutions</a>, a leading Philadelphia area enterprise application and mobile development consulting firm, and the Founder of <a href="http://www.techgirlz.org/">TechGirlz</a>, a non-profit organization dedicated to inspiring teenage girls to consider careers in technology. She is co- founder and current co-chair of the annual Emerging Technologies for the Enterprise Conference, Founder of the Women in Tech Summit, and a Founding Board Member of Philadelphia Startup Leaders.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/TWelsonRossman
+    linkedin: https://www.linkedin.com/in/traceywelsonrossman
+  type: person
+  talks:
+   - conf_org_panel
+   - speak
+
+corey_latislaw:
+  name: Corey Latislaw
+  url: http://coreylatislaw.com/
+  image: speakers/corey_latislaw.jpeg
+  bio: Corey Leigh Latislaw is a Senior Manager at Capital One, speaker at conferences all over the world, and author of the <a href="https://gumroad.com/l/androidactivitybook">Android Activity Book</a>, which uses test-driven development (TDD) to build apps. On the side, she runs an Android and full-stack consulting firm, <a href="http://greenlifesoftware.com/">Green Life Software Development</a>. She is the founder and organizer of the Philadelphia Google Developer Group. Corey is passionate about encouraging broader participation in the computing sciences, bridging the digital divide, eating local food, communing with nature, taking photos, and living in downtown Philly.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/corey_latislaw
+    github: https://github.com/colabug
+    linkedin: https://www.linkedin.com/in/coreylatislaw
+  type: person
+  talks:
+    - writing_panel
+
+carol_willing:
+  name: Carol Willing
+  url: https://willingconsulting.com/author/carol/
+  image: speakers/carol_willing.jpeg
+  bio:
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/willingcarol
+    github: https://github.com/willingc
+    linkedin: https://www.linkedin.com/in/carolwilling
+  type: person
+  talks:
+    - speaker
+    - conf_org_panel
+
+sarah_guido:
+  name: Sarah Guido
+  url: 
+  image: speakers/sarah_guido.jpeg
+  bio: is a data scientist at a NYC startup, <a href="https://bitly.com/">Bitly</a>. She is a co-organizer of <a href="http://www.meetup.com/nycpython/">NYC Python</a> and PyGotham. Sarah is interested in all things Python, data, and machine learning.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/sarah_guido
+    github: https://github.com/sarguido
+    linkedin: https://www.linkedin.com/in/sarahguido
+  type: person
+  talks:
+    - conf_org_panel
+
+
+mary_scotton:
+  name: Mary Scotton
+  url: http://www.maryscotton.com/
+  image: speakers/mary_scotton.jpeg
+  bio: has over 20 years of experience in enterprise software, loves the ease of development in the cloud, and is a regular presenter at Salesforce events. As one of the early members of the Platform Product Management team at Salesforce, Mary designed the core “point & click” tools that make customization and app building accessible to non-programmers. She holds several patents for those designs. These days, she spends her time educating, enabling, and having fun with the awesome Salesforce Admin and Developer community. She is focused on raising the visibility of underrepresented people in tech, and is not afraid to have the hard conversations to encourage radical inclusivity.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/rockchick322004
+    github: https://github.com/mscotton
+    linkedin: https://www.linkedin.com/pub/mary-scotton/0/5b0/586
+  type: person
+  talks:
+    - conf_org_panel
+
+lauren_voswinkel:
+  name: Lauren Voswinkel
+  url:
+  image: speakers/lauren_voswinkel.jpeg
+  bio:
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/laurenvoswinkel
+    github: https://github.com/Valarissa
+    linkedin: https://www.linkedin.com/profile/view?id=78364738
+  type: person
+  talks:
+    - speaker
+
+  rebecca_garcia:
+  name: Rebecca Garcia
+  url: http://www.rebeccagarcia.me/
+  image: speakers/rebecca_garcia.jpeg
+  bio: is the Co-founder of CoderDojo NYC, a non-profit teaching youth to code. In 2013 she was awarded as a U.S. White House 'Champion of Change' for Tech Inclusion for her work to bring STEM education to underrepresented groups, especially youth and women. She currently is a Developer Evangelist at Squarespace, empowering people to build their ideas on the web.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/geekgirlweb
+    github: https://github.com/geekgirlweb
+    linkedin: https://www.linkedin.com/in/rebeccaegarcia
+  type: person
+  talks:
+    - speaker
+  
+  dominique:
+  name: Dominique DeGuzman
+  url: http://dominiquedeguzman.com/
+  image: speakers/dominique.jpg
+  bio:
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/itshella_dom
+    linkedin: https://www.linkedin.com/in/ddeguzman
+  type: person
+  talks:
+    - speaker
+

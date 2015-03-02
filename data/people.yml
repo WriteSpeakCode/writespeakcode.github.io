@@ -374,11 +374,26 @@ carol_willing:
   social:
     twitter: https://twitter.com/willingcarol
     github: https://github.com/willingc
+    linkedin: https://www.linkedin.com/in/carolwilling
   type: person
   talks:
     - speaker
     - conf_org_panel
 
-
-
+sarah_guido:
+  name: Sarah Guido
+  url: 
+  image: speakers/sarah_guido.jpeg
+  bio: is a data scientist at a NYC startup, <a href="https://bitly.com/">Bitly</a>. She is a co-organizer of <a href="http://www.meetup.com/nycpython/">NYC Python</a> and PyGotham. Sarah is interested in all things Python, data, and machine learning.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/sarah_guido
+    github: https://github.com/sarguido
+    linkedin: https://www.linkedin.com/in/sarahguido
+  type: person
+  talks:
+    - conf_org_panel
 

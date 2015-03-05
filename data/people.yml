@@ -435,7 +435,7 @@ lauren_voswinkel:
     - speaker
 
 
-  dominique:
+dominique:
   name: Dominique DeGuzman
   url: http://dominiquedeguzman.com/
   image: speakers/dominique.jpg
@@ -451,7 +451,7 @@ lauren_voswinkel:
   talks:
     - speaker
 
-  rebecca_garcia:
+rebecca_garcia:
   name: Rebecca Garcia
   url: http://www.rebeccagarcia.me/
   image: speakers/rebecca_garcia.jpeg
@@ -467,3 +467,16 @@ lauren_voswinkel:
   type: person
   talks:
     - speaker
+
+gloria_willadsen:
+  name: Gloria Willadsen
+  url:
+  image: speakers/gloria_w.png
+  bio: has 20+ years of from-scratch *NIX systems admin and software development, writing embedded systems software in the late 80's, into low-level application and networking software in the 90's and into start-up web and algorithm software and Linux system admin up to today. Currently the CTO of iMentor, Gloria is busy helping this amazing non-profit take their tech to the next level, while still hands-on in the day to day geekery.
+  pages:
+    -speak
+    -speaker
+  social:
+  type: person
+  talks:
+    -speaker

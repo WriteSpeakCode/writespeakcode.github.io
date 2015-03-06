@@ -147,8 +147,12 @@ friday:
       best practices for creating slides for tech-related talks.
   -
     talk_id: conf_org_panel
-    talk_name: Conference Organizer Panel &amp; Talk Proposal Feedback
-    talk_description: Hear how a handful of women conference organizers select speakers and gets tips for navigating the CFP process.  Afterwards, the conference organizers will give attendees feedback on their talk proposals.
+    talk_name: Conference Organizer Panel
+    talk_description: Hear how a handful of women conference organizers select speakers and gets tips for navigating the CFP process. 
+  -
+    talk_id: proposal_mentor
+    talk_name: Talk Proposal Mentoring
+    talk_description: Get feedback on your talk proposal from women who have selected speakers for conferences!
   -
     talk_id: speaker_mentor
     talk_name: Speaker Mentoring
@@ -157,7 +161,7 @@ friday:
 saturday:
   -
     talk_id: open_source_values
-    talk_name: Open Source Values
+    talk_name: Living our Open Source Values
     talk_description: "<i>Coming soon!</i>"
   -
     talk_id: find_project

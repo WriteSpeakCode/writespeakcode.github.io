@@ -29,19 +29,26 @@ ul.people_list {
     height: auto;
 
     .info {
-      @media only screen and (max-width: 767px) {
-        text-align: center;
-        margin: 0 auto 20px auto;
-      }
-      @media only screen and (min-width: 768px) {
+      text-align: center;
+      margin: 0 auto 20px auto;
+
+      @include media($large-screen) {
         float: left;
+        text-align: left;
+        margin: 0;
       }
+
+      & + .talk {
+        @include media($large-screen) {
+          margin-left: $company_img_width + $img_left_offset;
+        }
+      }
+
     }
+
     p, .talk {
       padding-right: 20px;
-      @media only screen and (min-width: 768px) {
-        margin-left: $company_img_width + $img_left_offset;
-      }
+
       .name {
         @include display-font;
 
@@ -108,9 +115,12 @@ ul.people_list {
         width: $company_img_width;
       }
     }
+
     &.person {
       .info {
-        margin-left: $img_left_offset;
+        @include media($large-screen) {
+          margin-left: $img_left_offset;
+        }
       }
     }
 

@@ -13,21 +13,22 @@
     %li{ class: "#{v.type} #{talk_class}"  }
       %a{ id: k }
 
-      .info
-        - if v.image
-          %a.image{ href: v.url, target: '_blank' }
-            = image_tag v.image, alt: v.name
+      - if v.image || v.social || v.url
+        .info
+          - if v.image
+            %a.image{ href: v.url, target: '_blank' }
+              = image_tag v.image, alt: v.name
 
-        %ul.social
-          - (v[:social] || []).each do |type, url|
-            %li
-              %a{ href: url, target: '_blank' }
-                %span.fa{ class: "fa-#{type}" }
+          %ul.social
+            - (v.social || []).each do |type, url|
+              %li
+                %a{ href: url, target: '_blank' }
+                  %span.fa{ class: "fa-#{type}" }
 
-          - if v.url
-            %li
-              %a{ href: v.url, target: '_blank' }
-                %span.fa.fa-link
+            - if v.url
+              %li
+                %a{ href: v.url, target: '_blank' }
+                  %span.fa.fa-link
 
       - bio_name_class = show_talk ? '' : 'name'
       - if show_talk
@@ -39,6 +40,7 @@
               %li
                 %i.fa.fa-star-o
                 = link_to talk.try(:[],'talk_name'), "/conference/schedule##{talk.talk_id}"
-      %p.bio
-        = link_or_text(v.name, v.url, bio_name_class)
-        = v.bio
+      - if v.bio
+        %p.bio
+          = link_or_text(v.name, v.url, bio_name_class)
+          = v.bio

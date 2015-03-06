@@ -18,9 +18,14 @@
             %a.button.success{ href: '/conference/scholarships' } Scholarships
             %a.button.primary{ href: 'https://guestlistapp.com/events/306111' }
               Register NOW!
-            %a.button.notice{ href: '/sponsors' } Sponsor
+            %a.button.notice{ href: '/sponsor' } Sponsor
 
-          %h4.childcare
+          %p
+            Check out our
+            = succeed '.' do
+              = link_to "fantastic sponsors", "/conference/sponsors"
+
+          %h4.childcare-callout
             %a{ href: '/conference/childcare' }
               Childcare Available!
 
@@ -37,3 +42,7 @@
           engineers with 20 years experience have enjoyed our workshops and been 
           inspired by each other.
 
+      %p
+        We wouldn't be her without the generous support of
+        = succeed '.' do
+          = link_to "our sponsors", "/conference/sponsors"

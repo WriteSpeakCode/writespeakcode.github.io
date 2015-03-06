@@ -313,11 +313,11 @@ coraline:
 julia_elman:
   name: Julia Elman
   url: http://juliaelman.com/
-  image: organizers/julia_elman.png
-  bio: Julia Elman is a designer, developer, author and public speaker from the Python community. She has been working her brand of web skills since 2002. Her first dive into Python was at World Online in Lawrence, Kansas in 2008, as a Junior Developer/Designer. More recently, she co-authored "Lightweight Django" for O’Reilly Media in November 2014. Julia also focuses computer science in education and has helped establish several groups and programs to teach computer science to adults and teens. In January 2013, she helped start a local chapter of Girl Develop It whose focus is to empower women through code. GDIRDU has grown to over 1,000 members, taught over 100 classes to help empower women through coding and is celebrating its second anniversary. 
+  image: speakers/julia_elman.png
+  bio: is a designer, developer, author and public speaker from the Python community. She has been working her brand of web skills since 2002. Her first dive into Python was at World Online in Lawrence, Kansas in 2008, as a Junior Developer/Designer. More recently, she co-authored "Lightweight Django" for O’Reilly Media in November 2014. Julia also focuses computer science in education and has helped establish several groups and programs to teach computer science to adults and teens. In January 2013, she helped start a local chapter of Girl Develop It whose focus is to empower women through code. GDIRDU has grown to over 1,000 members, taught over 100 classes to help empower women through coding and is celebrating its second anniversary. 
   pages:
     - code
-    - organizers
+    - speaker
   social: 
     twitter: https://twitter.com/juliaelman/
     linkedin: https://www.linkedin.com/in/juliaelman
@@ -327,11 +327,17 @@ julia_elman:
 courteney_ervin:
   name: Courteney Ervin
   url: 
-  image: organizers/courteney_ervin.png
-  bio: 
+  image: speakers/courteney_ervin.png
+  bio: is an Events Platform Engineer at CodeMontage. The confluence of open 
+    source and social good were the seed of her tech career, and she is thrilled 
+    to be writing code at the junction of such important movements. Courteney 
+    is also firmly committed to fostering a more diverse tech industry through 
+    accessible educational opportunities.  Previously, she was a founding teacher 
+    of Dev Bootcamp’s NYC campus and has led events and tech projects at a 
+    variety of nonprofits.
   pages: 
     - code
-    - organizers
+    - speaker
   social:
     twitter: https://twitter.com/courteneyervin
     linkedin: https://www.linkedin.com/in/courteneyervin

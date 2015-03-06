@@ -337,7 +337,6 @@ tracey_welson_rossman:
 
   pages:
     - speak
-    - code
     - speaker
   social:
     twitter: https://twitter.com/TWelsonRossman
@@ -353,8 +352,7 @@ corey_latislaw:
   image: speakers/corey_latislaw.jpeg
   bio: Corey Leigh Latislaw is a Senior Manager at Capital One, speaker at conferences all over the world, and author of the <a href="https://gumroad.com/l/androidactivitybook">Android Activity Book</a>, which uses test-driven development (TDD) to build apps. On the side, she runs an Android and full-stack consulting firm, <a href="http://greenlifesoftware.com/">Green Life Software Development</a>. She is the founder and organizer of the Philadelphia Google Developer Group. Corey is passionate about encouraging broader participation in the computing sciences, bridging the digital divide, eating local food, communing with nature, taking photos, and living in downtown Philly.
   pages:
-    - speak
-    - code
+    - write
     - speaker
   social:
     twitter: https://twitter.com/corey_latislaw
@@ -371,7 +369,6 @@ carol_willing:
   bio: is currently a Geek-In-Residence at <a href="http://fablabsd.org">Fab Lab San Diego</a>, an active contributor to open source projects, like <a href="http://openhatch.org">OpenHatch</a>, a co-organizer of <a href="http://pyladies.org">PyLadies</a> San Diego and <a href="http://pythonsd.org">San Diego Python</a>, an independent developer, and creator of <a href="http://gentlecodegarden.com">Gentle Code Garden</a>. She has served on the PyCon Program and Tutorial selection committees. She can frequently be heard saying “That’s so cool. How does it work? I would love to learn more about it.” She is inspired by nature, the arts, and math. She earned a BSE in Electrical Engineering from Duke University and an MS in Management from MIT.  She has enjoyed developing software and electronics and teaching others for over 20 years and hopes to do so for at least 20 more.
   pages:
     - speak
-    - code
     - speaker
   social:
     twitter: https://twitter.com/willingcarol
@@ -389,7 +386,6 @@ sarah_guido:
   bio: is a data scientist at a NYC startup, <a href="https://bitly.com/">Bitly</a>. She is a co-organizer of <a href="http://www.meetup.com/nycpython/">NYC Python</a> and PyGotham. Sarah is interested in all things Python, data, and machine learning.
   pages:
     - speak
-    - code
     - speaker
   social:
     twitter: https://twitter.com/sarah_guido
@@ -407,7 +403,6 @@ mary_scotton:
   bio: has over 20 years of experience in enterprise software, loves the ease of development in the cloud, and is a regular presenter at Salesforce events. As one of the early members of the Platform Product Management team at Salesforce, Mary designed the core “point & click” tools that make customization and app building accessible to non-programmers. She holds several patents for those designs. These days, she spends her time educating, enabling, and having fun with the awesome Salesforce Admin and Developer community. She is focused on raising the visibility of underrepresented people in tech, and is not afraid to have the hard conversations to encourage radical inclusivity.
   pages:
     - speak
-    - code
     - speaker
   social:
     twitter: https://twitter.com/rockchick322004
@@ -424,7 +419,6 @@ lauren_voswinkel:
   bio:
   pages:
     - speak
-    - code
     - speaker
   social:
     twitter: https://twitter.com/laurenvoswinkel
@@ -442,7 +436,6 @@ dominique:
   bio:
   pages:
     - speak
-    - code
     - speaker
   social:
     twitter: https://twitter.com/itshella_dom
@@ -458,7 +451,6 @@ rebecca_garcia:
   bio: is the Co-founder of CoderDojo NYC, a non-profit teaching youth to code. In 2013 she was awarded as a U.S. White House Champion of Change for 'Tech Inclusion' for her work to bring STEM education to underrepresented groups, especially youth and women. Last year she was listed as one of Glamour Magazine's '35 Women Under 35 Who are Changing the Tech Industry'.  Previously she was a Developer at Do Something, the largest U.S. non-profit for youth and social change, and CTO of Greatist, a health, fitness and wellness media startup reaching over 3 million unique visitors. Currently she is a Developer Evangelist at Squarespace, empowering people to build their ideas on the web. 
   pages:
     - speak
-    - code
     - speaker
   social:
     twitter: https://twitter.com/geekgirlweb

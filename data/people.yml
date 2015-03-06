@@ -344,7 +344,7 @@ tracey_welson_rossman:
   type: person
   talks: 
    - conf_org_panel
-   - speak
+   - speaker_mentor
 
 corey_latislaw:
   name: Corey Latislaw
@@ -376,7 +376,7 @@ carol_willing:
     linkedin: https://www.linkedin.com/in/carolwilling
   type: person
   talks:
-    - speaker
+    - speaker_mentor
     - conf_org_panel
 
 sarah_guido:
@@ -410,7 +410,7 @@ mary_scotton:
     linkedin: https://www.linkedin.com/pub/mary-scotton/0/5b0/586
   type: person
   talks:
-    - conf_org_panel
+    - speaker_mentor
 
 lauren_voswinkel:
   name: Lauren Voswinkel
@@ -426,7 +426,7 @@ lauren_voswinkel:
     linkedin: https://www.linkedin.com/profile/view?id=78364738
   type: person
   talks:
-    - speaker
+    - speaker_mentor
 
 
 dominique:
@@ -442,7 +442,7 @@ dominique:
     linkedin: https://www.linkedin.com/in/ddeguzman
   type: person
   talks:
-    - speaker
+    - speaker_mentor
 
 rebecca_garcia:
   name: Rebecca Garcia
@@ -458,7 +458,7 @@ rebecca_garcia:
     linkedin: https://www.linkedin.com/in/rebeccaegarcia
   type: person
   talks:
-    - speaker
+    - speaker_mentor
 
 gloria_willadsen:
   name: Gloria Willadsen
@@ -471,4 +471,6 @@ gloria_willadsen:
   social:
   type: person
   talks:
-    -speaker
+    -speaker_mentor
+    -conf_org_panel
+

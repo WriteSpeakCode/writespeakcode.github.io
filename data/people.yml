@@ -85,17 +85,23 @@ rachel:
   url: http://rachelober.com
   image: organizers/rachel.jpg
   bio: is a developer at <a href="http://paperlesspost.com" target=_blank>
-    Paperless Post</a> in New York City. She helps co-organize
-    <a href="http://meetup.com/NYC-Ruby-Women" target=_blank>NYC Ruby Women</a>,
-    teaches Ruby and Ruby on Rails at
-    <a href="http://generalassemb.ly" target=_blank>General Assembly</a> in
-    Manhattan and volunteers her time organizing workshops for
-    <a href="http://railsbridgenyc.org" target=_blank>RailsBridge NYC</a>.
-    Rachel is an avid scrapbooker and loves to talk about her Pembroke Welsh
-    Corgi, Isabella.
+    Paperless Post</a> in New York City. A true renaissance woman, Rachel 
+    has significant experience in and a passion for user experience, user interface 
+    and cognitive design. Rachel is a senior developer at <a href="http://paperlesspost.com" target=_blank>
+    Paperless Post</a> where she 
+    serves as technical mentor for all front end developers on the development 
+    team and leads front end development for the company. She also teaches the ins and 
+    outs of Rails at <a href="http://generalassemb.ly" target=_blank>General Assembly</a> for their 
+    Back End Ruby on Rails course. Rachel encourages other women developers to hone their 
+    skills by contributing to the 3-day conference <a href="http://writespeakcode.com" target="_blank">
+    Write/Speak/Code</a> as a co-organizer. Founded in 2013, Rachel organizes and volunteers her time 
+    teaching women Ruby and Ruby on Rails through <a href="http://railsbridgenyc.org" target=_blank>
+    RailsBridge NYC</a>. Rachel lives in Brooklyn with her husband and fur-child Isabella and loves 
+    scrapbooking and card making.
   social:
     twitter: http://www.twitter.com/rachelober
     github: https://github.com/rachelober
+    linkedin: https://www.linkedin.com/in/rachelober
   pages:
     - organizers
   type: person
@@ -333,8 +339,21 @@ tracey_welson_rossman:
   url:
   image: speakers/tracey.png
   bio: is a Founding Member and Chief Marketing Officer at <a href="http://chariotsolutions.com/">
-   Chariot Solutions</a>, a leading software and mobile development consulting firm, and the Founder of <a href="http://www.techgirlz.org/">TechGirlz.org</a>, a non-profit organization dedicated to inspiring teenage girls to consider careers in technology.Twice recognized as a top place to work in Philadelphia, Chariot Solutions has grown from its initial staff of 10 to over 50 full time employees, over 90% of whom are technologists. The employees also speak at conferences, write technical articles and contribute to open source projects.  Her work in the IT world led her to address the dearth of girls believing that technology is a promising career for them. She founded TechGirlz in 2009 to help to address this and is proud to report the organization has worked with over 1700 girls to date.  Tracey is the founder and co-chair of the annual Emerging Technologies for the Enterprise Conference. ETE attracts world-renowned thought leaders in cutting-edge technologies and serves as a community forum for regional technology companies. And the founder and chair of the Women in Tech Summit, currently in its 4th year. She is also a Founding Board Member of Philadelphia Startup Leaders, dedicated to growing technology startup businesses and the largest and most active community of startup entrepreneurs in the Philadelphia. She was honored as one of 40 Women to Watch over 40 worldwide. She is an advisor to two Philadelphia area startups - Haydle and Roar.
-
+   Chariot Solutions</a>, a leading software and mobile development consulting firm, and the Founder 
+   of <a href="http://www.techgirlz.org/">TechGirlz.org</a>, a non-profit organization dedicated to 
+   inspiring teenage girls to consider careers in technology.Twice recognized as a top place to work 
+   in Philadelphia, Chariot Solutions has grown from its initial staff of 10 to over 50 full time employees, 
+   over 90% of whom are technologists. The employees also speak at conferences, write technical articles and 
+   contribute to open source projects.  Her work in the IT world led her to address the dearth of girls 
+   believing that technology is a promising career for them. She founded TechGirlz in 2009 to help to 
+   address this and is proud to report the organization has worked with over 1700 girls to date. 
+   Tracey is the founder and co-chair of the annual Emerging Technologies for the Enterprise Conference. 
+   ETE attracts world-renowned thought leaders in cutting-edge technologies and serves as a community 
+   forum for regional technology companies. And the founder and chair of the Women in Tech Summit, 
+   currently in its 4th year. She is also a Founding Board Member of Philadelphia Startup Leaders, 
+   dedicated to growing technology startup businesses and the largest and most active community of 
+   startup entrepreneurs in the Philadelphia. She was honored as one of 40 Women to Watch over 40 worldwide. 
+   She is an advisor to two Philadelphia area startups - Haydle and Roar.
   pages:
     - speak
     - code
@@ -351,7 +370,13 @@ corey_latislaw:
   name: Corey Latislaw
   url: http://coreylatislaw.com/
   image: speakers/corey_latislaw.jpeg
-  bio: Corey Leigh Latislaw is a Senior Manager at Capital One, speaker at conferences all over the world, and author of the <a href="https://gumroad.com/l/androidactivitybook">Android Activity Book</a>, which uses test-driven development (TDD) to build apps. On the side, she runs an Android and full-stack consulting firm, <a href="http://greenlifesoftware.com/">Green Life Software Development</a>. She is the founder and organizer of the Philadelphia Google Developer Group. Corey is passionate about encouraging broader participation in the computing sciences, bridging the digital divide, eating local food, communing with nature, taking photos, and living in downtown Philly.
+  bio: Corey Leigh Latislaw is a Senior Manager at Capital One, speaker at conferences all over the 
+  world, and author of the <a href="https://gumroad.com/l/androidactivitybook">Android Activity Book</a>, 
+  which uses test-driven development (TDD) to build apps. On the side, she runs an Android and full-stack 
+  consulting firm, <a href="http://greenlifesoftware.com/">Green Life Software Development</a>. She is 
+  the founder and organizer of the Philadelphia Google Developer Group. Corey is passionate about 
+  encouraging broader participation in the computing sciences, bridging the digital divide, eating 
+  local food, communing with nature, taking photos, and living in downtown Philly.
   pages:
     - speak
     - code
@@ -368,7 +393,15 @@ carol_willing:
   name: Carol Willing
   url: https://willingconsulting.com/author/carol/
   image: speakers/carol_willing.jpeg
-  bio: is currently a Geek-In-Residence at <a href="http://fablabsd.org">Fab Lab San Diego</a>, an active contributor to open source projects, like <a href="http://openhatch.org">OpenHatch</a>, a co-organizer of <a href="http://pyladies.org">PyLadies</a> San Diego and <a href="http://pythonsd.org">San Diego Python</a>, an independent developer, and creator of <a href="http://gentlecodegarden.com">Gentle Code Garden</a>. She has served on the PyCon Program and Tutorial selection committees. She can frequently be heard saying “That’s so cool. How does it work? I would love to learn more about it.” She is inspired by nature, the arts, and math. She earned a BSE in Electrical Engineering from Duke University and an MS in Management from MIT.  She has enjoyed developing software and electronics and teaching others for over 20 years and hopes to do so for at least 20 more.
+  bio: is currently a Geek-In-Residence at <a href="http://fablabsd.org">Fab Lab San Diego</a>, 
+  an active contributor to open source projects, like <a href="http://openhatch.org">OpenHatch</a>, 
+  a co-organizer of <a href="http://pyladies.org">PyLadies</a> San Diego and <a href="http://pythonsd.org">
+  San Diego Python</a>, an independent developer, and creator of <a href="http://gentlecodegarden.com">
+  Gentle Code Garden</a>. She has served on the PyCon Program and Tutorial selection committees. She can 
+  frequently be heard saying “That’s so cool. How does it work? I would love to learn more about it.” 
+  She is inspired by nature, the arts, and math. She earned a BSE in Electrical Engineering from Duke 
+  University and an MS in Management from MIT.  She has enjoyed developing software and electronics and 
+  teaching others for over 20 years and hopes to do so for at least 20 more.
   pages:
     - speak
     - code
@@ -421,7 +454,7 @@ lauren_voswinkel:
   name: Lauren Voswinkel
   url:
   image: speakers/lauren_voswinkel.jpeg
-  bio: Lauren has been professionally programming since 2006. She started doing front-end work primarily, and transitioned to back end development using primarily Ruby and Rails. Her minor back in college was in Critical Sexuality Studies and it amuses her endlessly that those classes have been more relevant to her life than anything taught in her CS courses. She currently works remotely for LivingSocial and is based out of Pittsburgh. She started speaking in 2013 and has since traveled all over the country doing so. This year she also spoke at her first international conference in Melbourne, Australia. In her spare time, she likes to do fire breathing, fire spinning, trick shots with a whip, and work on writing a game client in Javascript just to see what she can learn from it.
+  bio: has been professionally programming since 2006. She started doing front-end work primarily, and transitioned to back end development using primarily Ruby and Rails. Her minor back in college was in Critical Sexuality Studies and it amuses her endlessly that those classes have been more relevant to her life than anything taught in her CS courses. She currently works remotely for LivingSocial and is based out of Pittsburgh. She started speaking in 2013 and has since traveled all over the country doing so. This year she also spoke at her first international conference in Melbourne, Australia. In her spare time, she likes to do fire breathing, fire spinning, trick shots with a whip, and work on writing a game client in Javascript just to see what she can learn from it.
   pages:
     - speak
     - code

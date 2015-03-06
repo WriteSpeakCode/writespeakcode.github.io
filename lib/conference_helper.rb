@@ -51,5 +51,11 @@ module ConferenceHelper
       person.talks.try(:include?, t.talk_id) ||
         t.moderator == slug
     end
+
+    data.schedule.facilitators.select{ |day, names| names.include?(slug) }.each do |day, names|
+      talks_info << OpenStruct.new(talk_name: "#{day.titleize} Day Facilitator", talk_id: day)
+    end
+
+    talks_info
   end
 end

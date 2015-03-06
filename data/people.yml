@@ -123,6 +123,7 @@ celia:
   pages:
     - speak
     - organizers
+    - speaker
   social:
     twitter: https://twitter.com/celiala
     github: https://github.com/celiala

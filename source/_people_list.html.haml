@@ -1,14 +1,15 @@
 - sort_include_type ||= false
 - sort_include_weight ||= false
 - reverse ||= false
+- show_talk = !!show_talk
 
 - sorts =  { by_type: sort_include_type, by_weight: sort_include_weight, reverse: reverse }
 - talk_list = data.schedule.select { |k,v| [:thursday, :friday, :saturday].include?(k.to_sym) }.values.flatten.select { |v| v.has_key?('talk_id') }
 
 %ul.people_list
   - people_filtered_and_sorted(data, filter, sorts).each do |k,v|
-    - show_talk = !!show_talk && !v.talks.empty?
-    - talk_class = show_talk ? 'talk' : ''
+    - has_talk = show_talk && !(v.talks || []).empty?
+    - talk_class = has_talk ? 'talk' : ''
 
     %li{ class: "#{v.type} #{talk_class}"  }
       %a{ id: k }
@@ -34,12 +35,13 @@
       - if show_talk
         .talk
           %span.name= v.name
-          %ul
-            - talks_info = talk_list.select { |t| v.talks.include?(t['talk_id']) }
-            - talks_info.each do |talk|
-              %li
-                %i.fa.fa-star-o
-                = link_to talk.try(:[],'talk_name'), "/conference/schedule##{talk.talk_id}"
+          - if has_talk
+            %ul
+              - talks_info = talk_list.select { |t| v.talks.include?(t['talk_id']) }
+              - talks_info.each do |talk|
+                %li
+                  %i.fa.fa-star-o
+                  = link_to talk.try(:[],'talk_name'), "/conference/schedule##{talk.talk_id}"
       - if v.bio
         %p.bio
           = link_or_text(v.name, v.url, bio_name_class)

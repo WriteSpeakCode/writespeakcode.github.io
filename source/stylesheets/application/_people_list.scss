@@ -4,11 +4,11 @@ $img_left_offset: 30px;
 
 ul.people_list {
   list-style-type: none;
-
+  margin-top: 20px;
   text-align: center;
+
   @include media($large-screen) { text-align: left; }
 
-  margin-top: 20px;
   img {
     width: $person_img_width;
     height: $person_img_width;
@@ -25,7 +25,6 @@ ul.people_list {
     clear: both;
     margin: 1em;
     padding: 1em;
-    min-height: $person_img_width + 60px;
     height: auto;
 
     .info {
@@ -41,6 +40,7 @@ ul.people_list {
       & + .talk {
         @include media($large-screen) {
           margin-left: $company_img_width + $img_left_offset;
+          min-height: $person_img_width + 60px;
         }
       }
 

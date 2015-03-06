@@ -4,6 +4,24 @@
 
 ### Develop
 
+#### Requirements
+
+- Ruby
+- Bundler `gem install bundler`
+- [Node.js](http://nodejs.org/)
+- npm
+- [Bower](http://bower.io/)
+
+
+If Ruby and homebrew are already installed:
+
+```bash
+> gem install bundler
+> brew install node
+> brew install npm
+> npm install -g bower
+```
+
 #### Install dependencies
 ```
 > bundle install

@@ -236,13 +236,11 @@ claudina:
   url: http://itsmisscs.me/
   image: speakers/claudina.jpeg
   bio: is an entrepreneur. Her background is in front-end web development with 
-    a focus on large, scale web applications and sites. She's worked for Pop 
-    Art, The New Group, The Huffington Post, New York Road Runners, and Method. 
+    a focus on large, scale web applications and sites.
     She's lead front-end development for sites such for FEI.com, Charlie Rose, 
-    PBS, Scholastic, Count Me In, and LocalVox. She lead the strategy and 
-    initial product development for Vestify, a crowdfunding web application 
-    for entrepreneurs powering the MassChallenge Global Start-Up. Claundina organizes 
-    the monthly New York City Sass and Compass Meetup and was one 
+    PBS, Scholastic, Count Me In, and LocalVox. Claundina organizes 
+    the monthly <a href="http://www.meetup.com/gothamsass/">New York City Sass and Compass Meetup</a>,
+    is on the speaker selection committee for <a href="http://sassconf.com/">SassConf</a> and was one 
     of the founding members of UNICEF Innovation. In 2010, she developed a 
     pilot program to teach development to less advantaged high schoolers in 
     the Dominican Republic. She is a 2012 StartupBus aluma. A firm believer in 

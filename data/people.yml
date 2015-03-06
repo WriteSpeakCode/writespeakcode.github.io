@@ -237,7 +237,7 @@ claudina:
     pilot program to teach development to less advantaged high schoolers in 
     the Dominican Republic. She is a 2012 StartupBus aluma. A firm believer in 
     a balanced lifestyle she keeps her mind and body elastic with Bikram Yoga, 
-    Crossfit, and biking NYC streets. 
+    Crossfit, and biking NYC streets.
   pages:
     - speak
     - speaker
@@ -326,3 +326,157 @@ jen_myers:
   talks:
     - speaker_mentor
     - closing_keynote
+
+
+tracey_welson_rossman:
+  name: Tracey Welson-Rossman
+  url:
+  image: speakers/tracey.png
+  bio: is a Founding Member and Chief Marketing Officer at <a href="http://chariotsolutions.com/">
+   Chariot Solutions</a>, a leading software and mobile development consulting firm, and the Founder of <a href="http://www.techgirlz.org/">TechGirlz.org</a>, a non-profit organization dedicated to inspiring teenage girls to consider careers in technology.Twice recognized as a top place to work in Philadelphia, Chariot Solutions has grown from its initial staff of 10 to over 50 full time employees, over 90% of whom are technologists. The employees also speak at conferences, write technical articles and contribute to open source projects.  Her work in the IT world led her to address the dearth of girls believing that technology is a promising career for them. She founded TechGirlz in 2009 to help to address this and is proud to report the organization has worked with over 1700 girls to date.  Tracey is the founder and co-chair of the annual Emerging Technologies for the Enterprise Conference. ETE attracts world-renowned thought leaders in cutting-edge technologies and serves as a community forum for regional technology companies. And the founder and chair of the Women in Tech Summit, currently in its 4th year. She is also a Founding Board Member of Philadelphia Startup Leaders, dedicated to growing technology startup businesses and the largest and most active community of startup entrepreneurs in the Philadelphia. She was honored as one of 40 Women to Watch over 40 worldwide. She is an advisor to two Philadelphia area startups - Haydle and Roar.
+
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/TWelsonRossman
+    linkedin: https://www.linkedin.com/in/traceywelsonrossman
+  type: person
+  talks: 
+   - conf_org_panel
+   - speak
+
+corey_latislaw:
+  name: Corey Latislaw
+  url: http://coreylatislaw.com/
+  image: speakers/corey_latislaw.jpeg
+  bio: Corey Leigh Latislaw is a Senior Manager at Capital One, speaker at conferences all over the world, and author of the <a href="https://gumroad.com/l/androidactivitybook">Android Activity Book</a>, which uses test-driven development (TDD) to build apps. On the side, she runs an Android and full-stack consulting firm, <a href="http://greenlifesoftware.com/">Green Life Software Development</a>. She is the founder and organizer of the Philadelphia Google Developer Group. Corey is passionate about encouraging broader participation in the computing sciences, bridging the digital divide, eating local food, communing with nature, taking photos, and living in downtown Philly.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/corey_latislaw
+    github: https://github.com/colabug
+    linkedin: https://www.linkedin.com/in/coreylatislaw
+  type: person
+  talks:
+    - writing_panel
+
+carol_willing:
+  name: Carol Willing
+  url: https://willingconsulting.com/author/carol/
+  image: speakers/carol_willing.jpeg
+  bio: is currently a Geek-In-Residence at <a href="http://fablabsd.org">Fab Lab San Diego</a>, an active contributor to open source projects, like <a href="http://openhatch.org">OpenHatch</a>, a co-organizer of <a href="http://pyladies.org">PyLadies</a> San Diego and <a href="http://pythonsd.org">San Diego Python</a>, an independent developer, and creator of <a href="http://gentlecodegarden.com">Gentle Code Garden</a>. She has served on the PyCon Program and Tutorial selection committees. She can frequently be heard saying “That’s so cool. How does it work? I would love to learn more about it.” She is inspired by nature, the arts, and math. She earned a BSE in Electrical Engineering from Duke University and an MS in Management from MIT.  She has enjoyed developing software and electronics and teaching others for over 20 years and hopes to do so for at least 20 more.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/willingcarol
+    github: https://github.com/willingc
+    linkedin: https://www.linkedin.com/in/carolwilling
+  type: person
+  talks:
+    - speaker
+    - conf_org_panel
+
+sarah_guido:
+  name: Sarah Guido
+  url: 
+  image: speakers/sarah_guido.jpeg
+  bio: is a data scientist at a NYC startup, <a href="https://bitly.com/">Bitly</a>. She is a co-organizer of <a href="http://www.meetup.com/nycpython/">NYC Python</a> and PyGotham. Sarah is interested in all things Python, data, and machine learning.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/sarah_guido
+    github: https://github.com/sarguido
+    linkedin: https://www.linkedin.com/in/sarahguido
+  type: person
+  talks:
+    - conf_org_panel
+
+
+mary_scotton:
+  name: Mary Scotton
+  url: http://www.maryscotton.com/
+  image: speakers/mary_scotton.jpeg
+  bio: has over 20 years of experience in enterprise software, loves the ease of development in the cloud, and is a regular presenter at Salesforce events. As one of the early members of the Platform Product Management team at Salesforce, Mary designed the core “point & click” tools that make customization and app building accessible to non-programmers. She holds several patents for those designs. These days, she spends her time educating, enabling, and having fun with the awesome Salesforce Admin and Developer community. She is focused on raising the visibility of underrepresented people in tech, and is not afraid to have the hard conversations to encourage radical inclusivity.
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/rockchick322004
+    github: https://github.com/mscotton
+    linkedin: https://www.linkedin.com/pub/mary-scotton/0/5b0/586
+  type: person
+  talks:
+    - conf_org_panel
+
+lauren_voswinkel:
+  name: Lauren Voswinkel
+  url:
+  image: speakers/lauren_voswinkel.jpeg
+  bio:
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/laurenvoswinkel
+    github: https://github.com/Valarissa
+    linkedin: https://www.linkedin.com/profile/view?id=78364738
+  type: person
+  talks:
+    - speaker
+
+
+dominique:
+  name: Dominique DeGuzman
+  url: http://dominiquedeguzman.com/
+  image: speakers/dominique.jpg
+  bio:
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/itshella_dom
+    linkedin: https://www.linkedin.com/in/ddeguzman
+  type: person
+  talks:
+    - speaker
+
+rebecca_garcia:
+  name: Rebecca Garcia
+  url: http://www.rebeccagarcia.me/
+  image: speakers/rebecca_garcia.jpeg
+  bio: is the Co-founder of CoderDojo NYC, a non-profit teaching youth to code. In 2013 she was awarded as a U.S. White House Champion of Change for 'Tech Inclusion' for her work to bring STEM education to underrepresented groups, especially youth and women. Last year she was listed as one of Glamour Magazine's '35 Women Under 35 Who are Changing the Tech Industry'.  Previously she was a Developer at Do Something, the largest U.S. non-profit for youth and social change, and CTO of Greatist, a health, fitness and wellness media startup reaching over 3 million unique visitors. Currently she is a Developer Evangelist at Squarespace, empowering people to build their ideas on the web. 
+  pages:
+    - speak
+    - code
+    - speaker
+  social:
+    twitter: https://twitter.com/geekgirlweb
+    github: https://github.com/geekgirlweb
+    linkedin: https://www.linkedin.com/in/rebeccaegarcia
+  type: person
+  talks:
+    - speaker
+
+gloria_willadsen:
+  name: Gloria Willadsen
+  url:
+  image: speakers/gloria_w.png
+  bio: has 20+ years of from-scratch *NIX systems admin and software development, writing embedded systems software in the late 80's, into low-level application and networking software in the 90's and into start-up web and algorithm software and Linux system admin up to today. Currently the CTO of iMentor, Gloria is busy helping this amazing non-profit take their tech to the next level, while still hands-on in the day to day geekery.
+  pages:
+    -speak
+    -speaker
+  social:
+  type: person
+  talks:
+    -speaker

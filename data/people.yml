@@ -421,7 +421,7 @@ lauren_voswinkel:
   name: Lauren Voswinkel
   url:
   image: speakers/lauren_voswinkel.jpeg
-  bio:
+  bio: Lauren has been professionally programming since 2006. She started doing front-end work primarily, and transitioned to back end development using primarily Ruby and Rails. Her minor back in college was in Critical Sexuality Studies and it amuses her endlessly that those classes have been more relevant to her life than anything taught in her CS courses. She currently works remotely for LivingSocial and is based out of Pittsburgh. She started speaking in 2013 and has since traveled all over the country doing so. This year she also spoke at her first international conference in Melbourne, Australia. In her spare time, she likes to do fire breathing, fire spinning, trick shots with a whip, and work on writing a game client in Javascript just to see what she can learn from it.
   pages:
     - speak
     - code

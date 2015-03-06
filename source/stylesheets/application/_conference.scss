@@ -4,7 +4,7 @@
 
 .conference_layout {
 
-  .childcare {
+  .childcare-callout {
     text-transform: uppercase;
     background-color: $dark-gray;
   }
@@ -14,7 +14,7 @@
     padding-bottom: $hero-bottom;
     @include media($large-screen) { padding-bottom: $hero-bottom - 10; }
 
-    .hero-inner .hero-copy h4.childcare a {
+    .hero-inner .hero-copy h4.childcare-callout a {
       color: $white;
     }
   }

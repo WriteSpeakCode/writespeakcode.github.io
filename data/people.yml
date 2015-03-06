@@ -146,6 +146,7 @@ chrys:
   pages:
     - write
     - organizers
+    - speaker
   social:
     twitter: https://twitter.com/MacDiva
     github: https://github.com/MacDiva
@@ -314,7 +315,17 @@ julia_elman:
   name: Julia Elman
   url: http://juliaelman.com/
   image: speakers/julia_elman.png
-  bio: is a designer, developer, author and public speaker from the Python community. She has been working her brand of web skills since 2002. Her first dive into Python was at World Online in Lawrence, Kansas in 2008, as a Junior Developer/Designer. More recently, she co-authored "Lightweight Django" for O’Reilly Media in November 2014. Julia also focuses computer science in education and has helped establish several groups and programs to teach computer science to adults and teens. In January 2013, she helped start a local chapter of Girl Develop It whose focus is to empower women through code. GDIRDU has grown to over 1,000 members, taught over 100 classes to help empower women through coding and is celebrating its second anniversary. 
+  bio: is a designer, developer, author and public speaker from the Python 
+    community. She has been working her brand of web skills since 2002. Her 
+    first dive into Python was at World Online in Lawrence, Kansas in 2008, as a 
+    Junior Developer/Designer. More recently, she co-authored 
+    <a href="http://www.amazon.com/Lightweight-Django-Julia-Elman/dp/149194594X/rjmw-20">Lightweight Django</a> 
+    for O’Reilly Media in November 2014. Julia also focuses computer science in 
+    education and has helped establish several groups and programs to teach 
+    computer science to adults and teens. In January 2013, she helped start a 
+    local chapter of Girl Develop It whose focus is to empower women through code. 
+    GDIRDU has grown to over 1,000 members, taught over 100 classes to help empower 
+    women through coding and is celebrating its second anniversary. 
   pages:
     - code
     - speaker
@@ -476,7 +487,6 @@ sarah_guido:
     linkedin: https://www.linkedin.com/in/sarahguido
   type: person
   talks:
-    - conf_org_panel
     - proposal_mentor
 
 

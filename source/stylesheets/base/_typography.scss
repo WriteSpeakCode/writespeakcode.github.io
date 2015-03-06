@@ -1,7 +1,7 @@
 @mixin display-font($style: regular) {
   font-family: $header-font-family;
 
-  $weight: 800;
+  $weight: 500;
   @if $style == thin {
     $weight: 200;
   } @else if $style == light {

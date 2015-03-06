@@ -30,14 +30,32 @@
 
 ###
 # Helpers
+require 'lib/conference_helper'
+require 'lib/blog_helper'
+
 helpers do
-  def level_to_num(level)
-    levels = {"platinum" => 1,
-              "gold" => 2,
-              "silver" => 3,
-              "bronze" => 4
+  include ConferenceHelper
+  include BlogHelper
+
+  # sponsors
+  def sponsor_levels
+    levels = {
+      platinum: 1,
+      gold: 2,
+      silver: 3,
+      bronze: 4,
+      childcare: 5
     }
-    levels[level]
+  end
+
+  def level_to_num(level)
+    levels[level.to_sym] || 5
+  end
+
+  def sponsors_for(filter, level)
+    data.sponsors.select do |k,v|
+      v.sponsoring.include?(filter) && v.sponsor_level == level.to_s
+    end
   end
 
   def time_converter(hour, minutes)
@@ -53,36 +71,6 @@ helpers do
     result
   end
 
-  def author_link(article, tag = "")
-    str = link_or_text(article.data.author, article.data.author_url)
-
-    unless str.empty?
-      str = "by #{str}"
-      str = "<#{tag}>#{str}</#{tag}>" unless tag.empty?
-    end
-
-    str
-  end
-
-  def link_or_text(name, link='', classes='')
-    str = ""
-    str = name if there?(name)
-
-    if there?(link)
-      lnk = "<a href=#{link}"
-      lnk = lnk + " class='#{classes}'" if there?(classes)
-      str = lnk + ">#{str}</a>"
-    elsif there?(str) && there?(classes)
-      str = "<span class='#{classes}'>#{str}</span>"
-    end
-
-    str
-  end
-
-  def there?(item)
-    !(item.nil? || item.empty?)
-  end
-
   def person_comparator(p, sorts)
     comparator = p.name
     comparator = p.type + comparator if sorts[:by_type]
@@ -96,13 +84,6 @@ helpers do
     }.sort_by { |k, v|
       person_comparator(v, sorts)
     }.tap { |data| return data.reverse if sorts[:reverse] }
-  end
-
-  def speakers_for_talk(all_speakers, talk)
-    all_speakers.inject([]) do |r, e|
-      r << link_to(e.last['name'], "/conference/speakers##{e.first}") if e.last['talks'].include?(talk.talk_id);
-      r
-    end
   end
 
   def conference_button_links

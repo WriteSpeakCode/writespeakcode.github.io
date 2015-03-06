@@ -6,8 +6,6 @@ layout: conference_layout
 sub_page: true
 ---
 
-- all_speakers = data.people.select { |k,v| v['pages'].try(:include?, 'speaker') }
-
 %ul.day_schedule.breadcrumbs
   - [:write, :speak, :code].each do |day|
     - weekday = data.schedule.days[day]
@@ -27,27 +25,24 @@ sub_page: true
         = day.to_s.titleize
         to Change the World!
 
+      %p
+        Facilitated by #{day_facilitators_links(day).to_sentence}
 
-      -#= partial :arrow_button,
-        -#locals: { link: "/conference/#{day}", text: "More", classes: %w(inverted skinny more_info) }
-      %a.more_info{ href: "/conference/#{day}" }
-        More
-        %i.fa.fa-angle-double-right
+      = partial :arrow_button,
+        locals: { link: "/conference/#{day}", text: "More", classes: %w(inverted skinny) }
+      -#%a.more_info{ href: "/conference/#{day}" }
+        -#More
+        -#%i.fa.fa-angle-double-right
 
     %ul.events
-      - unless data.schedule[weekday].nil?
-        - data.schedule[weekday].map { |item| OpenStruct.new(item) }.each do |item|
-          %li.event
-            %a{ id: item.talk_id }
-            %h4.talk_name
-              = item.talk_name
-            - speakers = speakers_for_talk(all_speakers, item)
-            - unless speakers.nil?
-              %h5.speakers
-                - speakers.push('<em>more!</em>') if item.more
-                = speakers.to_sentence
-            - if item.talk_description
-              %p.talk_description= item.talk_description
+      - schedule_for_weekday(weekday).each do |item|
+        %li.event
+          %a{ id: item.talk_id }
+          %h4.talk_name
+            = item.talk_name
+          =  talk_speakers_tag(item, day)
+          - if item.talk_description
+            %p.talk_description= item.talk_description
 
 -#.schedule_container
   -#%h2 Conference Schedule

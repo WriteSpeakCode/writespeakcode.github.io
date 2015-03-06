@@ -18,70 +18,70 @@
   }
 }
 
-.sponsors h2 {
-  color: #D84455;
-  text-align: center;
-  margin-bottom: 10px;
-}
+.conference.sponsors {
+  #content {
+    text-align: left;
 
-.sponsor_list {
-  margin: 10px 45px;
-  display: block;
-}
+    h2 {
+      margin: 1em auto .25em auto;
+    }
+  }
 
-.platinum {
-  background-color: #E6E6E6;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #D4D2D6;
-  border-radius: 3px;
-  margin-bottom: 15px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
+  $max-img-height: 100px;
+  .sponsors {
+    .sponsor {
+      border: $section-border;
+      border-color: $light-accent;
+      min-height: $max-img-height + 25px;
 
-.gold, .silver, .bronze {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #D4D2D6;
-  border-radius: 3px;
-  margin-bottom: 15px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
+      padding: .5em;
+      margin-bottom: 2em;
 
-.well {
-  margin-top: 15px;
-}
+      img {
+        @include square-border;
+        border: 2px solid $brand-accent;
+        height: $max-img-height;
+        background-color: white;
+      }
+    }
 
-.platinum img {
-  float: left;
-  max-width: 300px;
-  margin: 20px;
-}
+    &.platinum {
+      .sponsor {
+        border-color: $brand-primary;
+        background-color: $light-primary;
 
-.gold img, .silver img, .bronze img {
-  float: left;
-  max-width: 200px;
-  margin: 20px;
-}
+        img {
+          height: 200px;
+          border-color: $brand-primary;
+        }
+      }
+    }
 
-.well .img_container {
-  max-width: 300px;
-}
+    &.gold {
+      .sponsor {
+        border-color: $brand-secondary;
+        background-color: $light-secondary;
 
-.platinum .description {
-  margin-left: 350px;
-  padding: 10px;
-}
+        img { border-color: $brand-secondary; }
+      }
+    }
 
-.gold .description {
-  margin-left: 250px;
-  padding: 10px;
-}
+    &.bronze, &.childcare {
+      @include display(flex);
+      @include flex-wrap(wrap);
+      @include justify-content(space-between);
 
+      .sponsor {
+        @include flex-basis(15em);
+        @include flex-grow(1);
+        @include transition (all 0.2s ease-in-out);
 
+        text-align: center;
+        height: auto;
+        margin: 1em;
 
-.clearfix {
-  clear: both;
+        p { display: none; }
+      }
+    }
+  }
 }

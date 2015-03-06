@@ -82,6 +82,15 @@ details:
     minutes: 30
     url: "/"
 
+facilitators:
+  write:
+    - rebecca
+  speak:
+    - celia
+  code:
+    - courteney_ervin
+    - julia_elman
+
 thursday:
   -
     talk_id: thursday_welcome
@@ -125,6 +134,7 @@ thursday:
     talk_description: Join a diverse group of technical editors, publishers, 
       and authors to discuss writing for professional publishers, self-
       publishing, magazines, and online course.
+    moderator: chrys
   -
     talk_id: thurs_party
     talk_name: Opening night party &amp; networking
@@ -149,6 +159,7 @@ friday:
     talk_id: conf_org_panel
     talk_name: Conference Organizer Panel
     talk_description: Hear how a handful of women conference organizers select speakers and gets tips for navigating the CFP process. 
+    moderator: sarah_guido
   -
     talk_id: proposal_mentor
     talk_name: Talk Proposal Mentoring

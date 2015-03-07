@@ -575,3 +575,17 @@ gloria_w:
   type: person
   talks:
     -proposal_mentor
+
+melissa_collom
+ name: Melissa Collom
+  url: http://melissacollom.com/
+  image: speakers/m_collom.jpeg
+  bio: is a versatile performer who combines professional stage techniques and training with cognitive science to help presenters harness the unique power of their own voices. Melissa has applied her communication skills in non-profit and political arenas at local, regional and national levels.  As a performer Melissa has appeared with some of the United States’ most celebrated opera companies including the Metropolitan Opera, New York City Opera, Washington National Opera, Seattle Opera, and New York Gilbert & Sullivan players. A graduate of Carnegie Mellon University, she has been immersed in the tech community since her undergraduate studies and has a continued interest in leveraging digital media platforms to increase audience access and engagement with the arts.  Melissa currently brings the Applied Speaking methodology to workshops, seminars, individual coaching and consulting to develop dynamic, powerful and authentic speakers.
+  pages:
+    -speak
+    -speaker
+  social:
+    linkedin: https://www.linkedin.com/pub/melissa-collom/4/5a1/700
+  type: person
+  talks:
+    -speaker_mentor

@@ -25,7 +25,8 @@
         .navigation-wrapper
           %h1.logo><
             %a{ href: '/' }><
-              = image_tag '/images/logo/writespeakcode-inverted.png'
+              = image_tag '/images/logo/writespeakcode-inverted.png', class: 'screen'
+              = image_tag '/images/logo/writespeakcode.png', class: 'print'
           %a#js-mobile-menu.navigation-menu-button{ href: "javascript:void(0)" }
             %i.fa.fa-bars
 
@@ -35,7 +36,7 @@
                 %a{ href:"/conference" } Conference
                 %ul.submenu
                   %li
-                    = link_to 'Our Sponsors!', '/sponsor'
+                    = link_to 'Our Sponsors!', '/conference/sponsors'
                   %li.divided
                     = link_to 'Write - Thurs 3/19', '/conference/write'
                   %li

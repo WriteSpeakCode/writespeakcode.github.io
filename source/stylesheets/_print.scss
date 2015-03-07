@@ -1,0 +1,61 @@
+.print {
+  display: none;
+}
+
+@media print {
+  @page {
+    margin: 1cm;
+  }
+
+  body {
+    font-size: 12pt;
+    font-family: $sans-serif;
+  }
+
+  .screen { display: none; }
+  .print { display: block; }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    .fa { display: none; }
+  }
+
+  .button, button, a.button { display: none; }
+
+  header.navigation {
+    &:after { content: "http://www.writespeakcode.com"; }
+
+    h1 { margin-top: 1cm; }
+
+    nav, .navigation-menu-button, .navigation-tools { display: none; }
+
+  }
+
+  .days {
+    display: block;
+    > li { border: 1px solid $medium-gray; }
+    .learn_more { display: none; }
+  }
+
+  .conference_layout {
+    .hero-copy {
+      &, h1, h2 { color: black; }
+      p, .childcare-callout { display: none; }
+    }
+
+    .button-list { display: none; }
+    .developer-definition + p { display: none; }
+    .breadcrumbs { display: none; }
+
+    a.button { display: none; }
+    .actions {
+      a.button { display: none; }
+    }
+  }
+
+  footer.footer { display: none; }
+}

@@ -72,6 +72,9 @@ h6 {
   line-height: $header-line-height;
   margin: 0;
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
+
+  .fa { display: none; }
+  @include media($medium-screen) { .fa { display: inline; } }
 }
 
 h1 { text-align: center }

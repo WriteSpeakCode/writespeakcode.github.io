@@ -25,6 +25,8 @@ ul.people_list {
     clear: both;
     margin: 1em;
     padding: 1em;
+
+    min-height: $person_img_width * 1.7;
     height: auto;
 
     .info {
@@ -120,6 +122,7 @@ ul.people_list {
       .info {
         @include media($large-screen) {
           margin-left: $img_left_offset;
+          margin-right: $img_left_offset;
         }
       }
     }

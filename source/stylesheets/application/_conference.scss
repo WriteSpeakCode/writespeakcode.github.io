@@ -63,6 +63,13 @@
         color: $notice-color;
         left: 0;
       }
+
+      @media screen and (max-width: $medium-screen) {
+        .fa-li { display: none; }
+        text-align: left;
+        list-style-type: disc;
+        margin-top: .5em;
+      }
     }
   }
 

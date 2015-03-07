@@ -387,7 +387,7 @@ jen_myers:
 tracey_welson_rossman:
   name: Tracey Welson-Rossman
   url:
-  image: speakers/tracey.png
+  image: speakers/tracey.jpg
   bio: is a Founding Member and Chief Marketing Officer at <a href="http://chariotsolutions.com/">
    Chariot Solutions</a>, a leading software and mobile development consulting 
    firm, and the Founder of <a href="http://www.techgirlz.org/">TechGirlz.org</a>, 
@@ -419,7 +419,7 @@ tracey_welson_rossman:
   talks:
    - conf_org_panel
    - proposal_mentor
-   - speaker_mentor
+
 
 corey_latislaw:
   name: Corey Latislaw
@@ -575,3 +575,4 @@ gloria_w:
   type: person
   talks:
     -proposal_mentor
+

@@ -109,6 +109,7 @@ configure :development do
 end
 
 activate :directory_indexes
+page "/2013/*", directory_index: false
 
 # add blog functionality
 activate :blog do |blog|

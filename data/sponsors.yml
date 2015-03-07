@@ -61,13 +61,13 @@ braintree:
 chariot_solutions:
   name: Chariot Solutions
   url: http://chariotsolutions.com/
-  email: 
+  email:
   image: sponsors/chariot-solutions-450x100.png
   frontpage: true
   sponsoring: conference
   sponsor_level: bronze
   description: is a software application development consulting and training firm specializing in open source technologies, enterprise and mobile application development.
-  pages: 
+  pages:
     - sponsors
 
 track_maven:
@@ -91,6 +91,41 @@ mail_chimp:
   sponsoring: conference
   sponsor_level: gold
   description: helps you design email newsletters, share them on social networks, integrate with services you already use, and track your results. It's like your own personal publishing platform.
-  pages: 
+  pages:
     - sponsors
 
+data_robot:
+  name: DataRobot
+  url: http://datarobot.com/
+  email:
+  image: sponsors/datarobot.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: bronze
+  description: helps you build better predictive models faster with R and Python in the cloud.
+  pages:
+    - sponsors
+
+trello:
+  name: Trello
+  url: http://trello.com/
+  email:
+  image: sponsors/trello-logo-blue.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  description: is the flexible visual collaboration tool that helps you get projects started and completed. It’s like a magical digital whiteboard that keeps everyone on track.
+  pages:
+    - sponsors
+
+synaptic_talent:
+  name: Synaptic Talent
+  url: http://www.synaptictalent.com/
+  email:
+  image: sponsors/synaptic_talent.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: bronze
+  description: is a woman-owned boutique recruiting and talent consulting firm that helps leading technology and finance firms enhance their workforce.
+  pages:
+    - sponsors

@@ -419,6 +419,7 @@ tracey_welson_rossman:
   talks:
    - conf_org_panel
    - proposal_mentor
+   - speaker_mentor
 
 
 corey_latislaw:
@@ -575,4 +576,5 @@ gloria_w:
   type: person
   talks:
     -proposal_mentor
+
 

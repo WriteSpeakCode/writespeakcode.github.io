@@ -388,27 +388,15 @@ tracey_welson_rossman:
   name: Tracey Welson-Rossman
   url:
   image: speakers/tracey.jpg
-  bio: is a Founding Member and Chief Marketing Officer at <a href="http://chariotsolutions.com/">
-   Chariot Solutions</a>, a leading software and mobile development consulting 
-   firm, and the Founder of <a href="http://www.techgirlz.org/">TechGirlz.org</a>, 
-   a non-profit organization dedicated to inspiring teenage girls to consider 
-   careers in technology. <br><br> Twice recognized as a top place to work in Philadelphia, 
-   Chariot Solutions has grown from its initial staff of 10 to over 50 full time employees, 
-   over 90% of whom are technologists. The employees also speak at conferences, 
-   write technical articles and contribute to open source projects. <br><br> Tracey's work 
-   in the IT world led her to address the dearth of girls believing that technology 
-   is a promising career for them. She founded TechGirlz in 2009 to help to address 
-   this and is proud to report the organization has worked with over 1700 girls to date.  
-   <br><br>Tracey is the founder and co-chair of the annual 
-   <a href="http://phillyemergingtech.com/">Emerging Technologies for the Enterprise Conference</a>. 
-   ETE attracts world-renowned thought leaders in cutting-edge technologies and 
-   serves as a community forum for regional technology companies. As the founder 
-   and chair of the <a href="http://phillywomenintech.com/">Women in Tech Summit</a>, 
-   currently in its 4th year. She is also a Founding Board Member of Philadelphia 
-   Startup Leaders, dedicated to growing technology startup businesses and the 
-   largest and most active community of startup entrepreneurs in the Philadelphia. 
-   She was honored as one of 40 Women to Watch over 40 worldwide. 
-   She is an advisor to two Philadelphia area startups - Haydle and Roar.
+  bio: Tracey Welson-Rossman is a Founding Member and Chief Marketing Officer at
+   <a href="http://chariotsolutions.com/"> Chariot Solutions</a>, a leading software and mobile development
+   consulting firm, and the Founder of <a href="http://www.techgirlz.org/">TechGirlz.org</a>, a non-profit
+   organization dedicated to inspiring teenage girls to consider careers in technology.
+
+   Honored as one of 40 Women to Watch over 40 worldwide, Tracey is also the founder and co-chair of <a href="
+   http://phillyemergingtech.com/">Emerging Technologies for the Enterprise Conference</a>, founder and chair
+   of the <a href="http://phillywomenintech.com/">Women in Tech Summit</a>, founding board member of
+   Philadelphia Startup Leaders, and advisor to two Philadelphia area startups - Haydle and Roar.
   pages:
     - speak
     - speaker

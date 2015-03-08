@@ -141,3 +141,15 @@ hbo:
   description: is home of award-winning and critically-acclaimed series, documentaries, movies, sporting events and more.
   pages:
     - sponsors
+
+pace:
+  name: Pace University Seidenberg School of Computer Science and Information Systems
+  url: http://www.pace.edu/seidenberg/seidenberg-programs
+  email:
+  image: sponsors/pace.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: host
+  description: 
+  pages:
+    -sponsors

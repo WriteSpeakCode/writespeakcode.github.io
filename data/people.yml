@@ -566,4 +566,19 @@ gloria_w:
   talks:
     -proposal_mentor
 
+julie_steele:
+  name: Julie Steele
+  url: http://svds.com/team
+  image: speakers/julie_steele.jpg
+  bio: is a Communications Director, author, public speaker, and teacher. She thinks in metaphors and finds beauty in the clear communication of ideas — both through writing and through visual media. She is co-author of <a href="http://shop.oreilly.com/product/0636920000617.do"><em>Beautiful Visualization</em></a> (O'Reilly 2010) and <a href="http://shop.oreilly.com/product/0636920022060.do"><em>Designing Data Visualizations</em></a> (O'Reilly 2011), and has published reports on everything from <a href="http://www.oreilly.com/data/free/how-data-science-is-transforming-health-care.csp">predictive medicine</a> to <a href="http://www.oreilly.com/data/free/fashioning-data.csp">data in fashion</a> to the role of the <a href="http://svds.com/CDOreport">Chief Data Officer</a>. She co-teaches a course on <a href="http://dsi.sva.edu/course/metrics-and-data-visualization-i/">Data Metrics and Visualization</a> in the Design for Social Innovation program at the School for Visual Arts in New York.
+  pages:
+    -write
+    -speaker
+  social:
+    twitter: https://twitter.com/jsteeleeditor
+    linkedin: http://www.linkedin.com/in/juliesteele/en
+  type: person
+  talks:
+    -writing_panel
+
 

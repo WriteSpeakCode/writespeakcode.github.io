@@ -581,4 +581,17 @@ julie_steele:
   talks:
     -writing_panel
 
-
+andrea_wright:
+  name: Andrea O. K. Wright
+  url:
+  image: speakers/AOK.jpg
+  bio: A 20-year IT industry veteran, Andrea O. K. Wright (also known as "AOK") is a consultant with Chariot Solutions, a firm based in Fort Washington, PA that specializes in open source technologies. A languages enthusiast, she is a content co-chair for the Philly Emerging Tech Conference (a.k.a. Philly ETE). She has presented about topics ranging from developing games in Ruby to thread safety at national and regional Ruby conferences including RubyConf and RailsConf; integrating Python with functional languages at PyCon and PyGotham; and advanced classloading concepts and annotation processing at JavaOne. She enjoyed introducing elementary school age children to Ruby String manipulation at CodeMash 2009 with her “Playing with Strings” session.
+  pages:
+    -speak
+    -speaker
+  social:
+  type: person
+  talks:
+    - speaker_mentor
+    - conf_org_panel
+    - proposal_mentor

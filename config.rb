@@ -44,7 +44,8 @@ helpers do
       gold: 2,
       silver: 3,
       bronze: 4,
-      childcare: 5
+      childcare: 5,
+      host: 6
     }
   end
 

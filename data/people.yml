@@ -462,6 +462,7 @@ carol_willing:
     - speaker_mentor
     - conf_org_panel
     - proposal_mentor
+    - oss_code
 
 sarah_guido:
   name: Sarah Guido

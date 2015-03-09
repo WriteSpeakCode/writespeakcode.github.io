@@ -33,6 +33,7 @@
       border: $section-border;
       border-color: $light-accent;
       min-height: $max-img-height + 25px;
+      text-align: center;
 
       padding: .5em;
       margin-bottom: 2em;
@@ -66,7 +67,7 @@
       }
     }
 
-    &.bronze, &.childcare {
+    &:not(.gold):not(.platinum):not(.silver) {
       @include display(flex);
       @include flex-wrap(wrap);
       @include justify-content(space-between);

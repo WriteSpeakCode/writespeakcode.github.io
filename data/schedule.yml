@@ -97,14 +97,19 @@ thursday:
   -
     talk_id: thursday_welcome
     talk_name: Welcome, Networking, &amp; Breakfast
+    actions:
+      - network
   -
     talk_id: wsc_2yrs
-    talk_name: "We are not black unicorns: Two years of Write/Speak/Code"
+    talk_name: "We are not black unicorns: two years of Write/Speak/Code"
     talk_description: Write/Speak/Code began with a late night email two and 
       a half years ago.  Since then we have helped empower hundreds of women 
       software engineers to own their expertise, speak at conferences, and 
       contribute to open source.  Let's reflect on what we've learned and 
       where we can go.
+    actions:
+      - talk
+      - inspire
   -
     talk_id: own_expertise
     talk_name: "Imposter syndrome workshop & own your expertise!"
@@ -113,23 +118,37 @@ thursday:
       tackle imposter syndrome and learn to own our expertise. By diving into
       your knowledge and experience, you will understand why your story is
       valuable to the world.
+    actions:
+      - learn
+      - group
+      - inspire
   -
     talk_id: exp_cred
     talk_name: "Find your expertise & craft a Bio"
     talk_description: Using fun and reusable brainstorming exercises as well
       as the support of your peers, we will dive into our knowledge and
       experience to establish our own credibility.
+    actions:
+      - action
+      - write
+      - group
   -
     talk_id: topic_gen
     talk_name: Topic generation &amp; outlining
     talk_description: Twenty topics. Five minutes. Go! With fast-paced
       exercises, hands-on workshops, and peer feedback, we'll generate a
       number of topics to write or speak about. Then, we'll explore a
-      variety of techniques for going from idea to outline. 
+      variety of techniques for going from idea to outline.
+    actions:
+      - action
+      - write
   -
     talk_id: write_post
     talk_name: Write a blog post &amp; peer feedback
     talk_description: "Write. Give Feedback. Get Feedback. Rinse. Repeat."
+    actions:
+      - action
+      - write
   -
     talk_id: writing_panel
     talk_name: Writing for developers panel
@@ -137,82 +156,165 @@ thursday:
       and authors to discuss writing for professional publishers, self-
       publishing, magazines, and online course.
     moderator: chrys
+    actions:
+      - panel
   -
     talk_id: thurs_party
     talk_name: Opening night party &amp; networking
+    actions:
+      - network
 
 friday:
   -
     talk_id: cfp
-    talk_name: Navigating the CFP process and understanding talk proposals
+    talk_name: How to write a conference proposal
     talk_description: Starting with learning the ins &amp; outs of the CFP
       process, we will begin to understand the purpose of all the
       parts of a talk proposal.  After, reviewing successful talk proposal
       we will write our own!
+    actions:
+      - learn
+      - group
+  -
+    talk_id: proposal_partners
+    talk_name: Find proposal/prensentation partners
+    talk_description: Find a group of woman with similar interests and pair up
+      with someone to give your first lightning talk! Brave souls can speak on
+      their own as well.
+    actions:
+      - action
+      - group
   -
     talk_id: write_proposal
     talk_name: Write your talk proposal
-  -
-    talk_id: slides
-    talk_name: Creating a great presentation
-    talk_description: From color to font to showing code, we'll learn the
-      best practices for creating slides for tech-related talks.
+    actions:
+      - action
   -
     talk_id: conf_org_panel
     talk_name: Conference Organizer Panel
     talk_description: Hear how a handful of women conference organizers select speakers and gets tips for navigating the CFP process. 
     moderator: sarah_guido
+    actions:
+      - panel
   -
     talk_id: proposal_mentor
-    talk_name: Talk Proposal Mentoring
+    talk_name: Talk Proposal Feedback
     talk_description: Get feedback on your talk proposal from women who have selected speakers for conferences!
+    actions:
+      - learn
+      - group
+  -
+    talk_id: slides
+    talk_name: How to create an effective presentation
+    talk_description: From color to font to showing code, we'll learn the
+      best practices for creating slides for tech-related talks.
+    actions:
+      - talk
+  -
+    talk_id: create_talk
+    talk_name: Create your lightning talk!
+    actions:
+      - action
   -
     talk_id: speaker_mentor
     talk_name: Speaker Mentoring
     talk_description: Each attendee will work with speaker mentors to develop their slides and presentation. Speaker mentors will give feedback on the final talks.
+    actions:
+      - learn
+      - group
+  -
+    talk_id: present
+    talk_name: Present your lightning talks!
+    actions:
+      - action
+  -
+    talk_id: expand_talk
+    talk_name: Expanding your talk
+    talk_description: Ok, now you have a lightning talk.  How do you take those
+      5 minutes and make them 30 or 45??  We'll go over techniques for taking 
+      your existing slides and outline and expanding it.
+    actions:
+      - talk
+  -
+    talk_id:  speak_sharing
+    talk_name: Sharing and take-aways.
+    actions:
+      - group
 
 saturday:
   -
     talk_id: open_source_values
     talk_name: Living our Open Source Values
-    talk_description: "<i>Coming soon!</i>"
+    talk_description: 
+      Open source is the foundation on which the modern internet economy is built. 
+      But women are significantly underrepresented in the community-- in fact, 
+      only 10% of female developers contribute to open source. In this talk we will 
+      explore why participating in open source is so important, how it can be an 
+      expression of our shared values, and discuss resources and strategies to 
+      help women navigate and thrive in this often hostile environment.
+    actions:
+      - talk
   -
     talk_id: find_project
     talk_name: Finding an open source project
     talk_description: We'll discover, not just how to find, open source
       projects, but also how to evaluate whether they are a good fit for
       our skills and goals.
+    actions:
+      - learn
+      - group
   -
     talk_id: featured_project
-    talk_name: Featured project intros
+    talk_name: Featured code project mentoring
     talk_description: This year we'll have the added benefit of working with
       existing contributors to a handfull of projects.
+    actions:
+      - learn
+      - group
   -
     talk_id: fork
     talk_name: Fork a project &amp; run it locally
       existing contributors to a handfull of projects.
+    actions:
+      - action
   -
     talk_id: share_project
     talk_name: "Share: How I found my open source project"
+    actions:
+      - group
   -
     talk_id: oss_license
     talk_name: Open source licenses
+    actions:
+      - learn
+      - talk
   -
     talk_id: oss_code
     talk_name: Code! Contribute to open source!
+    actions:
+      - action
   -
     talk_id: oss_share
     talk_name: Share your contributions &amp; what you learned
+    actions:
+      - group
   -
     talk_id: closing_keynote
     talk_name: Owning It
+    talk_description: The art of being awesome.
+    actions:
+      - talk
   -
     talk_id: wsc_why
     talk_name: Why we must Write/Speak/Code
     talk_description: After a lot of work, we will arrive at the end of the
       conference. Let's reflect on why it's so important that we share
       our expertise with the world and leave inspired and rejuvenated!
+    actions:
+      - talk
   -
     talk_id: sat_party
     talk_name: Closing party &amp; networking
+    actions:
+      - network
 

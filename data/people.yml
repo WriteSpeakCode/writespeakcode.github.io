@@ -604,6 +604,7 @@ gloria_w:
   type: person
   talks:
     -proposal_mentor
+    -speaker_mentor
 
 julie_steele:
   name: Julie Steele

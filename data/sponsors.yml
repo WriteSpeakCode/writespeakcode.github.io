@@ -129,3 +129,27 @@ synaptic_talent:
   description: is a woman-owned boutique recruiting and talent consulting firm that helps leading technology and finance firms enhance their workforce.
   pages:
     - sponsors
+
+hbo:
+  name: HBO
+  url: http://www.hbo.com/
+  email:
+  image: sponsors/hbo.PNG
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: platinum
+  description: is home of award-winning and critically-acclaimed series, documentaries, movies, sporting events and more.
+  pages:
+    - sponsors
+
+pace:
+  name: Pace University Seidenberg School of Computer Science and Information Systems
+  url: http://www.pace.edu/seidenberg/seidenberg-programs
+  email:
+  image: sponsors/pace.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: host
+  description: 
+  pages:
+    -sponsors

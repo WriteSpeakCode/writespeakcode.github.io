@@ -30,19 +30,17 @@ sub_page: true
 
       = partial :arrow_button,
         locals: { link: "/conference/#{day}", text: "More", classes: %w(inverted skinny) }
-      -#%a.more_info{ href: "/conference/#{day}" }
-        -#More
-        -#%i.fa.fa-angle-double-right
 
     %ul.events
       - schedule_for_weekday(weekday).each do |item|
-        %li.event
+        %li.event{ class: "#{item.actions.try(:join, ' ')}" }
           %a{ id: item.talk_id }
-          %h4.talk_name
-            = item.talk_name
-          =  talk_speakers_tag(item, day)
-          - if item.talk_description
-            %p.talk_description= item.talk_description
+          .details
+            %h4.talk_name
+              = item.talk_name
+            =  talk_speakers_tag(item, day)
+            - if item.talk_description
+              %p.talk_description= item.talk_description
 
 -#.schedule_container
   -#%h2 Conference Schedule

@@ -9,13 +9,27 @@
     }
   }
 
+  $odd-color: $brand-primary;
+  $even-color: $brand-primary-dark;
+  $main-lighten: 40;
+  $callout-lighten: 30;
   .event {
-    border-left: 10px solid $brand-primary;
+    border-left: 10px solid $odd-color;
+    background-color: lighten($odd-color, $main-lighten);
     padding: .5em;
     margin: 1em 0;
 
     &:nth-child(even) {
-      border-left-color: $brand-primary-dark;
+      border-left-color: $even-color;
+    }
+
+    &.talk, &.panel {
+      border-left-color: $brand-accent;
+      background-color: lighten($brand-accent, 55);
+
+      &:nth-child(even) {
+        border-left-color: $brand-accent-dark;
+      }
     }
 
     h5 {
@@ -52,6 +66,15 @@
 
       .more_info {
         @include colored-link($dark-gray);
+      }
+
+      .actions {
+        float: left;
+        color: $light-gray;
+      }
+
+      .details {
+        margin-left: 50px;
       }
     }
   }

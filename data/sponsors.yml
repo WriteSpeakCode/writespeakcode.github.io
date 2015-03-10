@@ -142,6 +142,18 @@ hbo:
   pages:
     - sponsors
 
+xo:
+  name: XO Group Inc.
+  url: http://www.xogroupinc.com
+  email:
+  image: sponsors/xo_logo.jpg
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  description: is the premier consumer internet and media company devoted to weddings, pregnancy and everything in between, providing couples and new parents with the trusted information, products and advice they need to guide them through the most transformative events of their lives.
+  pages:
+    -sponsors
+
 pace:
   name: Pace University Seidenberg School of Computer Science and Information Systems
   url: http://www.pace.edu/seidenberg/seidenberg-programs

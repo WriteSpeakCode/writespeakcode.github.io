@@ -111,8 +111,12 @@ thursday:
       - talk
       - inspire
   -
+    talk_id: imposter_syndrome
+    talk_name: "You are not your Imposter Syndrome"
+    talk_description: This is a practical approach on Imposter Syndrome, a common phenomenon among countless professionals. Let's talk about what it is, why it is, and the most important part, "what now?."
+  -
     talk_id: own_expertise
-    talk_name: "Imposter syndrome workshop & own your expertise!"
+    talk_name: "Own your expertise!"
     talk_description: Starting with the most common with the most common
       barrier to thought leadership &mdash; ourselves &mdash; we will 
       tackle imposter syndrome and learn to own our expertise. By diving into

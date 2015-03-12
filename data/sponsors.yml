@@ -154,6 +154,18 @@ hbo:
   pages:
     - sponsors
 
+spotify:
+  name: Spotify
+  url: http://www.spotify.com/
+  email:
+  image: sponsors/spotify.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  description: gives you millions of songs at your fingertips. The artists you love, the latest hits, and new discoveries just for you.
+  pages:
+    - sponsors
+
 xo:
   name: XO Group Inc.
   url: http://www.xogroupinc.com

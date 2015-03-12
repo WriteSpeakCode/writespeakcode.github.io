@@ -617,6 +617,7 @@ neha:
   image: speakers/neha.jpeg
   bio: is a software engineer at Floored, Inc. who works on making their 3D assets more accessible to our modelers, clients, and the public. Years ago, Neha was an energy consultant who quit and taught herself programming because “it was time.”  She holds a bachelor’s in Mechanical Engineering from MIT and enjoys confusing people as they try to trace her education/work history.  Neha likes food, planning trips (and has slightly insane spreadsheets for her trips), and pronouncing GIFs how it should be &#58; jiffs.
   pages:
+    -write
     -speaker
   social:
     linkedin: https://www.linkedin.com/in/nbatra

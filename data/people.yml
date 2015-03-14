@@ -595,6 +595,7 @@ melissa_c:
   type: person
   talks:
     -speaker_mentor
+    -speaking_eff
 
 
 andrea_wright:

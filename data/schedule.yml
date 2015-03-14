@@ -162,6 +162,10 @@ friday:
     talk_description: From color to font to showing code, we'll learn the
       best practices for creating slides for tech-related talks.
   -
+    talk_id: speaking_eff
+    talk_name: Speaking Effectively About Your Work
+    talk_description: Learn the key components of creating and delivering persuasive, dynamic presentations. 
+  -
     talk_id: conf_org_panel
     talk_name: Conference Organizer Panel
     talk_description: Hear how a handful of women conference organizers select speakers and gets tips for navigating the CFP process. 

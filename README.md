@@ -1,4 +1,4 @@
-# New Write/Speak/Code Website
+# writespeakcode.com
 
 ## Getting Started
 
@@ -11,7 +11,6 @@
 - [Node.js](http://nodejs.org/)
 - npm
 - [Bower](http://bower.io/)
-
 
 If Ruby and homebrew are already installed:
 
@@ -30,7 +29,7 @@ If Ruby and homebrew are already installed:
 
 #### Launch the server
 ```bash
-> middleman
+> bundle exec middleman
 ```
 
 Visit [http://localhost:4567/](http://localhost:4567/)
@@ -46,5 +45,11 @@ Visit [http://localhost:4567/](http://localhost:4567/)
 To publish changes (in the `dev` branch) to Github Pages, run:
 
 ```bash
-> rake publish
+> bundle exec rake publish
+```
+
+If you are developing off of your own fork, run:
+
+```bash
+> bundle exec rake publish REMOTE_NAME=upstream
 ```

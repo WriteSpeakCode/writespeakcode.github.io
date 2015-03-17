@@ -492,11 +492,7 @@ sarah_guido:
   name: Sarah Guido
   url:
   image: speakers/sarah_guido.jpeg
-<<<<<<< HEAD
-  bio: is a data scientist at a NYC startup, <a href="https://bitly.com/">Bitly</a>. She is a co-organizer of <a href="http://www.meetup.com/nycpython/">NYC Python</a> and <a href="http://pygotham.org/">PyGotham</a>. Sarah is interested in all things Python, data, and machine learning.
-=======
   bio: is a data scientist at <a href="https://bitly.com/">Bitly</a> and is interested in all things Python, data, and machine learning. Sarah organizes the <a href="pygotham.org">PyGotham</a> conference and the <a href="http://www.meetup.com/nycpython/">NYC Python</a> meetup. Excited to share her passion for data with others, she has spoken at conferences such as PyCon, OSCON, and PyData, and is writing a O'Reilly book on <a href="http://shop.oreilly.com/product/0636920030515.do">Machine Learning</a>. She loves NYC, yoga, good food, and aspires to one day own a cat.
->>>>>>> 990332a6174125faa2833b3c007d13e39b6b001d
   pages:
     - speak
     - speaker

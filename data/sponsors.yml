@@ -50,7 +50,7 @@ braintree:
   name: Braintree
   url: https://www.braintreepayments.com/
   email:
-  image: sponsors/braintreexh100.png
+  image: sponsors/braintree.jpeg
   frontpage: true
   sponsoring: conference
   sponsor_level: silver

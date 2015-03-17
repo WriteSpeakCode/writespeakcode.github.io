@@ -644,3 +644,18 @@ debbie:
   type: person
   talks: 
     -speaker_mentor
+
+anna_herlihy:
+  name: Anna Herlihy
+  url:
+  image: speakers/anna_herlihy.jpg
+  bio: is software engineer with an passion for hard problems, both technical and not. She currently works for MongoDB in NYC on the Python Driver.
+  pages:
+    -speaker
+    -speaker_mentor
+  social:
+    linkedin: https://www.linkedin.com/pub/anna-herlihy/49/890/195
+  type: person
+  talks:
+
+

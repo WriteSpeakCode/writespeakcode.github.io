@@ -50,7 +50,7 @@ braintree:
   name: Braintree
   url: https://www.braintreepayments.com/
   email:
-  image: sponsors/braintreexh100.png
+  image: sponsors/braintree.jpeg
   frontpage: true
   sponsoring: conference
   sponsor_level: silver
@@ -130,6 +130,18 @@ synaptic_talent:
   pages:
     - sponsors
 
+app_nexus:
+  name: AppNexus
+  url: http://www.appnexus.com/
+  email:
+  image: sponsors/appnexus.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  description: is a technology company that provides trading solutions and powers marketplaces for Internet advertising. Its open, unified and powerful programmatic platform empowers customers to more effectively buy and sell media, allowing them to innovate, differentiate, and transform their business. 
+  pages:
+    -sponsors
+
 hbo:
   name: HBO
   url: http://www.hbo.com/
@@ -139,6 +151,18 @@ hbo:
   sponsoring: conference
   sponsor_level: platinum
   description: is home of award-winning and critically-acclaimed series, documentaries, movies, sporting events and more.
+  pages:
+    - sponsors
+
+spotify:
+  name: Spotify
+  url: http://www.spotify.com/
+  email:
+  image: sponsors/spotify.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  description: gives you millions of songs at your fingertips. The artists you love, the latest hits, and new discoveries just for you.
   pages:
     - sponsors
 

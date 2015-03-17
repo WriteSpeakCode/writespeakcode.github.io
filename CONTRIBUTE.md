@@ -1,7 +1,3 @@
-/* CONTRIBUTE */
-
-This is the contribute.md of our project. Great to have you here. Here are a few ways you can help make this project better!
-
 # Contribute.md
 
 ## Team members
@@ -44,20 +40,6 @@ This sections explains how bug triaging is done for your project. Help beginners
 happening
 * You can update our change log here
 * You can remove duplicate bug reports
-
-
-# Beta testing
-
-This section explains if your project needs beta testing. Explain why early releases require heavy testing and how they can help with specially across browsers and on different hardware. 
-
-* For our project you can find the roadmap and features that require
-testing from here: 
-
-# Translations
-
-This section includes any instructions or translation needs your project has. 
-
-* You can help us translate our project here: 
 
 # Documentation
 

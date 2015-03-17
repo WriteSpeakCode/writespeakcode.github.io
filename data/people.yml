@@ -404,7 +404,6 @@ jen_myers:
   type: person
   weight: AA
   talks:
-    - speaker_mentor
     - closing_keynote
 
 tracey_welson_rossman:
@@ -493,7 +492,11 @@ sarah_guido:
   name: Sarah Guido
   url:
   image: speakers/sarah_guido.jpeg
+<<<<<<< HEAD
   bio: is a data scientist at a NYC startup, <a href="https://bitly.com/">Bitly</a>. She is a co-organizer of <a href="http://www.meetup.com/nycpython/">NYC Python</a> and <a href="http://pygotham.org/">PyGotham</a>. Sarah is interested in all things Python, data, and machine learning.
+=======
+  bio: is a data scientist at <a href="https://bitly.com/">Bitly</a> and is interested in all things Python, data, and machine learning. Sarah organizes the <a href="pygotham.org">PyGotham</a> conference and the <a href="http://www.meetup.com/nycpython/">NYC Python</a> meetup. Excited to share her passion for data with others, she has spoken at conferences such as PyCon, OSCON, and PyData, and is writing a O'Reilly book on <a href="http://shop.oreilly.com/product/0636920030515.do">Machine Learning</a>. She loves NYC, yoga, good food, and aspires to one day own a cat.
+>>>>>>> 990332a6174125faa2833b3c007d13e39b6b001d
   pages:
     - speak
     - speaker
@@ -697,3 +700,18 @@ debbie:
   type: person
   talks: 
     -speaker_mentor
+
+anna_herlihy:
+  name: Anna Herlihy
+  url:
+  image: speakers/anna_herlihy.jpg
+  bio: is software engineer with an passion for hard problems, both technical and not. She currently works for MongoDB in NYC on the Python Driver.
+  pages:
+    -speaker
+    -speaker_mentor
+  social:
+    linkedin: https://www.linkedin.com/pub/anna-herlihy/49/890/195
+  type: person
+  talks:
+
+

@@ -12,12 +12,8 @@ vanessa:
        She love tigers, marshmallows, chai lattes, and really big ideas.
   pages:
     - code
-<<<<<<< HEAD
     - speaker
     - organizers
-=======
-    - <organizers></organizers>
->>>>>>> Updated Tracy's bio
   type: person
   social:
     twitter: http://www.twitter.com/dbness

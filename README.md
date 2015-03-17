@@ -1,10 +1,8 @@
 # writespeakcode.com
 
-## Getting Started
+## Installation
 
-### Develop
-
-#### Requirements
+### Requirements
 
 - Ruby
 - Bundler `gem install bundler`
@@ -21,26 +19,28 @@ If Ruby and homebrew are already installed:
 > npm install -g bower
 ```
 
-#### Install dependencies
+### Install dependencies
+
 ```bash
 > bundle install
 > bower install
 ```
 
-#### Launch the server
+### Launch the server
+
 ```bash
 > bundle exec middleman
 ```
 
 Visit [http://localhost:4567/](http://localhost:4567/)
 
-#### Create a pull request
+## Create a pull request
 
 - Create changes on a feature branch
 - Submit a pull request to the `dev` branch
-- Ping [Rebecca](@rmw)
+- Ping [Rebecca](@rmw) or [Rachel](@rachelober)
 
-### Publish
+## Publish
 
 To publish changes (in the `dev` branch) to Github Pages, run:
 

@@ -23,13 +23,13 @@ If Ruby and homebrew are already installed:
 ```
 
 #### Install dependencies
-```
+```bash
 > bundle install
 > bower install
 ```
 
 #### Launch the server
-```
+```bash
 > middleman
 ```
 
@@ -45,6 +45,6 @@ Visit [http://localhost:4567/](http://localhost:4567/)
 
 To publish changes (in the `dev` branch) to Github Pages, run:
 
-```
+```bash
 > rake publish
 ```

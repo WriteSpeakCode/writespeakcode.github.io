@@ -53,3 +53,11 @@ If you are developing off of your own fork, run:
 ```bash
 > bundle exec rake publish REMOTE_NAME=upstream
 ```
+
+## Contributing
+
+Please take a look at our [contributing](CONTRIBUTE.md) guidelines. We have volunteers who work on our website to make sure it is up-to-date for all of our events. You are welcome to work on it too if you have free time!
+
+## License
+
+The code is available under the [MIT license](MIT-LICENSE).

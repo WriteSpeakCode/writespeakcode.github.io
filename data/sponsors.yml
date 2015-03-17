@@ -166,6 +166,18 @@ spotify:
   pages:
     - sponsors
 
+instructure:
+  name: Instructure
+  url: http://www.instructure.com
+  email:
+  image: sponsors/instructure.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: bronze
+  description: 
+  pages:
+    -sponsors
+
 xo:
   name: XO Group Inc.
   url: http://www.xogroupinc.com

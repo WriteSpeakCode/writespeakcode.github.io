@@ -130,6 +130,18 @@ synaptic_talent:
   pages:
     - sponsors
 
+xo:
+  name: XO Group Inc.
+  url: http://www.xogroupinc.com
+  email:
+  image: sponsors/xo_logo.jpg
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  description: is the premier consumer internet and media company devoted to weddings, pregnancy and everything in between, providing couples and new parents with the trusted information, products and advice they need to guide them through the most transformative events of their lives.
+  pages:
+    -sponsors
+
 app_nexus:
   name: AppNexus
   url: http://www.appnexus.com/
@@ -143,14 +155,14 @@ app_nexus:
     -sponsors
 
 hbo:
-  name: HBO
+  name: Home Box Office
   url: http://www.hbo.com/
   email:
   image: sponsors/hbo.PNG
   frontpage: true
   sponsoring: conference
   sponsor_level: platinum
-  description: is home of award-winning and critically-acclaimed series, documentaries, movies, sporting events and more.
+  description: "&mdash; America's most successful premium television company &mdash; delivers two 24-hour pay television services—HBO® and Cinemax®. HBO continues to take advantage of the latest technological innovations with advancements that include the availability of HBO programming online though HBO GO and MAX GO, as well as HBO On Demand® and Cinemax On Demand® in HD. Just as HBO is a company noted for its commitment to excellence in the products and services it delivers to consumers, it makes the extra effort to create a work environment in which fairness, equity, trust, and individual responsibility are valued. HBO is committed to retaining and recruiting skilled and motivated employees, placing a priority on qualified team players who contribute to the diversity of their workforce. HBO offers competitive benefits to include medical, dental, vision, a matched 401(k) plan, flexible spending, a commuter benefit program and tuition reimbursement."
   pages:
     - sponsors
 
@@ -175,18 +187,6 @@ instructure:
   sponsoring: conference
   sponsor_level: bronze
   description: 
-  pages:
-    -sponsors
-
-xo:
-  name: XO Group Inc.
-  url: http://www.xogroupinc.com
-  email:
-  image: sponsors/xo_logo.jpg
-  frontpage: true
-  sponsoring: conference
-  sponsor_level: silver
-  description: is the premier consumer internet and media company devoted to weddings, pregnancy and everything in between, providing couples and new parents with the trusted information, products and advice they need to guide them through the most transformative events of their lives.
   pages:
     -sponsors
 

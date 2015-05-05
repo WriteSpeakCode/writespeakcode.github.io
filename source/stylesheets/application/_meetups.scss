@@ -2,6 +2,11 @@
   .meetup {
     margin-bottom: 2em;
   }
-
-  ul { @include normal-list }
+  .social li{
+    display: inline; 
+    padding-right: 10px;
+  }
+  .social li a:hover{
+    text-decoration: none;
+  }
 }

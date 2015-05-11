@@ -63,6 +63,7 @@ rebecca:
     - write
     - organizers
     - speaker
+    - meetups-chicago
   type: person
   weight: A
   social:
@@ -763,7 +764,7 @@ dalal_al_rayes:
   talks:
 
 jeca_armstrong:
-  name: Jeca Armstrong 
+  name: Jessica Armstrong 
   url: http://helveticajessica.com 
   image: organizers/jeca_armstrong.jpg
   bio: is a Golang developer at a software consulting company and co-founder of the NYC Write/Speak/Code Meetup. She's passionate about multicultural perspectives, helping marginalized groups empower themselves, and intersectionalism. A multidisciplinary enthusiast, her background is in labor and environmental politics, gardening, and antiques. Her love of travel has led her to visit 17 countries on five continents (so far). 

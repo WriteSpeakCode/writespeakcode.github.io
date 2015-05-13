@@ -4,10 +4,14 @@ page_class: 'meetups'
 alias : ['meetups.html', 'meetups/index.html']
 ---
 
-%h1 Write/Speak/Code Meetups
+%h1 Chapters
+
+%ul.breadcrumbs
+  - data[:meetups].each do |slug, meetup|
+    %li= link_to meetup.name, "##{slug}"
 
 - data[:meetups].each do |slug, meetup| 
-  %section.meetup
+  %section.meetup{ id: slug }
     %h2 
       = meetup.name
     %ul.social

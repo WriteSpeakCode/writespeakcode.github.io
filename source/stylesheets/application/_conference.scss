@@ -77,14 +77,6 @@
     &.write li.write, &.speak li.speak, &.code li.code {
       a { @include colored-link($brand-primary) }
     }
-
-    li {
-      display: inline-block;
-
-      &:not(:last-child):after {
-        content: '/';
-      }
-    }
   }
 
   &.sub_page {

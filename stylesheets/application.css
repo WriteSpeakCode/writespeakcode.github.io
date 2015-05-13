@@ -2532,14 +2532,29 @@ ol {
   margin: 0;
   padding: 0;
   list-style-type: none; }
-/* line 20, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+  /* line 19, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+  ul.breadcrumbs,
+  ol.breadcrumbs {
+    text-align: center;
+    margin-bottom: 1.5em; }
+    /* line 23, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+    ul.breadcrumbs li,
+    ol.breadcrumbs li {
+      display: inline-block; }
+      /* line 26, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+      ul.breadcrumbs li:not(:last-child):after,
+      ol.breadcrumbs li:not(:last-child):after {
+        content: '/';
+        margin: 0 0.75em; }
+
+/* line 34, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
 dl {
   margin-bottom: 0.75em; }
-  /* line 23, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+  /* line 37, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
   dl dt {
     font-weight: bold;
     margin-top: 0.75em; }
-  /* line 28, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+  /* line 42, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
   dl dd {
     margin: 0; }
 
@@ -3172,55 +3187,49 @@ body {
 .conference_layout .breadcrumbs.write li.write a:active, .conference_layout .breadcrumbs.write li.write a:focus, .conference_layout .breadcrumbs.speak li.speak a:active, .conference_layout .breadcrumbs.speak li.speak a:focus, .conference_layout .breadcrumbs.code li.code a:active, .conference_layout .breadcrumbs.code li.code a:focus {
   color: #971f2d;
   outline: none; }
-/* line 81, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-.conference_layout .breadcrumbs li {
-  display: inline-block; }
-  /* line 84, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
-  .conference_layout .breadcrumbs li:not(:last-child):after {
-    content: '/'; }
-/* line 91, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 83, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout.sub_page .hero {
   font-size: .8em;
   padding-bottom: 62px; }
-  /* line 92, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 84, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout.sub_page .hero .details, .conference_layout.sub_page .hero .header-break {
     display: none; }
   @media screen and (min-width: 53.75em) {
-    /* line 91, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    /* line 83, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
     .conference_layout.sub_page .hero {
       padding-bottom: 52px; } }
-  /* line 100, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 92, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout.sub_page .hero h1 {
     font-family: "proxima-nova-extra-condensed";
     font-weight: 700;
     font-style: normal; }
     @media screen and (min-width: 53.75em) {
-      /* line 100, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      /* line 92, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
       .conference_layout.sub_page .hero h1 {
         font-size: 2.25em; } }
-  /* line 105, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 97, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout.sub_page .hero h2 {
     font-family: "proxima-nova-extra-condensed";
     font-weight: 500;
     font-style: normal; }
     @media screen and (min-width: 53.75em) {
-      /* line 105, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      /* line 97, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
       .conference_layout.sub_page .hero h2 {
         font-size: 2em; } }
-/* line 112, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 104, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout.sub_page #content h2 {
   margin: 0 auto 1em auto; }
-  /* line 115, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 107, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout.sub_page #content h2 .fa, .conference_layout.sub_page #content h2 blockquote, .conference_layout.sub_page #content h2 .code-icon, .conference_layout.sub_page #content h2 .speak-icon, .conference_layout.sub_page #content h2 .write-icon, .conference_layout.sub_page #content h2 .footer .footer-logo, .footer .conference_layout.sub_page #content h2 .footer-logo {
     padding: 0 .5em; }
-/* line 120, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 112, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout.sub_page #content .themes {
   color: #D84455;
   margin-bottom: 1em; }
-/* line 125, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 117, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout.sub_page #content .credits {
   margin-top: 1em; }
-/* line 132, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 124, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout .developer-definition {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -3234,11 +3243,11 @@ body {
   background-color: #efedb1;
   padding: .5em;
   border: 1px solid #9b9092; }
-/* line 140, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 132, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout a.small {
   font-size: .8em;
   color: #faf9f9; }
-  /* line 144, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 136, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout a.small, .conference_layout a.small:hover, .conference_layout a.small:linked, .conference_layout a.small:visited {
     color: #faf9f9; }
 
@@ -3254,14 +3263,14 @@ body {
 #main.scholarships #content .breadcrumbs li a:active, #main.scholarships #content .breadcrumbs li a:focus {
   color: #971f2d;
   outline: none; }
-/* line 151, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 143, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 #main.scholarships #content .scholarship {
   margin: 3em 1em 1em;
   text-align: left; }
-  /* line 155, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 147, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   #main.scholarships #content .scholarship h2 {
     margin-bottom: .5em; }
-/* line 160, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 152, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 #main.scholarships #content .closed {
   margin-top: 5em;
   border-top: 3px dashed #DEDA5C; }

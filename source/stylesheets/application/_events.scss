@@ -8,15 +8,17 @@
     }
   }
 
-  .past-workshops {
-    li {
-      margin-bottom: .5em;
-      padding: .5em;
+  .workshops {
+    &.upcoming-workshops, &.past-workshops {
+      li {
+        margin-bottom: .5em;
+        padding: .5em;
 
-      border-left: 10px solid $brand-primary;
+        border-left: 10px solid $brand-primary;
 
-      &:nth-child(even) {
-        border-left-color: $light-red;
+        &:nth-child(even) {
+          border-left-color: $light-red;
+        }
       }
     }
   }

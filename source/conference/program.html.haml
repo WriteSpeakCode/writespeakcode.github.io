@@ -1,0 +1,61 @@
+.schedule_container
+  %h2 Conference Schedule
+
+  %h3 Thursday, March 19
+
+  .dots
+    %ul
+      - data.schedule.details.select {|k,v| v.day == 'Thursday'}.each do |k,v|
+        %li.fa.fa-circle
+          %p
+            %strong
+              = time_converter(v.hour, v.minutes)
+          %p
+            %a{href: v.url}
+              = v.name
+
+  - sponsors = sponsors_for("conference", "platinum")
+  %ul.sponsors{ class: "platinum" }
+    - sponsors.each do |slug, sponsor|
+      %li.sponsor
+        %a{ href: sponsor.url, target:'_blank', title: "#{sponsor.name}" }
+          = image_tag sponsor.image
+        %p.description
+          = link_to sponsor.name, sponsor.url
+          = sponsor.description
+
+  %h3 Friday, March 20
+
+  .dots
+    %ul
+      - data.schedule.details.select {|k,v| v.day == 'Friday'}.each do |k,v|
+        %li.fa.fa-circle
+          %p
+            %strong
+              = time_converter(v.hour, v.minutes)
+          %p
+            %a{href: v.url}
+              = v.name
+
+  - sponsors = sponsors_for("conference", "gold")
+  %ul.sponsors{ class: "gold" }
+    - sponsors.each do |slug, sponsor|
+      %li.sponsor
+        %a{ href: sponsor.url, target:'_blank', title: "#{sponsor.name}" }
+          = image_tag sponsor.image
+        %p.description
+          = link_to sponsor.name, sponsor.url
+          = sponsor.description
+
+  %h3 Saturday, March 21
+
+  .dots
+    %ul
+      - data.schedule.details.select {|k,v| v.day == 'Saturday'}.each do |k,v|
+        %li.fa.fa-circle
+          %p
+            %strong
+              = time_converter(v.hour, v.minutes)
+          %p
+            %a{href: v.url}
+              = v.name

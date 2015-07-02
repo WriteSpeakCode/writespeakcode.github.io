@@ -1,0 +1,35 @@
+---
+title: Write/Speak/Code Meetups
+page_class: 'meetups'
+alias : ['meetups.html', 'meetups/index.html']
+---
+
+%h1 Chapters
+
+%ul.breadcrumbs
+  - data[:meetups].each do |slug, meetup|
+    %li= link_to meetup.name, "##{slug}"
+
+- data[:meetups].each do |slug, meetup| 
+  %section.meetup{ id: slug }
+    %h2 
+      = meetup.name
+    %ul.social
+      %li
+        = link_to 'Join Meetup', meetup.meetup_url, target: '_blank'
+      %li
+        = link_to meetup.twitter, target: '_blank' do
+          .fa.fa-twitter
+      %li
+        = link_to "mailto: #{meetup.email}", target: '_blank' do
+          .fa.fa-envelope
+    %h4 
+      %strong Organizers
+    = partial 'people_list', locals: { filter: "meetups-#{slug}" }
+
+%section.meetup
+  %h3 Are you interested in starting a Write/Speak/Code meetup?
+  %p
+    Contact us at
+    = link_to 'info@writespeakcode.com', 'mailto:info@writespeakcode.com'
+    if you are interested in starting a meetup near you.

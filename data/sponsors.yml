@@ -50,7 +50,7 @@ braintree:
   name: Braintree
   url: https://www.braintreepayments.com/
   email:
-  image: sponsors/braintreexh100.png
+  image: sponsors/braintree.jpeg
   frontpage: true
   sponsoring: conference
   sponsor_level: silver
@@ -130,18 +130,6 @@ synaptic_talent:
   pages:
     - sponsors
 
-hbo:
-  name: HBO
-  url: http://www.hbo.com/
-  email:
-  image: sponsors/hbo.PNG
-  frontpage: true
-  sponsoring: conference
-  sponsor_level: platinum
-  description: is home of award-winning and critically-acclaimed series, documentaries, movies, sporting events and more.
-  pages:
-    - sponsors
-
 xo:
   name: XO Group Inc.
   url: http://www.xogroupinc.com
@@ -151,6 +139,54 @@ xo:
   sponsoring: conference
   sponsor_level: silver
   description: is the premier consumer internet and media company devoted to weddings, pregnancy and everything in between, providing couples and new parents with the trusted information, products and advice they need to guide them through the most transformative events of their lives.
+  pages:
+    -sponsors
+
+app_nexus:
+  name: AppNexus
+  url: http://www.appnexus.com/
+  email:
+  image: sponsors/appnexus.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  description: is a technology company that provides trading solutions and powers marketplaces for Internet advertising. Its open, unified and powerful programmatic platform empowers customers to more effectively buy and sell media, allowing them to innovate, differentiate, and transform their business. 
+  pages:
+    -sponsors
+
+hbo:
+  name: Home Box Office
+  url: http://www.hbo.com/
+  email:
+  image: sponsors/hbo.PNG
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: platinum
+  description: "&mdash; America's most successful premium television company &mdash; delivers two 24-hour pay television services—HBO® and Cinemax®. HBO continues to take advantage of the latest technological innovations with advancements that include the availability of HBO programming online though HBO GO and MAX GO, as well as HBO On Demand® and Cinemax On Demand® in HD. Just as HBO is a company noted for its commitment to excellence in the products and services it delivers to consumers, it makes the extra effort to create a work environment in which fairness, equity, trust, and individual responsibility are valued. HBO is committed to retaining and recruiting skilled and motivated employees, placing a priority on qualified team players who contribute to the diversity of their workforce. HBO offers competitive benefits to include medical, dental, vision, a matched 401(k) plan, flexible spending, a commuter benefit program and tuition reimbursement."
+  pages:
+    - sponsors
+
+spotify:
+  name: Spotify
+  url: http://www.spotify.com/
+  email:
+  image: sponsors/spotify.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: silver
+  description: gives you millions of songs at your fingertips. The artists you love, the latest hits, and new discoveries just for you.
+  pages:
+    - sponsors
+
+instructure:
+  name: Instructure
+  url: http://www.instructure.com
+  email:
+  image: sponsors/instructure.png
+  frontpage: true
+  sponsoring: conference
+  sponsor_level: bronze
+  description: 
   pages:
     -sponsors
 

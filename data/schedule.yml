@@ -39,46 +39,312 @@ actions:
     tooltip: Inspiration!
 
 details:
-  first_speaker:
-    name: Hello World
-    day: Saturday
+  t1:
+    name: Breakfast & Networking
+    day: Thursday
+    hour: 8
+    minutes: 00
+    url: "/"
+
+  t2:
+    name: Welcome & Overview
+    day: Thursday
     hour: 9
-    minutes: 30
+    minutes: 00
     url: "/"
 
-  panel:
-    name: Panel Discussion
-    day: Friday
+
+  t3:
+    name: We Are Not Black Unicorns
+    day: Thursday
+    hour: 9
+    minutes: 00
+    url: "/"
+
+  t4:
+    name: Rose, Bud, Thorn Ice Breaker
+    day: Thursday
+    hour: 9
+    minutes: 20
+    url: "/"
+
+  t5:
+    name: Imposter Syndrome
+    day: Thursday
+    hour: 9
+    minutes: 25
+    url: "/"
+
+  t6:
+    name: Goals & Purpose
+    day: Thursday
+    hour: 9
+    minutes: 55
+    url: "/"
+
+  t7:
+    name: Your Story
+    day: Thursday
     hour: 10
-    minutes: 30
+    minutes: 10
     url: "/"
 
+  t8:
+    name: Break
+    day: Thursday
+    hour: 10
+    minutes: 50
+    url: "/"
 
-  hello:
-    name: Hello World
-    day: Friday
+  t8:
+    name: Thought Leadership, Expertise & Credibility
+    day: Thursday
+    hour: 10
+    minutes: 55
+    url: "/"
+
+  t9:
+    name: Craft Your Bio
+    day: Thursday
     hour: 11
     minutes: 00
     url: "/"
 
-  hiya:
-    name: Speaker
+  t10:
+    name: Own Your Expertise
+    day: Thursday
+    hour: 11
+    minutes: 35
+    url: "/"
+
+  t11:
+    name: Lunch
     day: Thursday
     hour: 12
     minutes: 30
     url: "/"
 
-  dog:
-    name: Jenny Smith
+  t12:
+    name: Topic Generation
+    day: Thursday
+    hour: 13
+    minutes: 30
+    url: "/"
+
+  t13:
+    name: Break
     day: Thursday
     hour: 14
+    minutes: 20
+    url: "/"
+
+  t14:
+    name: Outlining
+    day: Thursday
+    hour: 14
+    minutes: 25
+    url: "/"
+
+  t15:
+    name: Break
+    day: Thursday
+    hour: 14
+    minutes: 55
+    url: "/"
+
+  t16:
+    name: "Panel: Writing for Developers"
+    day: Thursday
+    hour: 15
+    minutes: 00
+    url: "/"
+
+  t17:
+    name: Snacks Available
+    day: Thursday
+    hour: 15
     minutes: 45
     url: "/"
 
-  cat:
-    name: A really really long workshop name and description is happening at this time
+  t18:
+    name: Write!
     day: Thursday
+    hour: 16
+    minutes: 00
+    url: "/"
+
+  t19:
+    name: Summary/Outline Feedback with Pair
+    day: Thursday
+    hour: 16
+    minutes: 10
+    url: "/"
+
+  t20:
+    name: Share, Next Steps, Closing
+    day: Thursday
+    hour: 17
+    minutes: 50
+    url: "/"
+
+  f1:
+    name: Breakfast & Networking
+    day: Friday
+    hour: 9
+    minutes: 00
+    url: "/"
+
+  f2:
+    name: Welcome
+    day: Friday
+    hour: 10
+    minutes: 00
+    url: "/"
+
+  f3:
+    name: Attendees Find Partners
+    day: Friday
+    hour: 10
+    minutes: 25
+    url: "/"
+
+  f4:
+    name: "Panel: Conference Organizers"
+    day: Friday
+    hour: 11
+    minutes: 30
+    url: "/"
+
+  f5:
+    name: Lunch
+    day: Friday
+    hour: 12
+    minutes: 25
+    url: "/"
+
+  f6:
+    name: Talk Proposal Feedback
+    day: Friday
+    hour: 13
+    minutes: 25
+    url: "/"
+
+  f7:
+    name: Speaking Effectively About Your Work
+    day: Friday
+    hour: 13
+    minutes: 50
+    url: "/"
+
+  f8:
+    name: Travel to Breakout Rooms
+    day: Friday
+    hour: 14
+    minutes: 30
+    url: "/"
+
+  f9:
+    name: Snacks Available
+    day: Friday
     hour: 15
+    minutes: 15
+    url: "/"
+
+  f10:
+    name: Present
+    day: Friday
+    hour: 15
+    minutes: 35
+    url: "/"
+
+  f11:
+    name: From Idea to Presentation
+    day: Friday
+    hour: 16
+    minutes: 55
+    url: "/"
+
+  f12:
+    name: Closing, Next Steps, and Actionable Goals
+    day: Friday
+    hour: 17
+    minutes: 30
+    url: "/"
+
+  s1:
+    name: Breakfast & Networking
+    day: Saturday
+    hour: 9
+    minutes: 00
+    url: "/"
+
+  s2:
+    name: Intro to Git and GitHub Workflows (Optional)
+    day: Saturday
+    hour: 9
+    minutes: 00
+    url: "/"
+
+  s3:
+    name: Welcome
+    day: Saturday
+    hour: 10
+    minutes: 00
+    url: "/"
+
+  s4:
+    name: "Opening Keynote: Living our Open Source Values"
+    day: Saturday
+    hour: 10
+    minutes: 10
+    url: "/"
+
+  s5:
+    name: "Lesson: Find & Set up an Open Source Project"
+    day: Saturday
+    hour: 10
+    minutes: 25
+    url: "/"
+
+  s6:
+    name: "Share: How I Found My Open Source Project"
+    day: Saturday
+    hour: 10
+    minutes: 45
+    url: "/"
+
+  s7:
+    name: "Lunch"
+    day: Saturday
+    hour: 12
+    minutes: 30
+    url: "/"
+
+  s8:
+    name: "Lesson: Open Source Licenses"
+    day: Saturday
+    hour: 13
+    minutes: 30
+    url: "/"
+
+  s9:
+    name: "Share: Today I Learned & Raffle Winners"
+    day: Saturday
+    hour: 16
+    minutes: 30
+    url: "/"
+
+  s10:
+    name: "Closing Keynote: Jen Myers"
+    day: Saturday
+    hour: 17
+    minutes: 00
+    url: "/"
+
+  s11:
+    name: "Why We Must Write/Speak/Code"
+    day: Saturday
+    hour: 17
     minutes: 30
     url: "/"
 
@@ -194,10 +460,6 @@ friday:
     actions:
       - action
   -
-    talk_id: speaking_eff
-    talk_name: Speaking Effectively About Your Work
-    talk_description: Learn the key components of creating and delivering persuasive, dynamic presentations. 
-  -
     talk_id: conf_org_panel
     talk_name: Conference Organizer Panel
     talk_description: Hear how a handful of women conference organizers select speakers and gets tips for navigating the CFP process. 
@@ -212,10 +474,9 @@ friday:
       - learn
       - group
   -
-    talk_id: slides
-    talk_name: How to create an effective presentation
-    talk_description: From color to font to showing code, we'll learn the
-      best practices for creating slides for tech-related talks.
+    talk_id: speaking_eff
+    talk_name: Speaking Effectively About Your Work
+    talk_description: Learn the key components of creating and delivering persuasive, dynamic presentations. 
     actions:
       - talk
   -

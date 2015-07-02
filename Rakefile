@@ -46,7 +46,7 @@ task :prepare_git_remote_in_build_dir => GH_PAGES_REF
 # Fetch upstream changes on #{PUB_BRANCH} branch
 task :sync do
   cd BUILD_DIR do
-    sh "git fetch #{remote_name}"
+    sh "git fetch #{remote_name} #{PUB_BRANCH}"
     sh "git reset --hard #{remote_name}/#{PUB_BRANCH}"
   end
 end

@@ -63,6 +63,7 @@ rebecca:
     - write
     - organizers
     - speaker
+    - meetups-chicago
   type: person
   weight: A
   social:
@@ -404,7 +405,6 @@ jen_myers:
   type: person
   weight: AA
   talks:
-    - speaker_mentor
     - closing_keynote
 
 tracey_welson_rossman:
@@ -493,7 +493,7 @@ sarah_guido:
   name: Sarah Guido
   url:
   image: speakers/sarah_guido.jpeg
-  bio: is a data scientist at a NYC startup, <a href="https://bitly.com/">Bitly</a>. She is a co-organizer of <a href="http://www.meetup.com/nycpython/">NYC Python</a> and <a href="http://pygotham.org/">PyGotham</a>. Sarah is interested in all things Python, data, and machine learning.
+  bio: is a data scientist at <a href="https://bitly.com/">Bitly</a> and is interested in all things Python, data, and machine learning. Sarah organizes the <a href="pygotham.org">PyGotham</a> conference and the <a href="http://www.meetup.com/nycpython/">NYC Python</a> meetup. Excited to share her passion for data with others, she has spoken at conferences such as PyCon, OSCON, and PyData, and is writing a O'Reilly book on <a href="http://shop.oreilly.com/product/0636920030515.do">Machine Learning</a>. She loves NYC, yoga, good food, and aspires to one day own a cat.
   pages:
     - speak
     - speaker
@@ -634,7 +634,6 @@ melissa_c:
     linkedin: https://www.linkedin.com/pub/melissa-collom/4/5a1/700
   type: person
   talks:
-    -slides
     -speaker_mentor
     -speaking_eff
 
@@ -698,3 +697,100 @@ debbie:
   talks: 
     -speaker_mentor
 
+<<<<<<< HEAD
+=======
+anna_herlihy:
+  name: Anna Herlihy
+  url:
+  image: speakers/anna_herlihy.jpg
+  bio: is software engineer with an passion for hard problems, both technical and not. She currently works for MongoDB in NYC on the Python Driver.
+  pages:
+    -speaker
+    -speaker_mentor
+  social:
+    linkedin: https://www.linkedin.com/pub/anna-herlihy/49/890/195
+  type: person
+  talks:
+
+jessica_simon:
+  name: Jessica Simon
+  url: http://jessicasimon.me
+  image: organizers/jessica_simon.jpg
+  bio: is a software engineer at a fin tech startup called <a href="http://www.gust.com/" target="_blank">Gust</a>. She is passionate about innovation, design, education, and all things tech! During her free time, you can find her flipping around the gymnastics gym, cheering on the Maryland Terrapins, discovering new restaurants, and traveling around the world. 
+  pages:
+    - meetups-nyc
+  social:
+    twitter: https://twitter.com/jsimon727
+    linkedin: https://www.linkedin.com/in/jessica727
+    github: http://www.github.com/jsimon727
+  type: person
+  talks:
+
+kelly_king:
+  name: Kelly King 
+  url: http://www.kellyking.me/
+  image: organizers/kelly_king.jpg
+  bio: is a software engineer at Twitter. In her free time, she likes to build retro games with JavaScript and hang out with her dogs, Riddick and Yoshi.
+  pages:
+    - meetups-sf
+  social:
+    twitter: https://twitter.com/kng
+    github: http://www.github.com/kellyk
+  type: person
+  talks:
+
+lisa_van_gelder:
+  name: Lisa van Gelder
+  url: 
+  image: organizers/lisa_van_gelder.jpg
+  bio: has over 15 years experience in software engineering, including leading and managing software development teams. Her career has taken her between London and New York at companies ranging from small startups to large media organizations, including the Guardian and the BBC. She is currently VP of Engineering at Stride. Lisa lives in Brooklyn and is mostly powered by coffee. 
+  pages:
+    - meetups-nyc
+  social:
+    twitter: https://twitter.com/techbint
+  type: person
+  talks:
+
+dalal_al_rayes:
+  name: Dalal Al Rayes 
+  url: 
+  image: organizers/dalal_al_rayes.jpg
+  bio: is a full stack developer with a background in finance and private equity. She has helped companies increase their value by turning around their operations, restructuring management and redefining products. Dalal holds an MBA from London Business School and is a recent Dev Bootcamp graduate. She wants to live in a world where competition is fair, high heels are comfortable, and open source is more accessible to beginners.  When she's not coding, Dalal is biking around Chicago trying to find the best peanut butter cookies.
+  pages:
+    - meetups-chicago
+  social:
+    twitter: https://twitter.com/dalrayes
+    linkedin: https://www.linkedin.com/in/dalalalrayes
+    github: http://www.github.com/dalrayes
+  type: person
+  talks:
+
+jeca_armstrong:
+  name: Jeca Armstrong 
+  url: http://helveticajessica.com 
+  image: organizers/jeca_armstrong.jpg
+  bio: is a Golang developer at a software consulting company and co-founder of the NYC Write/Speak/Code Meetup. She's passionate about multicultural perspectives, helping marginalized groups empower themselves, and intersectionalism. A multidisciplinary enthusiast, her background is in labor and environmental politics, gardening, and antiques. Her love of travel has led her to visit 17 countries on five continents (so far). 
+  pages:
+    - meetups-nyc
+  social:
+    twitter: https://twitter.com/j_armstrng
+    linkedin: https://www.linkedin.com/in/jarmstrng
+    github: http://www.github.com/jarmstrng
+  type: person
+  talks:
+
+caroline_artz:
+  name: Caroline Artz 
+  url: http://car.oline.codes 
+  image: organizers/caroline_artz.jpg
+  bio: is a full-stack web developer and designer in Chicago. She enjoys mentoring students at Dev Bootcamp and has instructed the Ruby on Rails back-end development track at Startup Institute, Chicago. Beyond coding, she enjoys traveling, strong coffee, graphic design, and photo editing. 
+  pages:
+    - meetups-chicago
+  social:
+    twitter: https://twitter.com/carolineartz
+    linkedin: https://www.linkedin.com/in/carolineartz
+    github: http://www.github.com/carolineartz
+    codepen: http://codepen.io/carolineartz 
+  type: person
+  talks:
+>>>>>>> 3d978383fee1d2c4bb018fe60088435397a3d8d3

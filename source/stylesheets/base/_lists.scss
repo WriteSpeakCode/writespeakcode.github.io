@@ -15,6 +15,20 @@ ol {
     margin-bottom: $base-spacing / 2;
     padding-left: $base-spacing;
   }
+
+  &.breadcrumbs {
+    text-align: center;
+    margin-bottom: $base-spacing;
+
+    li {
+      display: inline-block;
+
+      &:not(:last-child):after {
+        content: '/';
+        margin: 0 $base-spacing/2;
+      }
+    }
+  }
 }
 
 dl {

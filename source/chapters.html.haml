@@ -10,9 +10,9 @@ alias : ['meetups.html', 'meetups/index.html']
   - data[:meetups].each do |slug, meetup|
     %li= link_to meetup.name, "##{slug}"
 
-- data[:meetups].each do |slug, meetup| 
+- data[:meetups].each do |slug, meetup|
   %section.meetup{ id: slug }
-    %h2 
+    %h2
       = meetup.name
     %ul.social
       %li
@@ -23,7 +23,10 @@ alias : ['meetups.html', 'meetups/index.html']
       %li
         = link_to "mailto: #{meetup.email}", target: '_blank' do
           .fa.fa-envelope
-    %h4 
+      - if meetup.events_path.present?
+        = link_to 'Upcoming Events', meetup.events_path
+
+    %h4
       %strong Organizers
     = partial 'people_list', locals: { filter: "meetups-#{slug}" }
 

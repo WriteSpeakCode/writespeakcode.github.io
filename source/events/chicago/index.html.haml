@@ -8,7 +8,16 @@ page_class: 'events workshops'
 
 %h2 Getting Started in Open Source w/ Python
 %h4 In collaboration with Chicago PyLadies
-%h5 <b>&lt;</b> 10:00am &mdash; 4:00pm &nbsp; <b>/</b> &nbsp; July 25, 2015 &nbsp; <b>/</b> &nbsp; <i class="fa fa-map-marker"></i> #{link_to 'Enova', 'https://www.google.com/maps?f=q&hl=en&q=175+W+Jackson,+5th+Floor,+Chicago,+IL,+us'} &nbsp; <b>&gt;</b>
+%h5
+  %strong &lt;
+  10:00am &mdash; 4:00pm &nbsp;
+  %strong /
+  &nbsp; July 25, 2015 &nbsp;
+  %strong /
+  &nbsp;
+  %i.fa.fa-map-marker
+  = link_to 'Enova', 'https://www.google.com/maps?f=q&hl=en&q=175+W+Jackson,+5th+Floor,+Chicago,+IL,+us'
+  %strong &gt;
 %br
 
 %p Ready to contribute to Open Source!? From git to licensing, you'll learn all about open source logistics and culture.
@@ -19,11 +28,26 @@ page_class: 'events workshops'
 %p
   We will have projects and Python mentors for you to work on and support you as you make your first open source contribution. Publish and contribute to open source by the end of the day!
 
-%p.callout-primary Registration opens on Wednesday, July 8th<br><small class="details"><em> Childcare will be available for the duration of the event</em></small>
+%p
+  %small
+    %em This event is for those with some experience in Python and git.
+
+%p
+  %span.callout-primary Registration opens on Wednesday, July 8th
+  %br
+  %em
+    Childcare, CART services, and ASL interpreters will be made available as
+    needed for the duration of the event.
+    %small Sign up during registration
 
 
 %p
-  <i class="fa fa-paper-plane"></i> Subscribe to Write Speak Code's #{link_to 'mailing list', 'http://eepurl.com/baHs5X'} and check <em>Chicago</em> to receive all updates on this event and future events.
+  %i.fa.fa-paper-plane
+  Subscribe to Write Speak Code's
+  = link_to 'mailing list', 'http://eepurl.com/baHs5X'
+  and check
+  %em Chicago
+  to receive all updates on this event and future events.
 
 %p
   P.S. Looking to brush up on your Python? #{link_to 'Chicago PyLadies', 'http://www.meetup.com/Chicago-PyLadies/'} is holding an #{link_to 'Intro to Python', 'http://www.meetup.com/Chicago-PyLadies/events/223062786/'} ahead of the event!

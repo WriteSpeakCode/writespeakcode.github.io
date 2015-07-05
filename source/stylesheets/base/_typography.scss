@@ -145,6 +145,10 @@ a {
   }
 }
 
+b {
+  font-weight: 900;
+}
+
 hr {
   border-bottom: $base-border;
   border-left: none;
@@ -182,3 +186,10 @@ cite {
 }
 .callout-primary { color: $brand-primary; }
 .callout-accent { color: $brand-accent; }
+
+
+.details {
+  color: $dark-gray;
+  font-weight: normal;
+}
+

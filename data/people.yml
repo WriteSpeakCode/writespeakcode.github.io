@@ -48,13 +48,13 @@ rebecca:
     Managing Director for <a href="http://www.thoughtbot.com">thoughtbot</a> Chicago.
     Rebecca has been developing software professionally for over 10 years and
     previously organized <a href="http://goruco.com/">GORUCO</a>.  She was the
-    founding teacher at <a href="http://www.devbootcamp.com">Dev Bootcamp NYC</a> and has taught hundreds of students 
+    founding teacher at <a href="http://www.devbootcamp.com">Dev Bootcamp NYC</a> and has taught hundreds of students
     software development as well as led
     workshops on public speaking, leadership, and oppression.
     Rebecca holds an Masters in Computer Science and a BA in Women and Gender
-    Studies from <a href="http://wustl.edu/">Washington University in St. Louis</a> and was named one of 
+    Studies from <a href="http://wustl.edu/">Washington University in St. Louis</a> and was named one of
     <a href="http://craigconnects.org/2014/06/7-brilliant-women-in-tech.html">7
-    Brillant Women in Tech</a> by Craig Nemark, founder of Craigslist. 
+    Brillant Women in Tech</a> by Craig Nemark, founder of Craigslist.
     She loves cupcakes, sea mammals, and prosecco.
     Rebecca lives in Oak Park, IL with her husband,
     black pug, and rescued havenese. And she changes her hair. A lot.
@@ -96,18 +96,18 @@ rachel:
   url: http://rachelober.com
   image: organizers/rachel.jpg
   bio: is a developer at <a href="http://paperlesspost.com" target="_blank">
-    Paperless Post</a> in New York City. A true renaissance woman, Rachel 
-    has significant experience in and a passion for user experience, user interface 
+    Paperless Post</a> in New York City. A true renaissance woman, Rachel
+    has significant experience in and a passion for user experience, user interface
     and cognitive design. Rachel is a senior developer at <a href="http://paperlesspost.com" target="_blank">
-    Paperless Post</a> where she 
-    serves as technical mentor for all front end developers on the development 
-    team and leads front end development for the company. She also teaches the ins and 
-    outs of Rails at <a href="http://generalassemb.ly" target="_blank">General Assembly</a> for their 
-    Back End Ruby on Rails course. Rachel encourages other women developers to hone their 
+    Paperless Post</a> where she
+    serves as technical mentor for all front end developers on the development
+    team and leads front end development for the company. She also teaches the ins and
+    outs of Rails at <a href="http://generalassemb.ly" target="_blank">General Assembly</a> for their
+    Back End Ruby on Rails course. Rachel encourages other women developers to hone their
     skills by contributing to the 3-day conference <a href="http://writespeakcode.com" target="_blank">
-    Write/Speak/Code</a> as a co-organizer. Founded in 2013, Rachel organizes and volunteers her time 
+    Write/Speak/Code</a> as a co-organizer. Founded in 2013, Rachel organizes and volunteers her time
     teaching women Ruby and Ruby on Rails through <a href="http://railsbridgenyc.org" target="_blank">
-    RailsBridge NYC</a>. Rachel lives in Brooklyn with her husband and fur-child Isabella and loves 
+    RailsBridge NYC</a>. Rachel lives in Brooklyn with her husband and fur-child Isabella and loves
     scrapbooking and card making.
   social:
     twitter: http://www.twitter.com/rachelober
@@ -126,11 +126,11 @@ celia:
   name: Celia La
   url: http://about.me/celiala
   image: organizers/celia.jpg
-  bio: is a software engineer at <a href="http://www.knewton.com/">Knewton</a> 
+  bio: is a software engineer at <a href="http://www.knewton.com/">Knewton</a>
        and organizes <a href="http://meetup.com/nycpython">NYC Python</a>
-       and <a href="http://pygotham.org/">PyGotham</a>. 
-       Celia is a former board member for the 
-       <a href="http://www.unwomen-metrony.org/">Metro NY Chapter of UN Women USNC</a> 
+       and <a href="http://pygotham.org/">PyGotham</a>.
+       Celia is a former board member for the
+       <a href="http://www.unwomen-metrony.org/">Metro NY Chapter of UN Women USNC</a>
        (UN entity for gender equality), and former <a href="https://play.spotify.com/album/3xw342YkRQve5swrCIN0nm">jazz musician</a>.
        Her hobbies include biking, hiking, cooking and sketching.
   pages:
@@ -151,9 +151,9 @@ chrys:
   image: organizers/chrys.jpg
   bio: is a journalist and user engagement strategist who works with businesses
     interested in deepening connection to their audiences through research,
-    community-building strategy and user-centric design. She is currently 
+    community-building strategy and user-centric design. She is currently
     Developer Advocate for The New York Times, where she leads internal and public-facing
-    projects that advance and highlight the technology made by 
+    projects that advance and highlight the technology made by
     <a href="http://developers.nytimes.com/">New York Times Developers.</a> Chrys founded the coding
     and social group <a href="http://meetup.com/NYC-Ruby-Women" target=_blank>NYC Ruby Women</a>
     and organizes <a href="http://meetupnyc.hackshackers.com" target=_blank>Hacks/Hackers NYC</a>.
@@ -173,7 +173,7 @@ chiu_ki:
   name: Chiu-Ki Chan
   url: https://chiuki.github.io/
   image: speakers/chiuki.jpg
-  bio: is an Android developer with a passion in speaking and teaching. 
+  bio: is an Android developer with a passion in speaking and teaching.
     She has spoken at numerous conferences all over the world, and has been
     recognized as a Google Developer Expert for her extensive knowledge in Android.
     Chiu-Ki is author of several Android video courses for PluralSight.
@@ -196,16 +196,16 @@ pam_selle:
   name: Pam Selle
   url: http://thewebivore.com/
   image: speakers/pam.jpg
-  bio: is a software engineer, published author, and public speaker. She develops 
-    software professionally in Philadelphia, PA and is known to appear at 
+  bio: is a software engineer, published author, and public speaker. She develops
+    software professionally in Philadelphia, PA and is known to appear at
     hackathons from time to time. She’s the author of <a href="http://thewebivore.com/book/">
-    Choosing a JavaScript Framework</a> and several articles. For public 
-    speaking, she has spoken at local user groups and regional and national 
-    conferences on HTML5, CSS, Sass, and JavaScript. She has taught students 
-    JavaScript, HTML/CSS, Python, Ruby, and more as an instructor for 
-    GirlDevelopIT and other organizations. A passionate community builder, Pam 
+    Choosing a JavaScript Framework</a> and several articles. For public
+    speaking, she has spoken at local user groups and regional and national
+    conferences on HTML5, CSS, Sass, and JavaScript. She has taught students
+    JavaScript, HTML/CSS, Python, Ruby, and more as an instructor for
+    GirlDevelopIT and other organizations. A passionate community builder, Pam
     co-organizes <a href="http://meetup.com/Philadelphia-JavaScript-Developers/">
-    Philadelphia JavaScript Developers</a>, the premier JavaScript user group 
+    Philadelphia JavaScript Developers</a>, the premier JavaScript user group
     in Philadelphia. She also volunteers with <a href="http://www.thehumaneleague.com/">
     The Humane League</a> and is involved in the civic hacking community.
   pages:
@@ -222,13 +222,13 @@ sarah_mei:
   name: Sarah Mei
   url: http://www.sarahmei.com/
   image: speakers/sarah-mei.jpg
-  bio: is a Ruby and JavaScript developer based in San Francisco, California. 
+  bio: is a Ruby and JavaScript developer based in San Francisco, California.
     She is the Chief Consultant at <a href="http://devmynd.com/">DevMynd
     Software</a>, where she spends most of my time pairing with clients’
     developers, helping level up their team. Sarah is particularly interested in
     OOP, service refactorings, growing teams, and inter-developer dynamics.
     She is working on a book with <a href="http://sandimetz.com/">Sandi Metz</a>
-    about <a href="http://practicalrailsbook.com/">how to refactor Rails 
+    about <a href="http://practicalrailsbook.com/">how to refactor Rails
     applications</a> towards happiness, founded <a href="http://railsbridge.org/">
     RailsBridge</a> in 2009 with <a href="http://www.ultrasaurus.com/">Sarah Allen</a>,
     and is the director of the non-profit, <a href="http://rubycentral.org/">
@@ -253,16 +253,16 @@ claudina:
   name: Claudina Sarahe
   url: http://itsmisscs.me/
   image: speakers/claudina.jpeg
-  bio: is an entrepreneur. Her background is in front-end web development with 
+  bio: is an entrepreneur. Her background is in front-end web development with
     a focus on large, scale web applications and sites.
-    She's lead front-end development for sites such for FEI.com, Charlie Rose, 
-    PBS, Scholastic, Count Me In, and LocalVox. Claundina organizes 
+    She's lead front-end development for sites such for FEI.com, Charlie Rose,
+    PBS, Scholastic, Count Me In, and LocalVox. Claundina organizes
     the monthly <a href="http://www.meetup.com/gothamsass/">New York City Sass and Compass Meetup</a>,
-    is on the speaker selection committee for <a href="http://sassconf.com/">SassConf</a> and was one 
-    of the founding members of UNICEF Innovation. In 2010, she developed a 
-    pilot program to teach development to less advantaged high schoolers in 
-    the Dominican Republic. She is a 2012 StartupBus aluma. A firm believer in 
-    a balanced lifestyle she keeps her mind and body elastic with Bikram Yoga, 
+    is on the speaker selection committee for <a href="http://sassconf.com/">SassConf</a> and was one
+    of the founding members of UNICEF Innovation. In 2010, she developed a
+    pilot program to teach development to less advantaged high schoolers in
+    the Dominican Republic. She is a 2012 StartupBus aluma. A firm believer in
+    a balanced lifestyle she keeps her mind and body elastic with Bikram Yoga,
     Crossfit, and biking NYC streets.
   pages:
     - speak
@@ -281,11 +281,11 @@ melissa_xie:
   name: Melissa Xie
   url: http://melissaxie.com/
   image: speakers/melissa_xie.jpg
-  bio: is a developer at <a href="http://thoughtbot.com">thoughtbot</a>. She 
-    organizes the <a href="http://bostonrubywomen.org/">Boston Ruby Women 
+  bio: is a developer at <a href="http://thoughtbot.com">thoughtbot</a>. She
+    organizes the <a href="http://bostonrubywomen.org/">Boston Ruby Women
     meetups</a>, <a href="http://railsbridgeboston.org/">RailsBridge Boston</a>
-    workshops, and <a href="http://boston.io/">Boston I/O</a> conference.  Melissa 
-    sings in the <a href="http://bostonskylinechorus.groupanizer.com/">Boston 
+    workshops, and <a href="http://boston.io/">Boston I/O</a> conference.  Melissa
+    sings in the <a href="http://bostonskylinechorus.groupanizer.com/">Boston
     Skyline Chorus</a> and might have a slight addiction to <a href="http://travel.melissaxie.com/">traveling</a>.
   pages:
     - speak
@@ -335,22 +335,22 @@ julia_elman:
   image: speakers/julia_elman.png
   bio: is a designer, developer, author and public speaker from the Python
     community. She was appointed as a <a href="https://www.djangoproject.com/foundation/developer-members/">
-    Django Software Foundation Member</a> based on her contributions to the Django community. 
-    and co-authored 
-    <a href="http://www.amazon.com/Lightweight-Django-Julia-Elman/dp/149194594X/rjmw-20">Lightweight Django</a> 
-    for O’Reilly Media in November 2014. Julia also focuses computer science in 
-    education and has helped establish several groups and programs to teach 
-    computer science to adults and teens. She leads 
-    <a href="http://www.meetup.com/pyladies-rdu/">PyLadies Raleigh-Durham</a> and, 
+    Django Software Foundation Member</a> based on her contributions to the Django community.
+    and co-authored
+    <a href="http://www.amazon.com/Lightweight-Django-Julia-Elman/dp/149194594X/rjmw-20">Lightweight Django</a>
+    for O’Reilly Media in November 2014. Julia also focuses computer science in
+    education and has helped establish several groups and programs to teach
+    computer science to adults and teens. She leads
+    <a href="http://www.meetup.com/pyladies-rdu/">PyLadies Raleigh-Durham</a> and,
     in January 2013, she helped start a local chapter of <a href="https://www.girldevelopit.com/">
-    Girl Develop It</a> whose focus is to empower women through code. 
-    <a href="https://www.girldevelopit.com/chapters/raleigh-durham">GDIRDU</a> has 
-    grown to over 1,000 members, taught over 100 classes to help empower 
-    women through coding and is celebrating its second anniversary. 
+    Girl Develop It</a> whose focus is to empower women through code.
+    <a href="https://www.girldevelopit.com/chapters/raleigh-durham">GDIRDU</a> has
+    grown to over 1,000 members, taught over 100 classes to help empower
+    women through coding and is celebrating its second anniversary.
   pages:
     - code
     - speaker
-  social: 
+  social:
     twitter: https://twitter.com/juliaelman/
     linkedin: https://www.linkedin.com/in/juliaelman
     github: https://github.com/juliaelman
@@ -359,16 +359,16 @@ julia_elman:
 
 courteney_ervin:
   name: Courteney Ervin
-  url: 
+  url:
   image: speakers/courteney_ervin.png
-  bio: is an Events Platform Engineer at <a href="http://codemontage.com" target="_blank">CodeMontage</a>. The confluence of open 
-    source and social good were the seed of her tech career, and she is thrilled 
-    to be writing code at the junction of such important movements. Courteney 
-    is also firmly committed to fostering a more diverse tech industry through 
-    accessible educational opportunities.  Previously, she was a founding teacher 
-    of <a href="http://www.devbootcamp.com">Dev Bootcamp’s</a> NYC campus and has led events and tech projects at a 
+  bio: is an Events Platform Engineer at <a href="http://codemontage.com" target="_blank">CodeMontage</a>. The confluence of open
+    source and social good were the seed of her tech career, and she is thrilled
+    to be writing code at the junction of such important movements. Courteney
+    is also firmly committed to fostering a more diverse tech industry through
+    accessible educational opportunities.  Previously, she was a founding teacher
+    of <a href="http://www.devbootcamp.com">Dev Bootcamp’s</a> NYC campus and has led events and tech projects at a
     variety of nonprofits.
-  pages: 
+  pages:
     - code
     - speaker
   social:
@@ -383,17 +383,17 @@ jen_myers:
   name: Jen Myers
   url: http://jenmyers.net/
   image: speakers/jen.png
-  bio: is a web designer/developer, speaker, teacher and writer located in 
-    Chicago, and the Director of Open Source Curriculum at online training 
-    course provider <a href="http://pluralsight.com/">Pluralsight</a>. In 2014, 
-    she founded <a href="http://codeandcupcakes.net/">Code and Cupcakes</a>, 
-    a series of mother/daughter beginner coding events and currently lead workshops 
-    on a regular basis.  In 2011, Jen founded the Columbus, Ohio chapter of 
-    <a href="http://girldevelopit.com/">Girl Develop It</a>, a group that 
-    provides introductory coding classes aimed at women, and have been 
-    involved with GDI as an instructor and advisor since. Jen speaks widely 
-    about topics related to design, development and diversity in the technology 
-    field, and focus on finding new ways to make both technology and technology 
+  bio: is a web designer/developer, speaker, teacher and writer located in
+    Chicago, and the Director of Open Source Curriculum at online training
+    course provider <a href="http://pluralsight.com/">Pluralsight</a>. In 2014,
+    she founded <a href="http://codeandcupcakes.net/">Code and Cupcakes</a>,
+    a series of mother/daughter beginner coding events and currently lead workshops
+    on a regular basis.  In 2011, Jen founded the Columbus, Ohio chapter of
+    <a href="http://girldevelopit.com/">Girl Develop It</a>, a group that
+    provides introductory coding classes aimed at women, and have been
+    involved with GDI as an instructor and advisor since. Jen speaks widely
+    about topics related to design, development and diversity in the technology
+    field, and focus on finding new ways to make both technology and technology
     education accessible to everyone.
   pages:
     - speak
@@ -437,14 +437,14 @@ corey_latislaw:
   name: Corey Latislaw
   url: http://coreylatislaw.com/
   image: speakers/corey_latislaw.jpeg
-  bio: is a Senior Manager at Capital One, speaker at conferences all over the 
-    world, and author of the <a href="https://gumroad.com/l/androidactivitybook">Android Activity Book</a>, 
-    which uses test-driven development (TDD) to build apps. On the side, she 
-    runs an Android and full-stack consulting firm, 
-    <a href="http://greenlifesoftware.com/">Green Life Software Development</a>. 
-    She is the founder and organizer of the <a href="https://hub.gdgx.io/chapters/114727657292466806804">Philadelphia Google Developer Group</a>. 
-    Corey is passionate about encouraging broader participation in the computing sciences, 
-    bridging the digital divide, eating local food, communing with nature, 
+  bio: is a Senior Manager at Capital One, speaker at conferences all over the
+    world, and author of the <a href="https://gumroad.com/l/androidactivitybook">Android Activity Book</a>,
+    which uses test-driven development (TDD) to build apps. On the side, she
+    runs an Android and full-stack consulting firm,
+    <a href="http://greenlifesoftware.com/">Green Life Software Development</a>.
+    She is the founder and organizer of the <a href="https://hub.gdgx.io/chapters/114727657292466806804">Philadelphia Google Developer Group</a>.
+    Corey is passionate about encouraging broader participation in the computing sciences,
+    bridging the digital divide, eating local food, communing with nature,
     taking photos, and living in downtown Philly.
   pages:
     - write
@@ -461,17 +461,17 @@ carol_willing:
   name: Carol Willing
   url: https://willingconsulting.com/author/carol/
   image: speakers/carol_willing.jpeg
-  bio: is currently a Geek-In-Residence at <a href="http://fablabsd.org">Fab Lab San Diego</a>, 
-    an active contributor to open source projects, like <a href="http://openhatch.org">OpenHatch</a>, 
-    a co-organizer of <a href="http://pyladies.org">PyLadies</a> San Diego and 
-    <a href="http://pythonsd.org">San Diego Python</a>, an independent developer, 
-    and creator of <a href="http://gentlecodegarden.com">Gentle Code Garden</a>. 
-    She has served on the <a href="http://www.pycon.org/">PyCon</a> Program and 
-    Tutorial selection committees. She can frequently be heard saying “That’s 
-    so cool. How does it work? I would love to learn more about it.” She is 
-    inspired by nature, the arts, and math. She earned a BSE in Electrical 
-    Engineering from Duke University and an MS in Management from MIT.  
-    She has enjoyed developing software and electronics and teaching others for 
+  bio: is currently a Geek-In-Residence at <a href="http://fablabsd.org">Fab Lab San Diego</a>,
+    an active contributor to open source projects, like <a href="http://openhatch.org">OpenHatch</a>,
+    a co-organizer of <a href="http://pyladies.org">PyLadies</a> San Diego and
+    <a href="http://pythonsd.org">San Diego Python</a>, an independent developer,
+    and creator of <a href="http://gentlecodegarden.com">Gentle Code Garden</a>.
+    She has served on the <a href="http://www.pycon.org/">PyCon</a> Program and
+    Tutorial selection committees. She can frequently be heard saying “That’s
+    so cool. How does it work? I would love to learn more about it.” She is
+    inspired by nature, the arts, and math. She earned a BSE in Electrical
+    Engineering from Duke University and an MS in Management from MIT.
+    She has enjoyed developing software and electronics and teaching others for
     over 20 years and hopes to do so for at least 20 more.
   pages:
     - speak
@@ -545,14 +545,14 @@ dominique:
   url: http://dominiquedeguzman.com/
   image: speakers/dominique.jpg
   bio: is a software engineer and co-chair of Diversity &amp; Inclusion at <a href="https://www.twilio.com/">Twilio</a>.
-    Prior to becoming an engineer, she combined years of professional technical 
-    support with a strong corporate 
+    Prior to becoming an engineer, she combined years of professional technical
+    support with a strong corporate
     communication background, specializing in introducing and training
-    social media and cloud based technology to better 
-    organize communication and public speaking in large companies, public speaking 
-    coaching, multiplatform technical assistance, mobile and software assistance 
+    social media and cloud based technology to better
+    organize communication and public speaking in large companies, public speaking
+    coaching, multiplatform technical assistance, mobile and software assistance
     Dominique has competed nationally in speech writing and performing.
-    She is the San Francisco City Director 
+    She is the San Francisco City Director
     for <a href="http://lesbianswhotech.org/">Lesbians Who Tech</a>.
   pages:
     - speak
@@ -568,18 +568,18 @@ rebecca_garcia:
   name: Rebecca Garcia
   url: http://www.rebeccagarcia.me/
   image: speakers/rebecca_garcia.jpeg
-  bio: is the Co-founder of <a href="http://www.coderdojonyc.org/">CoderDojo NYC</a>, 
-    a non-profit teaching youth to code. In 2013 she was awarded as a U.S. 
-    <a href="http://www.whitehouse.gov/champions/tech-inclusion">White House 
-    Champion of Change for 'Tech Inclusion'</a> for her work to bring 
+  bio: is the Co-founder of <a href="http://www.coderdojonyc.org/">CoderDojo NYC</a>,
+    a non-profit teaching youth to code. In 2013 she was awarded as a U.S.
+    <a href="http://www.whitehouse.gov/champions/tech-inclusion">White House
+    Champion of Change for 'Tech Inclusion'</a> for her work to bring
     STEM education to underrepresented groups, especially youth and women. Last
     year she was listed as one of Glamour Magazine's <a href="http://www.glamour.com/inspired/2014/09/top-new-women-leaders-in-technology/7">
-    '35 Women Under 35 Who are Changing the Tech Industry'</A>.  Previously she was a 
-    Developer at <a href="https://www.dosomething.org/">Do Something</a>, 
-    the largest U.S. non-profit for youth and social change, and CTO of <a href="http://greatist.com/">Greatist</a>, 
-    a health, fitness and wellness media startup reaching over 3 million unique 
-    visitors. Currently she is a Developer Evangelist at <a href="http://www.squarespace.com/">Squarespace</a>, empowering 
-    people to build their ideas on the web. 
+    '35 Women Under 35 Who are Changing the Tech Industry'</A>.  Previously she was a
+    Developer at <a href="https://www.dosomething.org/">Do Something</a>,
+    the largest U.S. non-profit for youth and social change, and CTO of <a href="http://greatist.com/">Greatist</a>,
+    a health, fitness and wellness media startup reaching over 3 million unique
+    visitors. Currently she is a Developer Evangelist at <a href="http://www.squarespace.com/">Squarespace</a>, empowering
+    people to build their ideas on the web.
   pages:
     - speak
     - speaker
@@ -642,17 +642,17 @@ andrea_wright:
   name: Andrea O. K. Wright
   url:
   image: speakers/AOK.jpg
-  bio: A 20-year IT industry veteran, Andrea O. K. Wright (also known as "AOK") 
-    is a consultant with Chariot Solutions, a firm based in Fort Washington, PA 
-    that specializes in open source technologies. A languages enthusiast, she 
-    is a content co-chair for the <a href=" http://phillyemergingtech.com/">Emerging 
-    Technologies for the Enterprise Conference</a> (a.k.a. Philly ETE). She 
-    has presented about topics ranging from developing games in Ruby to thread 
-    safety at national and regional Ruby conferences including 
-    <a href="http://rubyconf.org/">RubyConf</a> and <a href="http://railsconf.com/"> RailsConf</a>; 
-    integrating Python with functional languages at <a href="http://www.pycon.org/">PyCon</a> and <a href="http://pygotham.org/">PyGotham</a>; and advanced 
-    classloading concepts and annotation processing at <a href="https://www.oracle.com/javaone/index.html">JavaOne</a>. She enjoyed introducing 
-    elementary school age children to Ruby String manipulation at <a href="http://www.codemash.org/">CodeMash</a> 2009 
+  bio: A 20-year IT industry veteran, Andrea O. K. Wright (also known as "AOK")
+    is a consultant with Chariot Solutions, a firm based in Fort Washington, PA
+    that specializes in open source technologies. A languages enthusiast, she
+    is a content co-chair for the <a href=" http://phillyemergingtech.com/">Emerging
+    Technologies for the Enterprise Conference</a> (a.k.a. Philly ETE). She
+    has presented about topics ranging from developing games in Ruby to thread
+    safety at national and regional Ruby conferences including
+    <a href="http://rubyconf.org/">RubyConf</a> and <a href="http://railsconf.com/"> RailsConf</a>;
+    integrating Python with functional languages at <a href="http://www.pycon.org/">PyCon</a> and <a href="http://pygotham.org/">PyGotham</a>; and advanced
+    classloading concepts and annotation processing at <a href="https://www.oracle.com/javaone/index.html">JavaOne</a>. She enjoyed introducing
+    elementary school age children to Ruby String manipulation at <a href="http://www.codemash.org/">CodeMash</a> 2009
     with her “Playing with Strings” session.
   pages:
     -speak
@@ -678,12 +678,12 @@ neha:
     github: https://github.com/nehalita
 
   type: person
-  talks: 
+  talks:
     -imposter_syndrome
 
 debbie:
   name: Debbie Madden
-  url: 
+  url:
   image: speakers/debbie.jpg
   bio: has built 5 companies from the ground up and has been CEO of three of them.  As CEO of Stride (www.stride.nyc), NYC's go to Agile consultancy, she brings 20 years of tech leadership, and a daily passion for helping businesses improve through software. Due to her reputation as a passionate woman executive in technology, Debbie is a sought after speaker and writer, having appeared in Fox TV, Huffington Post, Forbes, The Wall Street Journal, Inc Magazine, Computer World, InfoQ and more. Prior to Stride, she was the CEO of Cyrus Innovation, which she ran for 10 years, grew into a 5-time Inc 5000 winner, and Crain's NY Best Place to Work. Debbie also serves as a NY Pod leader for Venwise, and is an Advisor for many NYC tech startups.
   pages:
@@ -694,7 +694,7 @@ debbie:
     twitter: https://twitter.com/debbiemadden200
 
   type: person
-  talks: 
+  talks:
     -speaker_mentor
 
 anna_herlihy:
@@ -714,7 +714,7 @@ jessica_simon:
   name: Jessica Simon
   url: http://jessicasimon.me
   image: organizers/jessica_simon.jpg
-  bio: is a software engineer at a fin tech startup called <a href="http://www.gust.com/" target="_blank">Gust</a>. She is passionate about innovation, design, education, and all things tech! During her free time, you can find her flipping around the gymnastics gym, cheering on the Maryland Terrapins, discovering new restaurants, and traveling around the world. 
+  bio: is a software engineer at a fin tech startup called <a href="http://www.gust.com/" target="_blank">Gust</a>. She is passionate about innovation, design, education, and all things tech! During her free time, you can find her flipping around the gymnastics gym, cheering on the Maryland Terrapins, discovering new restaurants, and traveling around the world.
   pages:
     - meetups-nyc
   social:
@@ -725,7 +725,7 @@ jessica_simon:
   talks:
 
 kelly_king:
-  name: Kelly King 
+  name: Kelly King
   url: http://www.kellyking.me/
   image: organizers/kelly_king.jpg
   bio: is a software engineer at Twitter. In her free time, she likes to build retro games with JavaScript and hang out with her dogs, Riddick and Yoshi.
@@ -739,9 +739,9 @@ kelly_king:
 
 lisa_van_gelder:
   name: Lisa van Gelder
-  url: 
+  url:
   image: organizers/lisa_van_gelder.jpg
-  bio: has over 15 years experience in software engineering, including leading and managing software development teams. Her career has taken her between London and New York at companies ranging from small startups to large media organizations, including the Guardian and the BBC. She is currently VP of Engineering at Stride. Lisa lives in Brooklyn and is mostly powered by coffee. 
+  bio: has over 15 years experience in software engineering, including leading and managing software development teams. Her career has taken her between London and New York at companies ranging from small startups to large media organizations, including the Guardian and the BBC. She is currently VP of Engineering at Stride. Lisa lives in Brooklyn and is mostly powered by coffee.
   pages:
     - meetups-nyc
   social:
@@ -750,8 +750,8 @@ lisa_van_gelder:
   talks:
 
 dalal_al_rayes:
-  name: Dalal Al Rayes 
-  url: 
+  name: Dalal Al Rayes
+  url:
   image: organizers/dalal_al_rayes.jpg
   bio: is a full stack developer with a background in finance and private equity. She has helped companies increase their value by turning around their operations, restructuring management and redefining products. Dalal holds an MBA from London Business School and is a recent Dev Bootcamp graduate. She wants to live in a world where competition is fair, high heels are comfortable, and open source is more accessible to beginners.  When she's not coding, Dalal is biking around Chicago trying to find the best peanut butter cookies.
   pages:
@@ -764,10 +764,10 @@ dalal_al_rayes:
   talks:
 
 jeca_armstrong:
-  name: Jeca Armstrong 
-  url: http://helveticajessica.com 
+  name: Jeca Armstrong
+  url: http://helveticajessica.com
   image: organizers/jeca_armstrong.jpg
-  bio: is a Golang developer at a software consulting company and co-founder of the NYC Write/Speak/Code Meetup. She's passionate about multicultural perspectives, helping marginalized groups empower themselves, and intersectionalism. A multidisciplinary enthusiast, her background is in labor and environmental politics, gardening, and antiques. Her love of travel has led her to visit 17 countries on five continents (so far). 
+  bio: is a Golang developer at a software consulting company and co-founder of the NYC Write/Speak/Code Meetup. She's passionate about multicultural perspectives, helping marginalized groups empower themselves, and intersectionalism. A multidisciplinary enthusiast, her background is in labor and environmental politics, gardening, and antiques. Her love of travel has led her to visit 17 countries on five continents (so far).
   pages:
     - meetups-nyc
   social:
@@ -778,16 +778,17 @@ jeca_armstrong:
   talks:
 
 caroline_artz:
-  name: Caroline Artz 
-  url: http://car.oline.codes 
+  name: Caroline Artz
+  url: http://car.oline.codes
   image: organizers/caroline_artz.jpg
-  bio: is a full-stack web developer and designer in Chicago. She enjoys mentoring students at Dev Bootcamp and has instructed the Ruby on Rails back-end development track at Startup Institute, Chicago. Beyond coding, she enjoys traveling, strong coffee, graphic design, and photo editing. 
+  bio: is a full-stack web developer and designer in Chicago. She enjoys mentoring students at Dev Bootcamp and has instructed the Ruby on Rails back-end development track at Startup Institute, Chicago. Beyond coding, she enjoys traveling, strong coffee, graphic design, and photo editing.
   pages:
     - meetups-chicago
   social:
     twitter: https://twitter.com/carolineartz
     linkedin: https://www.linkedin.com/in/carolineartz
     github: http://www.github.com/carolineartz
-    codepen: http://codepen.io/carolineartz 
+    codepen: http://codepen.io/carolineartz
   type: person
   talks:
+

@@ -2372,6 +2372,10 @@ a {
     outline: none; }
 
 /* line 148, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+b {
+  font-weight: 900; }
+
+/* line 152, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 hr {
   border-bottom: 1px solid #9b9092;
   border-left: none;
@@ -2379,13 +2383,13 @@ hr {
   border-top: none;
   margin: 1.5em 0; }
 
-/* line 156, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 160, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 img,
 picture {
   margin: 0;
   max-width: 100%; }
 
-/* line 162, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 166, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 blockquote {
   border-left: 2px solid #9b9092;
   color: #5a5153;
@@ -2393,26 +2397,31 @@ blockquote {
   padding-left: 0.75em;
   font-style: italic; }
 
-/* line 170, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 174, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 cite {
   color: #75696c;
   font-style: italic; }
-  /* line 174, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 178, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   cite:before {
     content: "\2014 \00A0"; }
 
-/* line 179, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 183, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .callout-primary, .callout-accent, .callout {
   font-weight: bold;
   font-size: 1.2em; }
 
-/* line 183, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 187, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .callout-primary {
   color: #D84455; }
 
-/* line 184, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 188, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .callout-accent {
   color: #237BA5; }
+
+/* line 191, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.details {
+  color: #322D2E;
+  font-weight: normal; }
 
 /* line 1, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
 fieldset {
@@ -3334,13 +3343,13 @@ body {
   /* line 6, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_events.scss */
   .events .workshop h5 {
     padding-bottom: .5em; }
-/* line 12, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_events.scss */
-.events .past-workshops li {
+/* line 13, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+.events .workshops.upcoming-workshops li, .events .workshops.past-workshops li {
   margin-bottom: .5em;
   padding: .5em;
   border-left: 10px solid #D84455; }
-  /* line 18, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_events.scss */
-  .events .past-workshops li:nth-child(even) {
+  /* line 19, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+  .events .workshops.upcoming-workshops li:nth-child(even), .events .workshops.past-workshops li:nth-child(even) {
     border-left-color: #e78e99; }
 
 /* line 1, /Users/rmw/writespeakcode/writespeakcode.github.io/source/stylesheets/application/_footer.scss */

@@ -24,44 +24,18 @@ layout: base_layout
   .wrap
     .copy-wrap
       %h1
-        2015 International Conference for
-        %br.header-break/
-        Women Software Developers
-
-      %h2
-        March 19-21, 2015
-        %i.fa.fa-star-o
-        New York City
-
-
+        Write/Speak/Code Chapters
       %h3
-        Empowering women developers to become thought leaders, conference speakers,
-        and open source contributors.
-
-      %p
-        %ul
-          %li
-            %i.fa.fa-calendar-o
-            Three intense days of workshops, seminars, and talks
-            %i.fa.fa-calendar-o
-          %li
-            %i.fa.fa-list-ol
-            Build a personal blueprint and list of concrete next steps
-            %i.fa.fa-list-ol
-          %li
-            %i.fa.fa-rocket
-            Take your career to the next level
-            %i.fa.fa-rocket
-
-      %ul.button-list
-        %li
-          = partial :arrow_button,
-            locals: { link: "/conference", text: "Learn more", classes: %w(primary) }
-        %li
-          = partial :arrow_button,
-            locals: { link: "/sponsors", text: "Sponsor", classes: %w(error) }
-        %li
-          = partial :arrow_button,
-            locals: { link: "/conference/scholarships", text: "Scholarships", classes: %w(success) }
-
-      = link_to 'Childcare Available!', '/conference/childcare'
+        W/S/C has now expanded with chapters in Chicago, San Francisco and New York dedicated to organizing workshops and events focused on writing, speaking and coding.
+      %br.header-break/
+      %h2
+        =link_to 'Chicago', 'events/chicago'
+        %i.fa.fa-star-o
+        San Francisco
+        %i.fa.fa-star-o
+        New York
+      %br.header-break/
+      %h4
+        Subscribe to our newsletter and stay up to date with all upcoming conferences and events.
+      .newsletter-signup
+        = partial "mailchimp"

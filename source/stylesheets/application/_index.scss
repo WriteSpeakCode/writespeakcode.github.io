@@ -100,11 +100,7 @@
   }
 
   #banner2 {
-    background-color: $brand-accent;
-    border-bottom-color: $brand-accent-dark;
-
-    .wrap {
-    }
+    background-color: $white;
 
     .image-wrap {
       max-width: 100%;
@@ -114,7 +110,7 @@
 
       @include media($large-screen) {
         float: left;
-        max-width: 32%;
+        max-width: 31%;
       }
 
       img {
@@ -124,9 +120,13 @@
 
     .copy-wrap {
       @include span-columns(12);
-
+      color: $base-font-color;
       padding: 1em;
       height: auto;
+
+      a:not(.button) { 
+        @include colored-link($brand-primary); 
+      }
 
       h1 { font-size: $sm-h1-font-size; }
       h2 { font-size: $sm-h2-font-size; }
@@ -136,11 +136,16 @@
         padding: .5em 0 0 0;
       }
 
-      .header-break { display: none; }
-
       @include media($large-screen) {
         .header-break { display: block; }
       }
     }
   }
+  
+    .newsletter-signup {
+      #mce-EMAIL {
+        max-width: 290px;
+      margin: 10px auto;
+      }
+    }
 }

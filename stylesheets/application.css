@@ -3343,14 +3343,26 @@ body {
   /* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
   .events .workshop h5 {
     padding-bottom: .5em; }
-/* line 13, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+/* line 14, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
 .events .workshops.upcoming-workshops li, .events .workshops.past-workshops li {
   margin-bottom: .5em;
   padding: .5em;
   border-left: 10px solid #D84455; }
-  /* line 19, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+  /* line 20, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
   .events .workshops.upcoming-workshops li:nth-child(even), .events .workshops.past-workshops li:nth-child(even) {
     border-left-color: #e78e99; }
+/* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.events .workshops .callout-primary a, .events .workshops .callout-primary a:hover, .events .workshops .callout-primary a:visited {
+  color: #D84455;
+  text-decoration: none; }
+/* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.events .workshops .callout-primary a:hover {
+  color: #971f2d;
+  text-decoration: underline; }
+/* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+.events .workshops .callout-primary a:active, .events .workshops .callout-primary a:focus {
+  color: #971f2d;
+  outline: none; }
 
 /* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
 .footer {

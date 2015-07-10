@@ -2183,7 +2183,7 @@ html {
  * http://bitters.bourbon.io
  * Copyright 2013–2014 thoughtbot, inc.
  * MIT License */
-/* line 52, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 52, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 body {
   -webkit-font-smoothing: antialiased;
   background-color: #faf9f9;
@@ -2192,11 +2192,11 @@ body {
   font-size: 1em;
   line-height: 1.5; }
   @media screen and (min-width: 53.75em) {
-    /* line 52, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 52, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     body {
       font-size: 1.2em; } }
 
-/* line 65, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 65, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h1,
 h2,
 h3,
@@ -2209,7 +2209,7 @@ h6 {
   line-height: 1.25;
   margin: 0;
   text-rendering: optimizeLegibility; }
-  /* line 76, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 76, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   h1 .fa, h1 blockquote, h1 .code-icon, h1 .speak-icon, h1 .write-icon, h1 .footer .footer-logo, .footer h1 .footer-logo,
   h2 .fa,
   h2 blockquote,
@@ -2248,7 +2248,7 @@ h6 {
   .footer h6 .footer-logo {
     display: none; }
   @media screen and (min-width: 40em) {
-    /* line 77, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 77, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     h1 .fa, h1 blockquote, h1 .code-icon, h1 .speak-icon, h1 .write-icon, h1 .footer .footer-logo, .footer h1 .footer-logo,
     h2 .fa,
     h2 blockquote,
@@ -2287,11 +2287,11 @@ h6 {
     .footer h6 .footer-logo {
       display: inline; } }
 
-/* line 80, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 80, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h1 {
   text-align: center; }
 
-/* line 82, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 82, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h1 {
   font-family: "proxima-nova-extra-condensed";
   font-weight: 900;
@@ -2299,83 +2299,83 @@ h1 {
   color: #D84455;
   font-size: 2.25em; }
   @media screen and (min-width: 53.75em) {
-    /* line 82, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 82, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     h1 {
       font-size: 4em; } }
 
-/* line 93, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 93, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h2 {
   font-family: "proxima-nova-extra-condensed";
   font-weight: 700;
   font-style: normal;
   font-size: 2em; }
   @media screen and (min-width: 53.75em) {
-    /* line 93, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 93, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     h2 {
       font-size: 2.5em; } }
 
-/* line 102, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 102, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h3 {
   font-size: 1.75em; }
   @media screen and (min-width: 53.75em) {
-    /* line 102, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 102, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     h3 {
       font-size: 1.75em; } }
 
-/* line 110, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 110, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h4 {
   font-size: 1.5em; }
   @media screen and (min-width: 53.75em) {
-    /* line 110, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 110, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     h4 {
       font-size: 1.5em; } }
 
-/* line 118, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 118, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h5 {
   font-size: 1.25em; }
   @media screen and (min-width: 53.75em) {
-    /* line 118, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 118, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     h5 {
       font-size: 1.25em; } }
 
-/* line 126, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 126, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 h6 {
   font-size: 1em; }
 
-/* line 130, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 130, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 p {
   margin: 0 0 0.75em; }
 
-/* line 134, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 134, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 a {
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
   transition: color 0.1s linear; }
-  /* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   a, a:hover, a:visited {
     color: #237BA5;
     text-decoration: none; }
-  /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   a:hover {
     color: #113c51;
     text-decoration: underline; }
-  /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   a:active, a:focus {
     color: #113c51;
     outline: none; }
-  /* line 138, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 138, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   a:hover {
     color: #256A8B; }
-  /* line 142, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 142, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   a:active, a:focus {
     color: #256A8B;
     outline: none; }
 
-/* line 148, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 148, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 b {
   font-weight: 900; }
 
-/* line 152, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 152, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 hr {
   border-bottom: 1px solid #9b9092;
   border-left: none;
@@ -2383,13 +2383,13 @@ hr {
   border-top: none;
   margin: 1.5em 0; }
 
-/* line 160, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 160, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 img,
 picture {
   margin: 0;
   max-width: 100%; }
 
-/* line 166, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 166, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 blockquote {
   border-left: 2px solid #9b9092;
   color: #5a5153;
@@ -2397,40 +2397,40 @@ blockquote {
   padding-left: 0.75em;
   font-style: italic; }
 
-/* line 174, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 174, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 cite {
   color: #75696c;
   font-style: italic; }
-  /* line 178, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 178, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   cite:before {
     content: "\2014 \00A0"; }
 
-/* line 183, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 183, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .callout-primary, .callout-accent, .callout {
   font-weight: bold;
   font-size: 1.2em; }
 
-/* line 187, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 187, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .callout-primary {
   color: #D84455; }
 
-/* line 188, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 188, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .callout-accent {
   color: #237BA5; }
 
-/* line 191, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 191, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .details {
   color: #322D2E;
   font-weight: normal; }
 
-/* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+/* line 1, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
 fieldset {
   background: #b3abac;
   border: 1px solid #9b9092;
   margin: 0 0 0.75em 0;
   padding: 1.5em; }
 
-/* line 8, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+/* line 8, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
 input,
 label,
 select {
@@ -2438,18 +2438,18 @@ select {
   font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-size: 1em; }
 
-/* line 16, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+/* line 16, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
 label {
   font-weight: bold;
   margin-bottom: 0.375em; }
-  /* line 20, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+  /* line 20, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
   label.required:after {
     content: "*"; }
-  /* line 24, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+  /* line 24, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
   label abbr {
     display: none; }
 
-/* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+/* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
 textarea,
 input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"],
 select[multiple=multiple] {
@@ -2468,12 +2468,12 @@ select[multiple=multiple] {
   margin-bottom: 0.75em;
   padding: 0.5em 0.5em;
   width: 100%; }
-  /* line 44, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+  /* line 44, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
   textarea:hover,
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
   select[multiple=multiple]:hover {
     border-color: #837578; }
-  /* line 48, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+  /* line 48, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
   textarea:focus,
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
   select[multiple=multiple]:focus {
@@ -2481,11 +2481,11 @@ select[multiple=multiple] {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(31, 107, 144, 0.7);
     outline: none; }
 
-/* line 55, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+/* line 55, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
 textarea {
   resize: vertical; }
 
-/* line 59, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+/* line 59, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
 input[type="search"] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2493,81 +2493,81 @@ input[type="search"] {
   -o-appearance: none;
   appearance: none; }
 
-/* line 63, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+/* line 63, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
   margin-right: 0.375em; }
 
-/* line 69, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+/* line 69, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
 input[type="file"] {
   padding-bottom: 0.75em;
   width: 100%; }
 
-/* line 74, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
+/* line 74, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_forms.scss */
 select {
   margin-bottom: 1.5em;
   max-width: 100%;
   width: auto; }
 
-/* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_tables.scss */
+/* line 1, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_tables.scss */
 table {
   border-collapse: collapse;
   margin: 0.75em 0;
   table-layout: fixed;
   width: 100%; }
 
-/* line 8, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_tables.scss */
+/* line 8, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_tables.scss */
 th {
   border-bottom: 1px solid #75696c;
   font-weight: bold;
   padding: 0.75em 0;
   text-align: left; }
 
-/* line 15, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_tables.scss */
+/* line 15, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_tables.scss */
 td {
   border-bottom: 1px solid #9b9092;
   padding: 0.75em 0; }
 
-/* line 20, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_tables.scss */
+/* line 20, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_tables.scss */
 tr,
 td,
 th {
   vertical-align: middle; }
 
-/* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+/* line 1, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
 ul,
 ol {
   margin: 0;
   padding: 0;
   list-style-type: none; }
-  /* line 19, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+  /* line 19, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
   ul.breadcrumbs,
   ol.breadcrumbs {
     text-align: center;
     margin-bottom: 1.5em; }
-    /* line 23, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+    /* line 23, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
     ul.breadcrumbs li,
     ol.breadcrumbs li {
       display: inline-block; }
-      /* line 26, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+      /* line 26, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
       ul.breadcrumbs li:not(:last-child):after,
       ol.breadcrumbs li:not(:last-child):after {
         content: '/';
         margin: 0 0.75em; }
 
-/* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+/* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
 dl {
   margin-bottom: 0.75em; }
-  /* line 37, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+  /* line 37, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
   dl dt {
     font-weight: bold;
     margin-top: 0.75em; }
-  /* line 42, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
+  /* line 42, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_lists.scss */
   dl dd {
     margin: 0; }
 
-/* line 44, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+/* line 44, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
 button,
 input[type="submit"], .button, a.button {
   background-color: #5a5153;
@@ -2590,80 +2590,80 @@ input[type="submit"], .button, a.button {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
-  /* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 6, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button:hover,
   input[type="submit"]:hover, .button:hover, a.button:hover {
     background-color: #252122;
     text-decoration: none; }
-  /* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   button, button:hover, button:visited,
   input[type="submit"],
   input[type="submit"]:hover,
   input[type="submit"]:visited, .button, .button:hover, .button:visited, a.button, a.button:hover, a.button:visited {
     color: #faf9f9;
     text-decoration: none; }
-  /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   button:hover,
   input[type="submit"]:hover, .button:hover, a.button:hover {
     color: #ccc1c1;
     text-decoration: underline; }
-  /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   button:active, button:focus,
   input[type="submit"]:active,
   input[type="submit"]:focus, .button:active, .button:focus, a.button:active, a.button:focus {
     color: #ccc1c1;
     outline: none; }
-  /* line 58, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 58, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.primary,
   input[type="submit"].primary, .button.primary, a.button.primary {
     background-color: #D84455;
     color: #faf9f9; }
-    /* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 6, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.primary:hover,
     input[type="submit"].primary:hover, .button.primary:hover, a.button.primary:hover {
       background-color: #971f2d;
       text-decoration: none; }
-  /* line 59, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 59, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.alert,
   input[type="submit"].alert, .button.alert, a.button.alert {
     background-color: #DEDA5C;
     color: #322D2E; }
-    /* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 6, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.alert:hover,
     input[type="submit"].alert:hover, .button.alert:hover, a.button.alert:hover {
       background-color: #b0ac24;
       text-decoration: none; }
-  /* line 60, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 60, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.error,
   input[type="submit"].error, .button.error, a.button.error {
     background-color: #8B1E2B;
     color: #faf9f9; }
-    /* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 6, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.error:hover,
     input[type="submit"].error:hover, .button.error:hover, a.button.error:hover {
       background-color: #370c11;
       text-decoration: none; }
-  /* line 61, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 61, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.notice,
   input[type="submit"].notice, .button.notice, a.button.notice {
     background-color: #237BA5;
     color: #faf9f9; }
-    /* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 6, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.notice:hover,
     input[type="submit"].notice:hover, .button.notice:hover, a.button.notice:hover {
       background-color: #113c51;
       text-decoration: none; }
-  /* line 62, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 62, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.success,
   input[type="submit"].success, .button.success, a.button.success {
     background-color: #256A8B;
     color: #faf9f9; }
-    /* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 6, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.success:hover,
     input[type="submit"].success:hover, .button.success:hover, a.button.success:hover {
       background-color: #102d3a;
       text-decoration: none; }
-  /* line 64, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 64, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.inverted,
   input[type="submit"].inverted, .button.inverted, a.button.inverted {
     background-color: #faf9f9;
@@ -2677,80 +2677,80 @@ input[type="submit"], .button, a.button {
     text-decoration: none;
     border: 3px solid #5a5153;
     color: #5a5153; }
-    /* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 6, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted:hover,
     input[type="submit"].inverted:hover, .button.inverted:hover, a.button.inverted:hover {
       background-color: #ccc1c1;
       text-decoration: none; }
-    /* line 17, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 17, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted:hover,
     input[type="submit"].inverted:hover, .button.inverted:hover, a.button.inverted:hover {
       background-color: #5a5153;
       color: #faf9f9; }
-    /* line 67, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 67, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.primary,
     input[type="submit"].inverted.primary, .button.inverted.primary, a.button.inverted.primary {
       border: 3px solid #D84455;
       color: #D84455; }
-      /* line 17, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      /* line 17, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.primary:hover,
       input[type="submit"].inverted.primary:hover, .button.inverted.primary:hover, a.button.inverted.primary:hover {
         background-color: #D84455;
         color: #faf9f9; }
-    /* line 68, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 68, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.alert,
     input[type="submit"].inverted.alert, .button.inverted.alert, a.button.inverted.alert {
       border: 3px solid #DEDA5C;
       color: #DEDA5C; }
-      /* line 17, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      /* line 17, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.alert:hover,
       input[type="submit"].inverted.alert:hover, .button.inverted.alert:hover, a.button.inverted.alert:hover {
         background-color: #DEDA5C;
         color: #322D2E; }
-    /* line 69, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 69, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.error,
     input[type="submit"].inverted.error, .button.inverted.error, a.button.inverted.error {
       border: 3px solid #8B1E2B;
       color: #8B1E2B; }
-      /* line 17, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      /* line 17, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.error:hover,
       input[type="submit"].inverted.error:hover, .button.inverted.error:hover, a.button.inverted.error:hover {
         background-color: #8B1E2B;
         color: #faf9f9; }
-    /* line 70, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 70, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.notice,
     input[type="submit"].inverted.notice, .button.inverted.notice, a.button.inverted.notice {
       border: 3px solid #237BA5;
       color: #237BA5; }
-      /* line 17, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      /* line 17, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.notice:hover,
       input[type="submit"].inverted.notice:hover, .button.inverted.notice:hover, a.button.inverted.notice:hover {
         background-color: #237BA5;
         color: #faf9f9; }
-    /* line 71, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 71, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
     button.inverted.success,
     input[type="submit"].inverted.success, .button.inverted.success, a.button.inverted.success {
       border: 3px solid #256A8B;
       color: #256A8B; }
-      /* line 17, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+      /* line 17, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
       button.inverted.success:hover,
       input[type="submit"].inverted.success:hover, .button.inverted.success:hover, a.button.inverted.success:hover {
         background-color: #256A8B;
         color: #faf9f9; }
-  /* line 74, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 74, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   button.skinny,
   input[type="submit"].skinny, .button.skinny, a.button.skinny {
     padding: .25em .5em; }
 
-/* line 79, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+/* line 79, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
 .button-list {
   margin: 1em; }
-  /* line 81, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 81, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_buttons.scss */
   .button-list li {
     display: inline-block;
     padding: 1em; }
 
-/* line 40, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_base.scss */
+/* line 40, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_base.scss */
 blockquote {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -2763,20 +2763,20 @@ blockquote {
   background-color: rgba(222, 218, 92, 0.5);
   padding: 1em;
   line-height: 1.65; }
-  /* line 48, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_base.scss */
+  /* line 48, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_base.scss */
   blockquote:before {
     margin-right: 10px; }
-  /* line 52, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_base.scss */
+  /* line 52, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_base.scss */
   blockquote:nth-child(even) {
     background-color: rgba(35, 123, 165, 0.8);
     border-left-color: #322D2E;
     color: #faf9f9; }
 
-/* line 68, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+/* line 68, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
 .day_icon {
   margin: 0 auto;
   width: 100px; }
-  /* line 72, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+  /* line 72, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
   .day_icon i {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -2813,23 +2813,23 @@ blockquote {
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%; }
 
-/* line 77, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+/* line 77, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
 .day_icons {
   margin: 0 auto;
   text-align: center;
   display: block;
   height: 110.0px; }
 
-/* line 84, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+/* line 84, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
 li.day_icon {
   margin: 110.0px;
   display: inline; }
 
-/* line 90, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+/* line 90, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
 h1 .fa, h1 blockquote, h1 .code-icon, h1 .speak-icon, h1 .write-icon, h1 .footer .footer-logo, .footer h1 .footer-logo {
   color: #e78e99; }
 
-/* line 94, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+/* line 94, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
 h1.icon i {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -2858,7 +2858,7 @@ h1.icon i {
   /*margin: 0 auto 20px auto;*/
   /*}*/ }
   @media screen and (min-width: 53.75em) {
-    /* line 94, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
+    /* line 94, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_icons.scss */
     h1.icon i {
       border-top-left-radius: 3px;
       border-top-right-radius: 3px;
@@ -2887,18 +2887,18 @@ h1.icon i {
       /*margin: 0 auto 20px auto;*/
       /*}*/ } }
 
-/* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_layout.scss */
+/* line 1, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_layout.scss */
 html,
 body {
   margin: 0;
   padding: 0;
   height: 100%; }
 
-/* line 11, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_layout.scss */
+/* line 11, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_layout.scss */
 #main {
   background-color: #e78e99; }
 
-/* line 15, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_layout.scss */
+/* line 15, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_layout.scss */
 #content {
   max-width: 68em;
   margin-left: auto;
@@ -2911,25 +2911,25 @@ body {
     content: "";
     display: table; }
 
-/* line 4, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 4, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog h1 {
   color: #8B1E2B; }
-/* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 6, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog #main {
   background-color: #8B1E2B; }
-  /* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   .blog #main a:not(.button), .blog #main a:not(.button):hover, .blog #main a:not(.button):visited {
     color: #D84455;
     text-decoration: none; }
-  /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   .blog #main a:not(.button):hover {
     color: #971f2d;
     text-decoration: underline; }
-  /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   .blog #main a:not(.button):active, .blog #main a:not(.button):focus {
     color: #971f2d;
     outline: none; }
-  /* line 13, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 13, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog #main img {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -2943,72 +2943,72 @@ body {
     width: 520px;
     margin: 1em auto 0 auto;
     border: 3px solid #237BA5; }
-    /* line 20, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    /* line 20, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
     .blog #main img + small {
       text-align: center;
       width: 100%;
       display: inline-block;
       margin-bottom: 1em; }
-/* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .blog.blog_index #main a:not(.button), .blog.blog_index #main a:not(.button):hover, .blog.blog_index #main a:not(.button):visited {
   color: #256A8B;
   text-decoration: none; }
-/* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .blog.blog_index #main a:not(.button):hover {
   color: #102d3a;
   text-decoration: underline; }
-/* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .blog.blog_index #main a:not(.button):active, .blog.blog_index #main a:not(.button):focus {
   color: #102d3a;
   outline: none; }
-/* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .blog.blog_index #main h2 a, .blog.blog_index #main h2 a:hover, .blog.blog_index #main h2 a:visited {
   color: #8B1E2B;
   text-decoration: none; }
-/* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .blog.blog_index #main h2 a:hover {
   color: #370c11;
   text-decoration: underline; }
-/* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .blog.blog_index #main h2 a:active, .blog.blog_index #main h2 a:focus {
   color: #370c11;
   outline: none; }
-/* line 37, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 37, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog.blog_index #main .article {
   border-bottom: 3px dashed #DEDA5C;
   margin-bottom: 2em; }
-  /* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   .blog.blog_index #main .article:nth-child(odd) h2 a, .blog.blog_index #main .article:nth-child(odd) h2 a:hover, .blog.blog_index #main .article:nth-child(odd) h2 a:visited {
     color: #237BA5;
     text-decoration: none; }
-  /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   .blog.blog_index #main .article:nth-child(odd) h2 a:hover {
     color: #113c51;
     text-decoration: underline; }
-  /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   .blog.blog_index #main .article:nth-child(odd) h2 a:active, .blog.blog_index #main .article:nth-child(odd) h2 a:focus {
     color: #113c51;
     outline: none; }
-  /* line 45, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 45, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog.blog_index #main .article:first-child {
     background-color: #f7d8db;
     padding: 1em; }
-    /* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     .blog.blog_index #main .article:first-child h2 a, .blog.blog_index #main .article:first-child h2 a:hover, .blog.blog_index #main .article:first-child h2 a:visited {
       color: #D84455;
       text-decoration: none; }
-    /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     .blog.blog_index #main .article:first-child h2 a:hover {
       color: #971f2d;
       text-decoration: underline; }
-    /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     .blog.blog_index #main .article:first-child h2 a:active, .blog.blog_index #main .article:first-child h2 a:focus {
       color: #971f2d;
       outline: none; }
-  /* line 51, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 51, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog.blog_index #main .article p:last-child {
     margin-top: 1em; }
-/* line 58, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 58, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog aside {
   border-top: 3px dashed #DEDA5C;
   padding-top: 1em;
@@ -3036,7 +3036,7 @@ body {
   -o-justify-content: flex-start;
   justify-content: flex-start;
   -ms-flex-pack: start; }
-  /* line 67, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 67, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog aside section {
     -webkit-flex-basis: 5em;
     -moz-flex-basis: 5em;
@@ -3049,13 +3049,13 @@ body {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
-    /* line 72, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    /* line 72, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
     .blog aside section.recent {
       -webkit-flex-grow: 3;
       -moz-flex-grow: 3;
       flex-grow: 3;
       -ms-flex-positive: 3; }
-/* line 78, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 78, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog .callout, .blog .takeaway {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -3073,172 +3073,172 @@ body {
   color: #faf9f9;
   font-size: 2.5em;
   line-height: 1em; }
-  /* line 89, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 89, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog .callout p, .blog .takeaway p {
     margin: 0 0 0 1.5em; }
-  /* line 93, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 93, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog .callout .fa, .blog .callout blockquote, .blog .callout .code-icon, .blog .callout .speak-icon, .blog .callout .write-icon, .blog .callout .footer .footer-logo, .footer .blog .callout .footer-logo, .blog .takeaway .fa, .blog .takeaway blockquote, .blog .takeaway .code-icon, .blog .takeaway .speak-icon, .blog .takeaway .write-icon, .blog .takeaway .footer .footer-logo, .footer .blog .takeaway .footer-logo {
     color: #98cbe4; }
-/* line 96, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 96, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog .takeaway {
   margin-bottom: 2em; }
-/* line 101, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 101, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog #content header {
   text-align: center; }
-  /* line 104, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 104, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog #content header h4 {
     border-bottom: 3px dashed #DEDA5C;
     padding-bottom: 1em;
     margin-bottom: 2em; }
-/* line 111, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 111, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog #content ul {
   list-style-type: disc;
   padding-left: 1em;
   margin: -0.5em 1em 1em 1em; }
-/* line 117, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+/* line 117, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
 .blog #content .tweets_blog {
   border: none;
   text-align: center; }
-  /* line 120, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 120, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog #content .tweets_blog ul {
     list-style-type: none; }
-  /* line 122, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 122, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog #content .tweets_blog img {
     border-width: 1px; }
-  /* line 126, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+  /* line 126, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
   .blog #content .tweets_blog .tweets {
     border-top: 3px dashed #DEDA5C;
     border-top-width: 2px;
     padding-top: 2em; }
-    /* line 131, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+    /* line 131, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
     .blog #content .tweets_blog .tweets:first-of-type {
       border-top: none;
       padding-top: .5em; }
 
-/* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 1, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 #main.conference, #main.sponsors {
   background-color: #256A8B; }
 
-/* line 7, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 7, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout .childcare-callout {
   text-transform: uppercase;
   background-color: #322D2E; }
-/* line 12, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 12, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout .hero {
   padding-bottom: 52px; }
   @media screen and (min-width: 53.75em) {
-    /* line 12, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    /* line 12, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
     .conference_layout .hero {
       padding-bottom: 42px; } }
-  /* line 17, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 17, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout .hero .hero-inner .hero-copy h4.childcare-callout a {
     color: #faf9f9; }
-/* line 22, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 22, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout .day_summaries {
   background-color: #efedb1;
   padding-bottom: .2em;
   margin: 1em auto; }
-/* line 28, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 28, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout #content {
   margin-top: -100px;
   text-align: center; }
-  /* line 32, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 32, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout #content h1 {
     color: #237BA5; }
-    /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
     .conference_layout #content h1 .fa, .conference_layout #content h1 blockquote, .conference_layout #content h1 .code-icon, .conference_layout #content h1 .speak-icon, .conference_layout #content h1 .write-icon, .conference_layout #content h1 .footer .footer-logo, .footer .conference_layout #content h1 .footer-logo {
       color: #98cbe4; }
-  /* line 37, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 37, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout #content h3 {
     margin: 1em auto; }
-  /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout #content h2.change-world {
     margin-bottom: 1em; }
-    /* line 42, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    /* line 42, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
     .conference_layout #content h2.change-world span {
       font-family: "proxima-nova-extra-condensed";
       font-weight: 200;
       font-style: normal; }
-    /* line 46, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    /* line 46, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
     .conference_layout #content h2.change-world .fa, .conference_layout #content h2.change-world blockquote, .conference_layout #content h2.change-world .code-icon, .conference_layout #content h2.change-world .speak-icon, .conference_layout #content h2.change-world .write-icon, .conference_layout #content h2.change-world .footer .footer-logo, .footer .conference_layout #content h2.change-world .footer-logo {
       color: #D84455; }
     @media screen and (min-width: 53.75em) {
-      /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
       .conference_layout #content h2.change-world {
         font-size: 4em; } }
-  /* line 54, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 54, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout #content h4 .fa, .conference_layout #content h4 blockquote, .conference_layout #content h4 .code-icon, .conference_layout #content h4 .speak-icon, .conference_layout #content h4 .write-icon, .conference_layout #content h4 .footer .footer-logo, .footer .conference_layout #content h4 .footer-logo {
     color: #53afdb;
     padding: 0 .5em; }
-  /* line 61, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 61, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout #content .actions .fa-li {
     position: relative;
     color: #53afdb;
     left: 0; }
   @media screen and (max-width: 40em) {
-    /* line 60, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    /* line 60, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
     .conference_layout #content .actions {
       text-align: left;
       list-style-type: disc;
       margin-top: .5em; }
-      /* line 68, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      /* line 68, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
       .conference_layout #content .actions .fa-li {
         display: none; } }
-/* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .conference_layout .breadcrumbs.write li.write a, .conference_layout .breadcrumbs.write li.write a:hover, .conference_layout .breadcrumbs.write li.write a:visited, .conference_layout .breadcrumbs.speak li.speak a, .conference_layout .breadcrumbs.speak li.speak a:hover, .conference_layout .breadcrumbs.speak li.speak a:visited, .conference_layout .breadcrumbs.code li.code a, .conference_layout .breadcrumbs.code li.code a:hover, .conference_layout .breadcrumbs.code li.code a:visited {
   color: #D84455;
   text-decoration: none; }
-/* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .conference_layout .breadcrumbs.write li.write a:hover, .conference_layout .breadcrumbs.speak li.speak a:hover, .conference_layout .breadcrumbs.code li.code a:hover {
   color: #971f2d;
   text-decoration: underline; }
-/* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .conference_layout .breadcrumbs.write li.write a:active, .conference_layout .breadcrumbs.write li.write a:focus, .conference_layout .breadcrumbs.speak li.speak a:active, .conference_layout .breadcrumbs.speak li.speak a:focus, .conference_layout .breadcrumbs.code li.code a:active, .conference_layout .breadcrumbs.code li.code a:focus {
   color: #971f2d;
   outline: none; }
-/* line 83, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 83, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout.sub_page .hero {
   font-size: .8em;
   padding-bottom: 62px; }
-  /* line 84, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 84, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout.sub_page .hero .details, .conference_layout.sub_page .hero .header-break {
     display: none; }
   @media screen and (min-width: 53.75em) {
-    /* line 83, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+    /* line 83, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
     .conference_layout.sub_page .hero {
       padding-bottom: 52px; } }
-  /* line 92, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 92, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout.sub_page .hero h1 {
     font-family: "proxima-nova-extra-condensed";
     font-weight: 700;
     font-style: normal; }
     @media screen and (min-width: 53.75em) {
-      /* line 92, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      /* line 92, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
       .conference_layout.sub_page .hero h1 {
         font-size: 2.25em; } }
-  /* line 97, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 97, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout.sub_page .hero h2 {
     font-family: "proxima-nova-extra-condensed";
     font-weight: 500;
     font-style: normal; }
     @media screen and (min-width: 53.75em) {
-      /* line 97, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+      /* line 97, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
       .conference_layout.sub_page .hero h2 {
         font-size: 2em; } }
-/* line 104, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 104, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout.sub_page #content h2 {
   margin: 0 auto 1em auto; }
-  /* line 107, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 107, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout.sub_page #content h2 .fa, .conference_layout.sub_page #content h2 blockquote, .conference_layout.sub_page #content h2 .code-icon, .conference_layout.sub_page #content h2 .speak-icon, .conference_layout.sub_page #content h2 .write-icon, .conference_layout.sub_page #content h2 .footer .footer-logo, .footer .conference_layout.sub_page #content h2 .footer-logo {
     padding: 0 .5em; }
-/* line 112, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 112, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout.sub_page #content .themes {
   color: #D84455;
   margin-bottom: 1em; }
-/* line 117, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 117, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout.sub_page #content .credits {
   margin-top: 1em; }
-/* line 124, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 124, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout .developer-definition {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -3252,39 +3252,39 @@ body {
   background-color: #efedb1;
   padding: .5em;
   border: 1px solid #9b9092; }
-/* line 132, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 132, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 .conference_layout a.small {
   font-size: .8em;
   color: #faf9f9; }
-  /* line 136, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 136, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   .conference_layout a.small, .conference_layout a.small:hover, .conference_layout a.small:linked, .conference_layout a.small:visited {
     color: #faf9f9; }
 
-/* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 #main.scholarships #content .breadcrumbs li a, #main.scholarships #content .breadcrumbs li a:hover, #main.scholarships #content .breadcrumbs li a:visited {
   color: #D84455;
   text-decoration: none; }
-/* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 #main.scholarships #content .breadcrumbs li a:hover {
   color: #971f2d;
   text-decoration: underline; }
-/* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 #main.scholarships #content .breadcrumbs li a:active, #main.scholarships #content .breadcrumbs li a:focus {
   color: #971f2d;
   outline: none; }
-/* line 143, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 143, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 #main.scholarships #content .scholarship {
   margin: 3em 1em 1em;
   text-align: left; }
-  /* line 147, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+  /* line 147, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
   #main.scholarships #content .scholarship h2 {
     margin-bottom: .5em; }
-/* line 152, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
+/* line 152, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 #main.scholarships #content .closed {
   margin-top: 5em;
   border-top: 3px dashed #DEDA5C; }
 
-/* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_days.scss */
+/* line 1, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_days.scss */
 .days {
   display: -webkit-box;
   display: -moz-box;
@@ -3309,7 +3309,7 @@ body {
   -o-justify-content: space-between;
   justify-content: space-between;
   -ms-flex-pack: justify; }
-  /* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_days.scss */
+  /* line 6, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_days.scss */
   .days li {
     -webkit-flex-basis: 15em;
     -moz-flex-basis: 15em;
@@ -3324,65 +3324,53 @@ body {
     transition: all 0.2s ease-in-out;
     text-align: center;
     padding: .5em; }
-    /* line 14, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_days.scss */
+    /* line 14, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_days.scss */
     .days li h3 {
       margin-top: 0; }
 
-/* line 18, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_days.scss */
+/* line 18, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_days.scss */
 .day_summary {
   margin-top: 1em; }
 
-/* line 2, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+/* line 2, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_events.scss */
 .events .workshop {
   padding-bottom: 1em; }
-  /* line 3, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+  /* line 3, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_events.scss */
   .events .workshop ul {
     list-style-type: disc;
     margin-left: 1em;
     padding-left: .5em; }
-  /* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+  /* line 6, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_events.scss */
   .events .workshop h5 {
     padding-bottom: .5em; }
-/* line 14, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+/* line 13, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_events.scss */
 .events .workshops.upcoming-workshops li, .events .workshops.past-workshops li {
   margin-bottom: .5em;
   padding: .5em;
   border-left: 10px solid #D84455; }
-  /* line 20, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+  /* line 19, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_events.scss */
   .events .workshops.upcoming-workshops li:nth-child(even), .events .workshops.past-workshops li:nth-child(even) {
     border-left-color: #e78e99; }
-/* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-.events .workshops .callout-primary a, .events .workshops .callout-primary a:hover, .events .workshops .callout-primary a:visited {
-  color: #D84455;
-  text-decoration: none; }
-/* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-.events .workshops .callout-primary a:hover {
-  color: #971f2d;
-  text-decoration: underline; }
-/* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-.events .workshops .callout-primary a:active, .events .workshops .callout-primary a:focus {
-  color: #971f2d;
-  outline: none; }
 
-/* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+/* line 1, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
 .footer {
   background: #303030;
   color: rgba(250, 249, 249, 0.5);
   padding: 1.5em;
   width: 100%;
   display: inline-block; }
-  /* line 2, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+  /* line 2, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
   .footer ul {
     margin: 0;
     padding: 0;
     line-height: 1.5em; }
-  /* line 8, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+  /* line 8, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
   .footer li {
     list-style: none; }
-  /* line 12, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+  /* line 12, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
   .footer a {
     text-decoration: none; }
-  /* line 28, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+  /* line 28, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
   .footer .footer-logo {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -3420,82 +3408,82 @@ body {
     border-top-left-radius: 50%;
     margin-top: -10px; }
     @media screen and (min-width: 53.75em) {
-      /* line 28, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+      /* line 28, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
       .footer .footer-logo {
         float: left;
         margin-bottom: 0; } }
-    /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+    /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
     .footer .footer-logo + ul {
       padding-top: 0;
       min-height: 0; }
-  /* line 45, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+  /* line 45, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
   .footer ul {
     margin-bottom: 1em; }
     @media screen and (min-width: 53.75em) {
-      /* line 45, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+      /* line 45, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
       .footer ul {
         float: left;
         line-height: 1.8em;
         margin-left: 1em;
         margin-bottom: 0; } }
-  /* line 56, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+  /* line 56, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
   .footer ul li {
     font-weight: 800;
     padding-right: 1em; }
     @media screen and (min-width: 53.75em) {
-      /* line 56, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+      /* line 56, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
       .footer ul li {
         display: inline;
         text-align: left; } }
-  /* line 66, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+  /* line 66, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
   .footer ul li a {
     color: rgba(250, 249, 249, 0.5); }
-    /* line 69, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+    /* line 69, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
     .footer ul li a:focus, .footer ul li a:hover {
       color: #faf9f9; }
   @media screen and (min-width: 53.75em) {
-    /* line 75, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+    /* line 75, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
     .footer .footer-secondary-links {
       float: right; } }
-  /* line 80, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+  /* line 80, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
   .footer .footer-secondary-links li {
     font-size: 0.8em;
     font-weight: 400; }
-  /* line 85, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+  /* line 85, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
   .footer .footer-secondary-links ul.footer-social {
     margin-top: .5em; }
     @media screen and (min-width: 53.75em) {
-      /* line 85, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+      /* line 85, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
       .footer .footer-secondary-links ul.footer-social {
         float: right; } }
-    /* line 92, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+    /* line 92, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
     .footer .footer-secondary-links ul.footer-social li {
       font-size: 1em;
       float: left;
       line-height: 0;
       padding-right: 0.7em; }
-      /* line 98, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+      /* line 98, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
       .footer .footer-secondary-links ul.footer-social li:last-child {
         padding-right: 0; }
-    /* line 103, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+    /* line 103, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
     .footer .footer-secondary-links ul.footer-social img {
       height: 1.6em;
       opacity: 0.7;
       padding: 1px; }
-      /* line 108, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
+      /* line 108, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
       .footer .footer-secondary-links ul.footer-social img:focus, .footer .footer-secondary-links ul.footer-social img:hover {
         opacity: 1; }
 
-/* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+/* line 1, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
 .navigation {
   background-color: #303030;
   min-height: 60px;
   width: 100%;
   z-index: 999; }
-  /* line 2, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 2, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation a {
     text-decoration: none; }
-  /* line 23, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 23, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation .navigation-wrapper {
     position: relative;
     z-index: 9999; }
@@ -3504,12 +3492,12 @@ body {
       clear: both;
       content: "";
       display: table; }
-  /* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation .logo {
     float: left;
     max-height: 60px;
     margin-right: 10px; }
-  /* line 38, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 38, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation .navigation-menu-button {
     color: #faf9f9;
     display: block;
@@ -3520,23 +3508,23 @@ body {
     padding-right: 1em;
     text-transform: uppercase; }
     @media screen and (min-width: 53.75em) {
-      /* line 38, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 38, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation .navigation-menu-button {
         display: none; } }
-    /* line 52, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 52, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation .navigation-menu-button:focus, .navigation .navigation-menu-button:hover {
       color: #e78e99; }
-  /* line 61, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 61, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation nav {
     float: none;
     min-height: 60px;
     z-index: 9999999;
     margin-left: 1em; }
     @media screen and (min-width: 53.75em) {
-      /* line 61, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 61, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation nav {
         float: left; } }
-  /* line 73, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 73, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation ul.navigation-menu {
     -webkit-transform-style: preserve-3d;
     clear: both;
@@ -3546,16 +3534,16 @@ body {
     padding: 0;
     width: 100%;
     z-index: 9999; }
-    /* line 84, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 84, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation ul.navigation-menu.show {
       display: block; }
     @media screen and (min-width: 53.75em) {
-      /* line 73, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 73, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation ul.navigation-menu {
         display: inline;
         margin: 0;
         padding: 0; } }
-  /* line 98, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 98, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation ul li.nav-link {
     background: #303030;
     display: block;
@@ -3566,46 +3554,46 @@ body {
     width: 100%;
     z-index: 9999; }
     @media screen and (min-width: 53.75em) {
-      /* line 98, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 98, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation ul li.nav-link {
         padding-right: 0; } }
     @media screen and (min-width: 53.75em) {
-      /* line 98, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 98, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation ul li.nav-link {
         background: transparent;
         display: inline;
         line-height: 60px;
         text-decoration: none;
         width: auto; } }
-    /* line 120, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 120, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation ul li.nav-link a {
       color: #faf9f9;
       display: inline-block;
       font-weight: 400; }
       @media screen and (min-width: 53.75em) {
-        /* line 120, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+        /* line 120, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
         .navigation ul li.nav-link a {
           padding-right: 1em; } }
-      /* line 129, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 129, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation ul li.nav-link a:focus, .navigation ul li.nav-link a:hover {
         color: #e78e99; }
-  /* line 136, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 136, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation .active-nav-item a {
     border-bottom: 1px solid rgba(250, 249, 249, 0.5);
     padding-bottom: 3px; }
-  /* line 143, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 143, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation li.more.nav-link {
     padding-right: 0; }
-    /* line 146, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 146, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation li.more.nav-link > ul > li:first-child a {
       padding-top: 1em; }
-    /* line 150, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 150, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation li.more.nav-link a {
       margin-right: 1em; }
-    /* line 154, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 154, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation li.more.nav-link > a {
       padding-right: 0.6em; }
-    /* line 158, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 158, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation li.more.nav-link > a:after {
       position: absolute;
       top: auto;
@@ -3614,79 +3602,79 @@ body {
       left: auto;
       content: '\25BE';
       color: #faf9f9; }
-  /* line 166, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 166, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation li.more {
     overflow: visible;
     padding-right: 0; }
-    /* line 170, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 170, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation li.more > a {
       position: relative; }
-      /* line 173, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 173, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation li.more > a:after {
         content: '›';
         font-size: 1.2em;
         position: absolute;
         right: 0.5em; }
-    /* line 181, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 181, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation li.more:focus > .submenu, .navigation li.more:hover > .submenu {
       display: block; }
     @media screen and (min-width: 53.75em) {
-      /* line 166, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 166, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation li.more {
         padding-right: 0.8em;
         position: relative; } }
-  /* line 192, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 192, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation ul.submenu {
     display: none;
     padding-left: 0; }
     @media screen and (min-width: 53.75em) {
-      /* line 192, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 192, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation ul.submenu {
         left: -1em;
         position: absolute;
         top: 1.5em; } }
-    /* line 202, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 202, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation ul.submenu .divided a {
       border-top: 2px solid #e78e99; }
-      /* line 205, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 205, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation ul.submenu .divided a:hover {
         border-top-color: #faf9f9; }
     @media screen and (min-width: 53.75em) {
-      /* line 210, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 210, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation ul.submenu .submenu {
         left: 11.8em;
         top: 0; } }
-    /* line 217, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 217, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation ul.submenu li {
       display: block;
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
-        /* line 217, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+        /* line 217, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
         .navigation ul.submenu li {
           line-height: 46.15385px; }
-          /* line 224, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+          /* line 224, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
           .navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
-          /* line 229, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+          /* line 229, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
           .navigation ul.submenu li:last-child > a {
             border-bottom-left-radius: 3px;
             border-bottom-right-radius: 3px;
             padding-bottom: 0.7em; } }
-      /* line 236, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 236, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation ul.submenu li a {
         background-color: #282828;
         display: inline-block;
         text-align: right;
         width: 100%; }
         @media screen and (min-width: 53.75em) {
-          /* line 236, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+          /* line 236, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
           .navigation ul.submenu li a {
             background-color: #303030;
             padding-left: 1em;
             text-align: left;
             width: 12em; } }
-  /* line 254, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 254, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation .navigation-tools {
     background: #505050;
     clear: both;
@@ -3695,12 +3683,12 @@ body {
     padding-left: 0.5em;
     padding-right: 1em; }
     @media screen and (min-width: 53.75em) {
-      /* line 254, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 254, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation .navigation-tools {
         background: transparent;
         clear: none;
         float: right; } }
-  /* line 269, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 269, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation .sign-up {
     background-color: #5a5153;
     border-radius: 3px;
@@ -3730,15 +3718,15 @@ body {
     .navigation .sign-up:disabled {
       opacity: 0.5;
       cursor: not-allowed; }
-  /* line 282, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 282, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .navigation .search-bar {
     float: left;
     padding: 0.85em 0.6em 0.7em 0.6em;
     width: 60%; }
-    /* line 291, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+    /* line 291, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
     .navigation .search-bar form {
       position: relative; }
-      /* line 294, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 294, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation .search-bar form input[type=email] {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -3753,10 +3741,10 @@ body {
         padding: 0.5em 0.8em;
         width: 40%; }
         @media screen and (min-width: 53.75em) {
-          /* line 294, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+          /* line 294, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
           .navigation .search-bar form input[type=email] {
             width: 55%; } }
-      /* line 311, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 311, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation .search-bar form input[type=submit] {
         background-color: #3c3c3c;
         border-radius: 3px;
@@ -3805,157 +3793,157 @@ body {
         .navigation .search-bar form input[type=submit]:disabled {
           opacity: 0.5;
           cursor: not-allowed; }
-        /* line 321, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+        /* line 321, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
         .navigation .search-bar form input[type=submit] img {
           height: 12px;
           opacity: 0.7;
           padding: 1px; }
     @media screen and (min-width: 53.75em) {
-      /* line 282, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+      /* line 282, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
       .navigation .search-bar {
         display: inline-block;
         position: relative;
         width: 16em; }
-        /* line 334, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+        /* line 334, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
         .navigation .search-bar input {
           -webkit-box-sizing: border-box;
           -moz-box-sizing: border-box;
           box-sizing: border-box;
           display: block; } }
 
-/* line 343, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+/* line 343, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
 .conference .navigation li.conference {
   font-weight: bold;
   color: #322D2E; }
-  /* line 345, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 345, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .conference .navigation li.conference .divided a {
     border-top-color: #322D2E; }
-  /* line 349, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 349, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .conference .navigation li.conference a {
     border-right: 8px solid #e78e99;
     border-left: 2px solid #e78e99;
     background-color: #e78e99; }
-  /* line 357, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 357, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .conference .navigation li.conference a, .conference .navigation li.conference a:after, .conference .navigation li.conference a:hover, .conference .navigation li.conference a:visited {
     color: #322D2E; }
-  /* line 361, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 361, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .conference .navigation li.conference a:hover {
     color: #faf9f9; }
-  /* line 365, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 365, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .conference .navigation li.conference > a:hover {
     color: #5a5153; }
 
-/* line 343, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+/* line 343, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
 .meetups .navigation li.meetups {
   font-weight: bold;
   color: #322D2E; }
-  /* line 345, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 345, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .meetups .navigation li.meetups .divided a {
     border-top-color: #322D2E; }
-  /* line 349, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 349, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .meetups .navigation li.meetups a {
     border-right: 8px solid #e78e99;
     border-left: 2px solid #e78e99;
     background-color: #e78e99; }
-  /* line 357, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 357, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .meetups .navigation li.meetups a, .meetups .navigation li.meetups a:after, .meetups .navigation li.meetups a:hover, .meetups .navigation li.meetups a:visited {
     color: #322D2E; }
-  /* line 361, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 361, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .meetups .navigation li.meetups a:hover {
     color: #faf9f9; }
-  /* line 365, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 365, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .meetups .navigation li.meetups > a:hover {
     color: #5a5153; }
 
-/* line 343, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+/* line 343, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
 .events .navigation li.events {
   font-weight: bold;
   color: #322D2E; }
-  /* line 345, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 345, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .events .navigation li.events .divided a {
     border-top-color: #322D2E; }
-  /* line 349, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 349, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .events .navigation li.events a {
     border-right: 8px solid #e78e99;
     border-left: 2px solid #e78e99;
     background-color: #e78e99; }
-  /* line 357, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 357, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .events .navigation li.events a, .events .navigation li.events a:after, .events .navigation li.events a:hover, .events .navigation li.events a:visited {
     color: #322D2E; }
-  /* line 361, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 361, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .events .navigation li.events a:hover {
     color: #faf9f9; }
-  /* line 365, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 365, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .events .navigation li.events > a:hover {
     color: #5a5153; }
 
-/* line 343, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+/* line 343, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
 .about .navigation li.about {
   font-weight: bold;
   color: #322D2E; }
-  /* line 345, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 345, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .about .navigation li.about .divided a {
     border-top-color: #322D2E; }
-  /* line 349, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 349, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .about .navigation li.about a {
     border-right: 8px solid #e78e99;
     border-left: 2px solid #e78e99;
     background-color: #e78e99; }
-  /* line 357, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 357, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .about .navigation li.about a, .about .navigation li.about a:after, .about .navigation li.about a:hover, .about .navigation li.about a:visited {
     color: #322D2E; }
-  /* line 361, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 361, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .about .navigation li.about a:hover {
     color: #faf9f9; }
-  /* line 365, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 365, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .about .navigation li.about > a:hover {
     color: #5a5153; }
 
-/* line 343, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+/* line 343, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
 .blog .navigation li.blog {
   font-weight: bold;
   color: #322D2E; }
-  /* line 345, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 345, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .blog .navigation li.blog .divided a {
     border-top-color: #322D2E; }
-  /* line 349, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 349, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .blog .navigation li.blog a {
     border-right: 8px solid #e78e99;
     border-left: 2px solid #e78e99;
     background-color: #e78e99; }
-  /* line 357, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 357, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .blog .navigation li.blog a, .blog .navigation li.blog a:after, .blog .navigation li.blog a:hover, .blog .navigation li.blog a:visited {
     color: #322D2E; }
-  /* line 361, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 361, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .blog .navigation li.blog a:hover {
     color: #faf9f9; }
-  /* line 365, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 365, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .blog .navigation li.blog > a:hover {
     color: #5a5153; }
 
-/* line 343, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+/* line 343, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
 .sponsors .navigation li.sponsors {
   font-weight: bold;
   color: #322D2E; }
-  /* line 345, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 345, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .sponsors .navigation li.sponsors .divided a {
     border-top-color: #322D2E; }
-  /* line 349, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 349, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .sponsors .navigation li.sponsors a {
     border-right: 8px solid #e78e99;
     border-left: 2px solid #e78e99;
     background-color: #e78e99; }
-  /* line 357, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 357, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .sponsors .navigation li.sponsors a, .sponsors .navigation li.sponsors a:after, .sponsors .navigation li.sponsors a:hover, .sponsors .navigation li.sponsors a:visited {
     color: #322D2E; }
-  /* line 361, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 361, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .sponsors .navigation li.sponsors a:hover {
     color: #faf9f9; }
-  /* line 365, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_header.scss */
+  /* line 365, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_header.scss */
   .sponsors .navigation li.sponsors > a:hover {
     color: #5a5153; }
 
-/* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+/* line 1, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
 .hero {
   background: url("/images/2013-conf/2013-heads-down-overlay2.jpg"), no-repeat #256A8B scroll;
   background: url("/images/2013-conf/2013-heads-down-overlay2.jpg"), no-repeat #256A8B scroll;
@@ -3965,14 +3953,14 @@ body {
   background-size: cover;
   padding-bottom: 2.9em; }
   @media screen and (min-width: 53.75em) {
-    /* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+    /* line 1, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
     .hero {
       padding-bottom: 2.7em; } }
-  /* line 15, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+  /* line 15, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
   .hero .hero-logo img {
     height: 4em;
     margin-bottom: 1em; }
-  /* line 20, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+  /* line 20, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
   .hero .hero-inner {
     max-width: 68em;
     margin-left: auto;
@@ -3992,37 +3980,37 @@ body {
       content: "";
       display: table; }
     @media screen and (min-width: 53.75em) {
-      /* line 20, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+      /* line 20, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
       .hero .hero-inner {
         padding: 3em; } }
-    /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+    /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
     .hero .hero-inner h1, .hero .hero-inner h2 {
       text-shadow: 1px 1px 2px #322D2E;
       color: #faf9f9; }
-    /* line 40, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+    /* line 40, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
     .hero .hero-inner .hero-copy {
       text-align: center; }
-      /* line 43, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+      /* line 43, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
       .hero .hero-inner .hero-copy p {
         font-weight: 200;
         line-height: 1.4em;
         margin: 1em auto;
         text-shadow: 1px 1px 1px #322D2E; }
         @media screen and (min-width: 53.75em) {
-          /* line 43, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+          /* line 43, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
           .hero .hero-inner .hero-copy p {
             font-size: 1.4em;
             max-width: 80%; } }
-      /* line 56, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+      /* line 56, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
       .hero .hero-inner .hero-copy a:not(.button) {
         font-weight: 200; }
-        /* line 58, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+        /* line 58, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
         .hero .hero-inner .hero-copy a:not(.button), .hero .hero-inner .hero-copy a:not(.button):visited {
           color: #D84455; }
-        /* line 62, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+        /* line 62, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
         .hero .hero-inner .hero-copy a:not(.button):hover {
           color: #8B1E2B; }
-    /* line 68, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
+    /* line 68, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_hero.scss */
     .hero .hero-inner button {
       background-color: #237BA5;
       border-radius: 3px;
@@ -4048,26 +4036,26 @@ body {
         opacity: 0.5;
         cursor: not-allowed; }
 
-/* line 2, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+/* line 2, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
 .index .navigation {
   background-color: transparent;
   text-align: center;
   border: 0;
   position: absolute;
   top: 0; }
-  /* line 10, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 10, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index .navigation .logo, .index .navigation .navigation-tools {
     display: none; }
-  /* line 12, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 12, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index .navigation nav {
     float: none; }
-/* line 17, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+/* line 17, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
 .index #main {
   padding: 0; }
-  /* line 20, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 20, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #main h1 {
     color: #faf9f9; }
-/* line 23, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+/* line 23, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
 .index .banner {
   margin: 0;
   position: relative;
@@ -4075,7 +4063,7 @@ body {
   color: #faf9f9;
   text-align: center;
   border-bottom: 10px solid #8B1E2B; }
-  /* line 30, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 30, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index .banner .wrap {
     max-width: 68em;
     margin-left: auto;
@@ -4089,34 +4077,34 @@ body {
       content: "";
       display: table; }
     @media screen and (min-width: 53.75em) {
-      /* line 30, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+      /* line 30, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
       .index .banner .wrap {
         height: 100%; } }
-  /* line 43, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 43, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index .banner .copy-wrap {
     text-align: center;
     color: #faf9f9; }
-    /* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     .index .banner .copy-wrap a:not(.button), .index .banner .copy-wrap a:not(.button):hover, .index .banner .copy-wrap a:not(.button):visited {
       color: #faf9f9;
       text-decoration: none; }
-    /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     .index .banner .copy-wrap a:not(.button):hover {
       color: #ccc1c1;
       text-decoration: underline; }
-    /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+    /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
     .index .banner .copy-wrap a:not(.button):active, .index .banner .copy-wrap a:not(.button):focus {
       color: #ccc1c1;
       outline: none; }
-    /* line 48, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    /* line 48, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index .banner .copy-wrap h1 {
       font-size: 3em; }
-/* line 56, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+/* line 56, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
 .index #banner {
   background-image: url("/images/2013-conf/wsc-sign.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
-  /* line 62, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 62, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #banner .overlay {
     position: absolute;
     top: 0px;
@@ -4125,7 +4113,7 @@ body {
     left: 0px;
     display: block;
     background-color: rgba(139, 30, 43, 0.6); }
-  /* line 68, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 68, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #banner .copy-wrap {
     float: left;
     display: block;
@@ -4138,7 +4126,7 @@ body {
     .index #banner .copy-wrap:last-child {
       margin-right: 0; }
     @media screen and (min-width: 53.75em) {
-      /* line 68, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+      /* line 68, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
       .index #banner .copy-wrap {
         float: left;
         display: block;
@@ -4149,16 +4137,16 @@ body {
         /* line 87, /Users/dalali/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
         .index #banner .copy-wrap:last-child {
           margin-right: 0; } }
-    /* line 82, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    /* line 82, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index #banner .copy-wrap h1, .index #banner .copy-wrap h2 {
       text-shadow: 1px 1px 2px #322D2E; }
-    /* line 86, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    /* line 86, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index #banner .copy-wrap p {
       font-size: 1.3em;
       padding-top: 2em;
       text-shadow: 1px 1px 1px #322D2E; }
   @media screen and (min-width: 53.75em) {
-    /* line 93, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    /* line 93, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index #banner .fa-caret-down {
       float: left;
       display: block;
@@ -4168,69 +4156,56 @@ body {
       /* line 87, /Users/dalali/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
       .index #banner .fa-caret-down:last-child {
         margin-right: 0; } }
-/* line 102, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+/* line 102, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
 .index #banner2 {
-  background-color: #faf9f9; }
-  /* line 105, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  background-color: #237BA5;
+  border-bottom-color: #256A8B; }
+  /* line 109, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #banner2 .image-wrap {
     max-width: 100%;
     max-height: 590px;
     margin: 0;
     padding: 0; }
     @media screen and (min-width: 53.75em) {
-      /* line 105, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+      /* line 109, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
       .index #banner2 .image-wrap {
         float: left;
-        max-width: 31%; } }
-    /* line 116, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+        max-width: 32%; } }
+    /* line 120, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index #banner2 .image-wrap img {
       max-height: 590px; }
-  /* line 121, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+  /* line 125, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
   .index #banner2 .copy-wrap {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    color: #322D2E;
     padding: 1em;
     height: auto; }
     /* line 87, /Users/dalali/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
     .index #banner2 .copy-wrap:last-child {
       margin-right: 0; }
-    /* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-    .index #banner2 .copy-wrap a:not(.button), .index #banner2 .copy-wrap a:not(.button):hover, .index #banner2 .copy-wrap a:not(.button):visited {
-      color: #D84455;
-      text-decoration: none; }
-    /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-    .index #banner2 .copy-wrap a:not(.button):hover {
-      color: #971f2d;
-      text-decoration: underline; }
-    /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
-    .index #banner2 .copy-wrap a:not(.button):active, .index #banner2 .copy-wrap a:not(.button):focus {
-      color: #971f2d;
-      outline: none; }
-    /* line 131, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    /* line 131, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index #banner2 .copy-wrap h1 {
       font-size: 2.25em; }
-    /* line 132, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    /* line 132, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index #banner2 .copy-wrap h2 {
       font-size: 2em; }
-    /* line 133, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    /* line 133, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index #banner2 .copy-wrap h2, .index #banner2 .copy-wrap h3 {
       text-align: center; }
-    /* line 135, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    /* line 135, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
     .index #banner2 .copy-wrap p, .index #banner2 .copy-wrap h3 {
       padding: .5em 0 0 0; }
+    /* line 139, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+    .index #banner2 .copy-wrap .header-break {
+      display: none; }
     @media screen and (min-width: 53.75em) {
-      /* line 140, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
+      /* line 142, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_index.scss */
       .index #banner2 .copy-wrap .header-break {
         display: block; } }
-/* line 146, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_index.scss */
-.index .newsletter-signup #mce-EMAIL {
-  max-width: 290px;
-  margin: 10px auto; }
 
-/* line 17, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
+/* line 17, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
 .logo {
   font-family: "proxima-nova-extra-condensed";
   font-weight: 200;
@@ -4238,14 +4213,14 @@ body {
   font-size: 4em;
   margin-top: -.25em;
   padding: 0; }
-  /* line 8, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
+  /* line 8, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
   .logo, .logo:hover, .logo:visited, .logo a, .logo a:hover, .logo a:visited {
     color: #322D2E; }
-    /* line 11, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
+    /* line 11, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
     .logo span, .logo:hover span, .logo:visited span, .logo a span, .logo a:hover span, .logo a:visited span {
       color: #D84455; }
 
-/* line 21, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
+/* line 21, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
 .logo-inverted {
   font-family: "proxima-nova-extra-condensed";
   font-weight: 200;
@@ -4254,179 +4229,179 @@ body {
   margin-top: -.25em;
   padding: 0;
   color: #faf9f9; }
-  /* line 8, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
+  /* line 8, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
   .logo-inverted, .logo-inverted:hover, .logo-inverted:visited, .logo-inverted a, .logo-inverted a:hover, .logo-inverted a:visited {
     color: #322D2E; }
-    /* line 11, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
+    /* line 11, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_logo.scss */
     .logo-inverted span, .logo-inverted:hover span, .logo-inverted:visited span, .logo-inverted a span, .logo-inverted a:hover span, .logo-inverted a:visited span {
       color: #D84455; }
 
-/* line 2, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_meetups.scss */
+/* line 2, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_meetups.scss */
 .meetups .meetup {
   margin-bottom: 2em; }
-/* line 5, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_meetups.scss */
+/* line 5, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_meetups.scss */
 .meetups .social li {
   display: inline;
   padding-right: 10px; }
-/* line 9, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_meetups.scss */
+/* line 9, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_meetups.scss */
 .meetups .social li a:hover {
   text-decoration: none; }
 
-/* line 5, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+/* line 5, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
 ul.people_list {
   list-style-type: none;
   margin-top: 20px;
   text-align: center; }
   @media screen and (min-width: 53.75em) {
-    /* line 5, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    /* line 5, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
     ul.people_list {
       text-align: left; } }
-  /* line 12, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+  /* line 12, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
   ul.people_list img {
     width: 100px;
     height: 100px; }
-  /* line 17, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+  /* line 17, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
   ul.people_list .social {
     font-size: .8em;
     margin-top: -10px; }
-    /* line 21, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    /* line 21, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
     ul.people_list .social li {
       display: inline-block; }
-  /* line 24, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+  /* line 24, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
   ul.people_list > li {
     clear: both;
     margin: 1em;
     padding: 1em;
     min-height: 170px;
     height: auto; }
-    /* line 32, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    /* line 32, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
     ul.people_list > li .info {
       text-align: center;
       margin: 0 auto 20px auto; }
       @media screen and (min-width: 53.75em) {
-        /* line 32, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+        /* line 32, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
         ul.people_list > li .info {
           float: left;
           text-align: left;
           margin: 0; } }
       @media screen and (min-width: 53.75em) {
-        /* line 42, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+        /* line 42, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
         ul.people_list > li .info + .talk {
           margin-left: 180px;
           min-height: 160px; } }
-    /* line 51, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    /* line 51, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
     ul.people_list > li p, ul.people_list > li .talk {
       padding-right: 20px; }
-      /* line 54, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      /* line 54, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
       ul.people_list > li p .name, ul.people_list > li .talk .name {
         font-family: "proxima-nova-extra-condensed";
         font-weight: 500;
         font-style: normal;
         color: #D84455;
         font-weight: bold; }
-        /* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+        /* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
         ul.people_list > li p .namea, ul.people_list > li p .namea:hover, ul.people_list > li p .namea:visited, ul.people_list > li .talk .namea, ul.people_list > li .talk .namea:hover, ul.people_list > li .talk .namea:visited {
           color: #D84455;
           text-decoration: none; }
-        /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+        /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
         ul.people_list > li p .namea:hover, ul.people_list > li .talk .namea:hover {
           color: #971f2d;
           text-decoration: underline; }
-        /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+        /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
         ul.people_list > li p .namea:active, ul.people_list > li p .namea:focus, ul.people_list > li .talk .namea:active, ul.people_list > li .talk .namea:focus {
           color: #971f2d;
           outline: none; }
-    /* line 65, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    /* line 65, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
     ul.people_list > li p .name {
       font-size: 1.5em;
       line-height: 1em; }
-    /* line 71, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    /* line 71, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
     ul.people_list > li .social {
       margin-top: -10px;
       text-align: center;
       font-size: .6em; }
-      /* line 76, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      /* line 76, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
       ul.people_list > li .social li {
         display: inline-block;
         padding: 0 .1em; }
-      /* line 81, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      /* line 81, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
       ul.people_list > li .social a {
         font-size: 2.25em; }
-    /* line 84, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    /* line 84, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
     ul.people_list > li .talk {
       font-style: italic;
       font-weight: bold;
       margin-bottom: .5em; }
-      /* line 89, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      /* line 89, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
       ul.people_list > li .talk .name {
         font-size: 2em; }
         @media screen and (min-width: 53.75em) {
-          /* line 89, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+          /* line 89, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
           ul.people_list > li .talk .name {
             font-size: 2.5em; } }
-      /* line 95, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      /* line 95, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
       ul.people_list > li .talk ul li {
         display: inline-block;
         font-size: 1.75em; }
-        /* line 99, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+        /* line 99, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
         ul.people_list > li .talk ul li:first-child .fa, ul.people_list > li .talk ul li:first-child blockquote, ul.people_list > li .talk ul li:first-child .code-icon, ul.people_list > li .talk ul li:first-child .speak-icon, ul.people_list > li .talk ul li:first-child .write-icon, ul.people_list > li .talk ul li:first-child .footer .footer-logo, .footer ul.people_list > li .talk ul li:first-child .footer-logo {
           display: none; }
-        /* line 100, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+        /* line 100, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
         ul.people_list > li .talk ul li .fa, ul.people_list > li .talk ul li blockquote, ul.people_list > li .talk ul li .code-icon, ul.people_list > li .talk ul li .speak-icon, ul.people_list > li .talk ul li .write-icon, ul.people_list > li .talk ul li .footer .footer-logo, .footer ul.people_list > li .talk ul li .footer-logo {
           color: #98cbe4;
           font-size: .8em; }
-        /* line 105, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+        /* line 105, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
         ul.people_list > li .talk ul li a {
           font-family: "proxima-nova-extra-condensed";
           font-weight: 300;
           font-style: normal; }
-          /* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+          /* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
           ul.people_list > li .talk ul li a, ul.people_list > li .talk ul li a:hover, ul.people_list > li .talk ul li a:visited {
             color: #237BA5;
             text-decoration: none; }
-          /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+          /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
           ul.people_list > li .talk ul li a:hover {
             color: #113c51;
             text-decoration: underline; }
-          /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+          /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
           ul.people_list > li .talk ul li a:active, ul.people_list > li .talk ul li a:focus {
             color: #113c51;
             outline: none; }
-          /* line 109, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+          /* line 109, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
           ul.people_list > li .talk ul li a:hover {
             color: #256A8B; }
-    /* line 116, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    /* line 116, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
     ul.people_list > li.company img {
       width: 150px; }
     @media screen and (min-width: 53.75em) {
-      /* line 122, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+      /* line 122, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
       ul.people_list > li.person .info {
         margin-left: 30px;
         margin-right: 30px; } }
-    /* line 131, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    /* line 131, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
     ul.people_list > li.talk .talk {
       min-height: 135px; }
-    /* line 135, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+    /* line 135, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
     ul.people_list > li.talk .bio {
       margin-left: 0; }
 
-/* line 142, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+/* line 142, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
 .person, .company {
   border: 3px dashed #DEDA5C; }
 
-/* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .person a.image, .person a.image:hover, .person a.image:visited {
   color: #237BA5;
   text-decoration: none; }
-/* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .person a.image:hover {
   color: #113c51;
   text-decoration: underline; }
-/* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .person a.image:active, .person a.image:focus {
   color: #113c51;
   outline: none; }
-/* line 151, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
+/* line 151, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_people_list.scss */
 .person img {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -4438,42 +4413,42 @@ ul.people_list {
   border-top-left-radius: 50%;
   border: 4px solid #237BA5; }
 
-/* line 2, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 2, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .schedule .events {
   text-align: left; }
-/* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .schedule .day_schedule li a, .schedule .day_schedule li a:hover, .schedule .day_schedule li a:visited {
   color: #D84455;
   text-decoration: none; }
-/* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .schedule .day_schedule li a:hover {
   color: #971f2d;
   text-decoration: underline; }
-/* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+/* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
 .schedule .day_schedule li a:active, .schedule .day_schedule li a:focus {
   color: #971f2d;
   outline: none; }
-/* line 16, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 16, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .schedule .event {
   border-left: 10px solid #D84455;
   background-color: #fbedee;
   padding: .5em;
   margin: 1em 0; }
-  /* line 22, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+  /* line 22, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
   .schedule .event:nth-child(even) {
     border-left-color: #8B1E2B; }
-  /* line 26, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+  /* line 26, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
   .schedule .event.talk, .schedule .event.panel {
     border-left-color: #237BA5;
     background-color: #e7f4fa; }
-    /* line 30, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+    /* line 30, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
     .schedule .event.talk:nth-child(even), .schedule .event.panel:nth-child(even) {
       border-left-color: #256A8B; }
-  /* line 35, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+  /* line 35, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
   .schedule .event h5 {
     margin-top: 0;
     margin-bottom: .5em; }
-/* line 42, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 42, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .schedule #content .schedules {
   /*h2 {*/
   /*border-top: $section-border;*/
@@ -4483,89 +4458,89 @@ ul.people_list {
   /*margin-top: 1em;*/
   /*}*/
   /*}*/ }
-  /* line 43, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+  /* line 43, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
   .schedule #content .schedules h2, .schedule #content .schedules h3 {
     margin-bottom: 0;
     color: #237BA5; }
-  /* line 48, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+  /* line 48, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
   .schedule #content .schedules h3 {
     margin-top: 0; }
-  /* line 61, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+  /* line 61, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
   .schedule #content .schedules header {
     margin-top: 3em;
     padding-bottom: 1em;
     border: 3px dashed #DEDA5C; }
-  /* line 29, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 29, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   .schedule #content .schedules .more_info, .schedule #content .schedules .more_info:hover, .schedule #content .schedules .more_info:visited {
     color: #322D2E;
     text-decoration: none; }
-  /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   .schedule #content .schedules .more_info:hover {
     color: black;
     text-decoration: underline; }
-  /* line 39, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
+  /* line 39, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/base/_typography.scss */
   .schedule #content .schedules .more_info:active, .schedule #content .schedules .more_info:focus {
     color: black;
     outline: none; }
-  /* line 71, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+  /* line 71, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
   .schedule #content .schedules .actions {
     float: left;
     color: #9b9092; }
-  /* line 76, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+  /* line 76, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
   .schedule #content .schedules .details {
     margin-left: 50px; }
 
-/* line 83, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 83, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .dots {
   margin-left: 60px;
   margin-top: 20px;
   list-style-type: none; }
 
-/* line 89, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 89, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .dots li {
   padding-bottom: 30px;
   display: block;
   border-left: 2px solid #D84455; }
 
-/* line 95, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 95, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .dots li:last-child {
   border-left: 2px solid #faf9f9; }
 
-/* line 99, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 99, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .fa-circle:before {
   margin-left: -9px;
   color: #D84455;
   font-size: 19px;
   line-height: 0px; }
 
-/* line 106, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 106, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .fa-circle p {
   margin-top: -15px;
   margin-bottom: 20px;
   padding: 0px 25px;
   color: #D84455; }
 
-/* line 113, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 113, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .fa-circle p a {
   color: #D84455; }
 
-/* line 117, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 117, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .fa-circle p a:hover {
   color: #D84455;
   opacity: .5; }
 
-/* line 122, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 122, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .fa-circle p a:visited {
   color: #D84455; }
 
-/* line 126, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 126, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .schedule_container {
   max-width: 600px;
   margin: 25px auto;
   border: solid 1px lightgrey;
   border-radius: 4px; }
 
-/* line 133, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 133, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .schedule_container h2 {
   text-align: center;
   padding: 25px;
@@ -4573,31 +4548,31 @@ ul.people_list {
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 40px; }
 
-/* line 141, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
+/* line 141, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_schedule.scss */
 .schedule_container h3 {
   padding: 20px 30px;
   color: #D84455;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
-/* line 5, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 5, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .sponsors .conference_layout #content h1:not(.recruit) {
   color: #322D2E; }
-/* line 9, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 9, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .sponsors .developer-definition, .sponsors .each_day {
   display: none; }
-/* line 13, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 13, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .sponsors .images img {
   border: 2px solid #D84455;
   width: 35%;
   margin: 2px 10px; }
 
-/* line 22, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 22, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .conference.sponsors #content {
   text-align: left; }
-  /* line 25, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+  /* line 25, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
   .conference.sponsors #content h2 {
     margin: 1em auto .25em auto; }
-/* line 32, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 32, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .conference.sponsors .sponsors .sponsor {
   border: 3px dashed #DEDA5C;
   border-color: #98cbe4;
@@ -4605,7 +4580,7 @@ ul.people_list {
   text-align: center;
   padding: .5em;
   margin-bottom: 2em; }
-  /* line 41, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+  /* line 41, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
   .conference.sponsors .sponsors .sponsor img {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -4618,22 +4593,22 @@ ul.people_list {
     border: 2px solid #237BA5;
     height: 100px;
     background-color: white; }
-/* line 50, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 50, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .conference.sponsors .sponsors.platinum .sponsor {
   border-color: #D84455;
   background-color: #e78e99; }
-  /* line 54, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+  /* line 54, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
   .conference.sponsors .sponsors.platinum .sponsor img {
     height: 200px;
     border-color: #D84455; }
-/* line 62, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 62, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .conference.sponsors .sponsors.gold .sponsor {
   border-color: #DEDA5C;
   background-color: #efedb1; }
-  /* line 66, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+  /* line 66, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
   .conference.sponsors .sponsors.gold .sponsor img {
     border-color: #DEDA5C; }
-/* line 70, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+/* line 70, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
 .conference.sponsors .sponsors:not(.gold):not(.platinum):not(.silver) {
   display: -webkit-box;
   display: -moz-box;
@@ -4658,7 +4633,7 @@ ul.people_list {
   -o-justify-content: space-between;
   justify-content: space-between;
   -ms-flex-pack: justify; }
-  /* line 75, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+  /* line 75, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
   .conference.sponsors .sponsors:not(.gold):not(.platinum):not(.silver) .sponsor {
     -webkit-flex-basis: 15em;
     -moz-flex-basis: 15em;
@@ -4674,17 +4649,17 @@ ul.people_list {
     text-align: center;
     height: auto;
     margin: 1em; }
-    /* line 84, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
+    /* line 84, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_sponsors.scss */
     .conference.sponsors .sponsors:not(.gold):not(.platinum):not(.silver) .sponsor p {
       display: none; }
 
-/* line 2, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_testimonials.scss */
+/* line 2, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_testimonials.scss */
 .testimonials blockquote {
   background-color: #DEDA5C; }
-  /* line 4, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_testimonials.scss */
+  /* line 4, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_testimonials.scss */
   .testimonials blockquote:nth-child(even) {
     background-color: #237BA5; }
-  /* line 6, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_testimonials.scss */
+  /* line 6, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_testimonials.scss */
   .testimonials blockquote:before {
     margin-right: 0px; }
 
@@ -4721,32 +4696,32 @@ ul.people_list {
 /*i.write-icon:before, i.speak-icon:before, i.code-icon:before {*/
 /*font-size: 30px;*/
 /*}*/
-/* line 47, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/application/_application.scss */
+/* line 47, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/application/_application.scss */
 .center_header {
   text-align: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 1, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+/* line 1, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
 .print {
   display: none; }
 
 @media print {
   @page {
     margin: 1cm; }
-  /* line 10, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 10, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   body {
     font-size: 12pt;
     font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
-  /* line 15, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 15, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   .screen {
     display: none; }
 
-  /* line 16, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 16, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   .print {
     display: block; }
 
-  /* line 24, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 24, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   h1 .fa, h1 blockquote, h1 .code-icon, h1 .speak-icon, h1 .write-icon, h1 .footer .footer-logo, .footer h1 .footer-logo,
   h2 .fa,
   h2 blockquote,
@@ -4785,52 +4760,52 @@ ul.people_list {
   .footer h6 .footer-logo {
     display: none; }
 
-  /* line 27, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 27, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   .button, button, a.button {
     display: none; }
 
-  /* line 30, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 30, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   header.navigation:after {
     content: "http://www.writespeakcode.com"; }
-  /* line 32, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 32, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   header.navigation h1 {
     margin-top: 1cm; }
-  /* line 34, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 34, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   header.navigation nav, header.navigation .navigation-menu-button, header.navigation .navigation-tools {
     display: none; }
 
-  /* line 38, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 38, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   .days {
     display: block; }
-    /* line 40, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+    /* line 40, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
     .days > li {
       border: 1px solid #5a5153; }
-    /* line 41, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+    /* line 41, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
     .days .learn_more {
       display: none; }
 
-  /* line 46, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 46, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   .conference_layout .hero-copy, .conference_layout .hero-copy h1, .conference_layout .hero-copy h2 {
     color: black; }
-  /* line 47, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 47, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   .conference_layout .hero-copy p, .conference_layout .hero-copy .childcare-callout {
     display: none; }
-  /* line 50, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 50, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   .conference_layout .button-list {
     display: none; }
-  /* line 51, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 51, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   .conference_layout .developer-definition + p {
     display: none; }
-  /* line 52, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 52, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   .conference_layout .breadcrumbs {
     display: none; }
-  /* line 54, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 54, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   .conference_layout a.button {
     display: none; }
-  /* line 56, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 56, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   .conference_layout .actions a.button {
     display: none; }
 
-  /* line 60, /Users/dalali/Projects/DevBC/writespeakcode.github.io/source/stylesheets/_print.scss */
+  /* line 60, /Users/dalali/Projects/DevBC/wsc/writespeakcode.github.io/source/stylesheets/_print.scss */
   footer.footer {
     display: none; } }

@@ -40,6 +40,10 @@ page_class: 'events workshops'
 %p
   <b>Afternoon:</b> Code on Python projects. Mentors will be available to answer questions. Example projects targeted: Django, Flask, Census Reporter, Tarbell, Chicago Python User Group website, PyLadies website and more!
 
+%p
+  %small
+    %em This event is for those with some experience in Python and git.
+
 %hr
 
 %p
@@ -48,7 +52,6 @@ page_class: 'events workshops'
     needed for the duration of the event.
     %small Sign up during registration
 
-%br
 %p
   %i.fa.fa-paper-plane
   Subscribe to Write Speak Code's
@@ -58,8 +61,32 @@ page_class: 'events workshops'
   to receive all updates on this event and future events.
 
 %br
-%p
-  %small
-    %em This event is for those with some experience in Python and git.
-%p
-  P.S. Looking to brush up on your Python? #{link_to 'Chicago PyLadies', 'http://www.meetup.com/Chicago-PyLadies/'} is holding an #{link_to 'Intro to Python', 'http://www.meetup.com/Chicago-PyLadies/events/223062786/'} ahead of the event!
+
+%div.sponsorship
+  %h3 
+    Thanks to our sponsors
+  %br
+  %div.enova
+    %h5 Event Host
+    %a{href: 'https://www.enova.com/'}
+      =tag :img, src: '../images/sponsors/logo_enova.svg'
+
+  %div.thoughtbot
+    %h5 Silver Sponsor
+    %a{href: 'https://thoughtbot.com'}
+      = image_tag '../images/sponsors/logo_thoughtbot_horizontal.svg'
+
+%br
+
+%div
+  %span.callout-primary
+    Sponsor this event! 
+  Interested in getting in front of motivated, community-focused technologists of diverse backgrounds? Just want to support diversity in tech and open source? #{link_to 'Learn more here.', 'https://guestlistapp.com/events/336243'}
+
+
+
+
+
+
+
+

@@ -3368,18 +3368,26 @@ body {
   text-align: center; }
   /* line 35, /Users/carolineartz/WSC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
   .events .sponsorship img {
-    width: 13.75em;
-    height: auto; }
+    width: 11.25em;
+    max-width: 100%;
+    height: 100px; }
   @media screen and (min-width: 40em) {
-    /* line 41, /Users/carolineartz/WSC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
-    .events .sponsorship .enova, .events .sponsorship .thoughbot {
+    /* line 42, /Users/carolineartz/WSC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+    .events .sponsorship .enova, .events .sponsorship .thoughbot, .events .sponsorship .braintree {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 48.82117%; }
+      width: 31.76157%; }
       /* line 87, /Users/carolineartz/WSC/writespeakcode.github.io/vendor/bundle/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
-      .events .sponsorship .enova:last-child, .events .sponsorship .thoughbot:last-child {
-        margin-right: 0; } }
+      .events .sponsorship .enova:last-child, .events .sponsorship .thoughbot:last-child, .events .sponsorship .braintree:last-child {
+        margin-right: 0; }
+      /* line 45, /Users/carolineartz/WSC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+      .events .sponsorship .enova img, .events .sponsorship .thoughbot img, .events .sponsorship .braintree img {
+        width: 8.125em; } }
+  @media screen and (min-width: 26.25em) {
+    /* line 53, /Users/carolineartz/WSC/writespeakcode.github.io/source/stylesheets/application/_events.scss */
+    .events .sponsorship .thoughtbot img {
+      width: 10.625em; } }
 
 /* line 1, /Users/carolineartz/WSC/writespeakcode.github.io/source/stylesheets/application/_footer.scss */
 .footer {

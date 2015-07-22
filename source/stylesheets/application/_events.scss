@@ -33,13 +33,25 @@
     text-align: center;
 
     img {
-      width: em(220);
-      height: auto;
+      width: em(180);
+      max-width: 100%;
+      height: 100px;
     }
 
     @include media($medium-screen-up) {
-      .enova, .thoughbot {
-        @include span-columns(6 of 12);
+      .enova, .thoughbot, .braintree {
+        @include span-columns(4 of 12);
+
+        img {
+          width: em(130);
+        }
+      }
+    }
+
+
+    @include media($small-screen-up) {
+      .thoughtbot img {
+        width: em(170);
       }
     }
   }

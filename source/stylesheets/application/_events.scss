@@ -1,6 +1,9 @@
 .events {
   .workshop {
-    ul { @include normal-list; }
+    ul {
+      @include normal-list;
+    }
+
     padding-bottom: 1em;
 
     h5 {
@@ -8,13 +11,11 @@
     }
   }
 
-
   .workshops {
     &.upcoming-workshops, &.past-workshops {
       li {
         margin-bottom: .5em;
         padding: .5em;
-
         border-left: 10px solid $brand-primary;
 
         &:nth-child(even) {
@@ -25,6 +26,21 @@
 
     .callout-primary a {
       @include colored-link($brand-primary);
+    }
+  }
+
+  .sponsorship {
+    text-align: center;
+
+    img {
+      width: em(220);
+      height: auto;
+    }
+
+    @include media($medium-screen-up) {
+      .enova, .thoughbot {
+        @include span-columns(6 of 12);
+      }
     }
   }
 }

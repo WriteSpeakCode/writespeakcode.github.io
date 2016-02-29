@@ -39,7 +39,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.4)
+    eventmachine (1.0.9.1)
     execjs (2.2.2)
     ffi (1.9.6)
     font-awesome-sass (4.2.2)
@@ -90,11 +90,10 @@ GEM
       tilt (~> 1.4.1, < 2.0)
     middleman-gh-pages (0.0.2)
       rake (> 0.9.3)
-    middleman-livereload (3.1.1)
-      em-websocket (>= 0.2.0)
-      middleman-core (>= 3.0.2)
-      multi_json (~> 1.0)
-      rack-livereload
+    middleman-livereload (3.4.6)
+      em-websocket (~> 0.5.1)
+      middleman-core (>= 3.3)
+      rack-livereload (~> 0.3.15)
     middleman-sprockets (3.4.1)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -119,7 +118,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     rack (1.6.0)
-    rack-livereload (0.3.15)
+    rack-livereload (0.3.16)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -162,9 +161,12 @@ DEPENDENCIES
   middleman-alias
   middleman-blog
   middleman-gh-pages
-  middleman-livereload (~> 3.1.0)
+  middleman-livereload (~> 3.4.3)
   neat
   nokogiri (~> 1.6.6.2)
   pry
   tzinfo-data
   wdm (~> 0.1.0)
+
+BUNDLED WITH
+   1.11.2

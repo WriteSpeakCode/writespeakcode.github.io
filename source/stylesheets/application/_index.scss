@@ -48,6 +48,21 @@
       h1 {
         font-size: 3em;
       }
+
+      .conference-cta {
+        background: transparentize($white, .1);
+        padding: 1em;
+        margin-bottom: 1em;
+        h3 {
+          color: $dark-gray;
+          a {
+            color: $brand-accent;
+            &:hover {
+              color: $brand-accent-dark;
+            }
+          }
+        }
+      }
     }
 
     border-bottom: 10px solid $brand-primary-dark;
@@ -134,6 +149,10 @@
 
       p, h3 {
         padding: .5em 0 0 0;
+      }
+      h4 {
+        max-width: 75%;
+        margin: 0 auto;
       }
 
       @include media($large-screen) {

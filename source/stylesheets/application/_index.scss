@@ -57,7 +57,7 @@
           color: $dark-gray;
           a {
             color: $brand-accent;
-            &:hover {
+            &:hover, &:visited {
               color: $brand-accent-dark;
             }
           }

@@ -4148,7 +4148,7 @@ body {
         .index .banner .copy-wrap .conference-cta h3 a {
           color: #237BA5; }
           /* line 60, /Users/carolynvs/src/writespeakcode.github.io/source/stylesheets/application/_index.scss */
-          .index .banner .copy-wrap .conference-cta h3 a:hover {
+          .index .banner .copy-wrap .conference-cta h3 a:hover, .index .banner .copy-wrap .conference-cta h3 a:visited {
             color: #256A8B; }
 /* line 71, /Users/carolynvs/src/writespeakcode.github.io/source/stylesheets/application/_index.scss */
 .index #banner {

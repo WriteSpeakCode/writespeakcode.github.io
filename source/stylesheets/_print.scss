@@ -41,21 +41,5 @@
     .learn_more { display: none; }
   }
 
-  .conference_layout {
-    .hero-copy {
-      &, h1, h2 { color: black; }
-      p, .childcare-callout { display: none; }
-    }
-
-    .button-list { display: none; }
-    .developer-definition + p { display: none; }
-    .breadcrumbs { display: none; }
-
-    a.button { display: none; }
-    .actions {
-      a.button { display: none; }
-    }
-  }
-
   footer.footer { display: none; }
 }

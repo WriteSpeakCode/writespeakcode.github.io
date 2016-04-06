@@ -41,7 +41,7 @@
               - talks_info.each do |talk|
                 %li
                   %i.fa.fa-star-o
-                  = link_to talk.try(:[],'talk_name'), "/conference/schedule##{talk.talk_id}"
+                  = link_to talk.try(:[],'talk_name'), "http://2015.writespeakcode.com/schedule##{talk.talk_id}"
       - if info.bio
         %p.bio
           = link_or_text(info.name, info.url, bio_name_class)

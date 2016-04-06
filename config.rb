@@ -37,27 +37,6 @@ helpers do
   include ConferenceHelper
   include BlogHelper
 
-  # sponsors
-  def sponsor_levels
-    levels = {
-      platinum: 1,
-      gold: 2,
-      silver: 3,
-      bronze: 4,
-      childcare: 5,
-      host: 6
-    }
-  end
-
-  def level_to_num(level)
-    levels[level.to_sym] || 5
-  end
-
-  def sponsors_for(filter, level)
-    data.sponsors.select do |k,v|
-      v.sponsoring.include?(filter) && v.sponsor_level == level.to_s
-    end
-  end
 
   def time_converter(hour, minutes)
     result = ""
@@ -85,16 +64,6 @@ helpers do
     }.sort_by { |k, v|
       person_comparator(v, sorts)
     }.tap { |data| return data.reverse if sorts[:reverse] }
-  end
-
-  def conference_button_links
-    links = %w(speakers schedule scholarships childcare)
-    links.map! do |link|
-      { url: "/conference/#{link}", text: link.titleize }
-    end
-
-    links.last[:text] = "Childcare &amp; Accessibility"
-    links
   end
 end
 

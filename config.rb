@@ -128,3 +128,5 @@ configure :build do
 end
 
 activate :alias
+
+redirect "/conference", to: "http://2016.writespeakcode.com"

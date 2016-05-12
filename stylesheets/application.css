@@ -3150,6 +3150,10 @@ body {
     .blog #content .conference-speaker ul.social a {
       font-size: 2.25em; }
 
+/* line 182, /Users/rmw/writespeakcode-local/writespeakcode.github.io/source/stylesheets/application/_blog.scss */
+p.buy {
+  text-align: center; }
+
 /* line 1, /Users/rmw/writespeakcode-local/writespeakcode.github.io/source/stylesheets/application/_conference.scss */
 #main.conference, #main.sponsors {
   background-color: #256A8B; }

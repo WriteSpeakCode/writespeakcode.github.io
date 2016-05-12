@@ -10,7 +10,7 @@ $callout-bg: $brand-accent-dark;
       @include colored-link($brand-primary);
     }
 
-    img {
+    .post-img {
       @include square-border;
       display: block;
       width: 520px;
@@ -135,4 +135,46 @@ $callout-bg: $brand-accent-dark;
       }
     }
   }
+}
+
+.blog #content .conference-speaker {
+  $conf-speaker-padding: 2em;
+
+  min-height: 500px;
+  height: auto;
+  margin: $conf-speaker-padding;
+
+  img {
+    height: 300px;
+    margin: 0 $conf-speaker-padding $conf-speaker-padding;
+
+    @include media($large-screen) {
+      float: left;
+
+      &.round { float: right; }
+    }
+  }
+
+  p {
+    padding: $conf-speaker-padding;
+  }
+
+  h2 {
+    margin: $conf-speaker-padding/4 $conf-speaker-padding/2;
+  }
+
+  ul.social {
+    margin-top: -$conf-speaker-padding;
+
+    text-align: center;
+    font-size: .8em;
+
+    li {
+      display: inline-block;
+      padding: 0 $conf-speaker-padding;
+    }
+
+    a { font-size: $sm-h1-font-size; }
+  }
+
 }

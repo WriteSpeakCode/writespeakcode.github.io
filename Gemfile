@@ -12,6 +12,9 @@ gem "neat"
 gem "bitters"
 gem 'font-awesome-sass'
 
+gem 'dotenv'
+#gem 'middleman-cli'
+
 # nokogiri for showing article summaries
 gem 'nokogiri', '~> 1.6.6.2'
 

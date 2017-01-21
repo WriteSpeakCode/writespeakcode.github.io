@@ -17,14 +17,14 @@
   #main {
     padding: 0;
 
-    h1 { color: $white; }
+    h1 { color: $brand-accent; }
   }
 
   .banner {
     margin: 0;
     position: relative;
     min-height: 600px;
-    color: $white;
+    color: $brand-accent;
     text-align: center;
 
     .wrap {
@@ -42,34 +42,34 @@
 
     .copy-wrap {
       text-align: center;
-      color: $white;
-      a:not(.button) { @include colored-link($white); }
+      color: $brand-accent;
+      /*a:not(.button) { @include colored-link($white); }*/
 
       h1 {
         font-size: 3em;
       }
 
       .conference-cta {
-        background: transparentize($white, .1);
+        background: transparentize($brand-accent, .1);
         padding: 1em;
         margin-bottom: 1em;
         h3 {
           color: $dark-gray;
-          a {
-            color: $brand-accent;
-            &:hover, &:visited {
-              color: $brand-accent-dark;
-            }
-          }
+          /*a {*/
+            /*color: $brand-accent;*/
+            /*&:hover, &:visited {*/
+              /*color: $brand-accent-dark;*/
+            /*}*/
+          /*}*/
         }
       }
     }
 
-    border-bottom: 10px solid $brand-primary-dark;
+    border-bottom: 10px solid $brand-primary;
   }
 
   #banner {
-    background-image: url(image_path('2013-conf/wsc-sign.jpg'));
+    background-image: url(image_path('IMG_0946.JPG'));
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -115,7 +115,7 @@
   }
 
   #banner2 {
-    background-color: $white;
+    background-color: $brand-accent;
 
     .image-wrap {
       max-width: 100%;
@@ -139,9 +139,9 @@
       padding: 1em;
       height: auto;
 
-      a:not(.button) { 
-        @include colored-link($brand-primary); 
-      }
+      /*a:not(.button) {*/
+        /*@include colored-link($brand-primary);*/
+      /*}*/
 
       h1 { font-size: $sm-h1-font-size; }
       h2 { font-size: $sm-h2-font-size; }
@@ -160,7 +160,7 @@
       }
     }
   }
-  
+
     .newsletter-signup {
       #mce-EMAIL {
         max-width: 290px;

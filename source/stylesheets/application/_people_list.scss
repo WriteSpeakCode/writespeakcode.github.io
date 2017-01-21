@@ -141,6 +141,7 @@ ul.people_list {
 
 .person, .company {
   border: $section-border;
+  background: $brand-secondary;
 }
 
 .person {
@@ -150,6 +151,6 @@ ul.people_list {
 
   img {
     @include round-border;
-    border: 4px solid $brand-accent;
+    border: 4px solid $brand-primary;
   }
 }

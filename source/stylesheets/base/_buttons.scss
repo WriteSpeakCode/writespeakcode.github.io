@@ -56,19 +56,19 @@ input[type="submit"], .button, a.button {
   white-space: nowrap;
 
   &.primary { @include set-button-color($brand-primary); }
-  &.alert { @include set-button-color($brand-secondary, $dark-gray); }
-  &.error { @include set-button-color($brand-primary-dark); }
-  &.notice { @include set-button-color($brand-accent); }
-  &.success { @include set-button-color($brand-accent-dark); }
+  &.alert { @include set-button-color($alert-color); }
+  &.error { @include set-button-color($error-color); }
+  &.notice { @include set-button-color($notice-color); }
+  &.success { @include set-button-color($success-color); }
 
   &.inverted {
     @include inverted-button;
 
     &.primary { @include set-inverted-button-color($brand-primary); }
-    &.alert { @include set-inverted-button-color($brand-secondary, $dark-gray); }
-    &.error { @include set-inverted-button-color($brand-primary-dark); }
-    &.notice { @include set-inverted-button-color($brand-accent); }
-    &.success { @include set-inverted-button-color($brand-accent-dark); }
+    &.alert { @include set-inverted-button-color($alert-color); }
+    &.error { @include set-inverted-button-color($error-color); }
+    &.notice { @include set-inverted-button-color($notice-color); }
+    &.success { @include set-inverted-button-color($success-color); }
   }
 
   &.skinny {

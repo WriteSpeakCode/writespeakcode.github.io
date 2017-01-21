@@ -4,10 +4,11 @@
   }
 
   $navigation-padding: 1em;
-  $navigation-background: desaturate($dark-gray, 30%);
-  $navigation-color: $white;
+  $navigation-background: desaturate($brand-primary-dark, 30%);
+  $navigation-color: $brand-primary;
   $navigation-color-hover: $light-primary;
-  $navigation-height: 60px;
+  $navigation-height: 100px;
+  $navigation-offset: 33px;
   $navigation-search-background: lighten($navigation-background, 5);
   $navigation-search-border: 1px solid darken($navigation-background, 5);
   $navigation-active-link-color: transparentize($white, 0.5);
@@ -24,12 +25,18 @@
     @include clearfix;
     position: relative;
     z-index: 9999;
+    margin-top: -$navigation-offset;
   }
 
   .logo {
     float: left;
-    max-height: $navigation-height;
+    margin-top: 0;
     margin-right: 10px;
+    padding: $navigation-offset+5 10px 0 10px;
+
+    img {
+      max-height: $navigation-height - 20;
+    }
   }
 
 
@@ -66,7 +73,8 @@
     margin-left: 1em;
 
     @include media ($horizontal-bar-mode) {
-      float: left;
+      /*float: left;*/
+      text-align: right;
     }
   }
 
@@ -255,9 +263,8 @@
     background: #505050;
     clear: both;
     display: block;
-    height: $navigation-height;
     padding-left: $navigation-padding / 2;
-    padding-right: $navigation-padding;
+    margin-top: -$navigation-offset;
 
     @include media($large-screen) {
       background: transparent;

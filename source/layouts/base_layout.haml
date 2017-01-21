@@ -25,24 +25,14 @@
         .navigation-wrapper
           %h1.logo><
             %a{ href: '/' }><
-              = image_tag '/images/logo/writespeakcode-inverted.png', class: 'screen'
-              = image_tag '/images/logo/writespeakcode.png', class: 'print'
+              = image_tag '/images/new_logo/WSClogos_stacked_coral-blush-gold_screen.png'
           %a#js-mobile-menu.navigation-menu-button{ href: "javascript:void(0)" }
             %i.fa.fa-bars
 
           %nav{ role: "navigation" }
             %ul#js-navigation-menu.navigation-menu.show
-              %li.nav-link.conference.more
-                = link_to "Conference", "http://2016.writespeakcode.com"
-                %ul.submenu
-                  %li
-                    = link_to 'Tickets', 'http://2016.writespeakcode.com/tickets/'
-                  %li
-                    %a{ href:"https://docs.google.com/forms/d/1obRXfww95fe7IEYez5_6mTQ_APNWJJX2E7BU5oYGEkI/viewform", target: '_blank'} Volunteer
-                  %li
-                    = link_to 'Call for Proposals', 'http://2016.writespeakcode.com/cfp/'
-                  %li
-                    = link_to 'Nominate', 'http://2016.writespeakcode.com/nominate/'
+              %li.nav-link.conference
+                = link_to 'Conference', 'https://ti.to/write-speak-code/2017-conference/', target: 'blank'
 
               %li.nav-link.meetups
                 %a{ href:"/chapters" } Chapters
@@ -55,19 +45,14 @@
                   -#%li
                     -#%a{ href:"/events/custom" } Training &amp; Custom
 
-              %li.nav-link.about.more
+              %li.nav-link.about
                 %a{ href:"/about" } About
-                %ul.submenu
-                  %li
-                    %a{ href:"/about/organizers"} Organizers
-                  %li
-                    = link_to "Code of Conduct", "/about/code-of-conduct"
 
               %li.nav-link.blog
                 %a{ href:"http://blog.writespeakcode.com/" } Blog
 
               %li.nav-link.sponsors
-                %a{ href:"http://2016.writespeakcode.com/sponsor" } Sponsor
+                %a{ href: "/sponsor" } Sponsor
 
           %div.navigation-tools
             %div.search-bar
@@ -78,20 +63,19 @@
 
       %footer.footer{ role: "contentinfo" }
         .footer-logo
+          = image_tag '/images/new_logo/WSClogos_stacked_coral-blush-gold_screen.png'
 
         %ul
           %li
             = link_to "About", "/about"
-          %li
-            = link_to "Organizers", "/about/organizers"
 
         .footer-secondary-links
           %ul
             %li
               = link_to "Code of Conduct", "/about/code-of-conduct"
-            %li Logo design by McKenna Lowry and Maryanne Ko
             %li
-              = "&copy; Rebecca Miller-Webster 2013-#{DateTime.now.year}".html_safe
+              &copy; Rebecca Miller-Webster 2013-2015
+              = "&copy; Write/Speak/Code 2015-#{DateTime.now.year}".html_safe
 
           %ul.footer-social
             %li

@@ -9,14 +9,14 @@ body {
 }
 
 #main {
-  background-color: $light-red;
+  background-color: $brand-accent-dark;
 }
 
 #content {
  @include outer-container;
 
  padding: 3%;
- background-color: $white;
+ background-color: $base-background-color;
 }
 
 .footer {

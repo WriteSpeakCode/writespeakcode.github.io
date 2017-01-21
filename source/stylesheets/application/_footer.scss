@@ -13,7 +13,7 @@
     text-decoration: none;
   }
 
-  $footer-background: desaturate($dark-gray, 30%);
+  $footer-background: desaturate($brand-primary-dark, 30%);
   $footer-color: $white;
   $footer-link-color: transparentize($footer-color, 0.5);
   $footer-disclaimer-color: transparentize($footer-color, 0.6);
@@ -26,10 +26,9 @@
   display: inline-block;
 
   .footer-logo {
-    @include code-icon;
-    @include round-icon(50px, $footer-color, $brand-primary);
-
     margin-top: -10px;
+
+    img { max-width: 170px; }
 
     @include media($large-screen) {
       float: left;

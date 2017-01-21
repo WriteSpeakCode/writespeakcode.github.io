@@ -23,12 +23,12 @@ alias : ['meetups.html', 'meetups/index.html']
       %li
         = link_to "mailto: #{meetup.email}", target: '_blank' do
           .fa.fa-envelope
-      - if meetup.events_path.present?
-        = link_to 'Upcoming Events', meetup.events_path
+      -#- if meetup.events_path.present?
+        -#= link_to 'Upcoming Events', meetup.events_path
 
-    %h4
-      %strong Organizers
-    = partial 'people_list', locals: { filter: "meetups-#{slug}" }
+    -#%h4
+      -#%strong Organizers
+    -#= partial 'people_list', locals: { filter: "meetups-#{slug}" }
 
 %section.meetup
   %h3 Are you interested in starting a Write/Speak/Code meetup?

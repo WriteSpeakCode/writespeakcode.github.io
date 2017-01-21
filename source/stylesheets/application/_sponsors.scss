@@ -1,9 +1,6 @@
 .sponsors {
-
-  .conference_layout #content {
-    h1 {
-      &:not(.recruit) { color: $dark-gray; }
-    }
+  #content {
+    text-align: center;
   }
 
   .developer-definition, .each_day { display: none; }

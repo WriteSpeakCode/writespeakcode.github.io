@@ -1,7 +1,7 @@
 // Typography
 $sans-serif: $helvetica;
 $serif: $georgia;
-$base-font-family: $serif;
+$base-font-family: $sans-serif;
 $header-font-family: "proxima-nova-extra-condensed";
 
 // Font Sizes
@@ -30,56 +30,57 @@ $base-z-index: 0;
 
 
 //Brand colors
-$red: #D84455;
-$yellow: #DEDA5C;
-$burgundy: #8B1E2B;
-$turquoise: #237BA5;
-$teal: #256A8B;
+$navy: #172751;
+$coral: #EB6851;
+$mint: #C5E8D3;
+$gold: #D5A96C;
+$blush: #F1D8D3;
 
-$brand-primary: $red;
-$brand-primary-dark: $burgundy;
-$brand-secondary: $yellow;
-$brand-accent: $turquoise;
-$brand-accent-dark: $teal;
+$brand-primary: $coral;
+$brand-primary-dark: $navy;
+$brand-secondary: $mint;
+$brand-accent: $blush;
+$brand-accent-dark: $gold;
 
 // Colors
-$dark-gray: #322D2E;
-$medium-gray: lighten($dark-gray, 15);
-$light-gray: lighten($dark-gray, 40);
+$dark-gray: #2E2F3A;
+$medium-gray: #71758A;
+$light-gray: #BBBDC7;
 
-$white: #faf9f9;
+$white: lighten($blush, 10);
 
-$light-primary: lighten($burgundy, 40);
-$light-secondary: lighten($yellow, 20);
-$light-accent: lighten($teal, 40);
+$light-primary: lighten($coral, 10);
+$light-secondary:lighten($mint, 10);
+$light-accent: lighten($gold, 10);
 
 $light-red: $light-primary;
-$light-yellow: $light-secondary;
-$light-green: $light-accent;
+$light-yellow: $light-accent;
+$light-green: $light-secondary;
+$light-blue: lighten($navy, 20);
 
 // Background Color
-$base-background-color: $white;
+$base-background-color: $blush;
 
 // Font Colors
-$base-font-color: $dark-gray;
+$base-font-color: $navy;
 $base-accent-color: $brand-accent;
 
 // Link Colors
-$base-link-color: $brand-accent;
-$hover-link-color:  $brand-accent-dark;
-$base-button-color: $medium-gray;
-$hover-button-color: $dark-gray;
+$base-link-color: $brand-primary;
+$hover-link-color:  $brand-primary;
+$base-button-color: $brand-primary-dark;
+$hover-button-color: $light-blue;
 
 // Flash Colors
-$alert-color: $light-yellow;
-$error-color: $light-red;
-$notice-color: lighten($base-accent-color, 20);
-$success-color: $light-green;
+$alert-color: $mint;
+$error-color: $coral;
+$notice-color: $gold;
+$success-color: $navy;
 
 // Border color
 $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
-$section-border: 3px dashed $brand-secondary;
+$section-border: 3px solid $brand-primary;
 
 // Forms
 $form-border-color: $base-border-color;

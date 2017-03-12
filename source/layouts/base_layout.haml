@@ -17,7 +17,7 @@
     = javascript_include_tag "//use.typekit.net/olz5yha.js"
 
     :javascript
-      try{Typekit.load();}catch(e){ alert(e); }
+      try{Typekit.load();}catch(e){ console.log(e); }
 
   %body{class: page_classes}
     .container

@@ -1,5 +1,5 @@
 ---
-title: Write/Speak/Code International Conference
+title: 2015 Write/Speak/Code International Conference
 alias : about.html
 layout: conference_layout
 page_class: 'conference'
@@ -28,10 +28,10 @@ page_class: 'conference'
     - i = 0
     - data.days.days.each do |name, info|
       - i = i+1
-      = partial 'conference/day_list_item', locals: { header: "Day #{i}", icon_class: "#{name}-icon", actions: info.actions } do
+      = partial '2015-conference/day_list_item', locals: { header: "Day #{i}", icon_class: "#{name}-icon", actions: info.actions } do
         %li.learn_more
-          = partial :arrow_button, 
-            locals: { link: "/conference/#{name}", text: "#{name.titleize} Day", classes: %w(inverted notice skinny) }
+          = partial :arrow_button,
+            locals: { link: "/2015-conference/#{name}", text: "#{name.titleize} Day", classes: %w(inverted notice skinny) }
 
   %h2.change-world
     %i.fa.fa-child
@@ -39,6 +39,6 @@ page_class: 'conference'
     Change the World!
     %i.fa.fa-child
 
-= partial 'conference/each_day'
+= partial '2015-conference/each_day'
 
 = partial :arrow_button_list, locals: { links: conference_button_links, classes: ['inverted', 'skinny'] }

@@ -9,7 +9,7 @@ module ConferenceHelper
   end
 
   def speaker_link(slug, info)
-    link_to(info['name'], "/conference/speakers##{slug}")
+    link_to(info['name'], "/2015-conference/speakers##{slug}")
   end
 
   def day_facilitators_links(day)

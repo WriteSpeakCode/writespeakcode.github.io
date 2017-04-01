@@ -4,11 +4,11 @@
   %li
     %a{ href: '/conference' } Overview
   %li.write
-    = link_to 'Write Day', '/conference/write'
+    = link_to 'Write Day', '/2015-conference/write'
   %li.speak
-    = link_to 'Speak Day', '/conference/speak'
+    = link_to 'Speak Day', '/2015-conference/speak'
   %li.code
-    = link_to 'Code Day', '/conference/code'
+    = link_to 'Code Day', '/2015-conference/code'
 
 %h1
   %i{ class: "#{day_name}-icon" }
@@ -33,24 +33,24 @@
 
 .day_summaries
   %ul.days
-    = partial 'conference/day_list_item', locals: { header: "Learn", icon_class: "fa fa-book", actions: day_info.learn } do
-      %li= partial :arrow_button, locals: { link: "/conference/schedule##{day_name}", text: "Schedule", classes: %w(inverted notice skinny) }
+    = partial '2015-conference/day_list_item', locals: { header: "Learn", icon_class: "fa fa-book", actions: day_info.learn } do
+      %li= partial :arrow_button, locals: { link: "/2015-conference/schedule##{day_name}", text: "Schedule", classes: %w(inverted notice skinny) }
 
-    = partial 'conference/day_list_item', locals: { header: "Do", icon_class: "fa fa-list-ul", actions: day_info.do } do
+    = partial '2015-conference/day_list_item', locals: { header: "Do", icon_class: "fa fa-list-ul", actions: day_info.do } do
       %li= partial :arrow_button, locals: { link: "#speakers", text: "Speakers", classes: %w(inverted notice skinny) }
 
 .themes
   %h2
     = day_info.themes.join("<i class='fa fa-star-o'></i>")
 
-= partial 'conference/each_day'
+= partial '2015-conference/each_day'
 
 .credits
   %a{ name: "speakers" }
   %h4
-    = title 
+    = title
     to Change the World Day will feature:
 
   = partial 'people_list', locals: { filter: day_name, sort_include_type: true }
 
-  %p= partial :arrow_button, locals: { link: "/conference/speakers", text: "All Speakers", classes: %w(inverted notice`) }
+  %p= partial :arrow_button, locals: { link: "/2015-conference/speakers", text: "All Speakers", classes: %w(inverted notice`) }

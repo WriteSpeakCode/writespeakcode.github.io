@@ -54,6 +54,20 @@ If you are developing off of your own fork, run:
 > bundle exec rake publish REMOTE_NAME=upstream
 ```
 
+## Docker
+
+To preview the site with Docker:
+
+```bash
+> make serve
+```
+
+To publish the site with Docker (assumes that you are developing off of your own fork, with the official remote named `upstream`):
+
+```bash
+> make deploy
+```
+
 ## Contributing
 
 Please take a look at our [contributing](CONTRIBUTE.md) guidelines. We have volunteers who work on our website to make sure it is up-to-date for all of our events. You are welcome to work on it too if you have free time!

@@ -9,6 +9,7 @@
 
 # Ignore the build directory
 /build
+/_deploy
 
 # Ignore cache
 /.sass-cache

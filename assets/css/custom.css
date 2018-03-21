@@ -100,6 +100,12 @@ body {
   display: none;
 }
 
+.dark strong { color: white; }
+
+strong, .light strong {
+  color: #172751;
+}
+
 @media (max-width: 768px) {
   .hidden-on-xs {
     display: none;
@@ -217,6 +223,11 @@ a.link.white {
    -o-background-size: cover;
    background-size: cover;
    padding-bottom: 4em;
+
+   a:not(.button):hover {
+    color: white;
+    cursor: pointer;
+  }
 }
 @media screen and (min-width: 1400px) {
   .page-intro {
@@ -667,7 +678,19 @@ a.link.white {
 /* SPEAKERS SECTION STYLES */
 section.speakers {
 	background-color: #172751;
+  color: white;
 }
+
+.speakers p.qcTabDesc { color: white; }
+
+.speakers a:hover { color: white; }
+
+.speakers .qcBulletList li:before { background: #F1D8D3; }
+.speakers .qcBulletList li {
+  margin-top: 0px;
+  margin-left: 60px;
+}
+
 section.speakers .qcTabTitle {
 	border-color: #EB6851;
 }

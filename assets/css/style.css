@@ -1464,7 +1464,7 @@ video#qcBgVid {
     text-align: center;
     background: #FFF5EE;
 }
-.qcTcktSubmit button {
+.qcTcktSubmit button, a.button {
     display: inline-block;
     position: relative;
     top: 20px;

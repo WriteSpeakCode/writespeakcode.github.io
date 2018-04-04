@@ -106,6 +106,8 @@ strong, .light strong {
   color: #172751;
 }
 
+.coral strong { color: #EB6851; }
+
 @media (max-width: 768px) {
   .hidden-on-xs {
     display: none;

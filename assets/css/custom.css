@@ -929,6 +929,14 @@ section.speakers .qcTabTitle .section-title {
     margin-left: 1em;
   }
 }
+#platinum-description {
+  margin-top: 70px;
+}
+@media screen and (max-width: 768px) {
+  #platinum-description {
+    margin-top: 0;
+  }
+}
 .sponsors-section p {
   line-height: 1.5em;
   margin-bottom: 16px;

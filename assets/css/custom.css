@@ -937,6 +937,14 @@ section.speakers .qcTabTitle .section-title {
     margin-top: 0;
   }
 }
+.gold-logo {
+  margin-top: 70px;
+}
+@media screen and (max-width: 768px) {
+  .gold-logo {
+    margin-top: 0;
+  }
+}
 .sponsors-section p {
   line-height: 1.5em;
   margin-bottom: 16px;

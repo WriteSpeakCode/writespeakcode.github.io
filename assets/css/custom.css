@@ -937,11 +937,19 @@ section.speakers .qcTabTitle .section-title {
     margin-top: 0;
   }
 }
-.gold-logo {
+.nyt-logo {
   margin-top: 70px;
 }
 @media screen and (max-width: 768px) {
-  .gold-logo {
+  .nyt-logo {
+    margin-top: 0;
+  }
+}
+.azure-gold-logo {
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .azure-gold-logo {
     margin-top: 0;
   }
 }

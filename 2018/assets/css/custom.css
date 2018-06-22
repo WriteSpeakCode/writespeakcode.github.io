@@ -168,6 +168,21 @@ a.link.coral:hover {
 a.link.white {
   color: white;
 }
+.button.primary {
+  background-color: #EB6851;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin-top: 16px;
+  font-size: 12px;
+  padding: 16px;
+  font-weight: bold;
+}
+
 .button.secondary {
   background-color: #172751;
   border-radius: 8px;
@@ -866,6 +881,11 @@ section.speakers .qcTabTitle .section-title {
   border-top: 1px #999 solid;
   border-bottom: 1px #999 solid;
 }
+
+.hotels-head div:first-child {
+  margin-left: 2em;
+}
+
 @media screen and (max-width: 768px) {
   .location-section .hotels-head {
     display: none;
@@ -884,10 +904,20 @@ section.speakers .qcTabTitle .section-title {
   margin-bottom: .25em;
 }
 @media screen and (min-width: 768px) {
-  .location-section .hotel-section .button.secondary.show-on-mobile {
+  .location-section .hotel-section .show-on-mobile {
       display: none;
   }
+
+  .hotel-info {
+    margin: 2em;
+  }
 }
+
+.hotel-info  address {
+  font-style: italic;
+}
+
+ .hotel-info dl { margin-top: 2em; }
 
 /* SPONSORS SECTION STYLES */
 .sponsor-description {

@@ -1,0 +1,136 @@
+{
+    "speakers": [
+        {
+            "name": "Bonnie Pan",
+            "bio": "Bonnie Pan is a Staff Applications Engineer at Medidata currently working on the next generation clinical cloud platform. She started her career in startups working on green-field projects and then was intrigued by the challenges working with legacy code.  She has been working with in-production legacy code for the past 7 years, and becomes passionate about refactoring, readability and testing. As a new immigrant to this country, she enjoys reading about USA and teaching her two little kids classical Chinese poem the same time.",
+            "company": "Medidata Solutions",
+            "jobTitle": "Staff Applications Engineer",
+            "pronouns": "She/Her"
+        },
+        {
+            "name": "Cate Huston",
+            "bio": "Cate has spent her career working on mobile and documenting everything she learns using WordPress. Now she combines the two as Automattic's mobile lead.",
+            "twitter": "catehstn",
+            "website": "https://cate.blog/"
+        },
+        {
+            "name": "Catt Small",
+            "bio": "Catt is a product designer, game maker, and front-end web developer. She makes awesome things at Etsy. She has done design work for companies of all sizes including SoundCloud, Bedrocket, and Nasdaq. She started coding around the age of 10 and designing at the age of 15. In 2011, she graduated from SVA with a BFA in Graphic Design and later received an MS in Integrated Digital Media from NYU in 2016. Catt also makes video games with Brooklyn Gamery and helps make STEAM industries more inclusive with Good for PoC. You can follow her @cattsmall on Twitter and view her work at www.cattsmall.com.",
+            "company": "Etsy",
+            "jobTitle": "Product Designer",
+            "twitter": "cattsmall",
+            "github": "cattsmall",
+            "linkedin": "cattsmall",
+            "website": "http://cattsmall.com",
+            "imgFilename": "catt-small.jpeg",
+            "pronouns": "she/her"
+        },
+        {
+            "name": "Denise Yu",
+            "bio": "Denise is a Software Engineer (who occasionally wears a Product Management hat) at Pivotal Cloud Foundry. In her former life, she was a competitive university debater, classical musician, and student of public policy and law. She believes strongly in using technology as a means towards social impact, and she enjoys organising and facilitating events for tech communities, particularly those with a focus on enabling women, NB folk, and people of color.",
+            "company": "Pivotal",
+            "jobTitle": "Software Engineer",
+            "twitter": "deniseyu21",
+            "github": "deniseyu",
+            "linkedin": "deniseyu",
+            "website": "deniseyu.github.io",
+            "pronouns": "she/her/hers"
+        },
+        {
+            "name": "Evelyn Masso",
+            "bio": "Evelyn Masso is a person (all the time), a developer/designer (on weekdays), and a teacher (in the evenings). She also co-organizes the LA chapter of Write/Speak/Code and writes poetry zines.",
+            "company": "Carbon Five",
+            "jobTitle": "Fullstack Web Developer",
+            "twitter": "outofambit",
+            "github": "outofambit",
+            "linkedin": "evelynmasso",
+            "website": "www.outofambit.com",
+            "pronouns": "she/they"
+        },
+        {
+            "name": "Hilary Stohs-Krause",
+            "bio": "Hilary Stohs-Krause is a full-stack software developer at Ten Forward Consulting in Madison, WI. She came to tech by way of childhood website-building (a \"Buffy the Vampire Slayer\" fansite, to be exact). Before joining Ten Forward, she spent several years as a professional journalist.\n\nHilary volunteers regularly with several tech and community organizations, and co-runs Madison Women in Tech, a local group with more than 1,200 members. She loves board games, garlic-stuffed olives and bourbon barrel-aged stouts. She’ll read any fantasy or sci-fi she can get her hands on.\n\nShe tweets puns and intersectional feminism at @hilarysk.",
+            "company": "Ten Forward Consulting",
+            "jobTitle": "Software Developer",
+            "twitter": "hilarysk",
+            "github": "hilarysk",
+            "linkedin": "hilarysk",
+            "website": "http://hilarysk.com",
+            "pronouns": "She/hers"
+        },
+        {
+            "name": "Katel LeDû",
+            "bio": "Katel LeDû is the CEO of A Book Apart, where she helps passionate tech community members become successful authors. Previously, she worked with _National Geographic_ as their digital director of photography, and has been in publishing since the early aughts. She’s seen a lot. She enjoys running (no, really) and learning the secrets of life from her snaggle-toothed mutt, Hugo.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
+            "twitter": "theledu"
+        },
+        {
+            "name": "Mina Markham",
+            "bio": "Mina Markham is a front-end architect, conference speaker and organizer and lover of design systems. She writes code for a living, currently as a Senior Engineer at Slack.\n\nPreviously a senior engineer at Hillary for America, her work on the Pantsuit pattern library has been spotlighted in WIRED, Fast Company, and Communication Arts.\n\nA prolific public speaker, Mina has appeared at events worldwide, including CSS Dev Conf, Fluent, and Future of Web Design. In addition, she’s the co-organizer of Front Porch, a front-end conference which prides itself on showcasing and fostering new speakers.\n\nMina likes ampersands, Oreos, traveling, cupcakes, and the color pink. When she's not crafting sites or teaching others, she is probably in her kitchen baking something chocolatey. Mina graduated from Syracuse University with a dual major in Graphic Arts from the S.I. Newhouse School of Public Communications and Women’s Studies. She lives in Oakland, California.",
+            "company": "Slack",
+            "jobTitle": "Senior Engineer",
+            "twitter": "MinaMarkham",
+            "github": "github.com/minamarkham",
+            "linkedin": "minamarkham",
+            "website": "mina.codes",
+            "pronouns": "she/her/hers"
+        },
+        {
+            "name": "Nishat Anjum",
+            "bio": "Nishat Anjum is a New York City based software engineer. You can usually find her in the back of a cafe tinkering with her projects or typing furiously at a hackathon.",
+            "company": "Twitter",
+            "jobTitle": "Software Engineer",
+            "twitter": "thathijabae",
+            "github": "https://github.com/nailainbits",
+            "linkedin": "nishatanjum",
+            "website": "http://nishatanjum.com/",
+            "pronouns": "She/Her"
+        },
+        {
+            "name": "Rebecca Holzschuh",
+            "bio": "I am a senior software engineer at New Relic, where I work on developing, prototyping, and analyzing potential new products and technologies. My tech cred is from a full time coding bootcamp; I have a degree in History. When I'm not thinking up new monitoring ideas, I'm reading, eating, or learning to do cool things with computers.",
+            "company": "New Relic",
+            "jobTitle": "Senior Software Engineer",
+            "twitter": "rebexcaroline",
+            "github": "rebeccacaroline",
+            "linkedin": "rebeccaholzschuh",
+            "website": "http://www.rebeccaholzschuh.com/",
+            "pronouns": "She/Her"
+        },
+        {
+            "name": "Rebecca Miller-Webster",
+            "jobTitle": "Founder",
+            "company": "Write/Speak/Code",
+            "twitter": "rmillerwebster",
+            "linkedin": "rjmillerwebster",
+            "github": "rmw",
+            "bio": "Rebecca Miller-Webster is a software engineer, conference organizer, and educator. She is the founder of Write/Speak/Code and Practice Lead at DevMynd. Rebecca has been developing software professionally for over a dozen years, previously organized GORUCO, and was the founding teacher at Dev Bootcamp NYC. Rebecca's hobbies include drinking Cherry Coke Zero, wearing trousers, telling computers what to do, cuddling pugs, & wearing all the colors."
+        },
+        {
+            "name": "Sara Wachter-Boettcher",
+            "bio": "Sara Wachter-Boettcher is the principal of Rare Union, a digital product and content strategy consultancy, and the author of Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech (W.W. Norton, 2017), which was named one of the best tech books of the year by Wired. Her other books include Design for Real Life (with Eric Meyer) from A Book Apart, and Content Everywhere from Rosenfeld Media.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
+            "twitter": "sara_ann_marie",
+            "imgFilename": "sara-wachter-boettcher.png"
+        },
+        {
+            "name": "Shemika Lamare",
+            "bio": "Shemika Lamare is a Biologist turned Data Enthusiast. She is on a non-traditional path into Data Science and is passionate about the ways that data can be used to improve our society. She wants to ensure everyone is aware of how their data is being utilized and that society is held accountable when using data. When she is not playing with data she is attending conferences, and writing talks to help empower newbies in the tech field.",
+            "company": "-",
+            "jobTitle": "-",
+            "twitter": "slamare15",
+            "github": "https://github.com/Slamare",
+            "linkedin": "slamare",
+            "website": "www.slamare.com",
+            "pronouns": "She/Her"
+        },
+        {
+            "name": "Sravanti Tekumalla",
+            "bio": "Sravanti is a software engineer working at Uber in San Francisco. Before that, she's had experiences at small startups to large corporations, including Newsela, HubSpot and Goldman Sachs. Sravanti is passionate about engineering software to make technology more equitable and accessible.",
+            "company": "Uber",
+            "jobTitle": "Software Engineer",
+            "twitter": "sravanti__",
+            "github": "sravanti",
+            "linkedin": "sravantitekumalla",
+            "website": "http://sravantitekumalla.com/"
+        }
+    ]
+}

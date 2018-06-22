@@ -890,6 +890,10 @@ section.speakers .qcTabTitle .section-title {
 }
 
 /* SPONSORS SECTION STYLES */
+.sponsor-description {
+  margin-top: 70px;
+}
+
 .sponsors-section .all-sponsors {
   margin-top: 2em;
   margin-bottom: 3em;
@@ -941,6 +945,23 @@ section.speakers .qcTabTitle .section-title {
   .sponsors-section .sponsor-logo,
   .sponsors-section .supporter-logo {
     margin-top: 1em;
+  }
+}
+
+.nyt-logo {
+  margin-top: 70px;
+}
+@media screen and (max-width: 768px) {
+  .nyt-logo {
+    margin-top: 0;
+  }
+}
+.azure-gold-logo {
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .azure-gold-logo {
+    margin-top: 0;
   }
 }
 

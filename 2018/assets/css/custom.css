@@ -934,6 +934,13 @@ section.speakers .qcTabTitle .section-title {
   margin-top: 1em;
   padding: 1em;
 }
+
+@media screen and (min-width: 768px) {
+  .sponsors-section .sponsor-level.supporters {
+    margin-left: 1em;
+  }
+}
+
 .sponsors-section .level-title {
   font-size: 22px;
   color:#172751;

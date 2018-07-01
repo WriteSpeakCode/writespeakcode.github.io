@@ -600,6 +600,18 @@ section.speakers .qcTabTitle .section-title {
 .hotel-info dl {
   margin-top: 2em; }
 
+  
+/* SCHOLARSHIPS */
+#scholarships .qcTabDesc {
+  color: white;
+}
+
+#scholarships ul {
+  list-style: disc inside none;
+  margin-left: 1em;
+  color: white;
+}
+
 /* TODO: convert this file to sass */
 .sponsor-description {
   margin-top: 70px; }

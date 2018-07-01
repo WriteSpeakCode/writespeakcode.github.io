@@ -399,72 +399,80 @@ a.link.white {
   margin-top: 1em;
   line-height: 1.2; }
 
-/* TODO: convert this file to sass */
-.sponsor-description {
-  margin-top: 70px; }
-
-.sponsors-section .all-sponsors {
+.sponsors .all-sponsors {
   margin-top: 2em;
   margin-bottom: 3em; }
-
-.sponsors-section .sponsor-level {
-  border: 2px solid #F1D8D3;
-  border-radius: 8px;
-  margin-top: 1em;
-  padding: 1em; }
-
-@media screen and (min-width: 768px) {
-  .sponsors-section .sponsor-level.supporters {
-    margin-left: 1em; } }
-.sponsors-section .level-title {
+.sponsors .level-title {
   font-size: 22px;
   color: #172751;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-@media screen and (min-width: 768px) {
-  .sponsors-section .level-title {
-    font-size: 28px;
-    margin-top: 16px;
-    margin-bottom: 16px; }
-
-  .sponsors-section .sponsor-level.left {
-    height: 100%; }
-
-  .sponsors-section .sponsor-level.right {
-    margin-left: 1em;
-    height: 100%; } }
-.sponsors-section p {
+  margin-top: 10px; }
+  @media screen and (min-width: 768px) {
+    .sponsors .level-title {
+      font-size: 28px;
+      margin-top: 30px; } }
+.sponsors p {
   line-height: 1.5em;
-  margin-bottom: 16px; }
+  margin: 8px 0; }
 
-.sponsors-section .sponsor-logo {
-  max-width: 180px;
-  width: 100%; }
+.sponsor {
+  border: 2px solid #F1D8D3;
+  margin-top: 1em;
+  margin-right: 1em;
+  border-radius: 8px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .sponsor-container {
+    width: 100%; }
+  .sponsor-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .sponsor-logo img {
+      max-width: 100%; }
 
-.sponsors-section .supporter-logo {
-  max-width: 150px;
-  width: 100%; }
+.sponsor-row {
+  border-bottom: 1px #EB6851 solid;
+  display: flex;
+  flex-wrap: wrap; }
+  .sponsor-row:last-child {
+    border: none; }
+  .sponsor-row .sponsor {
+    width: calc(100% - 2em);
+    margin-bottom: 30px; }
+  .sponsor-row .supporter {
+    width: calc(100% - 2em); }
+    .sponsor-row .supporter-container {
+      display: flex;
+      flex-wrap: wrap; }
+  @media screen and (min-width: 768px) {
+    .sponsor-row.platinum {
+      justify-content: center; }
+      .sponsor-row.platinum .sponsor {
+        width: calc(50% - 5.5em); }
+        .sponsor-row.platinum .sponsor-logo img {
+          max-width: 300px; }
+    .sponsor-row.gold {
+      justify-content: space-around; }
+      .sponsor-row.gold .sponsor {
+        width: calc(33% - 5.5em); }
+    .sponsor-row.bronze, .sponsor-row.workshops {
+      justify-content: space-around; }
+      .sponsor-row.bronze .sponsor, .sponsor-row.workshops .sponsor {
+        width: calc(25% - 2em); }
+    .sponsor-row .supporter {
+      width: calc(50% - 2em); }
+      .sponsor-row .supporter-container {
+        display: flex; }
+      .sponsor-row .supporter .sponsor {
+        width: calc(20% - 2em); }
+        .sponsor-row .supporter .sponsor-logo img {
+          width: 100%; } }
 
-.sponsors-section .right .sponsor-logo img {
-  padding: 50px auto; }
-
-@media (max-width: 768px) {
-  .sponsors-section .sponsor-logo,
-  .sponsors-section .supporter-logo {
-    margin-top: 1em; } }
-.nyt-logo {
-  margin-top: 70px; }
-
-@media screen and (max-width: 768px) {
-  .nyt-logo {
-    margin-top: 0; } }
-.azure-gold-logo {
-  margin-top: 30px; }
-
-@media screen and (max-width: 768px) {
-  .azure-gold-logo {
-    margin-top: 0; } }
 /* Update for "Talks" section TODO: fix */
 .qcSchSpeakers {
   min-height: 25px; }

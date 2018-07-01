@@ -1,0 +1,65 @@
+/* TODO: convert this file to sass */
+
+#qcWidgets {
+  padding: 0;
+}
+.testimonials-section .section-title {
+  color: #172751;
+}
+.testimonials-section .qcTabTitle {
+  border-color: #172751;
+}
+.owl-buttons {
+  padding: 1em 0 2em 0;
+}
+.owl-buttons > .owl-prev {
+  left: 1em;
+}
+.owl-buttons > .owl-next {
+  right: 1em;
+}
+@media screen and (min-width: 768px) {
+  .owl-buttons {
+    padding: 0;
+  }
+  .owl-buttons > .owl-prev {
+    left: -3em;
+    top: -10em;
+  }
+  .owl-buttons > .owl-next {
+    right: -3em;
+    top: -10em;
+  }
+}
+.owl-carousel li {
+  margin-right: 10px;
+}
+.owl-buttons > .owl-prev,
+.owl-buttons > .owl-next {
+  background-image: url(../img/theme/carouselNav_dark.png);
+}
+
+/* Styles tweets before twitter script has loaded or if it is blocked */
+blockquote.twitter-tweet {
+  display: inline-block;
+  padding: 16px;
+  margin: 10px auto;
+  max-width: 468px;
+  border: #172751 1px solid;
+  border-top-color: #172751;
+  border-bottom-color: #172751;
+  border-radius: 5px;
+  text-align: left;
+  font: normal 14px 'Open Sans', sans-serif;
+  color: black;
+}
+blockquote.twitter-tweet p {
+  font: normal 14px 'Open Sans', sans-serif;
+  margin: 0 5px 10px 0;
+}
+blockquote.twitter-tweet a[href^="https://twitter.com"] {
+  font-weight: normal;
+  display: inline;
+  color: #EB6851;
+  font-size: 14px;
+}

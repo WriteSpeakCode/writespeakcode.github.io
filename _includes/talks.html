@@ -1,0 +1,49 @@
+<section class="schedule-section anchor-section" id="talks">
+    <div class="qcTabTitle qcContainer clearfix">
+      <div class="row middle-sm">
+      <div class="col-xs-12 col-sm-6">
+        <h2 class="section-title">Talks</h2>
+      </div>
+    </div>
+    </div>
+    <div class="hentry qcContainer">
+      <ul class="qcScheduleList">
+
+        {% for talk in site.data.talks %}
+          <li class="notoggle">
+            <div class="clearfix">
+              <div class="col-10 col">
+                <h3>{{ talk.title }}</h3>
+                {% unless talk.speaker == empty %}
+                  <ul class="qcSchSpeakers clearfix">
+                    {% for speaker in talk.speaker %}
+                      {% assign speaker_data = site.data.hash_of_speakers[speaker] %}
+                      <li>
+                        {% if speaker_data %}
+                        <p class="speakers">{{ site.data.hash_of_speakers[speaker].name }}</p>
+                        <a href="#{{ speaker_data.key }}" class="tips" title="{{ speaker_data.name }}">
+                          <img src="{{ speaker_data.headshot_filename | prepend: "/assets/img/speakers/"  | prepend: site.baseurl }}" alt="{{ speaker_data.name }}" nopin="nopin" />
+                        </a>
+                      {% else %}
+                        <li><p class="speakers">{{ speaker }}</p></li>
+                      {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endunless %}
+              </div>
+            </div>
+
+            <p>
+            {% if talk.description %}
+              {{ talk.description }}
+          {% else %}
+            <i>Details coming soon!</i>
+          {% endif %}
+            </p>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+</section>

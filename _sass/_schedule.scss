@@ -1,0 +1,198 @@
+/* Update for "Talks" section TODO: fix */
+.qcSchSpeakers { min-height: 25px; }
+.qcSchSpeakers li img { margin: 0 auto; }
+
+.qcPageContentTabs > ul li > a {
+  color: #172751;
+}
+
+.qcPageContentTabs > ul {
+  border-bottom-color: #172751;
+}
+
+.schedule-section {
+  .qcPageContentTabs {
+    &.qcScheduleTabs {
+      .box {
+        border: 1px $brand-coral solid;
+      }
+    }
+  }
+
+  .qcSubScheduleContentTabs {
+    &.qcPageContentTabs {
+
+      &.qcScheduleTabs {
+        .box {
+          border: 1px $brand-coral solid;
+        }
+      }
+
+      > ul li.active {
+
+        & > a {
+          color: $brand-coral;
+        }
+
+        &:after {
+          border-top-color: $brand-coral;
+        }
+
+        &:before {
+          background-color: $brand-coral;
+        }
+      }
+
+      .qcScheduleList {
+        & > li.toggle:before {
+          background-color: $brand-coral;
+        }
+      }
+    }
+  }
+
+  .conf_dates {
+    color: $brand-coral;
+    border-bottom: 1px $brand-coral solid;
+
+    @media only screen and (max-width: 920px){
+      line-height: 34px;
+      font-size: 13px ;
+    }
+  }
+
+  .bullets {
+    padding: 15px 0px 15px 30px;
+    list-style: disc;
+    line-height: 30px;
+
+    > li {
+      border: none;
+      min-height: 40px !important;
+      padding-left: 10px;
+    }
+  }
+
+  .coming-soon{
+    padding-top: 10px;
+  }
+}
+
+/* code below still in legacy css */
+
+@media screen and (max-width: 699px) {
+  .schedule-section .wsc-schedule-tabs li {
+    width: 100%;
+    border-right: 0;
+    padding-bottom: 1em;
+  }
+
+  .schedule-section .qcScheduleTabs li a {
+    font-size: 18px;
+  }
+  .schedule-section .qcPageContentTabs > ul li.active::before,
+  .schedule-section .qcPageContentTabs > ul li.active::after {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .schedule-section .wsc-schedule-tabs li a {
+    font-size: 12px;
+  }
+  .schedule-section .wsc-schedule-tabs li {
+    width: 24%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .schedule-section .qcScheduleTabs li a {
+    font-size: 16px;
+  }
+}
+
+.schedule-section .qcScheduleList > li h3.schedule-tbd {
+  font-style: italic;
+  font-size: 1em;
+  text-transform: none;
+}
+
+.schedule-section .qcScheduleList > li h3 {
+  padding-bottom: 1em;
+  font-size: 1.2em;
+  text-transform: none;
+  color: #172751;
+}
+
+.schedule-section .qcScheduleList > li {
+  border-color: #EB6851;
+}
+
+.schedule-section .qcScheduleList > li.active {
+  background: white;
+}
+
+.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li {
+  width: 49%;
+}
+
+.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul.qcScheduleList > li {
+  min-height: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .schedule-section .qcScheduleTabs.qcSubScheduleContentTabs li a {
+    font-size: 14px;
+  }
+  .schedule-section .qcScheduleList > li h3 {
+    font-size: 1em;
+  }
+  .schedule-section .qcSchSpeakers img {
+    padding-bottom: 1em;
+  }
+  .schedule-section .qcSubScheduleContentTabs .qcScheduleList > li {
+    min-height: 180px;
+  }
+  /* Sorry so hacky, but this grid is ugh. */
+  .schedule-section .qcScheduleTabs li .col-2 {
+    width: 100%;
+  }
+}
+
+.schedule-section .qcScheduleTabs.qcSubScheduleContentTabs {
+  padding: 3em 0;
+}
+
+.schedule-section .qcTogContent {
+  padding-bottom: 1em;
+}
+@media screen and (max-width: 768px) {
+  .schedule-section .qcTogContent {
+    padding-top: 0;
+  }
+}
+
+.schedule-section .qcScheduleList li.active .qcTogContent {
+  border: 0;
+  margin-top: 0;
+}
+
+.schedule-section .qcTogContent p {
+  line-height: 1.7;
+  margin: .5em 0;
+}
+
+@media screen and (max-width: 600px) {
+  .schedule-section .qcTogContent p {
+    font-size: 14px;
+  }
+}
+
+.schedule-section .qcScheduleList > li .multiple-speakers {
+    margin: 31px 0 14px 0;
+}
+
+.schedule-section .qcScheduleList > li .multiple-speakers .speakers {
+    margin: 0;
+}
+

@@ -1,0 +1,171 @@
+{
+   "talks":[
+      {
+         "key":"zine-making-workshop",
+         "title":"Zine-Making Workshop",
+         "description":"This workshop will be an introduction to technical zine making and writing. Participants will explore how to explain technical topics via drawings, comics, diagrams, and stories, with particular focus on making complex topics understandable and accessible. At the end of the workshop, participants will have technical zines that they can exchange with each other and other conference attendees.",
+         "talk_type":"Long Workshop (3.5 hr)"
+      },
+      {
+         "key":"the-secret-history-of",
+         "title":"The secret history of women and nonbinary folks in tech",
+         "description":"Steve Jobs. Linus Torvalds. Alan Turing.\n\nBeen there, done that.\n\nThe interesting stories often aren’t the ones we grew up with; they’re the ones we’ve left behind. When it comes to tech, that means its women, and especially its women of color. And while there’s been a greater emphasis lately on rediscovering women’s contributions to technology, we need to expand our focus beyond just Grace Hopper and Ada Lovelace.\n\nFrom Radia Perlman to Sophie Wilson to Erica Baker, it’s time to explore both tech’s forgotten heroes and its modern-day pioneers, and help end the silent erasure of women in technology."
+      },
+      {
+         "key":"publisher-panel",
+         "title":"Publisher Panel",
+         "description":"In this panel of women and non-binary tech writers, authors, and technical publishers, you'll hear about the ways they use writing in their personal lives and careers, tips on how to get published, or self-publish, and the broader impact this work can have on the industry at large.",
+         "talk_type":"Panel"
+      },
+      {
+         "key":"conference-organizers",
+         "title":"Conference Organizers Panel",
+         "description":"Wondering what conference organizers look for when selecting speakers for their events? Hear from several conference organizers offering advice on navigating the CFP process and how to make your proposal stand out.",
+         "talk_type":"Panel"
+      },
+      {
+         "key":"the-full-story-presen",
+         "title":"The Full Story: Presenting Complete Ideas",
+         "description":"Telling a cohesive story is one of the hardest parts of public speaking. Many fledgling speakers find it challenging to string concepts together in an order that makes sense to other people. They also find themselves struggling to explain things in a way that feels approachable. In this talk, Catt will share methods to plan and present ideas so that your audience can better understand them. Attendees will leave the talk knowing how to outline and design presentations for speaking engagements.",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"my-github-is-bare",
+         "title":"My Github is Bare",
+         "description":"Confessional time: I spend my spare time doing things other than coding, and that’s okay! Our industry is unique in that it expects that we will have Passion, but it doesn’t have to be that way. In fact, it might even be healthy to have a more clear division between work and free time. Come hear about how other professions address passion, why you might want to take a step back, and how to go about doing just that.",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"from-blog-to-book-how",
+         "title":"From Blog to Book: How to pitch, write, and get published",
+         "description":"ou’ve started blogging about your work. Awesome! So what about writing even more…like, say, a book? If that sounds terrifying—but also kinda exciting—then this workshop is for you.\n\nWe’re Katel LeDû, CEO of indie tech publishing company A Book Apart, and Sara Wachter-Boettcher, a three-time author, and we know that too many valuable, interesting voices are still missing from our industry’s bookshelves. We’re here to help change that.\n\nWhat we’ll do\nIn this workshop, we’ll break down the publishing process, answering questions like:\nWhat are the different types of publishers out there?\nHow do you figure out the right market for your idea, and/or shape your idea to fit a market?\nWhat goes into a book proposal, and how will it be evaluated?\nWhat happens when you sign a book contract?\nHow does the editorial process work?\nAnd of course, will you make any money?\nThen, you'll get to work: you’ll share ideas with us and each other, get feedback, decide on an angle and audience, and start drafting an elevator pitch and outline. You’ll leave the session with a clearer idea of what it takes to get a book published, tools and templates you can use to build your proposal, and practical advice on turning your topic into something publishers—and readers—will love.\n\nWhat to bring\nYou don’t need to have The Perfect Idea™—and you don’t need to be an expert yet, either (here’s a secret: tons of authors become experts by researching and writing their books!). Just bring 1-2 topics you want to explore further. Ideally, your topic should be:\nSuper interesting to you! Remember, you’ll be working on this for months—so pick something you’re stoked to spend time on.\nUseful for your peers. This doesn’t have to mean “game-changing” or “brilliant”—just look for a problem people in your field have, or something that would help them do their jobs better.\nSubstantial enough to write a lot about. Try to brainstorm all the questions about this topic your peers might have (or ask them!).",
+         "talk_type":"Long Workshop (3.5 hr)"
+      },
+      {
+         "key":"creating-success-toge",
+         "title":"Creating Success, Together",
+         "description":"As individuals we - implicitly or explicitly - define success, as do teams. But how do these definitions and incentives impact how and what we build?\n\nLet’s talk about the ways in which the dysfunctions of your organization become the dysfunctions of your product.",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"bragging-cause-you-re",
+         "title":"Bragging: Cause you’re showing off and it’s all right",
+         "description":"How do you balance being confident and humble? It’s a challenge, but its an important part of being able to talk about yourself at networking events, interviews and so forth. Come add new tools to your toolbox as you continue on your journey on finding your voice and claiming your worth.",
+         "talk_type":"Keynote Talk"
+      },
+      {
+         "key":"competitive-debate-ge",
+         "title":"Competitive Debate, Gendered Speech Patterns, and the Tech Industry",
+         "description":"I spent six years throughout university and graduate school roaming around the US and UK to competitive debating tournaments, and equally as much time teaching speech and debate to school-age students. I initially began the activity to improve my confidence and logical reasoning skills, but soon learnt that the playing field was far from fair. Despite the fact that 50% of first-year debaters were young women, by the end of their time on the circuit, most high-performing speakers were male. In this talk, I'll discuss the impact of gender-coded communication patterns not only on competitive debating performance, but also more generally in boardrooms, team meetings, and other everyday settings for technologists. I'll present research carried out by a friend who wrote a PhD on this subject, as well as insights from the fields of linguistics and behavioral psychology.",
+         "talk_type":"Keynote Talk"
+      },
+      {
+         "key":"how-public-speaking-m",
+         "title":"How public speaking made me a better negotiator",
+         "description":"When I started public speaking, I did not realize that I was signing up for negotiation practice. My first talk acceptance opened my eyes to the conference-speaker dynamics. From then on, each proposal, each conference became a safe place for me to push the envelope, pinpoint what I want, and ask for it. I learned how to frame the situation to my advantage, phrase my requests without the burden of excessive justification, and be comfortable with rejections. Come hear my stories, what I tried, what worked and what didn’t, and add a few tricks to your negotiation tool box.",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"fostering-an-inclusiv",
+         "title":"Fostering an Inclusive Engineering Culture",
+         "description":"Diversity \u0026 Inclusion goes hand in hand - and creating an inclusive engineering team starts with team culture. In this talk I want to call out specific practices, such as blameless postmortems and code ownership as a team, that allows for a more inclusive experience for all the engineers on a team. We’ll talk the small habits every engineering team can start doing to get to a strong and supportive culture as well as best practices for preserving good culture.",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"if-you-build-it-they-",
+         "title":"If You Build it, They Will Come; How to Build a Great Open Source Project",
+         "description":"Launching an open source project is intimidating - it can seem like a lot of work just to make your code public (and therefore judgeable). This presentation will explain how to make sure your open source project is a success, from writing great documentation to marketing your project. You’ll also learn about some common pitfalls (like getting hacked) and how to avoid them.",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"how-to-tell-a-better-",
+         "title":"How to tell a better story in code",
+         "description":"Writing code is no difference than writing a story. “ How to attract readers’ attention? Where is the logic separation and where is the transition? Does your readers follow your story in the code? In this talk, we will walk through the little things that make a clearer and better story in the code as well as how to achieve those via refactoring.",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"ethics-at-design-time",
+         "title":"Ethics at Design Time, not Run Time",
+         "description":"What if we treated ethics as a design problem, rather than waiting for it to be a compliance problem? This talk will explore how to include ethics in the design phase for software, focusing on common though little considered potential ethical problems. By using a hypothetical \"user's bill of rights\" framework to consider how to build software that protects privacy and safety to give shape to the talk, I'll introduce a baseline for ethical design that every participant can take home with them and try to apply to their own work. In addition, I'll provide easy starter scripts for talking points, to help folks figure out *how* to have these conversations.",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"looking-for-artists-w",
+         "title":"Looking for artists who look like me: analyzing the MoMA GitHub repo",
+         "description":"If you walk into an art museum, you're likely to see works by mostly white, male artists.Picasso, Monet, Dali — these are household names that reflect a narrow view of \"legitimate\" art that belongs in a museum. Over time, this view is beginning to broaden. But just how much? Thanks to MoMA open sourcing data about their art collection, we can quantify the diversity of artists displayed at MoMA over time. Using data parsing and NLP, we will be better equipped to understand the evolution of acceptance of underrepresented groups in the art world.",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"using-d3-js-to-solve-",
+         "title":"Using D3.js to Solve an Identity Crisis",
+         "description":"As products of more than one society, immigrants often struggle to find their cultural footing. Add in recent genocide, religious tensions, plus life as a minority and it’s a toss up on how you define yourself. In this talk, I’ll be explaining the technical details behind using D3.js to track the Bengali diaspora as well as how this project has been bridging the gap between all of my identities. Who I am as a Bengali American, who I am as a software engineer, and who I am as a woman of color.",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"surviving-rockstar-pr",
+         "title":"Surviving \"Rockstar\" Programmers",
+         "description":"The image of the dismissive, overbearing, belittling programmer who thinks they are the \"Rockstar\" is pervasive in the software industry.  When you find yourself working with someone like that, it can be difficult both emotionally and professionally.  In this talk, we will identify the problematic behaviors of these \"rockstars,\" discuss ways to deal with the emotional responses you might have, figure out how to keep growing professionally, and know when to get help and when to get out.",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"stop-telling-me-i-m-s",
+         "title":"Stop Telling Me I’m Smiley: My Quest to Gather Better Feedback",
+         "description":"As an upbeat, technical person, when I ask for feedback on my technical or leadership skills, I get more feedback on how smiley I am than on the topic I actually asked about. UGH!\nTo fix this, I’ve developed a workshop that allows me to gather the type of feedback I actually want. I’ll talk about my ideas behind this workshop and how to extend it to work for you.\n\"",
+         "talk_type":"Standard Talk"
+      },
+      {
+         "key":"mindfulness-your-way-",
+         "title":"Mindfulness: Your Way Through the Maelstrom",
+         "description":"As an underrepresented person in tech, you are often taught how to combat the outer forces of discrimination, being undermined, and overlooked. We are taught to be better, do better, outperform, tell em' who's boss-lady/enby! We are rarely given advice on how to look inside and find happiness and confidence in who we are, regardless of our circumstances, skill level or environment. This talk will be about the life-changing practice of mindfulness. This will not be an instructional on how to do 6 hour long meditations and transcend to a higher height, just the journey of a regular ass girl trying to navigate her way through life and how mindfulness helped her on the way and how mindfulness can do the same thing for you.",
+         "talk_type":"Short Workshop (1 hr)"
+      },
+      {
+         "key":"foundations-of-though",
+         "title":"Foundations of Thought Leadership: Reframing your Narrative",
+         "description":"To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
+         "talk_type":"Curriculum"
+      },
+      {
+         "key":"no-blank-spaces-tappi",
+         "title":"No Blank Spaces: Tapping Into Our Expertise",
+         "description":"Want to write, but have no clue what you want to say? We’ll challenge you through fun collaborative exercises and design thinking activities to be more thoughtful and expansive when reflecting on your own knowledge, skills and experience. Participants will leave this session with no fewer than 20 new topics that they can blog or speak about.",
+         "talk_type":"Curriculum"
+      },
+      {
+         "key":"pseduocode-it-breakin",
+         "title":"Pseduocode It!: Breaking through the Writer’s Block Pt. 1",
+         "description":"How can you present ideas quickly and effectively? In this session we’ll talk about the components of a powerful, evidence-based argument; and share a few helpful outline formats to help you put your ideas on the page.",
+         "talk_type":"Curriculum"
+      },
+      {
+         "key":"pens-to-paper-breakin",
+         "title":"Pens to Paper: Breaking through the Writer’s Block Pt. 2",
+         "description":"The most common reason are participants cite for not blogging or writing is “I don’t have time.” Lucky for you we scheduled it into this session. Use the outline you created to write a draft blog post and give/receive feedback from your peers.",
+         "talk_type":"Curriculum"
+      },
+      {
+         "key":"hacking-the-cfp-proce",
+         "title":"Hacking the CFP Process: Writing Powerful Talk Proposals",
+         "description":"Learn the ins and outs of writing conference talk proposals — what they are, the sections that matter, and how to write one. Review an actual talk proposal and feedback from a conference organizer.",
+         "talk_type":"Curriculum"
+      },
+      {
+         "key":"say-what-pt-1-write-y",
+         "title":"Say What? Pt. 1: Write Your Talk Proposal",
+         "description":"Write a draft conference talk proposal and get feedback from experienced women and non-binary conference speakers.",
+         "talk_type":"Curriculum"
+      },
+      {
+         "key":"say-what-pt-2-write-a",
+         "title":"Say What? Pt. 2:  Write A 10 min Lightning Talk",
+         "description":"Work with a mentor and a group of peers to create an outline, slides, and presenter notes for a 10 min lightning talk.",
+         "talk_type":"Curriculum"
+      },
+      {
+         "key":"speak-now-give-a-10-m",
+         "title":"Speak Now: Give A 10 min Lightning Talk",
+         "description":"Never spoken at a conference? Been afraid to try out some new topics? Now’s the time to check that off your bucket list! Present a 10 min lightning talk  to a small group of conference attendees and receive feedback from your peers and an experienced speaker mentor.",
+         "talk_type":"Curriculum"
+      }
+   ]
+}

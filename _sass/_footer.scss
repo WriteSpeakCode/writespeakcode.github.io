@@ -1,0 +1,29 @@
+.footer-section {
+  padding: 2em 1em;
+  text-align: center;
+  background-color: $brand-dark;
+  border-top: 5px solid  $brand-coral;
+
+  @media (max-width: $breakpoint-sm) {
+    padding-bottom: 80px;
+    .social-links, .past-years {
+      padding-top: 1em;
+    }
+  }
+
+  a:hover {
+    color: $brand-blush;
+  }
+
+  .past-years {
+    h5, li {
+      display: inline-block;
+      padding-left: .75em;
+    }
+  }
+
+  .social-links li {
+    display: inline-block;
+    padding-left: .75em;
+  }
+}

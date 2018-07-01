@@ -1,0 +1,92 @@
+/* TODO: convert this file to sass */
+
+
+.code-of-conduct-section {
+  background-color: #172751;
+  color: #F1D8D3;
+}
+.code-of-conduct-section .section-title {
+  color: #F1D8D3;
+}
+.code-of-conduct-section h3 {
+  font-size: 1.5em;
+  margin-bottom: .5em;
+}
+.code-of-conduct-section .quick-version-description {
+  line-height: 1.7;
+  font-size: 17px;
+}
+.code-of-conduct-section .need-help {
+  font-size: 18px;
+}
+.code-of-conduct-section .need-help,
+.code-of-conduct-page .need-help {
+  background-color: #F1D8D3;
+  color:  #172751;
+  padding: 2em;
+  line-height: 1.5;
+}
+.code-of-conduct-section .qcTabTitle {
+  border-color: #F1D8D3;
+}
+.code-of-conduct-section .button,
+.code-of-conduct-page .button {
+  color: #EB6851;
+  border: 2px solid #EB6851;
+}
+.code-of-conduct-section .button:hover,
+.code-of-conduct-page .button:hover {
+  color: #F1D8D3;
+}
+.code-of-conduct-page .button {
+  background-color: rgba(0,0,0,0);
+  margin-top: 1em;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .code-of-conduct-page .page-intro {
+    height: auto;
+    min-height: 0;
+  }
+}
+.code-of-conduct-page section {
+  padding: 3em 0;
+  line-height: 1.8;
+}
+.code-of-conduct-page .page-intro h1 {
+  font-size: 2.5em;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.code-of-conduct-page h3 {
+  color: #172751;
+  font-size: 1.5em;
+}
+.code-of-conduct-page h4 {
+  margin: 1em 0;
+  font-size: 1.15em;
+  color: #172751;
+}
+.code-of-conduct-page p {
+  margin: 1em 0;
+  line-height: 1.5;
+}
+.code-of-conduct-page .quick-version {
+  border-bottom: 3px solid #EB6851;
+  padding: 2em 0;
+}
+.code-of-conduct-page .long-version {
+  padding: 2em 0;
+}
+.code-of-conduct-page .long-version ul,
+.code-of-conduct-page .need-help ul {
+  list-style-type: disc;
+  padding-left: 1em;
+  margin-bottom: 2em;
+}
+.code-of-conduct-page .long-version ul li,
+.code-of-conduct-page .need-help ul li {
+  margin-top: 1em;
+  line-height: 1.2;
+}

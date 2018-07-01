@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+  <section class="page-intro">
+    <!-- ## PRIMARY HEADER ## -->
+    <header class="row center-xs">
+      <div class="col-xs-12">
+        <a href="http://www.writespeakcode.com" target="_blank" rel="noopener">
+          <img src="{{ "/assets/img/WSClogos_stacked_coral-blush-gold_screen.png" | prepend: site.baseurl }}" width="200" alt="Write Speak Code logo" class="wsc-logo"/>
+        </a>
+      </div>
+    </header>
+
+    <!-- ## FULLSCREEN SLIDES ## -->
+    <div id="slideContent">
+      <!-- ## SLIDE TEXT ## -->
+      <div id="qcSlideText">
+        <h1 class="wsc-logo-text">Write <span class="coral">/</span> Speak <span class="coral">/</span> Code<br>
+        <span class="wsc-conf-text">2018 Conference</span></h1>
+        <h3 class="title-subheader">Aug 1 - 4 // New York, NY</h3>
+        <p>Women and non-binary coders, let's take your career to the next level!<br class="hidden-on-xs"> Join us for 4 days designed to polish your skills and fully own your expertise through writing, speaking, and open source.</p>
+        <tito-button event="write-speak-code/2018-conference">Register Now</tito-button></li>
+      </div>
+    </div>
+  </section>
+
+  {% include conference_nav.html %}
+
+  {{ content }}
+
+  {% include sponsors.html %}
+
+  {% include code_of_conduct.html %}
+
+  {% include testimonials.html %}
+
+  {% include faqs.html %}
+
+  <script type="application/ld+json">
+    [{
+      "@context": "http://schema.org",
+      "@type" : "EventSeries",
+      "name": "2018 WriteSpeakCode Conference",
+      "url": "https://2018.writespeakcode.com",
+      "startDate": "2018-08-01",
+      "endDate": "2018-08-04",
+      "description": "Conference for women and non-binary coders",
+      "image": "https://2017.writespeakcode.com/assets/img/WSClogos_stacked_coral-blush-gold_screen.png",
+      "location": {
+        "@type": "EventVenue",
+        "name": "Microsoft Conference Center",
+        "address": "New York, NY"
+      },"offers": [{
+        "@type": "Offer",
+        "url": "https://ti.to/write-speak-code/2018-conference/"
+      }]
+    }]
+  </script>

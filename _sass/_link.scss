@@ -1,0 +1,21 @@
+a:not(.button) {
+  color: $brand-coral;
+}
+
+a:not(.button):hover {
+  color: #172751;
+  cursor: pointer;
+}
+a.link, button {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+a.link.coral {
+  color: $brand-coral;
+}
+a.link.coral:hover {
+  color: #172751;
+}
+a.link.white {
+  color: white;
+}

@@ -1,0 +1,98 @@
+/* TODO: convert this file to sass */
+
+.mailing-list-title{
+  text-align: center;
+  color: #172751;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 2em 1em;
+}
+
+.field {
+  display: inline-block;
+  margin-bottom: 15px;
+  position: relative;
+  width: 100%;
+}
+    .field::before, .field::after   {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        background-color: #EB6851;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+.field__label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 14px;
+  color: #EB6851;
+  text-transform: uppercase;
+  pointer-events: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -ms-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+label.label-floated {
+  top: -5px;
+  font-size: 11px;
+}
+
+input:focus, input:active {
+  outline: none;
+}
+
+.field__input {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  color: #3f51b5;
+  font-size: 15px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.field__input:focus {
+  border-bottom-color: #EB6851;
+}
+
+#qcSubscribeWidget input[type=submit] {
+  background: #eb6851;
+  border-radius: 8px;
+  max-width: 10em;
+  padding: 0px 20px;
+  text-align: center;
+  margin-top: 13px;
+}
+#qcSubscribeWidget input[type="text"], input[type="email"] {
+  text-indent: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+  #qcSubscribeWidget input[type=submit] {
+    width: auto;
+  }
+}
+
+#qcSubscribeWidget {
+  margin-bottom: 2em;
+}
+
+#qcSubscribeWidget input[type=submit]:hover {
+  background: #172751;
+}

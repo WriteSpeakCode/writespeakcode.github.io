@@ -1,0 +1,74 @@
+<!-- ## SPEAKERS SECTION ## -->
+<section class="speakers anchor-section" id="speakers">
+  <div class="qcContainer qcTabTitle clearfix">
+    <div class="row middle-sm">
+      <div class="col-xs-12 col-sm-6">
+        <h2 class="section-title">Speakers</h2>
+      </div>
+    </div>
+  </div>
+  <div class="qcContainer hentry">
+    <div class="speaker-grid">
+      <ul class="gridder clearfix">
+
+        {% for speaker in site.data.speakers %}
+          <li id="{{speaker.key}}" class="gridder-list" data-griddercontent="#{{speaker.key}}-content">
+            <img src="{{ speaker.headshot_filename | prepend: "/assets/img/speakers/"  | prepend: site.baseurl }}" alt="{{speaker.name}} headshot" nopin="nopin">
+            <div class="name-title">
+              <h4>{{speaker.name}}</h4>
+              <h5>
+                {{speaker.job_title}}
+                {% if speaker.job_title %}
+                  at&nbsp;
+                {% endif %}
+                {{speaker.company}}
+              </h5>
+            </div>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bio content for inside the gridder -->
+  {% for speaker in site.data.speakers %}
+
+    <div id="{{speaker.key}}-content" class="gridder-content">
+      <div class="row between-lg middle-sm">
+        <div class="col-xs-12 col-sm-3">
+          <h4>{{speaker.name}}</h4>
+          {% if speaker.pronouns %}
+            <small>({{speaker.pronouns}})</small>
+          {% endif %}
+          <h5>
+            {{speaker.job_title}}
+            {% if speaker.job_title %}
+              at&nbsp;
+            {% endif %}
+            {{speaker.company}}
+          </h5>
+          <ul class="spkr-social clearfix">
+            {% if speaker.twitter %}
+              <li><a href="https://twitter.com/{{speaker.twitter}}" target="_blank" rel="noopener" class="tips" title="{{speaker.name}} twitter"><i class="icon-twitter icon"></i></a></li>
+            {% endif %}
+            {% if speaker.github %}
+              <li><a href="https://github.com/{{speaker.github}}" target="_blank" rel="noopener" class="tips" title="{{speaker.name}} github"><i class="icon-github icon"></i></a></li>
+            {% endif %}
+            {% if speaker.linkedin %}
+              <li><a href="{{speaker.linkedin}}" target="_blank" rel="noopener" class="tips" title="{{speaker.name}} linkedin"><i class="icon-linkedin icon"></i></a></li>
+            {% endif %}
+            {% if speaker.website %}
+              <li><a href="{{speaker.website}}" target="_blank" rel="noopener" class="tips" title="{{speaker.name}} website"><i class="icon-link icon"></i></a></li>
+            {% endif %}
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-lg-8">
+          <p>{{speaker.bio}}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</section>
+

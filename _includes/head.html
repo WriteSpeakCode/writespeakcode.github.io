@@ -1,0 +1,40 @@
+<head>
+  <!-- ## SITE META ## -->
+  <meta charset="utf-8">
+  <title>{% if page.meta_title %}{{ page.meta_title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.meta_description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/img/w-s-c-favicon.ico" | prepend: site.baseurl }}">
+
+  <link rel="canonical" href="{{ page.href }}" />
+
+      <!-- ## SOCIAL TAGS ## -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+
+  <meta property="og:title" content="{{ page.social_title }}" />
+  <meta property="og:description" content="{{ page.social_description }}" />
+  <meta property="og:url" content="{{ page.href }}" />
+  <meta property="og:image" content="{{ page.open_graph_img }}" />
+  <meta name=”twitter:title” content="{{ page.social_title }}" />
+  <meta name=”twitter:description” content="{{ page.social_description }}" />
+  <meta name=”twitter:url” content="{{ page.href }}" />
+  <meta name=”twitter:image” content="{{ page.twitter_img }}" />
+  <meta name="twitter:widgets:link-color" content="#EB6851">
+
+    <!-- ## FLEXBOX GRID ## -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+  <!-- ## LOAD STYLSHEETS ## -->
+<!--   <link rel="stylesheet" media="all" href="./assets/css/style.css"/>
+  <link rel="stylesheet" media="all" href="./assets/css/custom.css"/> -->
+<!--     <link rel="stylesheet" media="all" href="./assets/css/custom_2018.css"/> -->
+  <link rel="stylesheet" media="all" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" media="all" href="{{ "/assets/css/custom.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" media="all" href="{{ "/assets/css/custom_2018.css" | prepend: site.baseurl }}" />
+
+  <!-- ## GOOGLE FONTS ## -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans" rel="stylesheet">
+    <!-- ##TITO TICKET WIDGET -->
+  <script src="https://js.tito.io/v1" async></script>
+
+</head>

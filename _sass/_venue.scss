@@ -1,0 +1,78 @@
+/* TODO: convert this file to sass */
+
+.location-section {
+  background-color: #F1D8D3;
+}
+.location-section .qcPageContentTabs > ul li {
+  width: 33%;
+}
+.location-section .venue-info-bg {
+  background-color: #172751;
+}
+.location-section .venue-info-map {
+  margin: 0;
+}
+.location-section .venue-info-bg {
+  padding: 3em;
+  color: white;
+  line-height: 2.4;
+}
+.location-section iframe {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.location-section .venue-info-content a:hover {
+  color: #F1D8D3;
+}
+.location-section .hotel-section{
+  color: #666;
+  background: #fff;
+  padding: 20px;
+  line-height: 1.6;
+}
+.location-section .qcPostContent {
+  color: #666;
+}
+.location-section .hotels-head {
+  margin-top: 2em;
+  border-top: 1px #999 solid;
+  border-bottom: 1px #999 solid;
+}
+
+.hotels-head div:first-child {
+  margin-left: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .location-section .hotels-head {
+    display: none;
+  }
+  .location-section .hotel-section h2 {
+    border-top: 1px solid gray;
+    padding-top: 1em;
+  }
+}
+.location-section .hotel-section h2 {
+  margin-top: 1em;
+}
+.location-section .hotel-info p {
+  line-height: 1.3;
+  margin-top: .75em;
+  margin-bottom: .25em;
+}
+@media screen and (min-width: 768px) {
+  .location-section .hotel-section .show-on-mobile {
+      display: none;
+  }
+
+  .hotel-info {
+    margin: 2em;
+  }
+}
+
+.hotel-info  address {
+  font-style: italic;
+}
+
+ .hotel-info dl { margin-top: 2em; }

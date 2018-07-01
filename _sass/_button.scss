@@ -1,0 +1,62 @@
+.button {
+  border-radius: $base-border-radius;
+  color: $white;
+  padding: $base-spacing;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin-top: $base-spacing;
+  font-size: $smallest-font-size;
+
+  &.primary {
+    background-color: $brand-coral;
+    font-weight: bold;
+  }
+
+  &.secondary {
+    background-color: $brand-dark;
+
+    &:hover {
+      background-color: $brand-coral;
+      cursor: pointer;
+    }
+
+    @media (min-width:$breakpoint-sm) {
+      margin-top: 0px;
+      font-size: $smaller-font-size;
+      padding: 12px;
+    }
+
+  }
+}
+
+@media (min-width:$breakpoint-sm) {
+  .section-button-cta {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: $breakpoint-sm) {
+  #mobileNav + section {
+    padding-top: 60px;
+  }
+}
+
+/* INTRO REGISTER NOW BUTTON */
+
+#qcSlideText .cta {
+  color: $white;
+  line-height: 60px;
+  background: $brand-coral;
+  text-transform: uppercase;
+  border-radius: $base-border-radius;
+}
+#qcSlideText .cta:hover {
+  background: rgba(0,0,0,0.3);
+}
+@media only screen and (max-width: $breakpoint-sm-1) {
+  #qcSlideText .cta.video {
+    display: none;
+  }
+}

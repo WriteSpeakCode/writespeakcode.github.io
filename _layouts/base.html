@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+
+  {% include head.html %}
+
+  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+
+    {{ content }}
+
+    {% include footer.html %}
+  </body>
+</html>

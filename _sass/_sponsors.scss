@@ -1,0 +1,83 @@
+/* TODO: convert this file to sass */
+
+.sponsor-description {
+  margin-top: 70px;
+}
+
+.sponsors-section .all-sponsors {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+.sponsors-section .sponsor-level {
+  border: 2px solid #F1D8D3;
+  border-radius: 8px;
+  margin-top: 1em;
+  padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .sponsors-section .sponsor-level.supporters {
+    margin-left: 1em;
+  }
+}
+
+.sponsors-section .level-title {
+  font-size: 22px;
+  color:#172751;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .sponsors-section .level-title {
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .sponsors-section .sponsor-level.left {
+    height: 100%;
+  }
+
+  .sponsors-section .sponsor-level.right {
+    margin-left: 1em;
+    height: 100%;
+  }
+}
+.sponsors-section p {
+  line-height: 1.5em;
+  margin-bottom: 16px;
+}
+.sponsors-section .sponsor-logo {
+  max-width: 180px;
+  width: 100%;
+}
+.sponsors-section .supporter-logo {
+  max-width: 150px;
+  width: 100%;
+}
+.sponsors-section .right .sponsor-logo img {
+  padding: 50px auto;
+}
+@media (max-width: 768px) {
+  .sponsors-section .sponsor-logo,
+  .sponsors-section .supporter-logo {
+    margin-top: 1em;
+  }
+}
+
+.nyt-logo {
+  margin-top: 70px;
+}
+@media screen and (max-width: 768px) {
+  .nyt-logo {
+    margin-top: 0;
+  }
+}
+.azure-gold-logo {
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .azure-gold-logo {
+    margin-top: 0;
+  }
+}

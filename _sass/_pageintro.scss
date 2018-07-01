@@ -1,0 +1,118 @@
+.page-intro {
+  background: $brand-light url('../img/WSC-bg.jpg') no-repeat bottom left fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   padding-bottom: 3em;
+   border-bottom: 1px solid $brand-blush;
+
+  @media screen and (min-width: $breakpoint-xlg) {
+    border-bottom: none;
+  }
+
+  #qcOpenNav {
+    background: url(../img/theme/openNavInvert.png) center center;
+  }
+
+  /* TITO BUTTON - INTRO */
+
+.tito-tickets-button {
+  color: $white;
+  line-height: 60px;
+  background: $brand-coral;
+  background-color: $brand-coral;
+  border: none;
+  border-radius: $base-border-radius;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+  padding: 0 40px;
+  margin-top: 50px;
+  font-size: 16px;
+  border: none;
+
+    &:hover {
+     background: rgba(0,0,0,0.3);
+    }
+  }
+
+  &.tito-tickets-button {
+    border: none;
+  }
+}
+
+#qcSlideText {
+  h1 {
+    letter-spacing: 0;
+    line-height: 1.1;
+
+    @media only screen and (max-width: $breakpoint-xsm) {
+      font-size: 25px; /* shrink headline to fit on extra tiny screens */
+    }
+  }
+
+  .wsc-conf-text {
+    font-size: .7em;
+    color: $white;
+  }
+
+  .wsc-logo-text {
+    color: $brand-light;
+  }
+}
+
+@media screen and (min-width: $breakpoint-sm) {
+  #qcSlideText h1 {
+    padding-top: 1em;
+  }
+}
+
+.title-subheader{
+  color: $white;
+  opacity: 0.8;
+}
+
+#slidedesc {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+#qcCountdown {
+  z-index: 11;
+}
+
+.volunteer-banner {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: RGBA(241, 216, 211, .25);
+  color: $white;
+  border-radius: $base-border-radius;
+}
+
+/* adapt page intro for mobile sticky nav  */
+.wsc-logo {
+  padding: 2em 2em 0 2em;
+  width: 250px;
+
+  @media only screen and (max-width: $breakpoint-sm-1){
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: $breakpoint-sm-1) {
+  #qcCountdown {
+    background-color: rgba(126, 126, 126, 0.7);
+  }
+  .cta .video .register-cta {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 510px) and (max-width: $breakpoint-sm-1) {
+  #slideContent, .page-intro {
+    height: calc(100% + 60px);
+    min-height: 600px;
+  }
+}

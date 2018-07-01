@@ -1,0 +1,100 @@
+/* TODO: convert this file to sass */
+
+.faq-section {
+  background: #EB6851 url('../img/WSC-coral-bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 550px
+}
+.faq-section .toggle{
+  background-color: #ffffff;
+  line-height: 26px;
+}
+.faq-section .toggle div {
+  padding: 0.5em 0;
+}
+.faq-section .qcScheduleList > li.active{
+  background-color: #ffffff;
+}
+.faq-section .qcFaqList li.active .qcTogContent {
+  background-color: #ffffff;
+}
+.faq-section .qcFaqList .qcTogContent,
+.faq-section .qcFaqList div:first-of-type {
+  padding: 20px 0;
+  color: #172751;
+}
+.faq-section .qcScheduleList > li {
+  min-height: 62px;
+}
+.faq-section .qcScheduleList > li.toggle:before {
+  line-height: 62px;
+}
+.faq-section #qcFaqContentTabs > ul li.active > a,
+.faq-section #qcFaqContentTabs > ul li.active:before {
+  color: #172751;
+}
+.faq-section .qcScheduleList > li.toggle:before,
+.faq-section #qcFaqContentTabs > ul li.active:before {
+  background-color: #172751;
+}
+.faq-section #qcFaqContentTabs > ul li.active:after {
+  border-top-color: #172751;
+}
+.faq-section .qcPageContentTabs > ul li > a {
+  color: #F1D8D3;
+}
+.faq-section .qcPageContentTabs > ul {
+  border-bottom-color: #F1D8D3;
+}
+.faq-section .qcPageContentTabs > ul li {
+  float: none;
+  position: relative;
+  top: -15px;
+  width: auto;
+  text-align: center;
+  border-right: none;
+  padding-bottom: 1em;
+}
+.faq-section #qcFaqContentTabs > ul li.active:before {
+  display: none;
+}
+.faq-section #qcFaqContentTabs > ul li.active:after {
+  display: none;
+}
+@media (min-width: 500px) {
+  .faq-section .qcPageContentTabs > ul li {
+    width: 33%;
+    float: left;
+    padding-bottom: 0;
+  }
+  .faq-section .qcPageContentTabs > ul li:not(:last-child) {
+    border-right: 1px solid #172751;
+  }
+  .faq-section .qcPageContentTabs > ul li a {
+    font-size: 12px;
+  }
+  .faq-section #qcFaqContentTabs > ul li.active:before {
+    display: block;
+  }
+  .faq-section #qcFaqContentTabs > ul li.active:after {
+    display: block;
+  }
+}
+@media (min-width: 700px) {
+  .faq-section .qcPageContentTabs > ul li a {
+    font-size: 16px;
+  }
+}
+.faq-section ul.faq-content-list {
+  margin-left: 1em;
+  list-style: disc;
+}
+.faq-section ul.faq-content-list li {
+  position: static;
+  border: none;
+  cursor: auto;
+  margin: 1em 0;
+}

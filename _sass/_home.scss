@@ -1,0 +1,19 @@
+#conferences-title {
+  @media only screen and (max-width: 943px) {
+    font-size: 31px;
+  }
+}
+
+#chapters {
+  .qcTabDesc {
+    color: $brand-blush;
+  }
+
+  a.link {
+    color: $brand-coral;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

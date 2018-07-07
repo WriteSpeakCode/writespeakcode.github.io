@@ -1,0 +1,1895 @@
+{
+   "Wed":[
+      {
+         "All":[
+            {
+               "date":"8/1/2018 8:00am",
+               "title":"Registration",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Write/Passion",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Wed--1--all--registration",
+               "dt":"2018-08-01T08:00:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 8:00 AM",
+               "date_order":"2018-08-01-08-00",
+               "section":1,
+               "title_key":"registration",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/1/2018 9:00am",
+               "title":"Welcome + Code of Conduct",
+               "speaker":[
+                  "rebecca-miller-webster"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Write/Passion",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Wed--1--all--welcome-code-of-conduct",
+               "dt":"2018-08-01T09:00:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 9:00 AM",
+               "date_order":"2018-08-01-09-00",
+               "section":1,
+               "title_key":"welcome-code-of-conduct",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/1/2018 9:20am",
+               "title":"Write/Passion Opening Keynote",
+               "speaker":[
+                  "mina-markham"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Write/Passion",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Wed--1--all--write-passion-opening-keynote",
+               "dt":"2018-08-01T09:20:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 9:20 AM",
+               "date_order":"2018-08-01-09-20",
+               "section":1,
+               "title_key":"write-passion-opening-keynote",
+               "talk_type":"keynote-talk"
+            },
+            {
+               "date":"8/1/2018 10:10am",
+               "title":"(Sponsor Talk)",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Write/Passion",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Wed--1--all--sponsor-talk",
+               "dt":"2018-08-01T10:10:00.000+00:00",
+               "dayname":"Wed",
+               "time":"10:10 AM",
+               "date_order":"2018-08-01-10-10",
+               "section":1,
+               "title_key":"sponsor-talk",
+               "talk_type":"sponsor-talk"
+            },
+            {
+               "date":"8/1/2018 10:20am",
+               "title":"Mentor Group Check-In",
+               "speaker":[
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Write/Passion",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Wed--1--all--mentor-group-check-in",
+               "dt":"2018-08-01T10:20:00.000+00:00",
+               "dayname":"Wed",
+               "time":"10:20 AM",
+               "date_order":"2018-08-01-10-20",
+               "section":1,
+               "title_key":"mentor-group-check-in",
+               "talk_type":"curriculum"
+            }
+         ]
+      },
+      {
+         "Foundations":[
+            {
+               "date":"8/1/2018 11:00am",
+               "title":"Foundations of Thought Leadership: Reframing your Narrative",
+               "speaker":[
+                  "angie-jones",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Wed--2--foundations--foundations-of-thought-leadersh",
+               "dt":"2018-08-01T11:00:00.000+00:00",
+               "dayname":"Wed",
+               "time":"11:00 AM",
+               "date_order":"2018-08-01-11-00",
+               "section":2,
+               "title_key":"foundations-of-thought-leadersh",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/1/2018 1:00pm",
+               "title":"LUNCH",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Wed--2--foundations--lunch",
+               "dt":"2018-08-01T13:00:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 1:00 PM",
+               "date_order":"2018-08-01-13-00",
+               "section":2,
+               "title_key":"lunch",
+               "talk_type":"food"
+            },
+            {
+               "date":"8/1/2018 1:45pm",
+               "title":"Publisher Panel",
+               "speaker":[
+                  "katel-ledu"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Wed--2--foundations--publisher-panel",
+               "dt":"2018-08-01T13:45:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 1:45 PM",
+               "date_order":"2018-08-01-13-45",
+               "section":2,
+               "title_key":"publisher-panel",
+               "talk_type":"panel"
+            },
+            {
+               "date":"8/1/2018 2:40pm",
+               "title":"No Blank Spaces: Tapping Into Our Expertise",
+               "speaker":[
+                  "angie-jones",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Wed--2--foundations--no-blank-spaces-tapping-into-ou",
+               "dt":"2018-08-01T14:40:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 2:40 PM",
+               "date_order":"2018-08-01-14-40",
+               "section":2,
+               "title_key":"no-blank-spaces-tapping-into-ou",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/1/2018 3:10pm",
+               "title":"Pseduocode It!: Breaking through the Writer’s Block Pt. 1",
+               "speaker":[
+                  "angie-jones",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Wed--2--foundations--pseduocode-it-breaking-through-",
+               "dt":"2018-08-01T15:10:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 3:10 PM",
+               "date_order":"2018-08-01-15-10",
+               "section":2,
+               "title_key":"pseduocode-it-breaking-through-",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/1/2018 3:55pm",
+               "title":"SNACK",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Wed--2--foundations--snack",
+               "dt":"2018-08-01T15:55:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 3:55 PM",
+               "date_order":"2018-08-01-15-55",
+               "section":2,
+               "title_key":"snack",
+               "talk_type":"food"
+            },
+            {
+               "date":"8/1/2018 4:05pm",
+               "title":"Pens to Paper: Breaking through the Writer’s Block Pt. 2",
+               "speaker":[
+                  "angie-jones",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Wed--2--foundations--pens-to-paper-breaking-through-",
+               "dt":"2018-08-01T16:05:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 4:05 PM",
+               "date_order":"2018-08-01-16-05",
+               "section":2,
+               "title_key":"pens-to-paper-breaking-through-",
+               "talk_type":"curriculum"
+            }
+         ],
+         "Explorations":[
+            {
+               "date":"8/1/2018 11:00am",
+               "title":"\"Writing, Performing, \u0026 Building an audience for YouTube\"",
+               "speaker":null,
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Wed--2--explorations--writing-performing-building-an-",
+               "dt":"2018-08-01T11:00:00.000+00:00",
+               "dayname":"Wed",
+               "time":"11:00 AM",
+               "date_order":"2018-08-01-11-00",
+               "section":2,
+               "title_key":"writing-performing-building-an-",
+               "talk_type":"medium-workshop-2-hr"
+            },
+            {
+               "date":"8/1/2018 1:00pm",
+               "title":"LUNCH",
+               "speaker":null,
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Wed--2--explorations--lunch",
+               "dt":"2018-08-01T13:00:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 1:00 PM",
+               "date_order":"2018-08-01-13-00",
+               "section":2,
+               "title_key":"lunch",
+               "talk_type":"food"
+            },
+            {
+               "date":"8/1/2018 1:45pm",
+               "title":"The Full Story: Presenting Complete Ideas",
+               "speaker":[
+                  "catt-small"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Wed--2--explorations--the-full-story-presenting-compl",
+               "dt":"2018-08-01T13:45:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 1:45 PM",
+               "date_order":"2018-08-01-13-45",
+               "section":2,
+               "title_key":"the-full-story-presenting-compl",
+               "talk_type":"standard-talk"
+            },
+            {
+               "date":"8/1/2018 2:20pm",
+               "title":"My Github is Bare",
+               "speaker":[
+                  "heather-herrington"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Wed--2--explorations--my-github-is-bare",
+               "dt":"2018-08-01T14:20:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 2:20 PM",
+               "date_order":"2018-08-01-14-20",
+               "section":2,
+               "title_key":"my-github-is-bare",
+               "talk_type":"standard-talk"
+            },
+            {
+               "date":"8/1/2018 2:50pm",
+               "title":"Speak Your Truth: Passion",
+               "speaker":[
+                  "write-speak-code",
+                  "kara-carrell"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Wed--2--explorations--speak-your-truth-passion",
+               "dt":"2018-08-01T14:50:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 2:50 PM",
+               "date_order":"2018-08-01-14-50",
+               "section":2,
+               "title_key":"speak-your-truth-passion",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/1/2018 3:05pm",
+               "title":"Zine-Making Workshop",
+               "speaker":[
+                  "amy-wibowo"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Write/Passion",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Wed--2--explorations--zine-making-workshop",
+               "dt":"2018-08-01T15:05:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 3:05 PM",
+               "date_order":"2018-08-01-15-05",
+               "section":2,
+               "title_key":"zine-making-workshop",
+               "talk_type":"long-workshop-3-5-hr"
+            }
+         ]
+      },
+      {
+         "All":[
+            {
+               "date":"8/1/2018 5:05pm",
+               "title":"Speak Your Truth: Write/Passion + Networking",
+               "speaker":[
+                  "kara-carrell",
+                  "angie-jones",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Write/Passion",
+               "day_section":3,
+               "track_key":"all",
+               "key":"Wed--3--all--speak-your-truth-write-passion-",
+               "dt":"2018-08-01T17:05:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 5:05 PM",
+               "date_order":"2018-08-01-17-05",
+               "section":3,
+               "title_key":"speak-your-truth-write-passion-",
+               "talk_type":null
+            },
+            {
+               "date":"8/1/2018 5:35pm",
+               "title":"(Sponsor Talk)",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Write/Passion",
+               "day_section":3,
+               "track_key":"all",
+               "key":"Wed--3--all--sponsor-talk",
+               "dt":"2018-08-01T17:35:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 5:35 PM",
+               "date_order":"2018-08-01-17-35",
+               "section":3,
+               "title_key":"sponsor-talk",
+               "talk_type":"sponsor-talk"
+            },
+            {
+               "date":"8/1/2018 5:45pm",
+               "title":"The secret history of women and nonbinary folks in tech",
+               "speaker":[
+                  "hilary-stohs-krause"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Write/Passion",
+               "day_section":3,
+               "track_key":"all",
+               "key":"Wed--3--all--the-secret-history-of-women-and",
+               "dt":"2018-08-01T17:45:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 5:45 PM",
+               "date_order":"2018-08-01-17-45",
+               "section":3,
+               "title_key":"the-secret-history-of-women-and",
+               "talk_type":"keynote-talk"
+            },
+            {
+               "date":"8/1/2018 6:30pm",
+               "title":"END OF DAY",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Write/Passion",
+               "day_section":3,
+               "track_key":"all",
+               "key":"Wed--3--all--end-of-day",
+               "dt":"2018-08-01T18:30:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 6:30 PM",
+               "date_order":"2018-08-01-18-30",
+               "section":3,
+               "title_key":"end-of-day",
+               "talk_type":null
+            }
+         ]
+      },
+      {
+         "All":[
+            {
+               "date":"8/1/2018 7:00pm",
+               "title":"Opening Night Party",
+               "speaker":null,
+               "location":"Opening Night Party Location",
+               "track":"All",
+               "day":"Write/Passion",
+               "day_section":4,
+               "track_key":"all",
+               "key":"Wed--4--all--opening-night-party",
+               "dt":"2018-08-01T19:00:00.000+00:00",
+               "dayname":"Wed",
+               "time":" 7:00 PM",
+               "date_order":"2018-08-01-19-00",
+               "section":4,
+               "title_key":"opening-night-party",
+               "talk_type":"post-conference-event"
+            }
+         ]
+      }
+   ],
+   "Thu":[
+      {
+         "All":[
+            {
+               "date":"8/2/2018 9:00am",
+               "title":"Welcome + Code of Conduct",
+               "speaker":[
+                  "rebecca-miller-webster"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Speak/Leadership",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Thu--1--all--welcome-code-of-conduct",
+               "dt":"2018-08-02T09:00:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 9:00 AM",
+               "date_order":"2018-08-02-09-00",
+               "section":1,
+               "title_key":"welcome-code-of-conduct",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/2/2018 9:10am",
+               "title":"Bragging: Cause you’re showing off and it’s all right",
+               "speaker":[
+                  "shemika-lamare"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Speak/Leadership",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Thu--1--all--bragging-cause-you-re-showing-o",
+               "dt":"2018-08-02T09:10:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 9:10 AM",
+               "date_order":"2018-08-02-09-10",
+               "section":1,
+               "title_key":"bragging-cause-you-re-showing-o",
+               "talk_type":"keynote-talk"
+            },
+            {
+               "date":"8/2/2018 10:00am",
+               "title":"(Sponsor Talk)",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Speak/Leadership",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Thu--1--all--sponsor-talk",
+               "dt":"2018-08-02T10:00:00.000+00:00",
+               "dayname":"Thu",
+               "time":"10:00 AM",
+               "date_order":"2018-08-02-10-00",
+               "section":1,
+               "title_key":"sponsor-talk",
+               "talk_type":"sponsor-talk"
+            },
+            {
+               "date":"8/2/2018 10:15am",
+               "title":"Mentor Group Check-In",
+               "speaker":[
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Speak/Leadership",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Thu--1--all--mentor-group-check-in",
+               "dt":"2018-08-02T10:15:00.000+00:00",
+               "dayname":"Thu",
+               "time":"10:15 AM",
+               "date_order":"2018-08-02-10-15",
+               "section":1,
+               "title_key":"mentor-group-check-in",
+               "talk_type":"curriculum"
+            }
+         ]
+      },
+      {
+         "Foundations":[
+            {
+               "date":"8/2/2018 10:45am",
+               "title":"Hacking the CFP Process: Writing Powerful Talk Proposals",
+               "speaker":[
+                  "jamie-chung",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Thu--2--foundations--hacking-the-cfp-process-writing",
+               "dt":"2018-08-02T10:45:00.000+00:00",
+               "dayname":"Thu",
+               "time":"10:45 AM",
+               "date_order":"2018-08-02-10-45",
+               "section":2,
+               "title_key":"hacking-the-cfp-process-writing",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/2/2018 11:15am",
+               "title":"Conference Organizers Panel",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Thu--2--foundations--conference-organizers-panel",
+               "dt":"2018-08-02T11:15:00.000+00:00",
+               "dayname":"Thu",
+               "time":"11:15 AM",
+               "date_order":"2018-08-02-11-15",
+               "section":2,
+               "title_key":"conference-organizers-panel",
+               "talk_type":"panel"
+            },
+            {
+               "date":"8/2/2018 12:00pm",
+               "title":"Say What? Pt. 1: Write Your Talk Proposal",
+               "speaker":[
+                  "jamie-chung",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Thu--2--foundations--say-what-pt-1-write-your-talk-p",
+               "dt":"2018-08-02T12:00:00.000+00:00",
+               "dayname":"Thu",
+               "time":"12:00 PM",
+               "date_order":"2018-08-02-12-00",
+               "section":2,
+               "title_key":"say-what-pt-1-write-your-talk-p",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/2/2018 1:00pm",
+               "title":"LUNCH",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Thu--2--foundations--lunch",
+               "dt":"2018-08-02T13:00:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 1:00 PM",
+               "date_order":"2018-08-02-13-00",
+               "section":2,
+               "title_key":"lunch",
+               "talk_type":"food"
+            },
+            {
+               "date":"8/2/2018 1:45pm",
+               "title":"Say What? Pt. 2:  Write A 10 min Lightning Talk",
+               "speaker":[
+                  "jamie-chung",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Thu--2--foundations--say-what-pt-2-write-a-10-min-li",
+               "dt":"2018-08-02T13:45:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 1:45 PM",
+               "date_order":"2018-08-02-13-45",
+               "section":2,
+               "title_key":"say-what-pt-2-write-a-10-min-li",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/2/2018 4:05pm",
+               "title":"Speak Now: Give A 10 min Lightning Talk",
+               "speaker":[
+                  "jamie-chung",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"foundations",
+               "key":"Thu--2--foundations--speak-now-give-a-10-min-lightni",
+               "dt":"2018-08-02T16:05:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 4:05 PM",
+               "date_order":"2018-08-02-16-05",
+               "section":2,
+               "title_key":"speak-now-give-a-10-min-lightni",
+               "talk_type":"curriculum"
+            }
+         ],
+         "Explorations":[
+            {
+               "date":"8/2/2018 10:45am",
+               "title":"Speak Your Truth: Leadership",
+               "speaker":[
+                  "write-speak-code",
+                  "kara-carrell"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Thu--2--explorations--speak-your-truth-leadership",
+               "dt":"2018-08-02T10:45:00.000+00:00",
+               "dayname":"Thu",
+               "time":"10:45 AM",
+               "date_order":"2018-08-02-10-45",
+               "section":2,
+               "title_key":"speak-your-truth-leadership",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/2/2018 11:00am",
+               "title":"Fostering an Inclusive Engineering Culture",
+               "speaker":[
+                  "jiaqi-liu"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Thu--2--explorations--fostering-an-inclusive-engineer",
+               "dt":"2018-08-02T11:00:00.000+00:00",
+               "dayname":"Thu",
+               "time":"11:00 AM",
+               "date_order":"2018-08-02-11-00",
+               "section":2,
+               "title_key":"fostering-an-inclusive-engineer",
+               "talk_type":"standard-talk"
+            },
+            {
+               "date":"8/2/2018 11:35am",
+               "title":"Being Glue",
+               "speaker":[
+                  "tanya-reilly"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Thu--2--explorations--being-glue",
+               "dt":"2018-08-02T11:35:00.000+00:00",
+               "dayname":"Thu",
+               "time":"11:35 AM",
+               "date_order":"2018-08-02-11-35",
+               "section":2,
+               "title_key":"being-glue",
+               "talk_type":"standard-talk"
+            },
+            {
+               "date":"8/2/2018 12:15pm",
+               "title":"Engineering Leadership Panel",
+               "speaker":[
+                  "liz-fong-jones"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Thu--2--explorations--engineering-leadership-panel",
+               "dt":"2018-08-02T12:15:00.000+00:00",
+               "dayname":"Thu",
+               "time":"12:15 PM",
+               "date_order":"2018-08-02-12-15",
+               "section":2,
+               "title_key":"engineering-leadership-panel",
+               "talk_type":"panel"
+            },
+            {
+               "date":"8/2/2018 1:00pm",
+               "title":"LUNCH",
+               "speaker":null,
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Thu--2--explorations--lunch",
+               "dt":"2018-08-02T13:00:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 1:00 PM",
+               "date_order":"2018-08-02-13-00",
+               "section":2,
+               "title_key":"lunch",
+               "talk_type":"food"
+            },
+            {
+               "date":"8/2/2018 1:45pm",
+               "title":"Github Explorations Workshop",
+               "speaker":null,
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Thu--2--explorations--github-explorations-workshop",
+               "dt":"2018-08-02T13:45:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 1:45 PM",
+               "date_order":"2018-08-02-13-45",
+               "section":2,
+               "title_key":"github-explorations-workshop",
+               "talk_type":"short-workshop-1-hr"
+            },
+            {
+               "date":"8/2/2018 2:45pm",
+               "title":"SNACK",
+               "speaker":null,
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Thu--2--explorations--snack",
+               "dt":"2018-08-02T14:45:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 2:45 PM",
+               "date_order":"2018-08-02-14-45",
+               "section":2,
+               "title_key":"snack",
+               "talk_type":"food"
+            },
+            {
+               "date":"8/2/2018 3:05pm",
+               "title":"\"From Blog to Book: How to pitch, write, and get published\"",
+               "speaker":[
+                  "katel-ledu",
+                  "sara-wachter-boettcher"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Speak/Leadership",
+               "day_section":2,
+               "track_key":"explorations",
+               "key":"Thu--2--explorations--from-blog-to-book-how-to-pitch-",
+               "dt":"2018-08-02T15:05:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 3:05 PM",
+               "date_order":"2018-08-02-15-05",
+               "section":2,
+               "title_key":"from-blog-to-book-how-to-pitch-",
+               "talk_type":"long-workshop-3-5-hr"
+            }
+         ]
+      },
+      {
+         "All":[
+            {
+               "date":"8/2/2018 5:05pm",
+               "title":"Speak Your Truth: Speak/Leadership + Networking",
+               "speaker":[
+                  "jamie-chung",
+                  "kara-carrell",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Speak/Leadership",
+               "day_section":3,
+               "track_key":"all",
+               "key":"Thu--3--all--speak-your-truth-speak-leadersh",
+               "dt":"2018-08-02T17:05:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 5:05 PM",
+               "date_order":"2018-08-02-17-05",
+               "section":3,
+               "title_key":"speak-your-truth-speak-leadersh",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/2/2018 5:35pm",
+               "title":"(Sponsor Talk)",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Speak/Leadership",
+               "day_section":3,
+               "track_key":"all",
+               "key":"Thu--3--all--sponsor-talk",
+               "dt":"2018-08-02T17:35:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 5:35 PM",
+               "date_order":"2018-08-02-17-35",
+               "section":3,
+               "title_key":"sponsor-talk",
+               "talk_type":"sponsor-talk"
+            },
+            {
+               "date":"8/2/2018 5:45pm",
+               "title":"\"Competitive Debate, Gendered Speech Patterns, and the Tech Industry\"",
+               "speaker":[
+                  "denise-yu"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Speak/Leadership",
+               "day_section":3,
+               "track_key":"all",
+               "key":"Thu--3--all--competitive-debate-gendered-spe",
+               "dt":"2018-08-02T17:45:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 5:45 PM",
+               "date_order":"2018-08-02-17-45",
+               "section":3,
+               "title_key":"competitive-debate-gendered-spe",
+               "talk_type":"keynote-talk"
+            },
+            {
+               "date":"8/2/2018 6:30pm",
+               "title":"END OF DAY",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Speak/Leadership",
+               "day_section":3,
+               "track_key":"all",
+               "key":"Thu--3--all--end-of-day",
+               "dt":"2018-08-02T18:30:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 6:30 PM",
+               "date_order":"2018-08-02-18-30",
+               "section":3,
+               "title_key":"end-of-day",
+               "talk_type":null
+            }
+         ]
+      },
+      {
+         "All":[
+            {
+               "date":"8/2/2018 7:00pm",
+               "title":"\"Topic Dinners, including Starting a Write/Speak/Code Chapter\"",
+               "speaker":null,
+               "location":"NYC Restaurants",
+               "track":"All",
+               "day":"Speak/Leadership",
+               "day_section":4,
+               "track_key":"all",
+               "key":"Thu--4--all--topic-dinners-including-startin",
+               "dt":"2018-08-02T19:00:00.000+00:00",
+               "dayname":"Thu",
+               "time":" 7:00 PM",
+               "date_order":"2018-08-02-19-00",
+               "section":4,
+               "title_key":"topic-dinners-including-startin",
+               "talk_type":"post-conference-event"
+            }
+         ]
+      }
+   ],
+   "Fri":[
+      {
+         "Foundations":[
+            {
+               "date":"8/3/2018 8:00am",
+               "title":"Intro to Git \u0026 Github (optional)",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"Foundations",
+               "day":"Code/Ethics",
+               "day_section":1,
+               "track_key":"foundations",
+               "key":"Fri--1--foundations--intro-to-git-github-optional",
+               "dt":"2018-08-03T08:00:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 8:00 AM",
+               "date_order":"2018-08-03-08-00",
+               "section":1,
+               "title_key":"intro-to-git-github-optional",
+               "talk_type":"short-workshop-1-hr"
+            }
+         ]
+      },
+      {
+         "All":[
+            {
+               "date":"8/3/2018 9:00am",
+               "title":"Welcome + Code of Conduct",
+               "speaker":[
+                  "rebecca-miller-webster"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Code/Ethics",
+               "day_section":2,
+               "track_key":"all",
+               "key":"Fri--2--all--welcome-code-of-conduct",
+               "dt":"2018-08-03T09:00:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 9:00 AM",
+               "date_order":"2018-08-03-09-00",
+               "section":2,
+               "title_key":"welcome-code-of-conduct",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/3/2018 9:10am",
+               "title":"Code/Ethics Opening Keynote",
+               "speaker":[
+                  "fureigh"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Code/Ethics",
+               "day_section":2,
+               "track_key":"all",
+               "key":"Fri--2--all--code-ethics-opening-keynote",
+               "dt":"2018-08-03T09:10:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 9:10 AM",
+               "date_order":"2018-08-03-09-10",
+               "section":2,
+               "title_key":"code-ethics-opening-keynote",
+               "talk_type":"keynote-talk"
+            },
+            {
+               "date":"8/3/2018 10:00am",
+               "title":"(Sponsor Talk)",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Code/Ethics",
+               "day_section":2,
+               "track_key":"all",
+               "key":"Fri--2--all--sponsor-talk",
+               "dt":"2018-08-03T10:00:00.000+00:00",
+               "dayname":"Fri",
+               "time":"10:00 AM",
+               "date_order":"2018-08-03-10-00",
+               "section":2,
+               "title_key":"sponsor-talk",
+               "talk_type":"sponsor-talk"
+            },
+            {
+               "date":"8/3/2018 10:15am",
+               "title":"Mentor Group Check-In",
+               "speaker":[
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Code/Ethics",
+               "day_section":2,
+               "track_key":"all",
+               "key":"Fri--2--all--mentor-group-check-in",
+               "dt":"2018-08-03T10:15:00.000+00:00",
+               "dayname":"Fri",
+               "time":"10:15 AM",
+               "date_order":"2018-08-03-10-15",
+               "section":2,
+               "title_key":"mentor-group-check-in",
+               "talk_type":"curriculum"
+            }
+         ]
+      },
+      {
+         "Explorations":[
+            {
+               "date":"8/3/2018 10:45am",
+               "title":"Podcasting Workshop",
+               "speaker":[
+                  "christina-warren"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Code/Ethics",
+               "day_section":3,
+               "track_key":"explorations",
+               "key":"Fri--3--explorations--podcasting-workshop",
+               "dt":"2018-08-03T10:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":"10:45 AM",
+               "date_order":"2018-08-03-10-45",
+               "section":3,
+               "title_key":"podcasting-workshop",
+               "talk_type":"medium-workshop-2-hr"
+            }
+         ],
+         "Open Source":[
+            {
+               "date":"8/3/2018 10:45am",
+               "title":"Open Source Project Shopping \u0026 Brainstorming",
+               "speaker":[
+                  "courteney-ervin",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Open Source",
+               "day":"Code/Ethics",
+               "day_section":3,
+               "track_key":"open-source",
+               "key":"Fri--3--open-source--open-source-project-shopping-br",
+               "dt":"2018-08-03T10:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":"10:45 AM",
+               "date_order":"2018-08-03-10-45",
+               "section":3,
+               "title_key":"open-source-project-shopping-br",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/3/2018 11:00am",
+               "title":"Open Source \u0026 Personal Project Coding",
+               "speaker":[
+                  "courteney-ervin",
+                  "write-speak-code"
+               ],
+               "location":"We Work Breakouts",
+               "track":"Open Source",
+               "day":"Code/Ethics",
+               "day_section":3,
+               "track_key":"open-source",
+               "key":"Fri--3--open-source--open-source-personal-project-co",
+               "dt":"2018-08-03T11:00:00.000+00:00",
+               "dayname":"Fri",
+               "time":"11:00 AM",
+               "date_order":"2018-08-03-11-00",
+               "section":3,
+               "title_key":"open-source-personal-project-co",
+               "talk_type":"curriculum"
+            }
+         ],
+         "Intro to Open Source":[
+            {
+               "date":"8/3/2018 10:45am",
+               "title":"Open Source Project Shopping \u0026 Brainstorming",
+               "speaker":[
+                  "courteney-ervin",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Intro to Open Source",
+               "day":"Code/Ethics",
+               "day_section":3,
+               "track_key":"intro-to-open-source",
+               "key":"Fri--3--intro-to-open-source--open-source-project-shopping-br",
+               "dt":"2018-08-03T10:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":"10:45 AM",
+               "date_order":"2018-08-03-10-45",
+               "section":3,
+               "title_key":"open-source-project-shopping-br",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/3/2018 11:00am",
+               "title":"Intro to Open Source",
+               "speaker":[
+                  "courteney-ervin",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Breakout 2",
+               "track":"Intro to Open Source",
+               "day":"Code/Ethics",
+               "day_section":3,
+               "track_key":"intro-to-open-source",
+               "key":"Fri--3--intro-to-open-source--intro-to-open-source",
+               "dt":"2018-08-03T11:00:00.000+00:00",
+               "dayname":"Fri",
+               "time":"11:00 AM",
+               "date_order":"2018-08-03-11-00",
+               "section":3,
+               "title_key":"intro-to-open-source",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/3/2018 11:30am",
+               "title":"Open Source \u0026 Personal Project Coding",
+               "speaker":[
+                  "courteney-ervin",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Breakout 2",
+               "track":"Intro to Open Source",
+               "day":"Code/Ethics",
+               "day_section":3,
+               "track_key":"intro-to-open-source",
+               "key":"Fri--3--intro-to-open-source--open-source-personal-project-co",
+               "dt":"2018-08-03T11:30:00.000+00:00",
+               "dayname":"Fri",
+               "time":"11:30 AM",
+               "date_order":"2018-08-03-11-30",
+               "section":3,
+               "title_key":"open-source-personal-project-co",
+               "talk_type":"curriculum"
+            }
+         ],
+         "Coding Workshops":[
+            {
+               "date":"8/3/2018 10:45am",
+               "title":"Open Source Project Shopping \u0026 Brainstorming",
+               "speaker":[
+                  "courteney-ervin",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"Coding Workshops",
+               "day":"Code/Ethics",
+               "day_section":3,
+               "track_key":"coding-workshops",
+               "key":"Fri--3--coding-workshops--open-source-project-shopping-br",
+               "dt":"2018-08-03T10:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":"10:45 AM",
+               "date_order":"2018-08-03-10-45",
+               "section":3,
+               "title_key":"open-source-project-shopping-br",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/3/2018 11:00am",
+               "title":"SquareSpace Sponsor Workshop",
+               "speaker":null,
+               "location":"Microsoft Breakout 1",
+               "track":"Coding Workshops",
+               "day":"Code/Ethics",
+               "day_section":3,
+               "track_key":"coding-workshops",
+               "key":"Fri--3--coding-workshops--squarespace-sponsor-workshop",
+               "dt":"2018-08-03T11:00:00.000+00:00",
+               "dayname":"Fri",
+               "time":"11:00 AM",
+               "date_order":"2018-08-03-11-00",
+               "section":3,
+               "title_key":"squarespace-sponsor-workshop",
+               "talk_type":"medium-workshop-2-hr"
+            }
+         ]
+      },
+      {
+         "All":[
+            {
+               "date":"8/3/2018 1:00pm",
+               "title":"LUNCH",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Code/Ethics",
+               "day_section":4,
+               "track_key":"all",
+               "key":"Fri--4--all--lunch",
+               "dt":"2018-08-03T13:00:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 1:00 PM",
+               "date_order":"2018-08-03-13-00",
+               "section":4,
+               "title_key":"lunch",
+               "talk_type":"food"
+            }
+         ]
+      },
+      {
+         "Explorations":[
+            {
+               "date":"8/3/2018 1:45pm",
+               "title":"Speak Your Truth: Ethics",
+               "speaker":[
+                  "write-speak-code",
+                  "kara-carrell"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"explorations",
+               "key":"Fri--5--explorations--speak-your-truth-ethics",
+               "dt":"2018-08-03T13:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 1:45 PM",
+               "date_order":"2018-08-03-13-45",
+               "section":5,
+               "title_key":"speak-your-truth-ethics",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/3/2018 1:55pm",
+               "title":"How to collectively accomplish change in organizational or product policies to align with ethics",
+               "speaker":[
+                  "liz-fong-jones"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"explorations",
+               "key":"Fri--5--explorations--how-to-collectively-accomplish-",
+               "dt":"2018-08-03T13:55:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 1:55 PM",
+               "date_order":"2018-08-03-13-55",
+               "section":5,
+               "title_key":"how-to-collectively-accomplish-",
+               "talk_type":"standard-talk"
+            },
+            {
+               "date":"8/3/2018 2:30pm",
+               "title":"\"Ethics at Design Time, not Run Time\"",
+               "speaker":[
+                  "rowan-cota"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"explorations",
+               "key":"Fri--5--explorations--ethics-at-design-time-not-run-t",
+               "dt":"2018-08-03T14:30:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 2:30 PM",
+               "date_order":"2018-08-03-14-30",
+               "section":5,
+               "title_key":"ethics-at-design-time-not-run-t",
+               "talk_type":"standard-talk"
+            },
+            {
+               "date":"8/3/2018 3:05pm",
+               "title":"Looking for artists who look like me: analyzing the MoMA GitHub repo",
+               "speaker":[
+                  "sravanti-tekumalla"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"explorations",
+               "key":"Fri--5--explorations--looking-for-artists-who-look-li",
+               "dt":"2018-08-03T15:05:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 3:05 PM",
+               "date_order":"2018-08-03-15-05",
+               "section":5,
+               "title_key":"looking-for-artists-who-look-li",
+               "talk_type":"standard-talk"
+            },
+            {
+               "date":"8/3/2018 3:40pm",
+               "title":"Using Open Source to Solve an Identity Crisis: Tracking the Bengali Diaspora",
+               "speaker":[
+                  "nishat-anjum"
+               ],
+               "location":"Loft Space",
+               "track":"Explorations",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"explorations",
+               "key":"Fri--5--explorations--using-open-source-to-solve-an-i",
+               "dt":"2018-08-03T15:40:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 3:40 PM",
+               "date_order":"2018-08-03-15-40",
+               "section":5,
+               "title_key":"using-open-source-to-solve-an-i",
+               "talk_type":"standard-talk"
+            }
+         ],
+         "Open Source":[
+            {
+               "date":"8/3/2018 1:45pm",
+               "title":"Open Source \u0026 Personal Project Coding",
+               "speaker":[
+                  "courteney-ervin",
+                  "write-speak-code"
+               ],
+               "location":"We Work Breakouts",
+               "track":"Open Source",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"open-source",
+               "key":"Fri--5--open-source--open-source-personal-project-co",
+               "dt":"2018-08-03T13:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 1:45 PM",
+               "date_order":"2018-08-03-13-45",
+               "section":5,
+               "title_key":"open-source-personal-project-co",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/3/2018 3:45pm",
+               "title":"SNACK",
+               "speaker":null,
+               "location":"We Work Breakouts",
+               "track":"Open Source",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"open-source",
+               "key":"Fri--5--open-source--snack",
+               "dt":"2018-08-03T15:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 3:45 PM",
+               "date_order":"2018-08-03-15-45",
+               "section":5,
+               "title_key":"snack",
+               "talk_type":"food"
+            },
+            {
+               "date":"8/3/2018 3:55pm",
+               "title":"Open Source \u0026 Personal Project Coding",
+               "speaker":[
+                  "courteney-ervin",
+                  "write-speak-code"
+               ],
+               "location":"We Work Breakouts",
+               "track":"Open Source",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"open-source",
+               "key":"Fri--5--open-source--open-source-personal-project-co",
+               "dt":"2018-08-03T15:55:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 3:55 PM",
+               "date_order":"2018-08-03-15-55",
+               "section":5,
+               "title_key":"open-source-personal-project-co",
+               "talk_type":"curriculum"
+            }
+         ],
+         "Coding Workshops":[
+            {
+               "date":"8/3/2018 1:45pm",
+               "title":"ElixirBridge: Building a web app in Elixir",
+               "speaker":[
+                  "anna-neyzberg"
+               ],
+               "location":"Microsoft Breakout 1",
+               "track":"Coding Workshops",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"coding-workshops",
+               "key":"Fri--5--coding-workshops--elixirbridge-building-a-web-app",
+               "dt":"2018-08-03T13:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 1:45 PM",
+               "date_order":"2018-08-03-13-45",
+               "section":5,
+               "title_key":"elixirbridge-building-a-web-app",
+               "talk_type":"medium-workshop-2-hr"
+            },
+            {
+               "date":"8/3/2018 3:45pm",
+               "title":"SNACK",
+               "speaker":null,
+               "location":"Microsoft Breakout 1",
+               "track":"Coding Workshops",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"coding-workshops",
+               "key":"Fri--5--coding-workshops--snack",
+               "dt":"2018-08-03T15:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 3:45 PM",
+               "date_order":"2018-08-03-15-45",
+               "section":5,
+               "title_key":"snack",
+               "talk_type":"food"
+            },
+            {
+               "date":"8/3/2018 3:55pm",
+               "title":"Open Source \u0026 Personal Project Coding",
+               "speaker":[
+                  "courteney-ervin",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Breakout 1",
+               "track":"Coding Workshops",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"coding-workshops",
+               "key":"Fri--5--coding-workshops--open-source-personal-project-co",
+               "dt":"2018-08-03T15:55:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 3:55 PM",
+               "date_order":"2018-08-03-15-55",
+               "section":5,
+               "title_key":"open-source-personal-project-co",
+               "talk_type":"curriculum"
+            }
+         ],
+         "Code for Thought":[
+            {
+               "date":"8/3/2018 1:45pm",
+               "title":"Open Source \u0026 Personal Project Coding",
+               "speaker":[
+                  "courteney-ervin",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Breakout 2",
+               "track":"Code for Thought",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"code-for-thought",
+               "key":"Fri--5--code-for-thought--open-source-personal-project-co",
+               "dt":"2018-08-03T13:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 1:45 PM",
+               "date_order":"2018-08-03-13-45",
+               "section":5,
+               "title_key":"open-source-personal-project-co",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/3/2018 3:45pm",
+               "title":"How to tell a better story in code",
+               "speaker":[
+                  "bonnie-pan"
+               ],
+               "location":"Microsoft Breakout 2",
+               "track":"Code for Thought",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"code-for-thought",
+               "key":"Fri--5--code-for-thought--how-to-tell-a-better-story-in-c",
+               "dt":"2018-08-03T15:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 3:45 PM",
+               "date_order":"2018-08-03-15-45",
+               "section":5,
+               "title_key":"how-to-tell-a-better-story-in-c",
+               "talk_type":"standard-talk"
+            },
+            {
+               "date":"8/3/2018 4:20pm",
+               "title":"\"If You Build it, They Will Come; How to Build a Great Open Source Project\"",
+               "speaker":[
+                  "rebecca-holzschuh"
+               ],
+               "location":"Microsoft Breakout 2",
+               "track":"Code for Thought",
+               "day":"Code/Ethics",
+               "day_section":5,
+               "track_key":"code-for-thought",
+               "key":"Fri--5--code-for-thought--if-you-build-it-they-will-come-",
+               "dt":"2018-08-03T16:20:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 4:20 PM",
+               "date_order":"2018-08-03-16-20",
+               "section":5,
+               "title_key":"if-you-build-it-they-will-come-",
+               "talk_type":"standard-talk"
+            }
+         ]
+      },
+      {
+         "All":[
+            {
+               "date":"8/3/2018 4:50pm",
+               "title":"Speak Your Truth: Code/Ethics + Networking",
+               "speaker":[
+                  "kara-carrell",
+                  "courteney-ervin",
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Code/Ethics",
+               "day_section":6,
+               "track_key":"all",
+               "key":"Fri--6--all--speak-your-truth-code-ethics-ne",
+               "dt":"2018-08-03T16:50:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 4:50 PM",
+               "date_order":"2018-08-03-16-50",
+               "section":6,
+               "title_key":"speak-your-truth-code-ethics-ne",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/3/2018 5:20pm",
+               "title":"(Sponsor Talk)",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Code/Ethics",
+               "day_section":6,
+               "track_key":"all",
+               "key":"Fri--6--all--sponsor-talk",
+               "dt":"2018-08-03T17:20:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 5:20 PM",
+               "date_order":"2018-08-03-17-20",
+               "section":6,
+               "title_key":"sponsor-talk",
+               "talk_type":"sponsor-talk"
+            },
+            {
+               "date":"8/3/2018 5:30pm",
+               "title":"Attendee Talk!",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Code/Ethics",
+               "day_section":6,
+               "track_key":"all",
+               "key":"Fri--6--all--attendee-talk",
+               "dt":"2018-08-03T17:30:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 5:30 PM",
+               "date_order":"2018-08-03-17-30",
+               "section":6,
+               "title_key":"attendee-talk",
+               "talk_type":"lightning-talk"
+            },
+            {
+               "date":"8/3/2018 5:45pm",
+               "title":"Code/Ethics Closing Keynote",
+               "speaker":[
+                  "jenn-schiffer"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Code/Ethics",
+               "day_section":6,
+               "track_key":"all",
+               "key":"Fri--6--all--code-ethics-closing-keynote",
+               "dt":"2018-08-03T17:45:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 5:45 PM",
+               "date_order":"2018-08-03-17-45",
+               "section":6,
+               "title_key":"code-ethics-closing-keynote",
+               "talk_type":"keynote-talk"
+            },
+            {
+               "date":"8/3/2018 6:30pm",
+               "title":"END OF DAY",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Code/Ethics",
+               "day_section":6,
+               "track_key":"all",
+               "key":"Fri--6--all--end-of-day",
+               "dt":"2018-08-03T18:30:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 6:30 PM",
+               "date_order":"2018-08-03-18-30",
+               "section":6,
+               "title_key":"end-of-day",
+               "talk_type":null
+            }
+         ]
+      },
+      {
+         "All":[
+            {
+               "date":"8/3/2018 7:00pm",
+               "title":"Chapter Organizers Summit",
+               "speaker":null,
+               "location":"Chapter Summit Location",
+               "track":"All",
+               "day":"Code/Ethics",
+               "day_section":7,
+               "track_key":"all",
+               "key":"Fri--7--all--chapter-organizers-summit",
+               "dt":"2018-08-03T19:00:00.000+00:00",
+               "dayname":"Fri",
+               "time":" 7:00 PM",
+               "date_order":"2018-08-03-19-00",
+               "section":7,
+               "title_key":"chapter-organizers-summit",
+               "talk_type":"post-conference-event"
+            }
+         ]
+      }
+   ],
+   "Sat":[
+      {
+         "All":[
+            {
+               "date":"8/4/2018 10:00am",
+               "title":"Welcome + Code of Conduct",
+               "speaker":[
+                  "rebecca-miller-webster"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--welcome-code-of-conduct",
+               "dt":"2018-08-04T10:00:00.000+00:00",
+               "dayname":"Sat",
+               "time":"10:00 AM",
+               "date_order":"2018-08-04-10-00",
+               "section":1,
+               "title_key":"welcome-code-of-conduct",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/4/2018 10:10am",
+               "title":"Growth Day Opening Keynote",
+               "speaker":[
+                  "tiffany-mikell",
+                  "kortney-ziegler"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--growth-day-opening-keynote",
+               "dt":"2018-08-04T10:10:00.000+00:00",
+               "dayname":"Sat",
+               "time":"10:10 AM",
+               "date_order":"2018-08-04-10-10",
+               "section":1,
+               "title_key":"growth-day-opening-keynote",
+               "talk_type":"keynote-talk"
+            },
+            {
+               "date":"8/4/2018 10:45am",
+               "title":"\"Surviving \"\"Rockstar\"\" Programmers\"",
+               "speaker":[
+                  "ann-guilinger"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--surviving-rockstar-programmers",
+               "dt":"2018-08-04T10:45:00.000+00:00",
+               "dayname":"Sat",
+               "time":"10:45 AM",
+               "date_order":"2018-08-04-10-45",
+               "section":1,
+               "title_key":"surviving-rockstar-programmers",
+               "talk_type":"standard-talk"
+            },
+            {
+               "date":"8/4/2018 11:20am",
+               "title":"Stop Telling Me I’m Smiley: My Quest to Gather Better Feedback",
+               "speaker":[
+                  "amelia-downs"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--stop-telling-me-i-m-smiley-my-q",
+               "dt":"2018-08-04T11:20:00.000+00:00",
+               "dayname":"Sat",
+               "time":"11:20 AM",
+               "date_order":"2018-08-04-11-20",
+               "section":1,
+               "title_key":"stop-telling-me-i-m-smiley-my-q",
+               "talk_type":"standard-talk"
+            },
+            {
+               "date":"8/4/2018 12:00pm",
+               "title":"Growth Workshop",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--growth-workshop",
+               "dt":"2018-08-04T12:00:00.000+00:00",
+               "dayname":"Sat",
+               "time":"12:00 PM",
+               "date_order":"2018-08-04-12-00",
+               "section":1,
+               "title_key":"growth-workshop",
+               "talk_type":null
+            },
+            {
+               "date":"8/4/2018 1:00pm",
+               "title":"MIMOSA BRUNCH",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--mimosa-brunch",
+               "dt":"2018-08-04T13:00:00.000+00:00",
+               "dayname":"Sat",
+               "time":" 1:00 PM",
+               "date_order":"2018-08-04-13-00",
+               "section":1,
+               "title_key":"mimosa-brunch",
+               "talk_type":"food"
+            },
+            {
+               "date":"8/4/2018 1:45pm",
+               "title":"You Can Be An Investor! Panel",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--you-can-be-an-investor-panel",
+               "dt":"2018-08-04T13:45:00.000+00:00",
+               "dayname":"Sat",
+               "time":" 1:45 PM",
+               "date_order":"2018-08-04-13-45",
+               "section":1,
+               "title_key":"you-can-be-an-investor-panel",
+               "talk_type":"panel"
+            },
+            {
+               "date":"8/4/2018 2:40pm",
+               "title":"Mindfulness: Your Way Through the Maelstrom",
+               "speaker":[
+                  "crystal-martin"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--mindfulness-your-way-through-th",
+               "dt":"2018-08-04T14:40:00.000+00:00",
+               "dayname":"Sat",
+               "time":" 2:40 PM",
+               "date_order":"2018-08-04-14-40",
+               "section":1,
+               "title_key":"mindfulness-your-way-through-th",
+               "talk_type":"short-workshop-1-hr"
+            },
+            {
+               "date":"8/4/2018 3:45pm",
+               "title":"Empathetic Engineering",
+               "speaker":[
+                  "evelyn-masso"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--empathetic-engineering",
+               "dt":"2018-08-04T15:45:00.000+00:00",
+               "dayname":"Sat",
+               "time":" 3:45 PM",
+               "date_order":"2018-08-04-15-45",
+               "section":1,
+               "title_key":"empathetic-engineering",
+               "talk_type":"medium-workshop-2-hr"
+            },
+            {
+               "date":"8/4/2018 4:20pm",
+               "title":"\"Creating Success, Together\"",
+               "speaker":[
+                  "cate-huston"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--creating-success-together",
+               "dt":"2018-08-04T16:20:00.000+00:00",
+               "dayname":"Sat",
+               "time":" 4:20 PM",
+               "date_order":"2018-08-04-16-20",
+               "section":1,
+               "title_key":"creating-success-together",
+               "talk_type":"standard-talk"
+            },
+            {
+               "date":"8/4/2018 4:50pm",
+               "title":"Speak Your Truth Conference Wrap Up",
+               "speaker":[
+                  "write-speak-code"
+               ],
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--speak-your-truth-conference-wra",
+               "dt":"2018-08-04T16:50:00.000+00:00",
+               "dayname":"Sat",
+               "time":" 4:50 PM",
+               "date_order":"2018-08-04-16-50",
+               "section":1,
+               "title_key":"speak-your-truth-conference-wra",
+               "talk_type":"curriculum"
+            },
+            {
+               "date":"8/4/2018 5:00pm",
+               "title":"END OF CONFERENCE",
+               "speaker":null,
+               "location":"Microsoft Main Space",
+               "track":"All",
+               "day":"Growth",
+               "day_section":1,
+               "track_key":"all",
+               "key":"Sat--1--all--end-of-conference",
+               "dt":"2018-08-04T17:00:00.000+00:00",
+               "dayname":"Sat",
+               "time":" 5:00 PM",
+               "date_order":"2018-08-04-17-00",
+               "section":1,
+               "title_key":"end-of-conference",
+               "talk_type":null
+            }
+         ]
+      }
+   ]
+}

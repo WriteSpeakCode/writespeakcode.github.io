@@ -2,15 +2,25 @@
 .qcSchSpeakers { min-height: 25px; }
 .qcSchSpeakers li img { margin: 0 auto; }
 
+.schedule-track-split {
+  background-color: lighten($brand-blush, 5%);
+
+  .track-inner-details {
+    background-color: $white;
+  }
+}
+
 .qcPageContentTabs > ul li > a {
-  color: #172751;
+  color: $brand-dark;
 }
 
 .qcPageContentTabs > ul {
-  border-bottom-color: #172751;
+  border-bottom-color: $brand-dark;
 }
 
 .schedule-section {
+  border-bottom: 5px solid $brand-coral;
+
   .qcPageContentTabs {
     &.qcScheduleTabs {
       .box {
@@ -111,36 +121,60 @@
   }
 }
 
-.schedule-section .qcScheduleList > li h3.schedule-tbd {
-  font-style: italic;
-  font-size: 1em;
-  text-transform: none;
+.schedule-section  {
+  .qcScheduleList {
+    > li {
+      border-color: $brand-coral;
+
+      &.active {
+        background: $white;
+      }
+
+      &.food {
+        background-color: darken($white, 5%);
+      }
+
+      &.post-conference-event {
+        background-color: $brand-dark;
+
+        .time { color: $brand-blush; }
+
+        h3 {
+          color: $white;
+        }
+      }
+
+      h3.schedule-tbd {
+        font-style: italic;
+        font-size: 1em;
+        text-transform: none;
+      }
+
+      h3 {
+        padding-bottom: 1em;
+        font-size: 1.2em;
+        text-transform: none;
+        color: $brand-dark;
+      }
+    }
+  }
 }
 
-.schedule-section .qcScheduleList > li h3 {
-  padding-bottom: 1em;
-  font-size: 1.2em;
-  text-transform: none;
-  color: #172751;
-}
+.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul {
+  li {
+    width: 49%;
+  }
 
-.schedule-section .qcScheduleList > li {
-  border-color: #EB6851;
-}
-
-.schedule-section .qcScheduleList > li.active {
-  background: white;
-}
-
-.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li {
-  width: 49%;
+  &.tracks-4 li {
+    width: 24%;
+  }
 }
 
 .schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul.qcScheduleList > li {
   min-height: 150px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $breakpoint-sm) {
   .schedule-section .qcScheduleTabs.qcSubScheduleContentTabs li a {
     font-size: 14px;
   }
@@ -166,7 +200,7 @@
 .schedule-section .qcTogContent {
   padding-bottom: 1em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $breakpoint-sm) {
   .schedule-section .qcTogContent {
     padding-top: 0;
   }

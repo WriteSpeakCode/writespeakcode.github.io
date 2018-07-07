@@ -480,41 +480,48 @@ a.link.white {
 .qcSchSpeakers li img {
   margin: 0 auto; }
 
+.schedule-track-split {
+  background-color: #f7e9e6; }
+  .schedule-track-split .track-inner-details {
+    background-color: #fff; }
+
 .qcPageContentTabs > ul li > a {
   color: #172751; }
 
 .qcPageContentTabs > ul {
   border-bottom-color: #172751; }
 
-.schedule-section .qcPageContentTabs.qcScheduleTabs .box {
-  border: 1px #EB6851 solid; }
-.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs.qcScheduleTabs .box {
-  border: 1px #EB6851 solid; }
-.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li.active > a {
-  color: #EB6851; }
-.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li.active:after {
-  border-top-color: #EB6851; }
-.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li.active:before {
-  background-color: #EB6851; }
-.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs .qcScheduleList > li.toggle:before {
-  background-color: #EB6851; }
-.schedule-section .conf_dates {
-  color: #EB6851;
-  border-bottom: 1px #EB6851 solid; }
-  @media only screen and (max-width: 920px) {
-    .schedule-section .conf_dates {
-      line-height: 34px;
-      font-size: 13px; } }
-.schedule-section .bullets {
-  padding: 15px 0px 15px 30px;
-  list-style: disc;
-  line-height: 30px; }
-  .schedule-section .bullets > li {
-    border: none;
-    min-height: 40px !important;
-    padding-left: 10px; }
-.schedule-section .coming-soon {
-  padding-top: 10px; }
+.schedule-section {
+  border-bottom: 5px solid #EB6851; }
+  .schedule-section .qcPageContentTabs.qcScheduleTabs .box {
+    border: 1px #EB6851 solid; }
+  .schedule-section .qcSubScheduleContentTabs.qcPageContentTabs.qcScheduleTabs .box {
+    border: 1px #EB6851 solid; }
+  .schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li.active > a {
+    color: #EB6851; }
+  .schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li.active:after {
+    border-top-color: #EB6851; }
+  .schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li.active:before {
+    background-color: #EB6851; }
+  .schedule-section .qcSubScheduleContentTabs.qcPageContentTabs .qcScheduleList > li.toggle:before {
+    background-color: #EB6851; }
+  .schedule-section .conf_dates {
+    color: #EB6851;
+    border-bottom: 1px #EB6851 solid; }
+    @media only screen and (max-width: 920px) {
+      .schedule-section .conf_dates {
+        line-height: 34px;
+        font-size: 13px; } }
+  .schedule-section .bullets {
+    padding: 15px 0px 15px 30px;
+    list-style: disc;
+    line-height: 30px; }
+    .schedule-section .bullets > li {
+      border: none;
+      min-height: 40px !important;
+      padding-left: 10px; }
+  .schedule-section .coming-soon {
+    padding-top: 10px; }
 
 /* code below still in legacy css */
 @media screen and (max-width: 699px) {
@@ -538,25 +545,32 @@ a.link.white {
 @media screen and (min-width: 900px) {
   .schedule-section .qcScheduleTabs li a {
     font-size: 16px; } }
-.schedule-section .qcScheduleList > li h3.schedule-tbd {
-  font-style: italic;
-  font-size: 1em;
-  text-transform: none; }
-
-.schedule-section .qcScheduleList > li h3 {
-  padding-bottom: 1em;
-  font-size: 1.2em;
-  text-transform: none;
-  color: #172751; }
-
 .schedule-section .qcScheduleList > li {
   border-color: #EB6851; }
-
-.schedule-section .qcScheduleList > li.active {
-  background: white; }
+  .schedule-section .qcScheduleList > li.active {
+    background: #fff; }
+  .schedule-section .qcScheduleList > li.food {
+    background-color: #f2f2f2; }
+  .schedule-section .qcScheduleList > li.post-conference-event {
+    background-color: #172751; }
+    .schedule-section .qcScheduleList > li.post-conference-event .time {
+      color: #F1D8D3; }
+    .schedule-section .qcScheduleList > li.post-conference-event h3 {
+      color: #fff; }
+  .schedule-section .qcScheduleList > li h3.schedule-tbd {
+    font-style: italic;
+    font-size: 1em;
+    text-transform: none; }
+  .schedule-section .qcScheduleList > li h3 {
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    text-transform: none;
+    color: #172751; }
 
 .schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li {
   width: 49%; }
+.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul.tracks-4 li {
+  width: 24%; }
 
 .schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul.qcScheduleList > li {
   min-height: 150px; }

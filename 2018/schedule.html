@@ -1,0 +1,172 @@
+---
+layout: conference
+title: 2018 Write/Speak/Code Conference | Aug 1-4 | NYC
+meta_title: 2018 Write/Speak/Code Conference Schedule
+meta_description:
+<!-- href: https://2018.writespeakcode.com/index.html -->
+social_title: 2018 Write/Speak/Code Conference for Women & Nonbinary Coders
+social_description: Level up your career over 4 days designed to fully own your expertise through writing, speaking, and open source.
+<!-- open_graph_img: https://2018.writespeakcode.com/assets/img/write-speak-code-conference.jpg
+twitter_img: https://2018.writespeakcode.com/assets/img/WSC-coral-bg.jpg -->
+body_class: "conference conference-schedule"
+---
+
+<!-- ## SCHEDULE SECTION ## -->
+<section class="schedule-section" id="schedule">
+  <div class="qcTabTitle qcContainer clearfix">
+    <div class="col-4 col">
+      <h2 class="section-title">SCHEDULE</h2>
+    </div>
+    <div class="col-8 col">
+      <p class="qcTabDesc">
+      By the end of this intensive 4-day conference for women and non-binary
+      codes, each attendee will possess and polish the skills necessary
+      to fully own their expertise as thought leaders, conference speakers, and
+      open source contributors.
+      </p>
+    </div>
+  </div>
+
+  <div class="hentry qcContainer">
+    <div id="qcScheduleContentTabs" class="qcPageContentTabs qcScheduleTabs clearfix">
+      <!-- ## SCHEDULE DAY LINKS ## -->
+      <ul class="wsc-schedule-tabs clearfix">
+        {% for day in site.data.schedule_display_map %}
+          {% if forloop.first %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
+
+            <a href="#{{ day.schedule_key }}">{{ day.title_display }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <!-- day loop -->
+      {% for day in site.data.schedule_display_map %}
+        <!-- day header -->
+        <div id="{{ day.schedule_key }}">
+          <div class="box">
+
+            <!-- day header date -->
+            <div class="conf_dates qcTabHead clearfix">
+              <div class="col-12 col">
+                <i class="icon-calendar-1 icon"></i>
+                {{ day.date_display }}
+              </div>
+            </div>
+
+            <!-- day details -->
+            <ul class="qcScheduleList">
+              <!-- section loop -->
+              {% for section in site.data.schedule[day.schedule_key] %}
+                {% assign section_key = forloop.index %}
+                <a name="{{day.schedule_key}}--{{ section_key }}"></a>
+
+                <!-- track split header -->
+                {% if section.size > 1 %}
+                  <li class="no-toggle schedule-track-split">
+                    <div class="clearfix">
+                      <div class="qcSubScheduleContentTabs qcScheduleTabs qcPageContentTabs clearfix">
+                        <ul class="clearfix tracks-{{ section.size }}">
+                           {% for track in section %}
+                             {% assign track_key = track[1].first.track_key %}
+                            {% if forloop.first %}
+                              <li class="active">
+                            {% else %}
+                              <li>
+                            {% endif %}
+
+                               <a href="#{{day.schedule_key}}--{{ section_key }}--{{ track_key }}">
+                                {{ track[0] }}
+                               </a>
+                             </li>
+                           {% endfor %}
+                        </ul>
+                {% endif %}
+
+                <!-- track details -->
+                {% for track in section %}
+                  {% assign track_key = track[1].first.track_key %}
+
+                  <!-- track details split head -->
+                   {% if section.size > 1 %}
+                     <div id="{{day.schedule_key}}--{{ section_key }}--{{ track_key }}" class="track-inner-details">
+                       <div class="box">
+                        <ul class="qcScheduleList">
+                   {% else %}
+                     <a name="{{day.schedule_key}}--{{ section_key }}--{{ track_key }}"></a>
+                   {% endif %}
+
+                  <!-- items in track loop -->
+                  {% for item in track[1] %}
+                    {% assign talk = site.data.hash_of_talks[item.title_key] %}
+
+                    <!-- item li tag -->
+                    {% if talk.description %}
+                      <li class="toggle {{ item.talk_type }}" id="{{ item.key }}">
+                    {% else %}
+                      <li class="no-toggle {{ item.talk_type }}" id="{{ item.key }}">
+                    {% endif %}
+
+                    <!-- talk details -->
+                    <div class="clearfix">
+                      <!-- talk time and title -->
+                      <div class="col-8 col">
+                        <p class="time">{{ item.time }}</p>
+                        <h3>{{ item.title }}</h3>
+                      </div>
+                      <!-- END talk time and title -->
+
+                      <!-- talk speakers -->
+                      <div class="col-4 col multiple-speakers">
+                        {% include talk_speaker_list.html item=item %}
+                      </div>
+                      <!-- END talk speakers -->
+                    </div>
+                    <!-- END talk details -->
+
+                    <!-- talk description -->
+                    {% if talk.description %}
+                      <div class="qcTogContent">
+                        <p>{{ talk.description }}</p>
+                      </div>
+                    {% endif %}
+                    <!-- END talk description -->
+
+                      </li>
+                      <!-- END item li tag -->
+
+                    {% endfor %}
+                    <!-- END items in track loop -->
+
+                    {% if section.size > 1 %}
+                        </ul>
+                      </div>
+                     </div>
+                   {% endif %}
+                  <!-- END track details split head -->
+
+                  {% endfor %}
+                  <!-- END track details -->
+
+                  {% if section.size > 1 %}
+                      </div>
+                    </div>
+                  </li>
+                {% endif %}
+                <!-- END track split header -->
+
+              {% endfor %}
+              <!-- END section loop -->
+            </ul>
+            <!-- END day details -->
+          </div>
+        </div>
+        <!-- END day header -->
+      {% endfor %}
+      <!-- END day loop -->
+    </div>
+  </div>
+</section>

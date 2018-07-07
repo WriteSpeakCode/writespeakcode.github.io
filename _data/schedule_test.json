@@ -1,0 +1,67 @@
+{
+  "Wed":[
+    {
+      "All":[
+        {
+          "date":"8/1/2018 8:00am",
+          "title":"Registration",
+          "speaker":null,
+          "location":"Microsoft Main Space",
+          "track":"All",
+          "day":"Write/Passion",
+          "day_section":1,
+          "key":"Wed--1--All--registration",
+          "dt":"2018-08-01T08:00:00.000+00:00",
+          "dayname":"Wed",
+          "time":" 8:00 AM",
+          "date_order":"2018-08-01-08-00",
+          "section":1,
+          "title_key":"registration"
+        }
+      ]
+    },
+    {
+      "Foundations":[
+        {
+          "date":"8/1/2018 11:00am",
+          "title":"Foundations of Thought Leadership: Reframing your Narrative",
+          "speaker":[
+            "angie-jones",
+            "write-speak-code"
+          ],
+          "location":"Microsoft Main Space",
+          "track":"Foundations",
+          "day":"Write/Passion",
+          "day_section":2,
+          "key":"Wed--2--Foundations--foundations-of-thought-leadersh",
+          "dt":"2018-08-01T11:00:00.000+00:00",
+          "dayname":"Wed",
+          "time":"11:00 AM",
+          "date_order":"2018-08-01-11-00",
+          "section":2,
+          "title_key":"foundations-of-thought-leadersh"
+        }
+      ],
+      "Explorations":[
+        {
+          "date":"8/1/2018 11:00am",
+          "title":"\"Writing, Performing, \u0026 Building an audience for YouTube\"",
+          "speaker":null,
+          "location":"Loft Space",
+          "track":"Explorations",
+          "day":"Write/Passion",
+          "day_section":2,
+          "key":"Wed--2--Explorations--writing-performing-building-an-",
+          "dt":"2018-08-01T11:00:00.000+00:00",
+          "dayname":"Wed",
+          "time":"11:00 AM",
+          "date_order":"2018-08-01-11-00",
+          "section":2,
+          "title_key":"writing-performing-building-an-"
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,46 @@
+---
+layout: conference
+title: 2018 Write/Speak/Code Conference | Aug 1-4 | NYC
+meta_title: 2018 Write/Speak/Code Conference Schedule
+meta_description:
+<!-- href: https://2018.writespeakcode.com/index.html -->
+social_title: 2018 Write/Speak/Code Conference for Women & Nonbinary Coders
+social_description: Level up your career over 4 days designed to fully own your expertise through writing, speaking, and open source.
+<!-- open_graph_img: https://2018.writespeakcode.com/assets/img/write-speak-code-conference.jpg
+twitter_img: https://2018.writespeakcode.com/assets/img/WSC-coral-bg.jpg -->
+body_class: "conference conference-talks"
+---
+
+<section class="schedule-section anchor-section" id="talks">
+    <div class="qcTabTitle qcContainer clearfix">
+      <div class="row middle-sm">
+      <div class="col-xs-12 col-sm-6">
+        <h2 class="section-title">Talks</h2>
+      </div>
+    </div>
+    </div>
+    <div class="hentry qcContainer">
+      <ul class="qcScheduleList">
+
+        {% for talk in site.data.talks %}
+          <li class="notoggle">
+            <div class="clearfix">
+              <div class="col-10 col">
+                <h3>{{ talk.title }}</h3>
+                {% include talk_speaker_list.html item=talk %}
+              </div>
+            </div>
+
+            <p>
+            {% if talk.description %}
+              {{ talk.description }}
+          {% else %}
+            <i>Details coming soon!</i>
+          {% endif %}
+            </p>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+</section>

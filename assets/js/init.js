@@ -116,7 +116,7 @@ $('#qcVenueContentTabs').tabslet();
 
 // --------- 6. TIPSY ----------  //
 
-$('.tips').tipsy({gravity: 's'});
+$('.tips').tipsy({gravity: 'e'});
 
 
 

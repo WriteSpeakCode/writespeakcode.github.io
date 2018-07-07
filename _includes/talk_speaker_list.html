@@ -1,0 +1,22 @@
+{% unless include.item.speaker == empty %}
+  <ul class="qcSchSpeakers clearfix">
+    {% for speaker in include.item.speaker %}
+      {% assign speaker_data = site.data.hash_of_speakers[speaker] %}
+
+      <li>
+        {% if speaker_data %}
+          <p class="speakers">{{ speaker_data.name }}</p>
+          {% if speaker_data.headshot_filename %}
+            <a href="speakers.html#{{ speaker_data.key }}" class="tips" title="{{ speaker_data.bio }}">
+              <img src="{{ speaker_data.headshot_filename | prepend: "/assets/img/speakers/"  | prepend: site.baseurl }}" alt="{{ speaker_data.name }} headshot" nopin="nopin" />
+            </a>
+          {% endif %}
+        {% else %}
+          <p class="speakers">{{ speaker }}</p>
+        {% endif %}
+      </li>
+
+    {% endfor %}
+  </ul>
+{% endunless %}
+

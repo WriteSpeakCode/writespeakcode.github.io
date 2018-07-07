@@ -2,7 +2,7 @@
 layout: conference
 title: 2018 Write/Speak/Code Conference | Aug 1-4 | NYC
 meta_title: 2018 Write/Speak/Code Conference
-meta_description: 
+meta_description:
 <!-- href: https://2018.writespeakcode.com/index.html -->
 social_title: 2018 Write/Speak/Code Conference for Women & Nonbinary Coders
 social_description: Level up your career over 4 days designed to fully own your expertise through writing, speaking, and open source.
@@ -18,7 +18,16 @@ twitter_img: https://2018.writespeakcode.com/assets/img/WSC-coral-bg.jpg -->
     </div>
       <div class="qcContainer qcTabDesc">
         <p class="qcTabDesc">
-          Write/Speak/Code is an <strong>intensive, four-day, hands-on conference</strong> with workshops, personalized feedback sessions, panels, and talks by talented women and non-binary coders. Each day of the conference is themed: Write/Visibility Day, Speak/Leadership Day, Code/Project Day and Growth. Attendees leave the conference having <strong>developed blog posts, conference talks, open source  contributions</strong>, and more. We provide <strong>actionable next steps</strong> and a <strong>supportive community</strong> to keep attendees accountable to the goals they set at the conference and beyond.
+        Write/Speak/Code is an
+        <strong>intensive, four-day, hands-on conference</strong>
+        with workshops, personalized feedback sessions, panels, and talks by
+        talented women and non-binary coders. Each day of the conference is
+        themed: Write/Visibility Day, Speak/Leadership Day, Code/Project Day
+        and Growth. Attendees leave the conference having
+        <strong>developed blog posts, conference talks, open source contributions</strong>,
+        and more. We provide <strong>actionable next steps</strong>
+        and a <strong>supportive community</strong> to keep attendees
+        accountable to the goals they set at the conference and beyond.
         </p><br/>
         <p class="qcTabDesc">
           Our conference features two tracks:
@@ -37,11 +46,35 @@ twitter_img: https://2018.writespeakcode.com/assets/img/WSC-coral-bg.jpg -->
   </div>
 </section>
 
-
-{% include speakers.html %}
-
-{% include talks.html %}
-
 {% include location.html %}
 
 {% include scholarships.html %}
+
+{% include faqs.html %}
+
+<!-- ORGANIZERS SECTION -->
+  <section class="organizers-section">
+    <div class="qcContainer">
+      <h5 class="organizers-title">Meet the Organizers</h5>
+      <div class="row">
+
+        {% for organizer in site.data.organizers %}
+          <div class="col-xs-4 col-sm-2 organizer">
+
+            {% if organizer.headshot_filename %}
+              <img src="{{ organizer.headshot_filename | prepend: "/assets/img/speakers/"  | prepend: site.baseurl }}" alt="{{organizer.name}} headshot" nopin="nopin">
+            {% else %}
+              <img src="{{ "/assets/img/speakers/wsc-speak-placeholder.png"  | prepend: site.baseurl }}" alt="{{organizer.name}} headshot" nopin="nopin">
+            {% endif %}
+
+            <p>
+              {{ organizer.name }}
+            </p>
+
+            <a target="_blank" rel="noopener" href="https://www.twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>
+          </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </section>

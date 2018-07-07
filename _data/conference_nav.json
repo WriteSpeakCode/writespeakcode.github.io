@@ -1,0 +1,45 @@
+[
+  {
+    "text": "About",
+    "url": "index.html#about"
+  },
+  {
+    "text": "Schedule",
+    "url": "schedule.html"
+  },
+  {
+    "text": "Speakers",
+    "url": "speakers.html"
+  },
+  {
+    "text": "Talks",
+    "url": "talks.html"
+  },
+  {
+    "text": "Location",
+    "url": "index.html#location",
+    "mobile_only": true
+  },
+  {
+    "text": "Scholarships",
+    "url": "index.html#scholarships"
+  },
+  {
+    "text": "Sponsors",
+    "url": "#sponsors"
+  },
+  {
+    "text": "Code of Conduct",
+    "url": "#code-of-conduct"
+  },
+  {
+    "text": "Testimonials",
+    "url": "#testimonials",
+    "mobile_only": true
+  },
+  {
+    "text": "FAQ",
+    "url": "index.html#faq",
+    "mobile_only": true
+  }
+]

@@ -1,0 +1,94 @@
+[
+   {
+      "key":"neha-batra",
+      "name":"Neha Batra",
+      "twitter":"nerdneha",
+      "headshot_filename":"neha.jpg",
+      "order":1,
+      "role":"Director",
+      "pronouns":"she/her"
+   },
+   {
+      "key":"rebecca-miller-webster",
+      "name":"Rebecca Miller-Webster",
+      "twitter":"rmillerwebster",
+      "headshot_filename":"rebecca-miller-webster.jpg",
+      "order":1,
+      "role":"Director",
+      "pronouns":"she/her"
+   },
+   {
+      "key":"lateesha-thomas",
+      "name":"Lateesha Thomas",
+      "twitter":"lateeshathomas",
+      "headshot_filename":"lateesha-thomas.jpg",
+      "order":1,
+      "role":"Director",
+      "pronouns":"she/her"
+   },
+   {
+      "key":"marie-casabonne",
+      "name":"Marie Casabonne",
+      "twitter":"goodcasa",
+      "headshot_filename":"marie-casabonne.jpg",
+      "order":2,
+      "role":"Board",
+      "pronouns":"she/her"
+   },
+   {
+      "key":"dalal-al-rayes",
+      "name":"Dalal Al Rayes",
+      "twitter":"dalrayes",
+      "headshot_filename":"dalal-alrayes.jpg",
+      "order":2,
+      "role":"Board",
+      "pronouns":"she/her"
+   },
+   {
+      "key":"ifeoma-okereke",
+      "name":"Ifeoma Okereke",
+      "twitter":"IfeomaRO",
+      "headshot_filename":"ifeoma-okereke.jpg",
+      "order":4,
+      "pronouns":"she/her"
+   },
+   {
+      "key":"zoe-gagnon",
+      "name":"Zoe Gagnon",
+      "twitter":"UnusedPotential",
+      "order":5,
+      "pronouns":"she/her"
+   },
+   {
+      "key":"kara-carrell",
+      "name":"Kara Carrell",
+      "twitter":"KaraAJC",
+      "headshot_filename":"kara-carrell.png",
+      "order":5,
+      "pronouns":"she/her"
+   },
+   {
+      "key":"lisa-van-gelder",
+      "name":"Lisa van Gelder",
+      "twitter":"lisa_van_gelder",
+      "headshot_filename":"lisa-van-gelder.jpg",
+      "order":5,
+      "pronouns":"she/her"
+   },
+   {
+      "key":"rebecca-long",
+      "name":"Rebecca Long",
+      "twitter":"amaya30",
+      "headshot_filename":"rebecca-long.jpg",
+      "order":5,
+      "pronouns":"she/her"
+   },
+   {
+      "key":"alex-millatmal",
+      "name":"Alex Millatmal",
+      "twitter":"halfghaninNE",
+      "headshot_filename":"alexandra-millatmal.jpg",
+      "order":5,
+      "pronouns":"she/her"
+   }
+]

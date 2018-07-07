@@ -1,4 +1,9 @@
 {
+   "sponsor":{
+      "speaker_order":-1,
+      "name":"(Sponsor)",
+      "key":"sponsor"
+   },
    "cate-huston":{
       "headshot_filename":"cate-huston.jpg",
       "bio":"Cate has spent her career working on mobile and documenting everything she learns using WordPress. Now she combines the two as Automattic's mobile lead.",
@@ -8,6 +13,19 @@
       "speaker_order":1,
       "name":"Cate Huston",
       "key":"cate-huston"
+   },
+   "jenn-schiffer":{
+      "headshot_filename":"jenn-schiffer.jpg",
+      "bio":"Jenn Schiffer is an engineer, artist and tech humorist. Most people know her for her incredible strength and also for being the Community Engineer of Glitch.com at Fog Creek. She organizes JerseyScript, a monthly web developer social in Jersey City where she's based, and built everyone's favorite free online pixel art editor, Make8BitArt.com.",
+      "github":"jennschiffer",
+      "twitter":"jennschiffer",
+      "website":"http://jennmoney.biz/",
+      "job_title":"Community Engineer of Glitch.com",
+      "company":"Fog Creek",
+      "pronouns":"she/her",
+      "speaker_order":1,
+      "name":"Jenn Schiffer",
+      "key":"jenn-schiffer"
    },
    "mina-markham":{
       "headshot_filename":"mina-markham.jpg",
@@ -33,6 +51,17 @@
       "name":"Amy Wibowo",
       "key":"amy-wibowo"
    },
+   "chiu-ki-chan":{
+      "headshot_filename":"chiu-ki-chan.jpg",
+      "bio":"Chiu-Ki Chan is an Android developer with a passion in speaking and teaching. She has spoken at numerous conferences all over the world, and has been recognized as a Google Developer Expert for her extensive knowledge in Android. She hopes to make the tech industry a better place by encouraging more underrepresented minorities to write, speak, code, and be visible.",
+      "github":"chiuki",
+      "twitter":"chiuki",
+      "website":"blog.sqisland.com",
+      "pronouns":"she/her",
+      "speaker_order":2,
+      "name":"Chiu-ki Chan",
+      "key":"chiu-ki-chan"
+   },
    "liz-fong-jones":{
       "headshot_filename":"liz-fong-jones.jpg",
       "bio":"Liz is a Staff Site Reliability Engineer at Google and works on the Google Cloud Customer Reliability Engineering team in New York. She lives with her wife, metamour, and a Samoyed in Brooklyn. In her spare time, she plays classical piano, leads an EVE Online alliance, and advocates for transgender rights.",
@@ -46,23 +75,27 @@
       "name":"Liz Fong-Jones",
       "key":"liz-fong-jones"
    },
-   "chiu-ki-chan":{
-      "headshot_filename":"chiu-ki-chan.jpg",
-      "bio":"Chiu-Ki Chan is an Android developer with a passion in speaking and teaching. She has spoken at numerous conferences all over the world, and has been recognized as a Google Developer Expert for her extensive knowledge in Android. She hopes to make the tech industry a better place by encouraging more underrepresented minorities to write, speak, code, and be visible.",
-      "github":"chiuki",
-      "twitter":"chiuki",
-      "website":"blog.sqisland.com",
-      "pronouns":"she/her",
-      "speaker_order":2,
-      "name":"Chiu-ki Chan",
-      "key":"chiu-ki-chan"
-   },
    "angie-jones":{
       "headshot_filename":"angie-jones.jpg",
+      "bio":"Angie Jones is a Senior Automation Engineer at Twitter who has developed automation strategies and frameworks for countless software products. As a Master Inventor, she is known for her innovative and out-of-the-box thinking style which has resulted in more than 25 patented inventions in the US and China. Angie shares her wealth of knowledge by speaking and teaching at software conferences all over the world and leading tech workshops for young girls through Black Girls Code.",
+      "github":"angiejones",
       "twitter":"techgirl1908",
+      "linkedin":"https://linkedin.com/in/angiejones",
+      "website":"http://angiejones.com",
+      "job_title":"Senior Automation Engineer",
+      "company":"Twitter",
+      "pronouns":"she/her",
       "speaker_order":2,
       "name":"Angie Jones",
       "key":"angie-jones"
+   },
+   "jamie-chung":{
+      "headshot_filename":"jamie-chung.jpg",
+      "twitter":"jamieshark_",
+      "pronouns":"they/them",
+      "speaker_order":2,
+      "name":"Jamie Chung",
+      "key":"jamie-chung"
    },
    "sara-wachter-boettcher":{
       "headshot_filename":"sara-wachter-boettcher.png",
@@ -72,13 +105,19 @@
       "name":"Sara Wachter-Boettcher",
       "key":"sara-wachter-boettcher"
    },
-   "jamie-chung":{
-      "headshot_filename":"jamie-chung.jpg",
-      "twitter":"jamieshark_",
-      "pronouns":"they/them",
+   "christina-warren":{
+      "headshot_filename":"christina-warren.jpg",
+      "bio":"Christina Warren is a Senior Cloud Developer Advocate at Microsoft, where she helps shape the overall video and broader content strategy for Channel 9, Docs.Microsoft.com, and the greater CDA team. In this role, she hosts shows on Channel 9, Microsoft’s video channel for developer content, speaks at events, and interviews people within the developer community.\n\nPrior to joining Microsoft, Christina spent a decade in digital media as an editor, senior reporter, and commentator, with a focus on technology, business, and, entertainment. As a journalist, she appeared as an expert or commentator on ABC, NBC, CBS, CNN, CNBC, Fox News, Fox Business, Bloomberg, the BBC, Marketplace Radio, The Today Show, Good Morning America, and many more outlets.\n\nShe also co-hosts Rocket, a popular tech news podcast, which has the distinction of being one of the only tech podcasts with an all-female hosting team.",
+      "github":"Filmgirl",
+      "twitter":"Film_girl",
+      "linkedin":"http://www.linkedin.com/in/filmgirl",
+      "website":"Christina.wtf",
+      "job_title":"Senior Cloud Developer Advocate",
+      "company":"Microsoft",
+      "pronouns":"she/her",
       "speaker_order":2,
-      "name":"Jamie Chung",
-      "key":"jamie-chung"
+      "name":"Christina Warren",
+      "key":"christina-warren"
    },
    "catt-small":{
       "headshot_filename":"catt-small.jpeg",
@@ -107,33 +146,25 @@
       "name":"Rebecca Miller-Webster",
       "key":"rebecca-miller-webster"
    },
-   "jiaqi-liu":{
-      "headshot_filename":"jiaqi-liu.jpg",
-      "bio":"Jiaqi is a Software Engineer at Button building out their data platform. Prior to this, she was a Principal Data Scientist at Capital One Labs, where she worked on a variety of prototypes leveraging data science, design thinking and software engineering to improve financial wellness for consumers. She is passionate about challenges in bridging the gap between the science and engineering part of data-driven work. Outside of work, she is a Director at Women Who Code NYC and active in the NYC Python Community.",
-      "github":"@jiaqi216",
-      "twitter":"jiaqicodes",
-      "linkedin":"https://www.linkedin.com/in/jiaqi-liu-4873b745/",
-      "website":"N/A",
-      "job_title":"Software Engineer",
-      "company":"Button",
-      "pronouns":"she/her",
-      "name":"Jiaqi Liu",
-      "key":"jiaqi-liu",
-      "speaker_order":5
-   },
-   "kara-carrell":{
-      "headshot_filename":"kara-carrell.png",
-      "twitter":"KaraAJC",
-      "name":"Kara Carrell",
-      "key":"kara-carrell",
-      "speaker_order":5
-   },
    "katel-ledu":{
       "headshot_filename":"katel-ledu .jpg",
       "bio":"Katel LeDû is the CEO of A Book Apart, where she helps passionate tech community members become successful authors. Previously, she worked with _National Geographic_ as their digital director of photography, and has been in publishing since the early aughts. She’s seen a lot. She enjoys running (no, really) and learning the secrets of life from her snaggle-toothed mutt, Hugo.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
       "twitter":"theledu",
       "name":"Katel LeDû",
       "key":"katel-ledu",
+      "speaker_order":5
+   },
+   "katrina-owen":{
+      "headshot_filename":"wsc-code-placeholder.png",
+      "twitter":"kytrinyx",
+      "name":"Katrina Owen",
+      "key":"katrina-owen",
+      "speaker_order":5
+   },
+   "kortney-ziegler":{
+      "twitter":"fakerapper",
+      "name":"Kortney Ziegler",
+      "key":"kortney-ziegler",
       "speaker_order":5
    },
    "nishat-anjum":{
@@ -203,6 +234,25 @@
       "key":"sravanti-tekumalla",
       "speaker_order":5
    },
+   "tanya-reilly":{
+      "bio":"I'm a principal engineer at Squarespace, focused on Site Reliability. Before that, I spent 12 years at Google. I like Raspberry pi, Go, coding on trains, making silly games for my five year old, and convincing women to talk at conferences.",
+      "github":"whereistanya",
+      "twitter":"whereistanya",
+      "linkedin":"https://www.linkedin.com/in/tanyareilly/",
+      "website":"http://noidea.dog",
+      "job_title":"Principal engineer",
+      "company":"Squarespace",
+      "pronouns":"she/her",
+      "name":"Tanya Reilly",
+      "key":"tanya-reilly",
+      "speaker_order":5
+   },
+   "tiffany-mikell":{
+      "twitter":"mikellsolution",
+      "name":"Tiffany Mikell",
+      "key":"tiffany-mikell",
+      "speaker_order":5
+   },
    "amelia-downs":{
       "headshot_filename":"amelia-downs.jpg",
       "bio":"Software engineer at Pivotal Cloud Foundry",
@@ -224,6 +274,19 @@
       "pronouns":"she/her",
       "name":"Ann Guilinger",
       "key":"ann-guilinger",
+      "speaker_order":5
+   },
+   "anna-neyzberg":{
+      "headshot_filename":"anna-neyzberg.jpg",
+      "bio":"Anna Neyzberg is a San Francisco native who has done a lot of work in the ruby community in SF and currently sits on the board of RailsBridge. She has taken this community organizing experience and 2 years ago co-founded ElixirBridge in SF- an organization that offers free weekend long workshops, with the goal of creating an inclusive welcoming space for under-represented populations in tech to learn elixir. By day she works as a Developer at Carbon Five. When not in front of a keyboard, she is trying to get better at climbing rocks.",
+      "github":"aneyzberg",
+      "twitter":"aneyzb",
+      "linkedin":"https://www.linkedin.com/in/anna-neyzberg-93545316/",
+      "job_title":"Software Engineer",
+      "company":"Carbon Five",
+      "pronouns":"she/her",
+      "name":"Anna Neyzberg",
+      "key":"anna-neyzberg",
       "speaker_order":5
    },
    "bonnie-pan":{
@@ -283,6 +346,11 @@
       "key":"evelyn-masso",
       "speaker_order":5
    },
+   "fureigh":{
+      "name":"Fureigh",
+      "key":"fureigh",
+      "speaker_order":5
+   },
    "heather-herrington":{
       "headshot_filename":"heather-herrington.jpg",
       "bio":"From emergency and shelter veterinarian to event planning business owner to software developer, Heather has had quite the career path. She was a member of Cohort 6 at Ada Developer's Academy in Seattle, but calls Pittsburgh home. She's childfree by choice and has filled her house with an amazing husband, a snuggly pit bull, and three cats who live on the heat vents. In her free time, she enjoys baking, sewing, traveling, and cardio boxing.",
@@ -306,6 +374,29 @@
       "pronouns":"she/her",
       "name":"Hilary Stohs-Krause",
       "key":"hilary-stohs-krause",
+      "speaker_order":5
+   },
+   "jiaqi-liu":{
+      "headshot_filename":"jiaqi-liu.jpg",
+      "bio":"Jiaqi is a Software Engineer at Button building out their data platform. Prior to this, she was a Principal Data Scientist at Capital One Labs, where she worked on a variety of prototypes leveraging data science, design thinking and software engineering to improve financial wellness for consumers. She is passionate about challenges in bridging the gap between the science and engineering part of data-driven work. Outside of work, she is a Director at Women Who Code NYC and active in the NYC Python Community.",
+      "github":"@jiaqi216",
+      "twitter":"jiaqicodes",
+      "linkedin":"https://www.linkedin.com/in/jiaqi-liu-4873b745/",
+      "job_title":"Software Engineer",
+      "company":"Button",
+      "pronouns":"she/her",
+      "name":"Jiaqi Liu",
+      "key":"jiaqi-liu",
+      "speaker_order":5
+   },
+   "kara-carrell":{
+      "headshot_filename":"kara-carrell.png",
+      "github":"KaraAJC",
+      "twitter":"KaraAJC",
+      "linkedin":"https://linkedin.com/in/karaajc",
+      "pronouns":"she/her",
+      "name":"Kara Carrell",
+      "key":"kara-carrell",
       "speaker_order":5
    },
    "write-speak-code":{

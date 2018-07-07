@@ -2,19 +2,17 @@
 <!-- ## TABLET & DESKTOP NAV ### -->
   <section class="nav-section">
     <nav class="middleHeader">
-        <ul>
-          {% comment %}<li><a href="#schedule" class="link white">Schedule</a></li>{% endcomment %}
-          <li><a href="#about" class="link">About</a></li>
-          <li><a href="#speakers" class="link">Speakers</a></li>
-          <li><a href="#talks" class="link">Talks</a></li>
-          <li><a href="#location" class="link">Location</a></li>
-          <li><a href="#scholarships" class="link">Scholarships</a></li>
-          <li><a href="#sponsors" class="link">Sponsors</a></li>
-          <li><a href="#code-of-conduct" class="link">Code of Conduct</a></li>
-          <li><a href="#faq" class="link">FAQ's</a></li>
-          <li id="tito-button"><tito-button event="write-speak-code/2018-conference">Register Now</tito-button></li>
-        </ul>
-      </nav>
+      <ul>
+        {% for nav_item in site.data.conference_nav %}
+          {% unless nav_item.mobile_only %}
+            <a href="{{ nav_item.url }}" class="link">
+              <li>{{ nav_item.text }}</li>
+            </a>
+          {% endunless %}
+        {% endfor %}
+        <li id="tito-button"><tito-button event="write-speak-code/2018-conference">Register Now</tito-button></li>
+      </ul>
+    </nav>
   </section>
 
 
@@ -36,16 +34,13 @@
           <h4>Navigation</h4>
           <ul id="qcPriNav">
             <li class="active"><a href="#">Top</a></li>
-            {% comment %}<li><a href="#schedule">Schedule</a></li>{% endcomment %}
-            <li><a href="#about" class="link">About</a></li>
-            <li><a href="#speakers">Speakers</a></li>
-            <li><a href="#talks" class="link white">Talks</a></li>
-            <li><a href="#location">Location</a></li>
-            <li><a href="#scholarships" class="link">Scholarships</a></li>
-            <li><a href="#sponsors">Sponsors</a></li>
-            <li><a href="#code-of-conduct">Code of Conduct</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#faq">FAQ</a></li>
+            {% for nav_item in site.data.conference_nav %}
+              <li>
+                <a href="{{ nav_item.url }}" class="link">
+                  {{ nav_item.text }}
+                </a>
+              </li>
+            {% endfor %}
             <li id="nav-register"><a href="https://ti.to/write-speak-code/2018-conference/" class="video" target="_blank" rel="noopener">Register Now</a></li>
           </ul>
           <div id="qcCloseNav"></div>

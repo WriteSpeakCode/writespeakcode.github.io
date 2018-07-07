@@ -1,0 +1,22 @@
+[
+  {
+    schedule_key: "Wed",
+    title_display: "Write / Passion Day",
+    date_display: "Wed Aug 1, 2018"
+  },
+  {
+    schedule_key: "Thu",
+    title_display: "Speak / Leadership Day",
+    date_display: "Thur Aug 2, 2018"
+  },
+  {
+    schedule_key: "Fri",
+    title_display: "Code / Ethics Day",
+    date_display: "Fri Aug 3, 2018"
+  },
+  {
+    schedule_key: "Sat",
+    title_display: "Growth Day",
+    date_display: "Sat Aug 4, 2018"
+  }
+]

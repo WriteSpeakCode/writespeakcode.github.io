@@ -17,28 +17,30 @@ body_class: "conference conference-talks"
       <div class="col-xs-12 col-sm-6">
         <h2 class="section-title">Talks</h2>
       </div>
-    </div>
+      </div>
     </div>
     <div class="hentry qcContainer">
       <ul class="qcScheduleList">
 
         {% for talk in site.data.talks %}
-          <li class="notoggle">
-            <div class="clearfix">
-              <div class="col-10 col">
-                <h3>{{ talk.title }}</h3>
-                {% include talk_speaker_list.html item=talk %}
+          {% if talk.talk_order != -1 and talk.talk_type != "food" and talk.talk_type != "post-conference-event" and talk.talk_type != null %}
+            <li class="notoggle">
+              <div class="clearfix">
+                <div class="col-10 col">
+                  <h3>{{ talk.title }}</h3>
+                  {% include talk_speaker_list.html item=talk %}
+                </div>
               </div>
-            </div>
 
-            <p>
-            {% if talk.description %}
-              {{ talk.description }}
-          {% else %}
-            <i>Details coming soon!</i>
+              <p>
+              {% if talk.description %}
+                {{ talk.description }}
+              {% else %}
+                <i>Details coming soon!</i>
+              {% endif %}
+              </p>
+            </li>
           {% endif %}
-            </p>
-          </li>
         {% endfor %}
 
       </ul>

@@ -552,17 +552,20 @@ a.link.white {
   .schedule-section .qcScheduleList > li.food {
     background-color: #f2f2f2; }
   .schedule-section .qcScheduleList > li.post-conference-event {
-    background-color: #172751; }
+    background-color: #172751;
+    color: #fff; }
     .schedule-section .qcScheduleList > li.post-conference-event .time {
       color: #F1D8D3; }
     .schedule-section .qcScheduleList > li.post-conference-event h3 {
+      color: #fff; }
+    .schedule-section .qcScheduleList > li.post-conference-event small {
       color: #fff; }
   .schedule-section .qcScheduleList > li h3.schedule-tbd {
     font-style: italic;
     font-size: 1em;
     text-transform: none; }
   .schedule-section .qcScheduleList > li h3 {
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
     font-size: 1.2em;
     text-transform: none;
     color: #172751; }

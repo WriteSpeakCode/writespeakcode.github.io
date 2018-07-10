@@ -1,0 +1,26 @@
+<div class="level-title">
+  <h2>{{ include.package.title }}</h2>
+</div>
+
+<div class="sponsor-row {{ include.package.key }}">
+  {% for sponsor_key in include.package.items %}
+    {% assign sponsor = site.data.sponsors.companies[sponsor_key] %}
+
+    <div class="sponsor">
+      <div class="sponsor-container">
+
+        <a class="sponsor-logo" href="{{ sponsor.url }}" target="_blank" rel="noopener" title="Write/Speak/Code sponsor {{ sponsor.name }}">
+          <img src="{{ sponsor.image | prepend: "/assets/img/logos/" | prepend: site.baseurl }}" alt="Write/Speak/Code sponsor {{ sponsor.name }} logo"/>
+        </a>
+
+        {% if include.package.show_description and sponsor.description %}
+          {% for desc in sponsor.description %}
+            <p>{{ desc }}</p>
+          {% endfor %}
+        {% endif %}
+
+      </div>
+    </div>
+  {% endfor %}
+</div>
+

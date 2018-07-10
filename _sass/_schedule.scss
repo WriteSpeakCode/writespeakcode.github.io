@@ -136,12 +136,15 @@
 
       &.post-conference-event {
         background-color: $brand-dark;
+        color: $white;
 
         .time { color: $brand-blush; }
 
         h3 {
           color: $white;
         }
+
+        small { color: $white; }
       }
 
       h3.schedule-tbd {
@@ -151,7 +154,7 @@
       }
 
       h3 {
-        padding-bottom: 1em;
+        padding-bottom: 1.5em;
         font-size: 1.2em;
         text-transform: none;
         color: $brand-dark;

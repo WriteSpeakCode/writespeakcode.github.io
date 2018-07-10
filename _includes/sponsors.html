@@ -1,160 +1,49 @@
 <!-- ## SPONSOR SECTION ## -->
-
-  <section class="sponsors qcContainer anchor-section" id="sponsors">
-    <div class="qcTabTitle clearfix">
-      <div>
-        <div class="col-4 col">
-          <h2 class="section-title">Sponsors</h2>
-        </div>
-        <div class="col-8 col">
-          <p class="qcTabDesc">For great employers, sponsorship is the most effective way to recruit talented, driven women and non-binary coders to fill key technical positions and demonstrate your commitment to the professional development of people of underrepresented genders at your organization. Write/Speak/Code is a 501c3 nonprofit. Contact <a href="mailto:sponsor@writespeakcode.com" target="_top">sponsor@writespeakcode.com</a> to learn more.<br /> <br />
-            <a href="{{ "/assets/WSC-SponsorshipProspectus-2018.pdf" | prepend: site.baseurl }}" target="_blank" rel="noopener" class="link coral">Read our 2018 Prospectus</a>
-        </div>
+<section class="sponsors qcContainer anchor-section" id="sponsors">
+  <div class="qcTabTitle clearfix">
+    <div>
+      <div class="col-4 col">
+        <h2 class="section-title">Sponsors</h2>
+      </div>
+      <div class="col-8 col">
+        <p class="qcTabDesc">For great employers, sponsorship is the most effective way to recruit talented, driven women and non-binary coders to fill key technical positions and demonstrate your commitment to the professional development of people of underrepresented genders at your organization. Write/Speak/Code is a 501c3 nonprofit. Contact <a href="mailto:sponsor@writespeakcode.com" target="_top">sponsor@writespeakcode.com</a> to learn more.<br /> <br />
+        <a href="{{ "/assets/WSC-SponsorshipProspectus-2018.pdf" | prepend: site.baseurl }}" target="_blank" rel="noopener" class="link coral">Read our 2018 Prospectus</a>
       </div>
     </div>
+  </div>
 
-    <div class="all-sponsors">
-      <div class="level-title">
-        <h2>Platinum</h2>
-      </div>
-      <div class="sponsor-row platinum">
-        <div class="sponsor">
-          <div class="sponsor-container">
 
-            <a class="sponsor-logo" href="https://github.com" target="_blank" rel="noopener">
-              <img src="{{ "/assets/img/logos/github-logo.png" | prepend: site.baseurl }}" alt="Conference sponsor Github logo"/>
-            </a>
+  <div class="all-sponsors">
+    {% for package in site.data.sponsors.packages %}
 
-            <p>GitHub is how people build software. Millions of individuals and organizations around the world use GitHub to discover, share, and collaborate on software—from games and experiments to popular frameworks and leading applications. Together, we're defining how software is built today.</p>
+      {% if package.items.size > 0 %}
+        {% if include.is_conf == false or package.show_conf == include.is_conf %}
+          {% include sponsor_item.html package=package %}
+        {% endif %}
+      {% endif %}
 
-            <p>Whether you use GitHub.com or GitHub Enterprise on your own servers, you can access one of the world's largest developer communities to build software in the way that works best for you. Choose your deployment option and integrate your favorite third party tools into a powerful, collaborative workflow.</p>
-          </div>
-        </div>
-      </div>
+    {% endfor %}
 
-      <div class="level-title">
-        <h2>Gold</h2>
-      </div>
-      <div class="sponsor-row gold">
-        <div class="sponsor">
-          <div class="sponsor-container">
-             <a class="sponsor-logo" href="https://www.nytimes.com" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/nytimes-logo.jpg" | prepend: site.baseurl }}" alt="Conference sponsor NY Times logo"/></a>
-              <p>The New York Times Company is a global media organization dedicated to enhancing society by creating, collecting and distributing high-quality news and information. The Company includes The New York Times, NYTimes.com and related properties. It is known globally for excellence in its journalism, and innovation in its print and digital storytelling and its business model. Follow news about the company at @NYTimesPR.</p>
-          </div>
-        </div>
-        <div class="sponsor">
-          <div class="sponsor-container">
-            <a class="sponsor-logo" href="https://developer.microsoft.com/en-us/advocates/index.html" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/microsoft-azure-logo.svg" | prepend: site.baseurl }}" alt="Conference sponsor Microsoft Azure Advocates logo"/></a>
-            <p>Microsoft Azure Advocates write, speak, and dream in code. Our global team is maniacal about making the world amazing for developers of all backgrounds. Connect with us, write code with us - let's meet up and talk cloud and all things developer!</p>
-          </div>
-        </div>
-      </div>
 
-      <div class="level-title">
-        <h2>Bronze</h2>
-      </div>
-      <div class="sponsor-row bronze">
-        <div class="sponsor">
-          <div class="sponsor-container">
-            <a class="sponsor-logo" href="http://xogroupinc.com/" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/xogroup-logo.png" | prepend: site.baseurl }}" alt="Conference childcare sponsor XO logo"/></a>
-          </div>
-        </div>
-        <div class="sponsor">
-          <div class="sponsor-container">
-            <a class="sponsor-logo" href="http://allenai.org" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/allen-institute-for-artificial-intelligence-logo.png" | prepend: site.baseurl }}" alt="Conference sponsor Allen Institute for Artificial Intelligence logo"/></a>
-          </div>
-        </div>
-      </div>
+    {% for supporter in site.data.sponsors.supporters %}
 
-      <div class="level-title">
-        <h2>Workshops</h2>
-      </div>
-      <div class="sponsor-row workshops">
-        <div class="sponsor">
-          <div class="sponsor-container">
-            <a class="sponsor-logo" href="https://www.carbonfive.com" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/carbon-5-logo.png" | prepend: site.baseurl }}" alt="Conference childcare sponsor Carbon Five logo"/></a>
-          </div>
-        </div>
-      </div>
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% unless mod == 0 %}
+        <div class="sponsor-row">
+        {% endunless %}
 
-      <div class="sponsor-row">
-        <div class="supporter">
-          <div class="level-title">
-            <h2>Accessibility</h2>
-          </div>
-          <div class="supporter-container">
-            <div class="sponsor">
-              <div class="sponsor-container">
-                <a class="sponsor-logo" href="https://developer.microsoft.com/en-us/advocates/index.html" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/microsoft-azure-logo.svg" | prepend: site.baseurl }}" alt="Conference sponsor Microsoft Azure Advocates logo"/></a>
-              </div>
+        {% if supporter.items.size > 0 %}
+          {% if include.is_conf == false or supporter.show_conf == include.is_conf %}
+            <div class="supporter">
+              {% include sponsor_item.html package=supporter %}
             </div>
-          </div>
-        </div>
+          {% endif %}
+        {% endif %}
 
-        <div class="supporter">
-          <div class="level-title">
-            <h2>Childcare</h2>
+        {% unless mod == 1 %}
           </div>
-          <div class="supporter-container">
-            <div class="sponsor">
-              <div class="sponsor-container">
-                <a class="sponsor-logo" href="https://developer.microsoft.com/en-us/advocates/index.html" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/microsoft-azure-logo.svg" | prepend: site.baseurl }}" alt="Conference sponsor Microsoft Azure Advocates logo"/></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        {% endunless %}
 
-      <div class="sponsor-row">
-        <div class="supporter">
-          <div class="level-title">
-            <h2>Headshots</h2>
-          </div>
-          <div class="supporter-container">
-            <div class="sponsor">
-              <div class="sponsor-container">
-                <a href="https://movableink.com" class="sponsor-logo" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/movable-ink-logo.png" | prepend: site.baseurl }}" alt="Conference headshot sponsor Movable Ink logo"/></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="supporter">
-          <div class="level-title">
-            <h2>Own Your Expertise</h2>
-          </div>
-          <div class="supporter-container">
-            <div class="sponsor">
-              <div class="sponsor-container">
-                <a href="https://www.generalui.com" class="sponsor-logo" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/gui-logo.png" | prepend: site.baseurl }}" alt="Own Your Expertise sponsor General UI logo"/></a>
-              </div>
-            </div>
-            <div class="sponsor">
-              <div class="sponsor-container">
-                <a href="https://www.devmynd.com/" class="sponsor-logo" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/devmynd-logo.png" | prepend: site.baseurl }}" alt="Own Your Expertise sponsor DevMynd logo"/></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="sponsor-row">
-        <div class="supporter">
-          <div class="level-title">
-            <h2>Chapters</h2>
-          </div>
-          <div class="supporter-container">
-            <div class="sponsor">
-              <div class="sponsor-container">
-                <a href="https://www.vts.com/" class="sponsor-logo" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/vts-logo.png" | prepend: site.baseurl }}" alt="Meetup chapter sponsor VTS logo"/></a>
-              </div>
-            </div>
-            <div class="sponsor">
-               <div class="sponsor-container">
-                <a href="https://movableink.com" class="sponsor-logo" target="_blank" rel="noopener"><img src="{{ "/assets/img/logos/movable-ink-logo.png" | prepend: site.baseurl }}" alt="Meetup chapter sponsor Movable Ink logo"/></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      {% endfor %}
+  </div>
+</section>

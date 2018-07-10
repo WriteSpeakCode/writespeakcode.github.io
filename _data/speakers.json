@@ -1,8 +1,48 @@
 [
    {
+      "key":"google-developer-studio",
+      "name":"Google Developer Studio",
+      "bio":"The Google Developers Studio produces video content for the Google Developers YouTube channel.  The channel features talks from events, educational series, best practices, tips, and the latest updates across our products and platforms.",
+      "website":"https://www.youtube.com/GoogleDevelopers",
+      "speaker_order":-1
+   },
+   {
+      "key":"carbon-five",
+      "name":"Carbon Five",
+      "headshot_filename":"../logos/carbon-5-logo.png",
+      "company":"Carbon Five",
+      "speaker_order":-1
+   },
+   {
       "key":"sponsor",
       "name":"(Sponsor)",
       "speaker_order":-1
+   },
+   {
+      "key":"squarespace",
+      "name":"Squarespace",
+      "headshot_filename":"../logos/squarespace-logo-stacked-black.jpg",
+      "company":"Squarespace",
+      "speaker_order":-1
+   },
+   {
+      "key":"amy-wibowo",
+      "name":"Amy Wibowo",
+      "headshot_filename":"amy-wibowo.jpg",
+      "bio":"Amy is a programmer and designer who cares about STEM and STEAM education and making the world better through human-centric design and technology. She is the founder of Bubblesort Zines—zines that explain computer science concepts via drawings and stories. Previously, she was a web dev at Airbnb, did machine learning research at Honda Research Institute in Japan, and HCI research at the University of Tokyo.",
+      "company":"Bubblesort Zines",
+      "job_title":"Founder",
+      "twitter":"sailorhg",
+      "speaker_order":1
+   },
+   {
+      "key":"lara-hogan",
+      "name":"Lara Hogan",
+      "company":"Wherewithall",
+      "job_title":"Engineering Leader, Coach, and Consultant",
+      "twitter":"lara_hogan",
+      "pronouns":"she/her",
+      "speaker_order":1
    },
    {
       "key":"cate-huston",
@@ -11,19 +51,6 @@
       "bio":"Cate has spent her career working on mobile and documenting everything she learns using WordPress. Now she combines the two as Automattic's mobile lead.",
       "twitter":"catehstn",
       "website":"https://cate.blog/",
-      "pronouns":"she/her",
-      "speaker_order":1
-   },
-   {
-      "key":"jenn-schiffer",
-      "name":"Jenn Schiffer",
-      "headshot_filename":"jenn-schiffer.jpg",
-      "bio":"Jenn Schiffer is an engineer, artist and tech humorist. Most people know her for her incredible strength and also for being the Community Engineer of Glitch.com at Fog Creek. She organizes JerseyScript, a monthly web developer social in Jersey City where she's based, and built everyone's favorite free online pixel art editor, Make8BitArt.com.",
-      "company":"Fog Creek",
-      "job_title":"Community Engineer of Glitch.com",
-      "twitter":"jennschiffer",
-      "github":"jennschiffer",
-      "website":"http://jennmoney.biz/",
       "pronouns":"she/her",
       "speaker_order":1
    },
@@ -42,14 +69,17 @@
       "speaker_order":1
    },
    {
-      "key":"amy-wibowo",
-      "name":"Amy Wibowo",
-      "headshot_filename":"amy-wibowo.jpg",
-      "bio":"Amy is a programmer and designer who cares about STEM and STEAM education and making the world better through human-centric design and technology. She is the founder of Bubblesort Zines—zines that explain computer science concepts via drawings and stories. Previously, she was a web dev at Airbnb, did machine learning research at Honda Research Institute in Japan, and HCI research at the University of Tokyo.",
-      "company":"Bubblesort Zines",
-      "job_title":"Founder",
-      "twitter":"sailorhg",
-      "speaker_order":1
+      "key":"jenn-schiffer",
+      "name":"Jenn Schiffer",
+      "headshot_filename":"jenn-schiffer.jpg",
+      "bio":"Jenn Schiffer is an engineer, artist and tech humorist. Most people know her for her incredible strength and also for being the Community Engineer of Glitch.com at Fog Creek. She organizes JerseyScript, a monthly web developer social in Jersey City where she's based, and built everyone's favorite free online pixel art editor, Make8BitArt.com.",
+      "company":"Fog Creek",
+      "job_title":"Community Engineer of Glitch.com",
+      "twitter":"jennschiffer",
+      "github":"jennschiffer",
+      "website":"http://jennmoney.biz/",
+      "pronouns":"she/her",
+      "speaker_order":2
    },
    {
       "key":"chiu-ki-chan",
@@ -59,19 +89,6 @@
       "twitter":"chiuki",
       "github":"chiuki",
       "website":"blog.sqisland.com",
-      "pronouns":"she/her",
-      "speaker_order":2
-   },
-   {
-      "key":"liz-fong-jones",
-      "name":"Liz Fong-Jones",
-      "headshot_filename":"liz-fong-jones.jpg",
-      "bio":"Liz is a Staff Site Reliability Engineer at Google and works on the Google Cloud Customer Reliability Engineering team in New York. She lives with her wife, metamour, and a Samoyed in Brooklyn. In her spare time, she plays classical piano, leads an EVE Online alliance, and advocates for transgender rights.",
-      "company":"Google",
-      "job_title":"Staff Site Reliability Engineer",
-      "twitter":"lizthegrey",
-      "github":"lizthegrey",
-      "linkedin":"https://linkedin.com/in/efong/",
       "pronouns":"she/her",
       "speaker_order":2
    },
@@ -90,6 +107,33 @@
       "speaker_order":2
    },
    {
+      "key":"catt-small",
+      "name":"Catt Small",
+      "headshot_filename":"catt-small.jpeg",
+      "bio":"Catt is a product designer, game maker, and front-end web developer. She makes awesome things at Etsy. She has done design work for companies of all sizes including SoundCloud, Bedrocket, and Nasdaq. She started coding around the age of 10 and designing at the age of 15. In 2011, she graduated from SVA with a BFA in Graphic Design and later received an MS in Integrated Digital Media from NYU in 2016. Catt also makes video games with Brooklyn Gamery and helps make STEAM industries more inclusive with Good for PoC. You can follow her @cattsmall on Twitter and view her work at www.cattsmall.com.",
+      "company":"Etsy",
+      "job_title":"Product Designer",
+      "twitter":"cattsmall",
+      "github":"cattsmall",
+      "linkedin":"http://linkedin.com/in/cattsmall",
+      "website":"http://cattsmall.com",
+      "pronouns":"she/her",
+      "speaker_order":2
+   },
+   {
+      "key":"liz-fong-jones",
+      "name":"Liz Fong-Jones",
+      "headshot_filename":"liz-fong-jones.jpg",
+      "bio":"Liz is a Staff Site Reliability Engineer at Google and works on the Google Cloud Customer Reliability Engineering team in New York. She lives with her wife, metamour, and a Samoyed in Brooklyn. In her spare time, she plays classical piano, leads an EVE Online alliance, and advocates for transgender rights.",
+      "company":"Google",
+      "job_title":"Staff Site Reliability Engineer",
+      "twitter":"lizthegrey",
+      "github":"lizthegrey",
+      "linkedin":"https://linkedin.com/in/efong/",
+      "pronouns":"she/her",
+      "speaker_order":2
+   },
+   {
       "key":"jamie-chung",
       "name":"Jamie Chung",
       "headshot_filename":"jamie-chung.jpg",
@@ -98,11 +142,10 @@
       "speaker_order":2
    },
    {
-      "key":"sara-wachter-boettcher",
-      "name":"Sara Wachter-Boettcher",
-      "headshot_filename":"sara-wachter-boettcher.png",
-      "bio":"Sara Wachter-Boettcher is the principal of Rare Union, a digital product and content strategy consultancy, and the author of Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech (W.W. Norton, 2017), which was named one of the best tech books of the year by Wired. Her other books include Design for Real Life (with Eric Meyer) from A Book Apart, and Content Everywhere from Rosenfeld Media.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
-      "twitter":"sara_ann_marie",
+      "key":"courteney-ervin",
+      "name":"Courteney Ervin",
+      "headshot_filename":"courteney-ervin.jpg",
+      "twitter":"courteneyervin",
       "speaker_order":2
    },
    {
@@ -120,17 +163,11 @@
       "speaker_order":2
    },
    {
-      "key":"catt-small",
-      "name":"Catt Small",
-      "headshot_filename":"catt-small.jpeg",
-      "bio":"Catt is a product designer, game maker, and front-end web developer. She makes awesome things at Etsy. She has done design work for companies of all sizes including SoundCloud, Bedrocket, and Nasdaq. She started coding around the age of 10 and designing at the age of 15. In 2011, she graduated from SVA with a BFA in Graphic Design and later received an MS in Integrated Digital Media from NYU in 2016. Catt also makes video games with Brooklyn Gamery and helps make STEAM industries more inclusive with Good for PoC. You can follow her @cattsmall on Twitter and view her work at www.cattsmall.com.",
-      "company":"Etsy",
-      "job_title":"Product Designer",
-      "twitter":"cattsmall",
-      "github":"cattsmall",
-      "linkedin":"http://linkedin.com/in/cattsmall",
-      "website":"http://cattsmall.com",
-      "pronouns":"she/her",
+      "key":"sara-wachter-boettcher",
+      "name":"Sara Wachter-Boettcher",
+      "headshot_filename":"sara-wachter-boettcher.png",
+      "bio":"Sara Wachter-Boettcher is the principal of Rare Union, a digital product and content strategy consultancy, and the author of Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech (W.W. Norton, 2017), which was named one of the best tech books of the year by Wired. Her other books include Design for Real Life (with Eric Meyer) from A Book Apart, and Content Everywhere from Rosenfeld Media.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
+      "twitter":"sara_ann_marie",
       "speaker_order":2
    },
    {
@@ -147,39 +184,30 @@
       "speaker_order":3
    },
    {
-      "key":"katel-ledu",
-      "name":"Katel LeDû",
-      "headshot_filename":"katel-ledu .jpg",
-      "bio":"Katel LeDû is the CEO of A Book Apart, where she helps passionate tech community members become successful authors. Previously, she worked with _National Geographic_ as their digital director of photography, and has been in publishing since the early aughts. She’s seen a lot. She enjoys running (no, really) and learning the secrets of life from her snaggle-toothed mutt, Hugo.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
-      "twitter":"theledu",
-      "speaker_order":5
-   },
-   {
-      "key":"katrina-owen",
-      "name":"Katrina Owen",
-      "headshot_filename":"wsc-code-placeholder.png",
-      "twitter":"kytrinyx",
-      "speaker_order":5
-   },
-   {
-      "key":"kortney-ziegler",
-      "name":"Kortney Ziegler",
-      "twitter":"fakerapper",
-      "speaker_order":5
-   },
-   {
-      "key":"nishat-anjum",
-      "name":"Nishat Anjum",
-      "headshot_filename":"nishat-anjum.jpg",
-      "bio":"Nishat Anjum is a New York City based software engineer. You can usually find her in the back of a cafe tinkering with her projects or typing furiously at a hackathon.",
-      "company":"Twitter",
-      "job_title":"Software Engineer",
-      "twitter":"thathijabae",
-      "github":"https://github.com/nailainbits",
-      "linkedin":"https://www.linkedin.com/in/nishatanjum",
-      "website":"http://nishatanjum.com/",
+      "key":"hilary-stohs-krause",
+      "name":"Hilary Stohs-Krause",
+      "headshot_filename":"hilary-stohs-krause.jpg",
+      "bio":"Hilary Stohs-Krause is a full-stack software developer at Ten Forward Consulting in Madison, WI. She came to tech by way of childhood website-building (a \"Buffy the Vampire Slayer\" fansite, to be exact). Before joining Ten Forward, she spent several years as a professional journalist.\n\nHilary volunteers regularly with several tech and community organizations, and co-runs Madison Women in Tech, a local group with more than 1,200 members. She loves board games, garlic-stuffed olives and bourbon barrel-aged stouts. She’ll read any fantasy or sci-fi she can get her hands on.\n\nShe tweets puns and intersectional feminism at @hilarysk.",
+      "company":"Ten Forward Consulting",
+      "job_title":"Software Developer",
+      "twitter":"hilarysk",
+      "github":"hilarysk",
+      "linkedin":"http://linkedin.com/in/hilarysk",
+      "website":"http://hilarysk.com",
       "pronouns":"she/her",
-      "speaker_order":5
+      "speaker_order":4
+   },
+   {
+      "key":"crystal-martin",
+      "name":"Crystal Martin",
+      "headshot_filename":"crystal-martin.jpg",
+      "bio":"Crystal is a Salesforce Development consultant at Slalom, a co-organizer of Strange Loop Conference, and diversity in tech and business advocate. As a Detroit Public Schools graduate, Crystal is passionate about equal access to education at all levels. She came to St. Louis as a 2010 Teach For America Corps Member and taught middle school math in St. Louis Public Schools for four years. After her time in the classroom, she wanted to explore a career that would allow her to bring together her love for creativity, science, and community and technology was just that! Crystal likes to call herself a “developing developer”, she’s a lifetime learner and is currently digging into JavaScript and Salesforce and fighting the patriarchy and imposter syndrome one key stroke at a time. She holds a B.S. in Nutritional Sciences from Michigan State University and an M.Ed. in Secondary Education from the University of Missouri-St. Louis, which goes to show, college degrees matter, but they really don’t.",
+      "company":"Slalom",
+      "job_title":"Consultant",
+      "twitter":"codermeow",
+      "linkedin":"https://www.linkedin.com/in/crystal-martin-05b0b838/",
+      "pronouns":"she/her",
+      "speaker_order":4
    },
    {
       "key":"rebecca-holzschuh",
@@ -254,13 +282,28 @@
       "speaker_order":5
    },
    {
-      "key":"amelia-downs",
-      "name":"Amelia Downs",
-      "headshot_filename":"amelia-downs.jpg",
-      "bio":"Software engineer at Pivotal Cloud Foundry",
-      "company":"Pivotal",
+      "key":"tilde-ann-thurium",
+      "name":"Tilde Ann Thurium",
+      "bio":"Tilde Ann Thurium is an artist, engiqueer, and activist. Currently, they are an engineer building Atom editor at GitHub. In previous lives, they have done stints as a florist, a security guard, and a Human Resources wench. In their spare time, they illustrate data structures and algorithms with acrylic paint.",
+      "company":"GitHub",
       "job_title":"Software Engineer",
-      "github":"ameowlia",
+      "twitter":"annthurium",
+      "github":"annthurium",
+      "linkedin":"https://www.linkedin.com/in/annthurium/",
+      "pronouns":"they/them",
+      "speaker_order":5
+   },
+   {
+      "key":"nishat-anjum",
+      "name":"Nishat Anjum",
+      "headshot_filename":"nishat-anjum.jpg",
+      "bio":"Nishat Anjum is a New York City based software engineer. You can usually find her in the back of a cafe tinkering with her projects or typing furiously at a hackathon.",
+      "company":"Twitter",
+      "job_title":"Software Engineer",
+      "twitter":"thathijabae",
+      "github":"https://github.com/nailainbits",
+      "linkedin":"https://www.linkedin.com/in/nishatanjum",
+      "website":"http://nishatanjum.com/",
       "pronouns":"she/her",
       "speaker_order":5
    },
@@ -290,6 +333,18 @@
       "speaker_order":5
    },
    {
+      "key":"ashi-krishnan",
+      "name":"Ashi Krishnan",
+      "bio":"Ashi's first program printed `I LOVE YOU MOM` in a colorful infinite loop; she was six at the time, and she was hooked. Her first written story emerged around the same time, and featured sentient sea slugs.\n\nHer career has been a story of finding balance in these dual modes of expression.\n\nShe studied computer science and creative writing. Fresh out of school, she worked as a coder for [NOAA](http://noaa.gov), and then Google.\n\nExhausted by the many emotional challenges of working in tech, she went into teaching—first at Dev Bootcamp, and then at [Fullstack Academy](https://www.fullstackacademy.com/) in New York, where she taught at the Grace Hopper program for women and non-binary people.\n\nThis summer, lured by new and interesting problems and exhausted by the many emotional challenges of teaching at a bootcamp, she joined GitHub as a senior engineer. She hopes this will mark an evolution, not an end, to her teaching career, as she continues to pursue her passions of speaking, traveling, and writing.\n\nShe is working on a book. It is about the sea, and about the future, and about you.\n\n[[ Note: I'm joining GitHub in May 2018. I wasn't sure what tense was most appropriate; I settled on the past—that is, what *will* be true, come August. I've put down both on the form below, too. Sorry if it looks strange. ]]",
+      "company":"Fullstack Academy / Github",
+      "job_title":"Teacher / Sr. Software Engineer",
+      "twitter":"rakshesha",
+      "github":"queerviolet",
+      "website":"http://ashi.io",
+      "pronouns":"she/her",
+      "speaker_order":5
+   },
+   {
       "key":"bonnie-pan",
       "name":"Bonnie Pan",
       "headshot_filename":"bonnie-pan.jpg",
@@ -300,22 +355,8 @@
       "speaker_order":5
    },
    {
-      "key":"courteney-ervin",
-      "name":"Courteney Ervin",
-      "headshot_filename":"courteney-ervin.jpg",
-      "twitter":"courteneyervin",
-      "speaker_order":5
-   },
-   {
-      "key":"crystal-martin",
-      "name":"Crystal Martin",
-      "headshot_filename":"crystal-martin.jpg",
-      "bio":"Crystal is a Salesforce Development consultant at Slalom, a co-organizer of Strange Loop Conference, and diversity in tech and business advocate. As a Detroit Public Schools graduate, Crystal is passionate about equal access to education at all levels. She came to St. Louis as a 2010 Teach For America Corps Member and taught middle school math in St. Louis Public Schools for four years. After her time in the classroom, she wanted to explore a career that would allow her to bring together her love for creativity, science, and community and technology was just that! Crystal likes to call herself a “developing developer”, she’s a lifetime learner and is currently digging into JavaScript and Salesforce and fighting the patriarchy and imposter syndrome one key stroke at a time. She holds a B.S. in Nutritional Sciences from Michigan State University and an M.Ed. in Secondary Education from the University of Missouri-St. Louis, which goes to show, college degrees matter, but they really don’t.",
-      "company":"Slalom",
-      "job_title":"Consultant",
-      "twitter":"codermeow",
-      "linkedin":"https://www.linkedin.com/in/crystal-martin-05b0b838/",
-      "pronouns":"she/her",
+      "key":"chrys-wu",
+      "name":"Chrys Wu",
       "speaker_order":5
    },
    {
@@ -330,6 +371,17 @@
       "linkedin":"https://www.linkedin.com/in/deniseyu/",
       "website":"deniseyu.github.io",
       "pronouns":"she/her",
+      "speaker_order":5
+   },
+   {
+      "key":"erica-stanley",
+      "name":"Erica Stanley",
+      "bio":"Erica Stanley is a software engineer, entrepreneur and tech diversity \u0026 inclusion advocate. She is an engineering manager for the integrations and data analytics teams at SalesLoft – where she’s helping grow the product engineering team for the 4th fastest growing software company in North America. She’s worked with Fortune 500 companies, including Boeing, FOX Interactive Media, Turner Broadcasting, and Oracle, as well as early-stage and pre-acquisition startups.\n\nErica is active in the Atlanta technology community. She founded the Atlanta network of Women Who Code, where she organizes conferences, hackathons, developer workshops, monthly tech talks and networking events for women technologists. She also helps develop and teach youth coding programs, speaks at local hackathons, conferences, and user groups and mentors entrepreneurs for various incubators and accelerators.",
+      "company":"SalesLoft",
+      "job_title":"Software Engineering Manager",
+      "twitter":"@ericastanley",
+      "linkedin":"https://www.linkedin.com/in/ericastanley/",
+      "website":"http://www.ericastanley.io/",
       "speaker_order":5
    },
    {
@@ -352,6 +404,13 @@
       "speaker_order":5
    },
    {
+      "key":"github",
+      "name":"Github",
+      "headshot_filename":"../logos/github-logo.png",
+      "company":"Github",
+      "speaker_order":5
+   },
+   {
       "key":"heather-herrington",
       "name":"Heather Herrington",
       "headshot_filename":"heather-herrington.jpg",
@@ -363,17 +422,21 @@
       "speaker_order":5
    },
    {
-      "key":"hilary-stohs-krause",
-      "name":"Hilary Stohs-Krause",
-      "headshot_filename":"hilary-stohs-krause.jpg",
-      "bio":"Hilary Stohs-Krause is a full-stack software developer at Ten Forward Consulting in Madison, WI. She came to tech by way of childhood website-building (a \"Buffy the Vampire Slayer\" fansite, to be exact). Before joining Ten Forward, she spent several years as a professional journalist.\n\nHilary volunteers regularly with several tech and community organizations, and co-runs Madison Women in Tech, a local group with more than 1,200 members. She loves board games, garlic-stuffed olives and bourbon barrel-aged stouts. She’ll read any fantasy or sci-fi she can get her hands on.\n\nShe tweets puns and intersectional feminism at @hilarysk.",
-      "company":"Ten Forward Consulting",
-      "job_title":"Software Developer",
-      "twitter":"hilarysk",
-      "github":"hilarysk",
-      "linkedin":"http://linkedin.com/in/hilarysk",
-      "website":"http://hilarysk.com",
-      "pronouns":"she/her",
+      "key":"iliana-sach",
+      "name":"Iliana Sach",
+      "speaker_order":5
+   },
+   {
+      "key":"jess-ingrassellino",
+      "name":"Jess Ingrassellino",
+      "headshot_filename":"jess_ingrassellino.jpg",
+      "bio":"Dr. Jess Ingrassellino is the author of the book, Python Projects for Kids as well as publisher of several articles on Software Testing. She is currently the Director of QA at Salesforce.org, chair of the PyCon Education Summit, and Project Leader for the OWASP Learning Gateway. Jess also founded TeachCode.org where she continues to develop curriculum and training programs.",
+      "company":"Salesforce",
+      "job_title":"Director of Quality Assurance",
+      "twitter":"@jess_ingrass",
+      "github":"https://github.com/jessingrass",
+      "linkedin":"https://www.linkedin.com/in/jessica-ingrassellino-581213156/",
+      "website":"https://about.me/jess_ingrassellino",
       "speaker_order":5
    },
    {
@@ -396,6 +459,38 @@
       "twitter":"KaraAJC",
       "github":"KaraAJC",
       "linkedin":"https://linkedin.com/in/karaajc",
+      "pronouns":"she/her",
+      "speaker_order":5
+   },
+   {
+      "key":"katel-ledu",
+      "name":"Katel LeDû",
+      "headshot_filename":"katel-ledu .jpg",
+      "bio":"Katel LeDû is the CEO of A Book Apart, where she helps passionate tech community members become successful authors. Previously, she worked with _National Geographic_ as their digital director of photography, and has been in publishing since the early aughts. She’s seen a lot. She enjoys running (no, really) and learning the secrets of life from her snaggle-toothed mutt, Hugo.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
+      "twitter":"theledu",
+      "speaker_order":5
+   },
+   {
+      "key":"katrina-owen",
+      "name":"Katrina Owen",
+      "headshot_filename":"wsc-code-placeholder.png",
+      "twitter":"kytrinyx",
+      "speaker_order":5
+   },
+   {
+      "key":"kortney-ziegler",
+      "name":"Kortney Ziegler",
+      "twitter":"fakerapper",
+      "speaker_order":5
+   },
+   {
+      "key":"amelia-downs",
+      "name":"Amelia Downs",
+      "headshot_filename":"amelia-downs.jpg",
+      "bio":"Software engineer at Pivotal Cloud Foundry",
+      "company":"Pivotal",
+      "job_title":"Software Engineer",
+      "github":"ameowlia",
       "pronouns":"she/her",
       "speaker_order":5
    },

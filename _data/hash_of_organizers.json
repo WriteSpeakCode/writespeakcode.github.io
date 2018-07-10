@@ -1,13 +1,4 @@
 {
-   "neha-batra":{
-      "twitter":"nerdneha",
-      "headshot_filename":"neha.jpg",
-      "pronouns":"she/her",
-      "order":1,
-      "role":"Director",
-      "name":"Neha Batra",
-      "key":"neha-batra"
-   },
    "rebecca-miller-webster":{
       "twitter":"rmillerwebster",
       "headshot_filename":"rebecca-miller-webster.jpg",
@@ -16,6 +7,15 @@
       "role":"Director",
       "name":"Rebecca Miller-Webster",
       "key":"rebecca-miller-webster"
+   },
+   "neha-batra":{
+      "twitter":"nerdneha",
+      "headshot_filename":"neha.jpg",
+      "pronouns":"she/her",
+      "order":1,
+      "role":"Director",
+      "name":"Neha Batra",
+      "key":"neha-batra"
    },
    "lateesha-thomas":{
       "twitter":"lateeshathomas",
@@ -43,14 +43,6 @@
       "role":"Board",
       "name":"Dalal Al Rayes",
       "key":"dalal-al-rayes"
-   },
-   "ifeoma-okereke":{
-      "twitter":"IfeomaRO",
-      "headshot_filename":"ifeoma-okereke.jpg",
-      "pronouns":"she/her",
-      "order":4,
-      "name":"Ifeoma Okereke",
-      "key":"ifeoma-okereke"
    },
    "zoe-gagnon":{
       "twitter":"UnusedPotential",
@@ -90,5 +82,13 @@
       "name":"Alex Millatmal",
       "key":"alex-millatmal",
       "order":5
+   },
+   "ifeoma-okereke":{
+      "twitter":"IfeomaRO",
+      "headshot_filename":"ifeoma-okereke.jpg",
+      "pronouns":"she/her",
+      "order":10,
+      "name":"Ifeoma Okereke",
+      "key":"ifeoma-okereke"
    }
 }

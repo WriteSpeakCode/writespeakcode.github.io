@@ -1,18 +1,18 @@
 [
    {
-      "key":"neha-batra",
-      "name":"Neha Batra",
-      "twitter":"nerdneha",
-      "headshot_filename":"neha.jpg",
+      "key":"rebecca-miller-webster",
+      "name":"Rebecca Miller-Webster",
+      "twitter":"rmillerwebster",
+      "headshot_filename":"rebecca-miller-webster.jpg",
       "order":1,
       "role":"Director",
       "pronouns":"she/her"
    },
    {
-      "key":"rebecca-miller-webster",
-      "name":"Rebecca Miller-Webster",
-      "twitter":"rmillerwebster",
-      "headshot_filename":"rebecca-miller-webster.jpg",
+      "key":"neha-batra",
+      "name":"Neha Batra",
+      "twitter":"nerdneha",
+      "headshot_filename":"neha.jpg",
       "order":1,
       "role":"Director",
       "pronouns":"she/her"
@@ -42,14 +42,6 @@
       "headshot_filename":"dalal-alrayes.jpg",
       "order":2,
       "role":"Board",
-      "pronouns":"she/her"
-   },
-   {
-      "key":"ifeoma-okereke",
-      "name":"Ifeoma Okereke",
-      "twitter":"IfeomaRO",
-      "headshot_filename":"ifeoma-okereke.jpg",
-      "order":4,
       "pronouns":"she/her"
    },
    {
@@ -89,6 +81,14 @@
       "twitter":"halfghaninNE",
       "headshot_filename":"alexandra-millatmal.jpg",
       "order":5,
+      "pronouns":"she/her"
+   },
+   {
+      "key":"ifeoma-okereke",
+      "name":"Ifeoma Okereke",
+      "twitter":"IfeomaRO",
+      "headshot_filename":"ifeoma-okereke.jpg",
+      "order":10,
       "pronouns":"she/her"
    }
 ]

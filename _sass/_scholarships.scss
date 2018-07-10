@@ -1,10 +1,18 @@
 /* SCHOLARSHIPS */
-#scholarships .qcTabDesc {
-  color: white;
-}
+#scholarships {
+  color: $white;
 
-#scholarships ul {
-  list-style: disc inside none;
-  margin-left: 1em;
-  color: white;
+  .qcTabDesc {
+    color: $brand-blush;
+  }
+
+  .qcTabTitle {
+    padding-bottom: 20px;
+  }
+
+  ul {
+    list-style: disc inside none;
+    margin-left: 1em;
+    color: $brand-blush;
+  }
 }

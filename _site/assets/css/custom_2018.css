@@ -830,13 +830,16 @@ section.speakers .qcTabTitle .section-title {
   margin-top: 2em; }
 
 /* SCHOLARSHIPS */
-#scholarships .qcTabDesc {
-  color: white; }
-
-#scholarships ul {
-  list-style: disc inside none;
-  margin-left: 1em;
-  color: white; }
+#scholarships {
+  color: #fff; }
+  #scholarships .qcTabDesc {
+    color: #F1D8D3; }
+  #scholarships .qcTabTitle {
+    padding-bottom: 20px; }
+  #scholarships ul {
+    list-style: disc inside none;
+    margin-left: 1em;
+    color: #F1D8D3; }
 
 /* TODO: convert this file to sass */
 #qcWidgets {

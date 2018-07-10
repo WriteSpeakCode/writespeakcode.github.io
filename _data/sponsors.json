@@ -156,7 +156,8 @@
         "nytimes",
         "pivotal",
         "facebook",
-        "mailchimp"
+        "mailchimp",
+        "google"
       ]
     },
     {
@@ -188,6 +189,15 @@
       "items": [
         "carbonfive",
         "squarespace"
+      ]
+    },
+    {
+      "show_conf": true,
+      "show_description": false,
+      "title": "Lanyard",
+      "key": "lanyard",
+      "items": [
+        "wtm"
       ]
     }
   ],

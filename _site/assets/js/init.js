@@ -108,9 +108,14 @@ $('#qcTestimonialList li a').click(function() {
 
 
 // --------- 5. SCHEDULE TABS ----------  //
-$('#qcScheduleContentTabs').tabslet();
-$('#qcFaqContentTabs').tabslet();
-$('#qcVenueContentTabs').tabslet();
+	$('#qcScheduleContentTabs').tabslet({ deeplinking: true });
+	$('#qcFaqContentTabs').tabslet({ deeplinking: true });
+	$('#qcVenueContentTabs').tabslet({ deeplinking: true });
+
+	// HACK: fix bug with deep linking where other tabs are also active styled despite not being active
+	if (!!window.location.hash && $(window.location.hash)) {
+		$('a[href="' + window.location.hash + '"]').parent().siblings().removeClass('active')
+	}
 
 
 

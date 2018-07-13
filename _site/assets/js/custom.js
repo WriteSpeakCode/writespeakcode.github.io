@@ -20,7 +20,12 @@ $(document).ready(function() {
     scrollOffset: 68,
     animationSpeed: 500,
     animationEasing: "easeInOutExpo",
-    showNav: false
+    showNav: false,
+    onStart: function() {
+        var hash = window.location.hash;
+        var $el = $(hash);
+        $el.trigger('click');
+    }
   });
 
 });

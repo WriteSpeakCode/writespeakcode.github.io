@@ -5,10 +5,12 @@ meta_title: Write/Speak/Code
 meta_description:
 href: https://www.writespeakcode.com/index.html
 social_title: Write/Speak/Code
-social)description: Leveling up women and non-binary coders through writing, speaking, and open source.
+social_description: Leveling up women and non-binary coders through writing, speaking, and open source.
 open_graph_img: https://2017.writespeakcode.com/assets/img/write-speak-code-conference.jpg
 twitter_img: https://2017.writespeakcode.com/assets/img/WSC-coral-bg.jpg
 ---
+
+{% assign reg = site.data.conference_registration[site.data.conference_registration.status] %}
 
   <!-- ## CONFERENCES SECTION ## -->
   <section class="sponsors-section anchor-section" id="conference">
@@ -26,7 +28,7 @@ twitter_img: https://2017.writespeakcode.com/assets/img/WSC-coral-bg.jpg
           speaking, and open source.
           <br /><br /><a href="./2018/index.html" class="button secondary">Learn more >></a>
           </p>
-          <tito-button event="write-speak-code/2018-conference" class="page-intro tito-tickets-button" style="background: white;">Register Now</tito-button>
+          <tito-button event="{{ reg.tito_button_event }}" class="page-intro tito-tickets-button" style="background: white;">{{ reg.register_text }}</tito-button>
         </div>
       </div>
     </div>

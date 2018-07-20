@@ -1,0 +1,15 @@
+{
+  "status": "closed",
+  "open": {
+    "tito_button_event": "write-speak-code/2018-conference",
+    "tickets_text": "2018 Conference Tickets",
+    "register_link": "https://ti.to/write-speak-code/2018-conference/",
+    "register_text": "Register Now"
+  },
+  "closed": {
+    "tito_button_event": "write-speak-code/2018-conference",
+    "tickets_text": "2018 Conf Sold Out!",
+    "register_link": "https://ti.to/write-speak-code/2018-conference/",
+    "register_text": "SOLD OUT!"
+  }
+}

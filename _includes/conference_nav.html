@@ -1,3 +1,5 @@
+{% assign reg = site.data.conference_registration[site.data.conference_registration.status] %}
+
 <nav class="conference-nav nav-container">
 <!-- ## TABLET & DESKTOP NAV ### -->
   <section class="nav-section">
@@ -10,7 +12,7 @@
             </a>
           {% endunless %}
         {% endfor %}
-        <li id="tito-button"><tito-button event="write-speak-code/2018-conference">Register Now</tito-button></li>
+        <li id="tito-button"><tito-button event="{{ reg.tito_button_event }}">{{ reg.register_text }}</tito-button></li>
       </ul>
     </nav>
   </section>
@@ -20,7 +22,7 @@
   <header id="mobileNav">
     <div class="qcContainer clearfix">
       <div class="col-6 col">
-        <a id="mobile-cta" href="https://ti.to/write-speak-code/2018-conference/" target="_blank" rel="noopener" class="video register-cta cta button">Register Now</a>
+        <a id="mobile-cta" href="{{ reg.register_link }}" target="_blank" rel="noopener" class="video register-cta cta button">{{ reg.register_text }}</a>
       </div>
 
       <div class="col-6 col">
@@ -41,7 +43,7 @@
                 </a>
               </li>
             {% endfor %}
-            <li id="nav-register"><a href="https://ti.to/write-speak-code/2018-conference/" class="video" target="_blank" rel="noopener">Register Now</a></li>
+            <li id="nav-register"><a href="{{ reg.register_link }}" class="video" target="_blank" rel="noopener">{{ reg.register_text }}</a></li>
           </ul>
           <div id="qcCloseNav"></div>
         </div>

@@ -1,3 +1,5 @@
+$max-logo-width: 500px;
+
 .sponsors {
   .all-sponsors {
     margin-top: 2em;
@@ -22,7 +24,7 @@
 }
 
 .sponsor {
-  border: 2px solid #F1D8D3;
+  border: 2px solid $brand-blush;
   margin-top: 1em;
   margin-right: 1em;
   border-radius: 8px;
@@ -31,7 +33,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   &-container {
     width: 100%;
   }
@@ -44,7 +46,8 @@
     align-items: center;
 
     img {
-      max-width: 100%;
+      width: 100%;
+      max-width: $max-logo-width;
     }
   }
 }
@@ -73,7 +76,13 @@
   }
 
   @media screen and (min-width: 768px) {
-    &.platinum {
+    justify-content: space-around;
+
+    .sponsor {
+      width: calc(25% - 2em);
+    }
+
+    &.platinum, &.lanyard {
       justify-content: center;
 
       .sponsor {
@@ -85,19 +94,11 @@
       }
     }
 
-    &.gold {
+    &.gold, &.silver {
       justify-content: space-around;
 
       .sponsor {
         width: calc(33% - 5.5em);
-      }
-    }
-
-    &.bronze, &.workshops {
-      justify-content: space-around;
-
-      .sponsor {
-        width: calc(25% - 2em);
       }
     }
 

@@ -295,7 +295,7 @@
       "key":"engineering-at-squarespace",
       "title":"Engineering at Squarespace",
       "description":"Founded and run by an engineer, Squarespace is dedicated to fostering an environment where the most talented engineers can do their best work. Our engineering teams create solutions that enable our customers to pursue their dreams. In this session, Alex Gordon—Squarespace's Sr Technical Recruiter, Women in Eng (ERG) Co-Chair, and Eng Blog editor—will give you an insider's view into what being an engineer at Squarespace is like.",
-      "talk_order":5,
+      "talk_order":-1,
       "speaker":[
          "alex-gordan",
          "squarespace"

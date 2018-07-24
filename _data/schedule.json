@@ -1828,8 +1828,11 @@
             },
             {
                "date":"8/3/2018 5:20pm",
-               "title":"(Sponsor Talk)",
-               "speaker":null,
+               "title":"Engineering at Squarespace",
+               "speaker":[
+                 "alex-gordan",
+                 "squarespace"
+               ],
                "location":"Microsoft Conference Center Main (Primary Venue)",
                "track":"All",
                "day":"Code/Ethics",
@@ -1841,7 +1844,7 @@
                "time":" 5:20 PM",
                "date_order":"2018-08-03-17-20",
                "section":6,
-               "title_key":"sponsor-talk",
+               "title_key":"engineering-at-squarespace",
                "talk_type":"sponsor-talk",
                "track_order":1
             },

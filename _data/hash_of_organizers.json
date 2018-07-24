@@ -1,12 +1,12 @@
 {
-   "rebecca-miller-webster":{
-      "twitter":"rmillerwebster",
-      "headshot_filename":"rebecca-miller-webster.jpg",
+   "lateesha-thomas":{
+      "twitter":"lateeshathomas",
+      "headshot_filename":"lateesha-thomas.jpg",
       "pronouns":"she/her",
       "order":1,
       "role":"Director",
-      "name":"Rebecca Miller-Webster",
-      "key":"rebecca-miller-webster"
+      "name":"Lateesha Thomas",
+      "key":"lateesha-thomas"
    },
    "neha-batra":{
       "twitter":"nerdneha",
@@ -17,14 +17,14 @@
       "name":"Neha Batra",
       "key":"neha-batra"
    },
-   "lateesha-thomas":{
-      "twitter":"lateeshathomas",
-      "headshot_filename":"lateesha-thomas.jpg",
+   "rebecca-miller-webster":{
+      "twitter":"rmillerwebster",
+      "headshot_filename":"rebecca-miller-webster.jpg",
       "pronouns":"she/her",
       "order":1,
       "role":"Director",
-      "name":"Lateesha Thomas",
-      "key":"lateesha-thomas"
+      "name":"Rebecca Miller-Webster",
+      "key":"rebecca-miller-webster"
    },
    "marie-casabonne":{
       "twitter":"goodcasa",
@@ -43,6 +43,14 @@
       "role":"Board",
       "name":"Dalal Al Rayes",
       "key":"dalal-al-rayes"
+   },
+   "rebecca-long":{
+      "twitter":"amaya30",
+      "headshot_filename":"rebecca-long.jpg",
+      "pronouns":"she/her",
+      "name":"Rebecca Long",
+      "key":"rebecca-long",
+      "order":5
    },
    "zoe-gagnon":{
       "twitter":"UnusedPotential",
@@ -67,12 +75,18 @@
       "key":"lisa-van-gelder",
       "order":5
    },
-   "rebecca-long":{
-      "twitter":"amaya30",
-      "headshot_filename":"rebecca-long.jpg",
+   "mercedes-bernard":{
+      "twitter":"mercedescodes",
+      "headshot_filename":"mercedesb.jpg",
       "pronouns":"she/her",
-      "name":"Rebecca Long",
-      "key":"rebecca-long",
+      "name":"Mercedes Bernard",
+      "key":"mercedes-bernard",
+      "order":5
+   },
+   "mina-slater":{
+      "pronouns":"she/her",
+      "name":"Mina Slater",
+      "key":"mina-slater",
       "order":5
    },
    "alex-millatmal":{

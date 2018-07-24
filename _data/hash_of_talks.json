@@ -10,6 +10,16 @@
       "title":"From Blog to Book: How to pitch\u0026#44; write\u0026#44; and get published",
       "key":"from-blog-to-book-how-to-pitch-"
    },
+   "creating-success-44-together":{
+      "speaker":[
+         "cate-huston"
+      ],
+      "description":"As individuals we - implicitly or explicitly - define success, as do teams. But how do these definitions and incentives impact how and what we build?\n\nLet’s talk about the ways in which the dysfunctions of your organization become the dysfunctions of your product.",
+      "talk_type":"standard-talk",
+      "talk_order":1,
+      "title":"Creating Success\u0026#44; Together",
+      "key":"creating-success-44-together"
+   },
    "dealing-with-surprising-human-e":{
       "speaker":[
          "lara-hogan"
@@ -30,16 +40,6 @@
       "title":"Zine-Making Workshop",
       "key":"zine-making-workshop"
    },
-   "creating-success-44-together":{
-      "speaker":[
-         "cate-huston"
-      ],
-      "description":"As individuals we - implicitly or explicitly - define success, as do teams. But how do these definitions and incentives impact how and what we build?\n\nLet’s talk about the ways in which the dysfunctions of your organization become the dysfunctions of your product.",
-      "talk_type":"standard-talk",
-      "talk_order":1,
-      "title":"Creating Success\u0026#44; Together",
-      "key":"creating-success-44-together"
-   },
    "the-secret-history-of-women-and":{
       "speaker":[
          "hilary-stohs-krause"
@@ -49,16 +49,6 @@
       "talk_order":2,
       "title":"The secret history of women and nonbinary folks in tech",
       "key":"the-secret-history-of-women-and"
-   },
-   "competitive-debate-44-gendered-":{
-      "speaker":[
-         "denise-yu"
-      ],
-      "description":"I spent six years throughout university and graduate school roaming around the US and UK to competitive debating tournaments. I initially began the activity to improve my confidence and logical reasoning skills, but soon learnt that the playing field was far from fair. Despite the fact that 50% of first-year debaters were young women, by the end of their time on the circuit, most high-performing speakers were male. In this talk, I'll discuss the impact of gender-coded communication patterns not only on competitive debating performance, but also more generally in boardrooms, team meetings, and other everyday settings for technologists, using a data-driven approach to show the pervasive effects of subconscious bias.",
-      "talk_type":"keynote-talk",
-      "talk_order":2,
-      "title":"Competitive Debate\u0026#44; Gendered Speech Patterns\u0026#44; and the Tech Industry",
-      "key":"competitive-debate-44-gendered-"
    },
    "bragging-cause-you-re-showing-o":{
       "speaker":[
@@ -70,25 +60,15 @@
       "title":"Bragging: Cause you’re showing off and it’s all right",
       "key":"bragging-cause-you-re-showing-o"
    },
-   "how-public-speaking-made-me-a-b":{
+   "competitive-debate-44-gendered-":{
       "speaker":[
-         "chiu-ki-chan"
+         "denise-yu"
       ],
-      "description":"When I started public speaking, I did not realize that I was signing up for negotiation practice. My first talk acceptance opened my eyes to the conference-speaker dynamics. From then on, each proposal, each conference became a safe place for me to push the envelope, pinpoint what I want, and ask for it. I learned how to frame the situation to my advantage, phrase my requests without the burden of excessive justification, and be comfortable with rejections. Come hear my stories, what I tried, what worked and what didn’t, and add a few tricks to your negotiation tool box.",
-      "talk_type":"standard-talk",
-      "talk_order":3,
-      "title":"How public speaking made me a better negotiator",
-      "key":"how-public-speaking-made-me-a-b"
-   },
-   "fostering-an-inclusive-engineer":{
-      "speaker":[
-         "jiaqi-liu"
-      ],
-      "description":"Diversity \u0026 Inclusion goes hand in hand - and creating an inclusive engineering team starts with team culture. In this talk I want to call out specific practices, such as blameless postmortems and code ownership as a team, that allows for a more inclusive experience for all the engineers on a team. We’ll talk the small habits every engineering team can start doing to get to a strong and supportive culture as well as best practices for preserving good culture.",
-      "talk_type":"standard-talk",
-      "talk_order":3,
-      "title":"Fostering an Inclusive Engineering Culture",
-      "key":"fostering-an-inclusive-engineer"
+      "description":"I spent six years throughout university and graduate school roaming around the US and UK to competitive debating tournaments. I initially began the activity to improve my confidence and logical reasoning skills, but soon learnt that the playing field was far from fair. Despite the fact that 50% of first-year debaters were young women, by the end of their time on the circuit, most high-performing speakers were male. In this talk, I'll discuss the impact of gender-coded communication patterns not only on competitive debating performance, but also more generally in boardrooms, team meetings, and other everyday settings for technologists, using a data-driven approach to show the pervasive effects of subconscious bias.",
+      "talk_type":"keynote-talk",
+      "talk_order":2,
+      "title":"Competitive Debate\u0026#44; Gendered Speech Patterns\u0026#44; and the Tech Industry",
+      "key":"competitive-debate-44-gendered-"
    },
    "code-ethics-opening-keynote":{
       "speaker":[
@@ -98,25 +78,6 @@
       "talk_order":3,
       "title":"Code/Ethics Opening Keynote",
       "key":"code-ethics-opening-keynote"
-   },
-   "organizing-for-your-ethical-pri":{
-      "speaker":[
-         "liz-fong-jones"
-      ],
-      "description":"Our job as engineers does not stop with eliminating technical defects and ensuring high reliability. Engineers of all kinds must ensure their work serves the public good. A service that reliably harms, exacerbates injustices, or excludes marginalized groups is not a service worth building and maintaining.",
-      "talk_type":"standard-talk",
-      "talk_order":3,
-      "title":"Organizing for your Ethical Principles",
-      "key":"organizing-for-your-ethical-pri"
-   },
-   "write-passion-opening-keynote":{
-      "speaker":[
-         "mina-markham"
-      ],
-      "talk_type":"keynote-talk",
-      "talk_order":3,
-      "title":"Write/Passion Opening Keynote",
-      "key":"write-passion-opening-keynote"
    },
    "art-technology-44-great-but-als":{
       "speaker":[
@@ -128,15 +89,44 @@
       "title":"Art \u0026 Technology\u0026#44; Great But Also Bad",
       "key":"art-technology-44-great-but-als"
    },
-   "growth-day-opening-keynote":{
+   "fostering-an-inclusive-engineer":{
       "speaker":[
-         "tiffany-mikell",
-         "kortney-ziegler"
+         "jiaqi-liu"
+      ],
+      "description":"Diversity \u0026 Inclusion goes hand in hand - and creating an inclusive engineering team starts with team culture. In this talk I want to call out specific practices, such as blameless postmortems and code ownership as a team, that allows for a more inclusive experience for all the engineers on a team. We’ll talk the small habits every engineering team can start doing to get to a strong and supportive culture as well as best practices for preserving good culture.",
+      "talk_type":"standard-talk",
+      "talk_order":3,
+      "title":"Fostering an Inclusive Engineering Culture",
+      "key":"fostering-an-inclusive-engineer"
+   },
+   "write-passion-opening-keynote":{
+      "speaker":[
+         "mina-markham"
       ],
       "talk_type":"keynote-talk",
       "talk_order":3,
-      "title":"Growth Day Opening Keynote",
-      "key":"growth-day-opening-keynote"
+      "title":"Write/Passion Opening Keynote",
+      "key":"write-passion-opening-keynote"
+   },
+   "how-public-speaking-made-me-a-b":{
+      "speaker":[
+         "chiu-ki-chan"
+      ],
+      "description":"When I started public speaking, I did not realize that I was signing up for negotiation practice. My first talk acceptance opened my eyes to the conference-speaker dynamics. From then on, each proposal, each conference became a safe place for me to push the envelope, pinpoint what I want, and ask for it. I learned how to frame the situation to my advantage, phrase my requests without the burden of excessive justification, and be comfortable with rejections. Come hear my stories, what I tried, what worked and what didn’t, and add a few tricks to your negotiation tool box.",
+      "talk_type":"standard-talk",
+      "talk_order":3,
+      "title":"How public speaking made me a better negotiator",
+      "key":"how-public-speaking-made-me-a-b"
+   },
+   "organizing-for-your-ethical-pri":{
+      "speaker":[
+         "liz-fong-jones"
+      ],
+      "description":"Our job as engineers does not stop with eliminating technical defects and ensuring high reliability. Engineers of all kinds must ensure their work serves the public good. A service that reliably harms, exacerbates injustices, or excludes marginalized groups is not a service worth building and maintaining.",
+      "talk_type":"standard-talk",
+      "talk_order":3,
+      "title":"Organizing for your Ethical Principles",
+      "key":"organizing-for-your-ethical-pri"
    },
    "writing-44-performing-and-build":{
       "speaker":[
@@ -165,108 +155,6 @@
       "talk_order":4,
       "title":"If You Build it\u0026#44; They Will Come; How to Build a Great Open Source Project",
       "key":"if-you-build-it-44-they-will-co"
-   },
-   "opening-night-party":{
-      "talk_type":"post-conference-event",
-      "title":"Opening Night Party",
-      "key":"opening-night-party",
-      "talk_order":5,
-      "speaker":null
-   },
-   "how-to-tell-a-better-story-in-c":{
-      "speaker":[
-         "bonnie-pan"
-      ],
-      "description":"Learn how to effectively accomplish change in your working conditions or your employer's products through grassroots employee advocacy.",
-      "talk_type":"standard-talk",
-      "title":"How to tell a better story in code",
-      "key":"how-to-tell-a-better-story-in-c",
-      "talk_order":5
-   },
-   "being-glue":{
-      "speaker":[
-         "tanya-reilly"
-      ],
-      "description":"Your job title says \"engineer\" and that's what you want to be, but you seem to spend most of your time in meetings. You'd like to have time for code, but nobody else is unblocking the junior engineers, maintaining the relationship with your sister team in the other office, updating the roadmap, talking to teams whose projects overlap with yours, noticing the things that got dropped, asking questions on design documents, and making sure that everyone's going roughly in the same direction. If you stop doing those things, the team will function less well. But now someone's suggesting that 'you might be happier in a less technical role'. \n\n'Glue' work often lands on the only woman on the team, and it needs to be framed carefully. If you display this kind of leadership early in your career, there's a real risk of being seen as 'not technical enough' and pushed off the engineer ladder. Let's talk about how to get you recognised as the technical leader that you are, and keep you on the path to being a senior engineer.",
-      "talk_type":"standard-talk",
-      "title":"Being Glue",
-      "key":"being-glue",
-      "talk_order":5
-   },
-   "career-growth-and-performance-r":{
-      "speaker":[
-         "liz-fong-jones",
-         "erica-stanley",
-         "iliana-sach",
-         "neha-batra"
-      ],
-      "description":"Whether you are giving it or receiving it, performance reviews are stressful.  And not just because you are being assessed, but because it reflects on your relationship with your team and workplace as well as asking the existential question “What am I doing with my life?”  Let’s hear from a number of experienced current and former engineering managers about performance reviews and career growth.  We will discuss goals, progress, feedback, and the manager-report relationship.",
-      "talk_type":"panel",
-      "title":"Career Growth and Performance Reviews: An Engineering Leader Perspective",
-      "key":"career-growth-and-performance-r",
-      "talk_order":5
-   },
-   "chapter-organizers-summit":{
-      "talk_type":"post-conference-event",
-      "title":"Chapter Organizers Summit",
-      "key":"chapter-organizers-summit",
-      "talk_order":5,
-      "speaker":null
-   },
-   "conference-organizers-panel":{
-      "speaker":[
-         "leeann-kinney",
-         "shanise-barona"
-      ],
-      "description":"Wondering what conference organizers look for when selecting speakers for their events? Hear from several conference organizers offering advice on navigating the CFP process and how to make your proposal stand out.",
-      "talk_type":"panel",
-      "title":"Conference Organizers Panel",
-      "key":"conference-organizers-panel",
-      "talk_order":5
-   },
-   "empathetic-engineering":{
-      "speaker":[
-         "evelyn-masso"
-      ],
-      "description":"Engineers empathize with a variety of people (end users, stakeholders, and other developers) to write useful, impactful, and well-structured software. We'll talk about how APIs, domain models, pull requests and other core technical practices require empathy skills. I’ll also share techniques to cultivate empathy as a core skill throughout the software development process.",
-      "talk_type":"standard-talk",
-      "title":"Empathetic Engineering",
-      "key":"empathetic-engineering",
-      "talk_order":5
-   },
-   "end-of-conference":{
-      "title":"END OF CONFERENCE",
-      "key":"end-of-conference",
-      "talk_order":5,
-      "speaker":null,
-      "talk_type":null
-   },
-   "end-of-day":{
-      "title":"END OF DAY",
-      "key":"end-of-day",
-      "talk_order":5,
-      "speaker":null,
-      "talk_type":null
-   },
-   "ethics-at-design-time-44-not-ru":{
-      "speaker":[
-         "rowan-cota"
-      ],
-      "description":"What if we treated ethics as a design problem, rather than waiting for it to be a compliance problem? This talk will explore how to include ethics in the design phase for software, focusing on common though little considered potential ethical problems. By using a hypothetical \"user's bill of rights\" framework to consider how to build software that protects privacy and safety to give shape to the talk, I'll introduce a baseline for ethical design that every participant can take home with them and try to apply to their own work. In addition, I'll provide easy starter scripts for talking points, to help folks figure out *how* to have these conversations.",
-      "talk_type":"standard-talk",
-      "title":"Ethics at Design Time\u0026#44; not Run Time",
-      "key":"ethics-at-design-time-44-not-ru",
-      "talk_order":5
-   },
-   "intro-to-open-source":{
-      "speaker":[
-         "courteney-ervin",
-         "write-speak-code"
-      ],
-      "talk_type":"curriculum",
-      "title":"Intro to Open Source",
-      "key":"intro-to-open-source",
-      "talk_order":5
    },
    "learning-from-machines":{
       "speaker":[
@@ -341,6 +229,185 @@
       "key":"open-source-project-shopping-br",
       "talk_order":5
    },
+   "opening-night-party":{
+      "talk_type":"post-conference-event",
+      "title":"Opening Night Party",
+      "key":"opening-night-party",
+      "talk_order":5,
+      "speaker":null
+   },
+   "the-full-story-presenting-compl":{
+      "speaker":[
+         "catt-small"
+      ],
+      "description":"Telling a cohesive story is one of the hardest parts of public speaking. Many fledgling speakers find it challenging to string concepts together in an order that makes sense to other people. They also find themselves struggling to explain things in a way that feels approachable. In this talk, Catt will share methods to plan and present ideas so that your audience can better understand them. Attendees will leave the talk knowing how to outline and design presentations for speaking engagements.",
+      "talk_type":"standard-talk",
+      "title":"The Full Story: Presenting Complete Ideas",
+      "key":"the-full-story-presenting-compl",
+      "talk_order":5
+   },
+   "being-glue":{
+      "speaker":[
+         "tanya-reilly"
+      ],
+      "description":"Your job title says \"engineer\" and that's what you want to be, but you seem to spend most of your time in meetings. You'd like to have time for code, but nobody else is unblocking the junior engineers, maintaining the relationship with your sister team in the other office, updating the roadmap, talking to teams whose projects overlap with yours, noticing the things that got dropped, asking questions on design documents, and making sure that everyone's going roughly in the same direction. If you stop doing those things, the team will function less well. But now someone's suggesting that 'you might be happier in a less technical role'. \n\n'Glue' work often lands on the only woman on the team, and it needs to be framed carefully. If you display this kind of leadership early in your career, there's a real risk of being seen as 'not technical enough' and pushed off the engineer ladder. Let's talk about how to get you recognised as the technical leader that you are, and keep you on the path to being a senior engineer.",
+      "talk_type":"standard-talk",
+      "title":"Being Glue",
+      "key":"being-glue",
+      "talk_order":5
+   },
+   "black-girls-are-from-the-future":{
+      "speaker":[
+         "tiffany-mikell",
+         "kortney-ziegler"
+      ],
+      "description":"Tiffany \u0026 Kortney cofounded and have been running a tech incubator for the last 4 years.  This after they both had careers in design, film, tech and business for over 10 years.  6 months ago, they launched their fastest growing app \u0026mdash; Appolition. \n\nProduct growth was only achieved after some personal achievements were unlocked. \n\nDuring this talk, Tiffany \u0026 Kortney will discuss their professional journeys and how starting life as Black Girls helps inform their work today \u0026mdash; Creating the Future at ZaMLabs, Inc.",
+      "talk_type":"keynote-talk",
+      "title":"Black Girls Are From The Future:  How to Create The Future And Not Die Before You Get There",
+      "key":"black-girls-are-from-the-future",
+      "talk_order":5
+   },
+   "career-growth-and-performance-r":{
+      "speaker":[
+         "liz-fong-jones",
+         "erica-stanley",
+         "iliana-sach",
+         "neha-batra",
+         "dana-fried"
+      ],
+      "description":"Whether you are giving it or receiving it, performance reviews are stressful.  And not just because you are being assessed, but because it reflects on your relationship with your team and workplace as well as asking the existential question “What am I doing with my life?”  Let’s hear from a number of experienced current and former engineering managers about performance reviews and career growth.  We will discuss goals, progress, feedback, and the manager-report relationship.",
+      "talk_type":"panel",
+      "title":"Career Growth and Performance Reviews: An Engineering Leader Perspective",
+      "key":"career-growth-and-performance-r",
+      "talk_order":5
+   },
+   "chapter-organizers-summit":{
+      "talk_type":"post-conference-event",
+      "title":"Chapter Organizers Summit",
+      "key":"chapter-organizers-summit",
+      "talk_order":5,
+      "speaker":null
+   },
+   "conference-organizers-panel":{
+      "speaker":[
+         "leeann-kinney",
+         "shanise-barona"
+      ],
+      "description":"Wondering what conference organizers look for when selecting speakers for their events? Hear from several conference organizers offering advice on navigating the CFP process and how to make your proposal stand out.",
+      "talk_type":"panel",
+      "title":"Conference Organizers Panel",
+      "key":"conference-organizers-panel",
+      "talk_order":5
+   },
+   "empathetic-engineering":{
+      "speaker":[
+         "evelyn-masso"
+      ],
+      "description":"Engineers empathize with a variety of people (end users, stakeholders, and other developers) to write useful, impactful, and well-structured software. We'll talk about how APIs, domain models, pull requests and other core technical practices require empathy skills. I’ll also share techniques to cultivate empathy as a core skill throughout the software development process.",
+      "talk_type":"standard-talk",
+      "title":"Empathetic Engineering",
+      "key":"empathetic-engineering",
+      "talk_order":5
+   },
+   "end-of-conference":{
+      "title":"END OF CONFERENCE",
+      "key":"end-of-conference",
+      "talk_order":5,
+      "speaker":null,
+      "talk_type":null
+   },
+   "end-of-day":{
+      "title":"END OF DAY",
+      "key":"end-of-day",
+      "talk_order":5,
+      "speaker":null,
+      "talk_type":null
+   },
+   "engineering-at-squarespace":{
+      "speaker":[
+         "alex-gordan",
+         "squarespace"
+      ],
+      "description":"Founded and run by an engineer, Squarespace is dedicated to fostering an environment where the most talented engineers can do their best work. Our engineering teams create solutions that enable our customers to pursue their dreams. In this session, Alex Gordon—Squarespace's Sr Technical Recruiter, Women in Eng (ERG) Co-Chair, and Eng Blog editor—will give you an insider's view into what being an engineer at Squarespace is like.",
+      "title":"Engineering at Squarespace",
+      "key":"engineering-at-squarespace",
+      "talk_order":5,
+      "talk_type":null
+   },
+   "ethics-at-design-time-44-not-ru":{
+      "speaker":[
+         "rowan-cota"
+      ],
+      "description":"What if we treated ethics as a design problem, rather than waiting for it to be a compliance problem? This talk will explore how to include ethics in the design phase for software, focusing on common though little considered potential ethical problems. By using a hypothetical \"user's bill of rights\" framework to consider how to build software that protects privacy and safety to give shape to the talk, I'll introduce a baseline for ethical design that every participant can take home with them and try to apply to their own work. In addition, I'll provide easy starter scripts for talking points, to help folks figure out *how* to have these conversations.",
+      "talk_type":"standard-talk",
+      "title":"Ethics at Design Time\u0026#44; not Run Time",
+      "key":"ethics-at-design-time-44-not-ru",
+      "talk_order":5
+   },
+   "get-noticed":{
+      "speaker":[
+         "datadog",
+         "ashley-miller"
+      ],
+      "description":"What do you do when you're one of very few women on an engineering team? This talk focuses on how to turn a disadvantage into an asset.",
+      "title":"Get Noticed",
+      "key":"get-noticed",
+      "talk_order":5,
+      "talk_type":null
+   },
+   "how-to-tell-a-better-story-in-c":{
+      "speaker":[
+         "bonnie-pan"
+      ],
+      "description":"Learn how to effectively accomplish change in your working conditions or your employer's products through grassroots employee advocacy.",
+      "talk_type":"standard-talk",
+      "title":"How to tell a better story in code",
+      "key":"how-to-tell-a-better-story-in-c",
+      "talk_order":5
+   },
+   "how-we-re-using-drones-to-deliv":{
+      "speaker":[
+         "jo-balme",
+         "zipline"
+      ],
+      "description":"Zipline is designing, building, and operating drones that deliver blood and medical supplies to medical centers in some of the most difficult to reach places on Earth. In this talk we’ll discuss some of the exciting engineering challenges we’ve tackled so far and those that lie ahead.",
+      "talk_type":"sponsor-talk",
+      "title":"How we're using drones to deliver blood and save lives",
+      "key":"how-we-re-using-drones-to-deliv",
+      "talk_order":5
+   },
+   "how-write-speak-code-changed-my":{
+      "speaker":[
+         "carolyn-van-slyck",
+         "microsoft"
+      ],
+      "description":"Carolyn shares how Write/Speak/Code kicked her career into high-gear and inspired her to double-down on paying it forward. Follow her journey from an underpaid, unknown developer to a well-respected international speaker and community leader, working 100% on open source at Microsoft.",
+      "talk_type":"sponsor-talk",
+      "title":"How Write/Speak/Code Changed My Life",
+      "key":"how-write-speak-code-changed-my",
+      "talk_order":5
+   },
+   "intro-to-open-source":{
+      "speaker":[
+         "courteney-ervin",
+         "write-speak-code"
+      ],
+      "talk_type":"curriculum",
+      "title":"Intro to Open Source",
+      "key":"intro-to-open-source",
+      "talk_order":5
+   },
+   "rapid-prototyping-hackathon-ski":{
+      "speaker":[
+         "kelsey-rose",
+         "squarespace"
+      ],
+      "description":"Walk away from this workshop with the ability and confidence to get up and running on a hackathon or personal project you’ve been thinking about starting. We’ll set up a local development server, learn how to expose it to the public internet, and discuss ways to expand the project.",
+      "talk_type":"medium-workshop-2-hr",
+      "title":"Rapid Prototyping / Hackathon Skills",
+      "key":"rapid-prototyping-hackathon-ski",
+      "talk_order":5
+   },
    "registration-breakfast":{
       "talk_type":"food",
       "title":"Registration \u0026 Breakfast",
@@ -405,16 +472,6 @@
       "key":"surviving-rockstar-programmers",
       "talk_order":5
    },
-   "the-full-story-presenting-compl":{
-      "speaker":[
-         "catt-small"
-      ],
-      "description":"Telling a cohesive story is one of the hardest parts of public speaking. Many fledgling speakers find it challenging to string concepts together in an order that makes sense to other people. They also find themselves struggling to explain things in a way that feels approachable. In this talk, Catt will share methods to plan and present ideas so that your audience can better understand them. Attendees will leave the talk knowing how to outline and design presentations for speaking engagements.",
-      "talk_type":"standard-talk",
-      "title":"The Full Story: Presenting Complete Ideas",
-      "key":"the-full-story-presenting-compl",
-      "talk_order":5
-   },
    "tools-are-only-useful-if-you-us":{
       "speaker":[
          "tilde-ann-thurium",
@@ -456,18 +513,6 @@
       "talk_order":5,
       "speaker":null
    },
-   "intro-to-git-github":{
-      "speaker":[
-         "github",
-         "katrina-uychaco",
-         "cynthia-rich"
-      ],
-      "description":"Get started with git and Github.\n\nThis is a sponsored workshop by Github.",
-      "talk_type":"short-workshop-1-hr",
-      "talk_order":6,
-      "title":"Intro to Git \u0026 Github",
-      "key":"intro-to-git-github"
-   },
    "hacking-jewelry":{
       "speaker":[
          "kathleen-simpson",
@@ -477,6 +522,18 @@
       "talk_order":6,
       "title":"Hacking Jewelry",
       "key":"hacking-jewelry"
+   },
+   "intro-to-git-github":{
+      "speaker":[
+         "github",
+         "katrina-uychaco",
+         "cynthia-rich"
+      ],
+      "description":"Get started with git and Github.\n\nThis is a sponsored workshop by Github.",
+      "talk_type":"short-workshop-1-hr",
+      "talk_order":6,
+      "title":"Intro to Git \u0026 GitHub",
+      "key":"intro-to-git-github"
    },
    "pseduocode-it-breaking-through-":{
       "speaker":[
@@ -500,6 +557,17 @@
       "title":"No Blank Spaces: Tapping Into Our Expertise",
       "key":"no-blank-spaces-tapping-into-ou"
    },
+   "foundations-of-thought-leadersh":{
+      "speaker":[
+         "angie-jones",
+         "write-speak-code"
+      ],
+      "description":"To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
+      "talk_type":"curriculum",
+      "talk_order":8,
+      "title":"Foundations of Thought Leadership: Reframing your Narrative",
+      "key":"foundations-of-thought-leadersh"
+   },
    "pens-to-paper-breaking-through-":{
       "speaker":[
          "angie-jones",
@@ -511,16 +579,38 @@
       "title":"Pens to Paper: Breaking through the Writer’s Block Pt. 2",
       "key":"pens-to-paper-breaking-through-"
    },
-   "foundations-of-thought-leadersh":{
+   "hacking-the-cfp-process-writing":{
       "speaker":[
-         "angie-jones",
+         "jamie-chung",
          "write-speak-code"
       ],
-      "description":"To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
+      "description":"Learn the ins and outs of writing conference talk proposals — what they are, the sections that matter, and how to write one. Review an actual talk proposal and feedback from a conference organizer.",
       "talk_type":"curriculum",
-      "talk_order":8,
-      "title":"Foundations of Thought Leadership: Reframing your Narrative",
-      "key":"foundations-of-thought-leadersh"
+      "talk_order":9,
+      "title":"Hacking the CFP Process: Writing Powerful Talk Proposals",
+      "key":"hacking-the-cfp-process-writing"
+   },
+   "pivoting-to-data-science":{
+      "speaker":[
+         "mariann-miscinai",
+         "pivotal"
+      ],
+      "description":"Mariann Micsinai is a Principal Data Scientist at Pivotal. Her talk, \"We can do it, practicing data science in a balanced team\" focuses how she made the transition from Wall Street, to data scientist and the tips and tricks she learned along the way. She'll also talk about her push to work at Pivotal, the cutting edge of data science, and the positives and challenges of working on a balanced team.",
+      "talk_order":9,
+      "title":"Pivoting To Data Science",
+      "key":"pivoting-to-data-science",
+      "talk_type":null
+   },
+   "elixirbridge-building-a-web-app":{
+      "speaker":[
+         "anna-neyzberg",
+         "carbon-five"
+      ],
+      "description":"Elixir is a newer functional programming language that lends itself well to fault tolerant and highly concurrent applications. We'll learn about the power of asynchronous processes, functional programming, and massive parallel connections while building a web application in Elixir. We'll also gain a basic understanding of Elixir syntax, and get a feel for its idiosyncrasies. \n\nThis is a sponsored workshop presented by Carbon Five.",
+      "talk_type":"medium-workshop-2-hr",
+      "talk_order":9,
+      "title":"ElixirBridge: Building a web app in Elixir",
+      "key":"elixirbridge-building-a-web-app"
    },
    "say-what-pt-1-write-your-talk-p":{
       "speaker":[
@@ -554,38 +644,5 @@
       "talk_order":9,
       "title":"Speak Now: Give A 10 min Lightning Talk",
       "key":"speak-now-give-a-10-min-lightni"
-   },
-   "elixirbridge-building-a-web-app":{
-      "speaker":[
-         "anna-neyzberg",
-         "carbon-five"
-      ],
-      "description":"Elixir is a newer functional programming language that lends itself well to fault tolerant and highly concurrent applications. We'll learn about the power of asynchronous processes, functional programming, and massive parallel connections while building a web application in Elixir. We'll also gain a basic understanding of Elixir syntax, and get a feel for its idiosyncrasies. \n\nThis is a sponsored workshop presented by Carbon Five.",
-      "talk_type":"medium-workshop-2-hr",
-      "talk_order":9,
-      "title":"ElixirBridge: Building a web app in Elixir",
-      "key":"elixirbridge-building-a-web-app"
-   },
-   "pivoting-to-data-science":{
-      "speaker":[
-         "mariann-miscinai",
-         "pivotal"
-      ],
-      "description":"Mariann Micsinai is a Principal Data Scientist at Pivotal. Her talk, \"We can do it, practicing data science in a balanced team\" focuses how she made the transition from Wall Street, to data scientist and the tips and tricks she learned along the way. She'll also talk about her push to work at Pivotal, the cutting edge of data science, and the positives and challenges of working on a balanced team.",
-      "talk_order":9,
-      "title":"Pivoting To Data Science",
-      "key":"pivoting-to-data-science",
-      "talk_type":null
-   },
-   "hacking-the-cfp-process-writing":{
-      "speaker":[
-         "jamie-chung",
-         "write-speak-code"
-      ],
-      "description":"Learn the ins and outs of writing conference talk proposals — what they are, the sections that matter, and how to write one. Review an actual talk proposal and feedback from a conference organizer.",
-      "talk_type":"curriculum",
-      "talk_order":9,
-      "title":"Hacking the CFP Process: Writing Powerful Talk Proposals",
-      "key":"hacking-the-cfp-process-writing"
    }
 }

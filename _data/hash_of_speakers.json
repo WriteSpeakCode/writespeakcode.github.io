@@ -1,47 +1,21 @@
 {
-   "github":{
-      "headshot_filename":"../logos/github-logo.png",
-      "company":"Github",
+   "zipline":{
       "speaker_order":-1,
-      "name":"Github",
-      "key":"github"
-   },
-   "pivotal":{
-      "headshot_filename":"../logos/pivotal.png",
-      "speaker_order":-1,
-      "name":"Pivotal",
-      "key":"pivotal"
-   },
-   "alex-gordon":{
-      "headshot_filename":"alex-gordon.jpeg",
-      "bio":"I build software engineering teams that drive the most visible products and brands.\n\nFortune dropped me in advertising right when \"microsite + banner\" thinking gave way to more creative and playful experiences. I nabbed an operations role on an engineering team of 10, looking to establish themselves within a famous advertising agency. \n\nOver four years we grew the team by 700% - with creative engineers across five offices - and digital became half of the agency's revenue. The team built immersive web, mobile, social, experiential/ooh campaigns, and software for clients including Burger King, Microsoft, Old Navy, VW, Amex, Kraft and Domino's. They also claimed Digital Agency of the Year three times at Cannes. \n\nNeedless to say I was hooked and have since sought out companies and teams on the forefront of innovation - from wearables and home automation to music streaming and web hosting. I've also been lucky to learn from some of the brightest technology, creative, and strategic minds, furthering my understanding of how great teams are cultivated. \n\nWhile I've lead operations and resourcing for globally distributed engineering and design teams, my passion is for building and scaling them. Having said that, I believe deeply in growing talent from within. Partnering with CTOs, managers, and engineers to make talent acquisition (and cultivation) a holistic and participatory practice is an important part of my mission.",
-      "twitter":"universalexprts",
-      "linkedin":"https://www.linkedin.com/in/alexandradgordon/",
-      "job_title":"Sr Technical Recruiter",
-      "company":"Squarespace",
-      "pronouns":"she/her",
-      "speaker_order":-1,
-      "name":"Alex\tGordon",
-      "key":"alex-gordon"
-   },
-   "carbon-five":{
-      "headshot_filename":"../logos/carbon-5-logo.png",
-      "company":"Carbon Five",
-      "speaker_order":-1,
-      "name":"Carbon Five",
-      "key":"carbon-five"
-   },
-   "squarespace":{
-      "headshot_filename":"../logos/squarespace-logo-stacked-black.jpg",
-      "company":"Squarespace",
-      "speaker_order":-1,
-      "name":"Squarespace",
-      "key":"squarespace"
+      "name":"Zipline",
+      "headshot_filename":"../logos/Zipline_Logo.png",
+      "key":"zipline"
    },
    "sponsor":{
       "speaker_order":-1,
       "name":"(Sponsor)",
       "key":"sponsor"
+   },
+   "squarespace":{
+      "headshot_filename":"squarespace.jpg",
+      "company":"Squarespace",
+      "speaker_order":-1,
+      "name":"Squarespace",
+      "key":"squarespace"
    },
    "google-developer-studio":{
       "bio":"The Google Developers Studio produces video content for the Google Developers YouTube channel.  The channel features talks from events, educational series, best practices, tips, and the latest updates across our products and platforms.",
@@ -49,6 +23,36 @@
       "speaker_order":-1,
       "name":"Google Developer Studio",
       "key":"google-developer-studio"
+   },
+   "carbon-five":{
+      "headshot_filename":"carbon-5.png",
+      "company":"Carbon Five",
+      "speaker_order":-1,
+      "name":"Carbon Five",
+      "key":"carbon-five"
+   },
+   "pivotal":{
+      "headshot_filename":"../logos/pivotal.png",
+      "speaker_order":-1,
+      "name":"Pivotal",
+      "key":"pivotal"
+   },
+   "github":{
+      "headshot_filename":"../logos/github-logo.png",
+      "company":"Github",
+      "speaker_order":-1,
+      "name":"Github",
+      "key":"github"
+   },
+   "cate-huston":{
+      "headshot_filename":"cate-huston.jpg",
+      "bio":"Cate has spent her career working on mobile and documenting everything she learns using WordPress. Now she combines the two as Automattic's mobile lead.",
+      "twitter":"catehstn",
+      "website":"https://cate.blog/",
+      "pronouns":"she/her",
+      "speaker_order":1,
+      "name":"Cate Huston",
+      "key":"cate-huston"
    },
    "lara-hogan":{
       "headshot_filename":"lara-hogan.jpg",
@@ -86,64 +90,6 @@
       "name":"Amy Wibowo",
       "key":"amy-wibowo"
    },
-   "cate-huston":{
-      "headshot_filename":"cate-huston.jpg",
-      "bio":"Cate has spent her career working on mobile and documenting everything she learns using WordPress. Now she combines the two as Automattic's mobile lead.",
-      "twitter":"catehstn",
-      "website":"https://cate.blog/",
-      "pronouns":"she/her",
-      "speaker_order":1,
-      "name":"Cate Huston",
-      "key":"cate-huston"
-   },
-   "christina-warren":{
-      "headshot_filename":"christina-warren.jpg",
-      "bio":"Christina Warren is a Senior Cloud Developer Advocate at Microsoft, where she helps shape the overall video and broader content strategy for Channel 9, Docs.Microsoft.com, and the greater CDA team. In this role, she hosts shows on Channel 9, Microsoft’s video channel for developer content, speaks at events, and interviews people within the developer community.\n\nPrior to joining Microsoft, Christina spent a decade in digital media as an editor, senior reporter, and commentator, with a focus on technology, business, and, entertainment. As a journalist, she appeared as an expert or commentator on ABC, NBC, CBS, CNN, CNBC, Fox News, Fox Business, Bloomberg, the BBC, Marketplace Radio, The Today Show, Good Morning America, and many more outlets.\n\nShe also co-hosts Rocket, a popular tech news podcast, which has the distinction of being one of the only tech podcasts with an all-female hosting team.",
-      "github":"Filmgirl",
-      "twitter":"Film_girl",
-      "linkedin":"http://www.linkedin.com/in/filmgirl",
-      "website":"http://christina.is/",
-      "job_title":"Senior Cloud Developer Advocate",
-      "company":"Microsoft",
-      "pronouns":"she/her",
-      "speaker_order":2,
-      "name":"Christina Warren",
-      "key":"christina-warren"
-   },
-   "jenn-schiffer":{
-      "headshot_filename":"jenn-schiffer.jpg",
-      "bio":"Jenn Schiffer is an engineer, artist and tech humorist. Most people know her for her incredible strength and also for being the Community Engineer of Glitch.com at Fog Creek. She organizes JerseyScript, a monthly web developer social in Jersey City where she's based, and built everyone's favorite free online pixel art editor, Make8BitArt.com.",
-      "github":"jennschiffer",
-      "twitter":"jennschiffer",
-      "website":"http://jennmoney.biz/",
-      "job_title":"Community Engineer of Glitch.com",
-      "company":"Fog Creek",
-      "pronouns":"she/her",
-      "speaker_order":2,
-      "name":"Jenn Schiffer",
-      "key":"jenn-schiffer"
-   },
-   "sara-wachter-boettcher":{
-      "headshot_filename":"sara-wachter-boettcher.png",
-      "bio":"Sara Wachter-Boettcher is the principal of Rare Union, a digital product and content strategy consultancy, and the author of Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech (W.W. Norton, 2017), which was named one of the best tech books of the year by Wired. Her other books include Design for Real Life (with Eric Meyer) from A Book Apart, and Content Everywhere from Rosenfeld Media.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
-      "github":"sarawb",
-      "twitter":"sara_ann_marie",
-      "linkedin":"https://www.linkedin.com/in/saraboettcher/",
-      "website":"http://www.sarawb.com/",
-      "job_title":"Principal",
-      "company":"Rare Union",
-      "speaker_order":2,
-      "name":"Sara Wachter-Boettcher",
-      "key":"sara-wachter-boettcher"
-   },
-   "jamie-chung":{
-      "headshot_filename":"jamie-chung.jpg",
-      "twitter":"jamieshark_",
-      "pronouns":"they/them",
-      "speaker_order":2,
-      "name":"Jamie Chung",
-      "key":"jamie-chung"
-   },
    "angie-jones":{
       "headshot_filename":"angie-jones.jpg",
       "bio":"Angie Jones is a Senior Automation Engineer at Twitter who has developed automation strategies and frameworks for countless software products. As a Master Inventor, she is known for her innovative and out-of-the-box thinking style which has resulted in more than 25 patented inventions in the US and China. Angie shares her wealth of knowledge by speaking and teaching at software conferences all over the world and leading tech workshops for young girls through Black Girls Code.",
@@ -158,13 +104,6 @@
       "name":"Angie Jones",
       "key":"angie-jones"
    },
-   "courteney-ervin":{
-      "headshot_filename":"courteney-ervin.jpg",
-      "twitter":"courteneyervin",
-      "speaker_order":2,
-      "name":"Courteney Ervin",
-      "key":"courteney-ervin"
-   },
    "liz-fong-jones":{
       "headshot_filename":"liz-fong-jones.jpg",
       "bio":"Liz is a Staff Site Reliability Engineer at Google and works on the Google Cloud Customer Reliability Engineering team in New York. She lives with her wife, metamour, and a Samoyed in Brooklyn. In her spare time, she plays classical piano, leads an EVE Online alliance, and advocates for transgender rights.",
@@ -177,6 +116,19 @@
       "speaker_order":2,
       "name":"Liz Fong-Jones",
       "key":"liz-fong-jones"
+   },
+   "jenn-schiffer":{
+      "headshot_filename":"jenn-schiffer.jpg",
+      "bio":"Jenn Schiffer is an engineer, artist and tech humorist. Most people know her for her incredible strength and also for being the Community Engineer of Glitch.com at Fog Creek. She organizes JerseyScript, a monthly web developer social in Jersey City where she's based, and built everyone's favorite free online pixel art editor, Make8BitArt.com.",
+      "github":"jennschiffer",
+      "twitter":"jennschiffer",
+      "website":"http://jennmoney.biz/",
+      "job_title":"Community Engineer of Glitch.com",
+      "company":"Fog Creek",
+      "pronouns":"she/her",
+      "speaker_order":2,
+      "name":"Jenn Schiffer",
+      "key":"jenn-schiffer"
    },
    "catt-small":{
       "headshot_filename":"catt-small.jpeg",
@@ -203,6 +155,48 @@
       "name":"Chiu-ki Chan",
       "key":"chiu-ki-chan"
    },
+   "christina-warren":{
+      "headshot_filename":"christina-warren.jpg",
+      "bio":"Christina Warren is a Senior Cloud Developer Advocate at Microsoft, where she helps shape the overall video and broader content strategy for Channel 9, Docs.Microsoft.com, and the greater CDA team. In this role, she hosts shows on Channel 9, Microsoft’s video channel for developer content, speaks at events, and interviews people within the developer community.\n\nPrior to joining Microsoft, Christina spent a decade in digital media as an editor, senior reporter, and commentator, with a focus on technology, business, and, entertainment. As a journalist, she appeared as an expert or commentator on ABC, NBC, CBS, CNN, CNBC, Fox News, Fox Business, Bloomberg, the BBC, Marketplace Radio, The Today Show, Good Morning America, and many more outlets.\n\nShe also co-hosts Rocket, a popular tech news podcast, which has the distinction of being one of the only tech podcasts with an all-female hosting team.",
+      "github":"Filmgirl",
+      "twitter":"Film_girl",
+      "linkedin":"http://www.linkedin.com/in/filmgirl",
+      "website":"http://christina.is/",
+      "job_title":"Senior Cloud Developer Advocate",
+      "company":"Microsoft",
+      "pronouns":"she/her",
+      "speaker_order":2,
+      "name":"Christina Warren",
+      "key":"christina-warren"
+   },
+   "jamie-chung":{
+      "headshot_filename":"jamie-chung.jpg",
+      "twitter":"jamieshark_",
+      "pronouns":"they/them",
+      "speaker_order":2,
+      "name":"Jamie Chung",
+      "key":"jamie-chung"
+   },
+   "sara-wachter-boettcher":{
+      "headshot_filename":"sara-wachter-boettcher.png",
+      "bio":"Sara Wachter-Boettcher is the principal of Rare Union, a digital product and content strategy consultancy, and the author of Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech (W.W. Norton, 2017), which was named one of the best tech books of the year by Wired. Her other books include Design for Real Life (with Eric Meyer) from A Book Apart, and Content Everywhere from Rosenfeld Media.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
+      "github":"sarawb",
+      "twitter":"sara_ann_marie",
+      "linkedin":"https://www.linkedin.com/in/saraboettcher/",
+      "website":"http://www.sarawb.com/",
+      "job_title":"Principal",
+      "company":"Rare Union",
+      "speaker_order":2,
+      "name":"Sara Wachter-Boettcher",
+      "key":"sara-wachter-boettcher"
+   },
+   "courteney-ervin":{
+      "headshot_filename":"courteney-ervin.jpg",
+      "twitter":"courteneyervin",
+      "speaker_order":2,
+      "name":"Courteney Ervin",
+      "key":"courteney-ervin"
+   },
    "rebecca-miller-webster":{
       "headshot_filename":"rebecca-miller-webster.jpg",
       "bio":"Rebecca Miller-Webster is a software engineer, conference organizer, and educator. She is the founder of Write/Speak/Code and Director of Engineering at DevMynd. Rebecca has been developing software professionally for over a dozen years, previously organized GORUCO, and was the founding teacher at Dev Bootcamp NYC. Rebecca's hobbies include drinking Cherry Coke Zero, wearing trousers, telling computers what to do, cuddling pugs, \u0026 wearing all the colors.",
@@ -215,18 +209,6 @@
       "speaker_order":3,
       "name":"Rebecca Miller-Webster",
       "key":"rebecca-miller-webster"
-   },
-   "crystal-martin":{
-      "headshot_filename":"crystal-martin.jpg",
-      "bio":"Crystal is a Salesforce Development consultant at Slalom, a co-organizer of Strange Loop Conference, and diversity in tech and business advocate. As a Detroit Public Schools graduate, Crystal is passionate about equal access to education at all levels. She came to St. Louis as a 2010 Teach For America Corps Member and taught middle school math in St. Louis Public Schools for four years. After her time in the classroom, she wanted to explore a career that would allow her to bring together her love for creativity, science, and community and technology was just that! Crystal likes to call herself a “developing developer”, she’s a lifetime learner and is currently digging into JavaScript and Salesforce and fighting the patriarchy and imposter syndrome one key stroke at a time. She holds a B.S. in Nutritional Sciences from Michigan State University and an M.Ed. in Secondary Education from the University of Missouri-St. Louis, which goes to show, college degrees matter, but they really don’t.",
-      "twitter":"codermeow",
-      "linkedin":"https://www.linkedin.com/in/crystal-martin-05b0b838/",
-      "job_title":"Consultant",
-      "company":"Slalom",
-      "pronouns":"she/her",
-      "speaker_order":4,
-      "name":"Crystal Martin",
-      "key":"crystal-martin"
    },
    "hilary-stohs-krause":{
       "headshot_filename":"hilary-stohs-krause.jpg",
@@ -242,6 +224,66 @@
       "name":"Hilary Stohs-Krause",
       "key":"hilary-stohs-krause"
    },
+   "crystal-martin":{
+      "headshot_filename":"crystal-martin.jpg",
+      "bio":"Crystal is a Salesforce Development consultant at Slalom, a co-organizer of Strange Loop Conference, and diversity in tech and business advocate. As a Detroit Public Schools graduate, Crystal is passionate about equal access to education at all levels. She came to St. Louis as a 2010 Teach For America Corps Member and taught middle school math in St. Louis Public Schools for four years. After her time in the classroom, she wanted to explore a career that would allow her to bring together her love for creativity, science, and community and technology was just that! Crystal likes to call herself a “developing developer”, she’s a lifetime learner and is currently digging into JavaScript and Salesforce and fighting the patriarchy and imposter syndrome one key stroke at a time. She holds a B.S. in Nutritional Sciences from Michigan State University and an M.Ed. in Secondary Education from the University of Missouri-St. Louis, which goes to show, college degrees matter, but they really don’t.",
+      "twitter":"codermeow",
+      "linkedin":"https://www.linkedin.com/in/crystal-martin-05b0b838/",
+      "job_title":"Consultant",
+      "company":"Slalom",
+      "pronouns":"she/her",
+      "speaker_order":4,
+      "name":"Crystal Martin",
+      "key":"crystal-martin"
+   },
+   "jo-balme":{
+      "headshot_filename":"jo-balme.jpg",
+      "bio":"Jo Balme is a software engineer specializing in robotics and embedded programming. She builds life-saving drones by day and terrifying battlebots by night.",
+      "job_title":"Embedded Software Engineer",
+      "company":"Zipline",
+      "pronouns":"she/her",
+      "name":"Jo Balme",
+      "key":"jo-balme",
+      "speaker_order":5
+   },
+   "kara-carrell":{
+      "headshot_filename":"kara-carrell.png",
+      "github":"KaraAJC",
+      "twitter":"KaraAJC",
+      "linkedin":"https://linkedin.com/in/karaajc",
+      "pronouns":"she/her",
+      "name":"Kara Carrell",
+      "key":"kara-carrell",
+      "speaker_order":5
+   },
+   "katel-ledu":{
+      "headshot_filename":"katel-ledu .jpg",
+      "bio":"Katel LeDû is the CEO of A Book Apart, where she helps passionate tech community members become successful authors. Previously, she worked with _National Geographic_ as their digital director of photography, and has been in publishing since the early aughts. She’s seen a lot. She enjoys running (no, really) and learning the secrets of life from her snaggle-toothed mutt, Hugo.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
+      "twitter":"theledu",
+      "name":"Katel LeDû",
+      "key":"katel-ledu",
+      "speaker_order":5
+   },
+   "kathleen-simpson":{
+      "headshot_filename":"kathleen-simpson.jpg",
+      "bio":"Kathy Simpson is Senior Director of Product Management at GitHub, where she leads Developer Experience in navigating code collaboration, workflow and efficiency. \n\nKathy has an engineering background and has always been a maker at heart with a passion for technology. She’s played a critical role in the creation of new products such as Heroku’s developer dashboard and enterprise workflow management systems, and works to make every product successful well beyond launch. Her curiosity for building is fueled by exploring new tools, prototyping potential solutions and investigating different processes. \n\nPrior to GitHub, Kathy worked as Senior Product Manager on the Human Interface Team at Heroku. Before Heroku, Kathy was a Senior Product Manager for Disqus, where she ran the core commenting platform. She studied Philosophy and Physical Anthropology at Pacific Lutheran University.",
+      "github":"simpsoka",
+      "twitter":"simpsoka",
+      "website":"http://www.kathy.pm/",
+      "job_title":"Senior Director, Product Management",
+      "company":"GitHub",
+      "pronouns":"she/her",
+      "name":"Kathleen Simpson",
+      "key":"kathleen-simpson",
+      "speaker_order":5
+   },
+   "katrina-owen":{
+      "headshot_filename":"wsc-code-placeholder.png",
+      "twitter":"kytrinyx",
+      "name":"Katrina Owen",
+      "key":"katrina-owen",
+      "speaker_order":5
+   },
    "katrina-uychaco":{
       "github":"kuychaco",
       "twitter":"kuychaco",
@@ -251,6 +293,31 @@
       "name":"Katrina Uychaco",
       "key":"katrina-uychaco",
       "speaker_order":5
+   },
+   "alex-gordan":{
+      "headshot_filename":"alex-gordon.jpeg",
+      "bio":"I build software engineering teams that drive the most visible products and brands.\n\nFortune dropped me in advertising right when \"microsite + banner\" thinking gave way to more creative and playful experiences. I nabbed an operations role on an engineering team of 10, looking to establish themselves within a famous advertising agency. \n\nOver four years we grew the team by 700% - with creative engineers across five offices - and digital became half of the agency's revenue. The team built immersive web, mobile, social, experiential/ooh campaigns, and software for clients including Burger King, Microsoft, Old Navy, VW, Amex, Kraft and Domino's. They also claimed Digital Agency of the Year three times at Cannes. \n\nNeedless to say I was hooked and have since sought out companies and teams on the forefront of innovation - from wearables and home automation to music streaming and web hosting. I've also been lucky to learn from some of the brightest technology, creative, and strategic minds, furthering my understanding of how great teams are cultivated. \n\nWhile I've lead operations and resourcing for globally distributed engineering and design teams, my passion is for building and scaling them. Having said that, I believe deeply in growing talent from within. Partnering with CTOs, managers, and engineers to make talent acquisition (and cultivation) a holistic and participatory practice is an important part of my mission.",
+      "twitter":"universalexprts",
+      "linkedin":"https://www.linkedin.com/in/alexandradgordon/",
+      "job_title":"Sr Technical Recruiter",
+      "company":"Squarespace",
+      "pronouns":"she/her",
+      "name":"Alex Gordan",
+      "key":"alex-gordan",
+      "speaker_order":5
+   },
+   "kortney-ziegler":{
+      "headshot_filename":"kortney-ziegler.jpg",
+      "bio":"Kortney Ziegler is ZaMLabs’ Director of Research \u0026 Design, bringing to this role a passion for social-justice-based work in the tech space. He is the creator of Trans*H4CK (2013) and the first person to receive the PhD of African-American studies from Northwestern University (2011). An award-winning writer, filmmaker and social entrepreneur -- Ziegler was named one of the most influential African Americans by TheRoot100.",
+      "twitter":"fakerapper",
+      "linkedin":"https://www.linkedin.com/in/dr-kortney-ziegler-65885845/",
+      "website":"https://appolition.us/",
+      "job_title":"Director of Research \u0026 Design",
+      "company":"ZaMLabs",
+      "pronouns":"he/him",
+      "name":"Kortney Ziegler",
+      "key":"kortney-ziegler",
+      "speaker_order":1
    },
    "lateesha-thomas":{
       "headshot_filename":"lateesha-thomas.jpg",
@@ -287,6 +354,12 @@
       "name":"Marie Casabonne",
       "key":"marie-casabonne",
       "speaker_order":5
+   },
+   "microsoft":{
+      "headshot_filename":"../logos/microsoft-azure-logo.svg",
+      "name":"Microsoft",
+      "key":"microsoft",
+      "speaker_order":-1
    },
    "neha-batra":{
       "headshot_filename":"neha.jpg",
@@ -430,17 +503,15 @@
       "key":"vanessa-yuen",
       "speaker_order":5
    },
-   "kortney-ziegler":{
-      "headshot_filename":"kortney-ziegler.jpg",
-      "bio":"Kortney Ziegler is ZaMLabs’ Director of Research \u0026 Design, bringing to this role a passion for social-justice-based work in the tech space. He is the creator of Trans*H4CK (2013) and the first person to receive the PhD of African-American studies from Northwestern University (2011). An award-winning writer, filmmaker and social entrepreneur -- Ziegler was named one of the most influential African Americans by TheRoot100.",
-      "twitter":"fakerapper",
-      "linkedin":"https://www.linkedin.com/in/dr-kortney-ziegler-65885845/",
-      "website":"https://appolition.us/",
-      "job_title":"Director of Research \u0026 Design",
-      "company":"ZaMLabs",
-      "pronouns":"he/him",
-      "name":"Kortney Ziegler",
-      "key":"kortney-ziegler",
+   "kelsey-rose":{
+      "headshot_filename":"kelsey-rose.jpeg",
+      "bio":"Kelsey Rose is a fullstack Software Engineer on the Squarespace's Commerce team, powering Squarespace's eCommerce platform.",
+      "linkedin":"https://www.linkedin.com/in/kelsey-rose-58756885/",
+      "job_title":"Software Engineer",
+      "company":"Squarespace",
+      "pronouns":"she/her",
+      "name":"Kelsey Rose",
+      "key":"kelsey-rose",
       "speaker_order":5
    },
    "amelia-downs":{
@@ -506,6 +577,18 @@
       "key":"ashi-krishnan",
       "speaker_order":5
    },
+   "ashley-miller":{
+      "bio":"Ashley is Director of Engineering at Datadog where she runs the web platform.  dashboar, and data viz teams. Before that she focused on building fast, scalable data infrastructure at BuzzFeed. Ashley has helped build (and rebuild) core systems at many startups in NYC. Prior to working as a software engineer she worked in policy and politics and continues to follow campaigns the way other people follow basketball.",
+      "github":"ashleymiller",
+      "twitter":"csprite",
+      "job_title":"Director of Engineering",
+      "company":"Datadog",
+      "pronouns":"she/her",
+      "name":"Ashley Miller",
+      "key":"ashley-miller",
+      "headshot_filename":"ashley-miller.jpeg",
+      "speaker_order":5
+   },
    "bonnie-pan":{
       "headshot_filename":"bonnie-pan.jpg",
       "bio":"Bonnie Pan is a Staff Applications Engineer at Medidata currently working on the next generation clinical cloud platform. She started her career in startups working on green-field projects and then was intrigued by the challenges working with legacy code.  She has been working with in-production legacy code for the past 7 years, and becomes passionate about refactoring, readability and testing. As a new immigrant to this country, she enjoys reading about USA and teaching her two little kids classical Chinese poem the same time.",
@@ -514,6 +597,20 @@
       "pronouns":"she/her",
       "name":"Bonnie Pan",
       "key":"bonnie-pan",
+      "speaker_order":5
+   },
+   "carolyn-van-slyck":{
+      "headshot_filename":"carolynvs.jpg",
+      "bio":"Carolyn is a software developer based in the wilds of suburban Chicago, working remotely on the Microsoft Azure Containers team. She is a maintainer for the Go dependency manager (dep), a Kubernetes contributor, and Service Catalog SIG chair. As an organizer for Women Who Go, she regularly hauls her cookies across the world to share her love of Go, Kubernetes, and excessive emoji ✨ with her peers.",
+      "github":"carolynvs",
+      "twitter":"carolynvs",
+      "linkedin":"https://linkedin.com/in/vanslyck",
+      "website":"https://carolynvanslyck.com",
+      "job_title":"Senior Software Engineer",
+      "company":"Microsoft",
+      "pronouns":"she/her",
+      "name":"Carolyn Van Slyck",
+      "key":"carolyn-van-slyck",
       "speaker_order":5
    },
    "chrys-wu":{
@@ -527,12 +624,34 @@
       "speaker_order":5
    },
    "cynthia-rich":{
+      "headshot_filename":"cynthia-rich.jpg",
+      "bio":"Cynthia Rich is an instructional designer and passionate GitHub advocate. She possesses an enthusiasm for non-technical users and software developers alike and the advantages the GitHub Flow provides for content collaboration.",
       "github":"crichid",
+      "twitter":"cynthiarich07",
+      "linkedin":"https://www.linkedin.com/in/crichnc/",
       "job_title":"Services Learning Manager",
       "company":"GitHub",
+      "pronouns":"she/her",
       "name":"Cynthia Rich",
       "key":"cynthia-rich",
       "speaker_order":5
+   },
+   "dana-fried":{
+      "headshot_filename":"dana-fried.jpg",
+      "bio":"Dana leads the Chrome Desktop UI team in Seattle, after a three-year stint in supply chain feeding Google's hungry data centers. Previously, she was Technical Lead at Phoenix Integration, where she architected software that helped NASA design missions to the moons of Jupiter. She was also responsible for much of the enemy AI in Volition, Inc.'s 2009 console title, Red Faction: Guerrilla. In her spare time, Dana is a mom, a dedicated partner, and a competitive roller derby player.",
+      "twitter":"leftoblique",
+      "job_title":"Senior Software Engineer and Manager",
+      "company":"Google",
+      "pronouns":"she/her",
+      "name":"Dana Fried",
+      "key":"dana-fried",
+      "speaker_order":5
+   },
+   "datadog":{
+      "name":"Datadog",
+      "key":"datadog",
+      "headshot_filename":"../logos/datadog_logo.png",
+      "speaker_order":-1
    },
    "debra-williams":{
       "job_title":"OSS Editor",
@@ -646,44 +765,6 @@
       "pronouns":"she/her",
       "name":"Jiaqi Liu",
       "key":"jiaqi-liu",
-      "speaker_order":5
-   },
-   "kara-carrell":{
-      "headshot_filename":"kara-carrell.png",
-      "github":"KaraAJC",
-      "twitter":"KaraAJC",
-      "linkedin":"https://linkedin.com/in/karaajc",
-      "pronouns":"she/her",
-      "name":"Kara Carrell",
-      "key":"kara-carrell",
-      "speaker_order":5
-   },
-   "katel-ledu":{
-      "headshot_filename":"katel-ledu .jpg",
-      "bio":"Katel LeDû is the CEO of A Book Apart, where she helps passionate tech community members become successful authors. Previously, she worked with _National Geographic_ as their digital director of photography, and has been in publishing since the early aughts. She’s seen a lot. She enjoys running (no, really) and learning the secrets of life from her snaggle-toothed mutt, Hugo.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
-      "twitter":"theledu",
-      "name":"Katel LeDû",
-      "key":"katel-ledu",
-      "speaker_order":5
-   },
-   "kathleen-simpson":{
-      "headshot_filename":"kathleen-simpson.jpg",
-      "bio":"Kathy Simpson is Senior Director of Product Management at GitHub, where she leads Developer Experience in navigating code collaboration, workflow and efficiency. \n\nKathy has an engineering background and has always been a maker at heart with a passion for technology. She’s played a critical role in the creation of new products such as Heroku’s developer dashboard and enterprise workflow management systems, and works to make every product successful well beyond launch. Her curiosity for building is fueled by exploring new tools, prototyping potential solutions and investigating different processes. \n\nPrior to GitHub, Kathy worked as Senior Product Manager on the Human Interface Team at Heroku. Before Heroku, Kathy was a Senior Product Manager for Disqus, where she ran the core commenting platform. She studied Philosophy and Physical Anthropology at Pacific Lutheran University.",
-      "github":"simpsoka",
-      "twitter":"simpsoka",
-      "website":"http://www.kathy.pm/",
-      "job_title":"Senior Director, Product Management",
-      "company":"GitHub",
-      "pronouns":"she/her",
-      "name":"Kathleen Simpson",
-      "key":"kathleen-simpson",
-      "speaker_order":5
-   },
-   "katrina-owen":{
-      "headshot_filename":"wsc-code-placeholder.png",
-      "twitter":"kytrinyx",
-      "name":"Katrina Owen",
-      "key":"katrina-owen",
       "speaker_order":5
    },
    "write-speak-code":{

@@ -600,20 +600,23 @@
             },
             {
                "date":"8/2/2018 10:00am",
-               "title":"(Sponsor Talk)",
-               "speaker":null,
+               "title":"How Write/Speak/Code Changed My Life",
+               "speaker":[
+                  "carolyn-van-slyck",
+                  "microsoft"
+               ],
                "location":"Microsoft Conference Center Main (Primary Venue)",
                "track":"All",
                "day":"Speak/Leadership",
                "day_section":1,
                "track_key":"all",
-               "key":"Thu--1--all--sponsor-talk",
+               "key":"Thu--1--all--how-write-speak-code-changed-my",
                "dt":"2018-08-02T10:00:00.000+00:00",
                "dayname":"Thu",
                "time":"10:00 AM",
                "date_order":"2018-08-02-10-00",
                "section":1,
-               "title_key":"sponsor-talk",
+               "title_key":"how-write-speak-code-changed-my",
                "talk_type":"sponsor-talk",
                "track_order":1
             },
@@ -846,7 +849,8 @@
                   "liz-fong-jones",
                   "erica-stanley",
                   "iliana-sach",
-                  "neha-batra"
+                  "neha-batra",
+                  "dana-fried"
                ],
                "location":"Studio Arte (Secondary Venue)",
                "track":"Explorations",
@@ -996,24 +1000,24 @@
             },
             {
                "date":"8/2/2018 5:35pm",
-               "title":"Engineering at Squarespace",
+               "title":"How we're using drones to deliver blood and save lives",
                "speaker":[
-                  "squarespace",
-                  "alex-gordon"
+                  "jo-balme",
+                  "zipline"
                ],
                "location":"Microsoft Conference Center Main (Primary Venue)",
                "track":"All",
                "day":"Speak/Leadership",
                "day_section":3,
                "track_key":"all",
-               "key":"Thu--3--all--engineering-at-squarespace",
+               "key":"Thu--3--all--how-we-re-using-drones-to-deliv",
                "dt":"2018-08-02T17:35:00.000+00:00",
                "dayname":"Thu",
                "time":" 5:35 PM",
                "date_order":"2018-08-02-17-35",
                "section":3,
-               "title_key":"engineering-at-squarespace",
-               "talk_type":null,
+               "title_key":"how-we-re-using-drones-to-deliv",
+               "talk_type":"sponsor-talk",
                "track_order":1
             },
             {
@@ -1108,7 +1112,7 @@
          "Intro to Open Source":[
             {
                "date":"8/3/2018 8:00am",
-               "title":"Intro to Git \u0026 Github",
+               "title":"Intro to Git \u0026 GitHub",
                "speaker":[
                   "github",
                   "katrina-uychaco",
@@ -1181,21 +1185,24 @@
             },
             {
                "date":"8/3/2018 10:00am",
-               "title":"(Sponsor Talk)",
-               "speaker":null,
+               "title":"Get Noticed",
+               "speaker":[
+                  "datadog",
+                  "ashley-miller"
+               ],
                "location":"Microsoft Conference Center Main (Primary Venue)",
                "track":"All",
                "day":"Code/Ethics",
                "day_section":2,
                "track_key":"all",
-               "key":"Fri--2--all--sponsor-talk",
+               "key":"Fri--2--all--get-noticed",
                "dt":"2018-08-03T10:00:00.000+00:00",
                "dayname":"Fri",
                "time":"10:00 AM",
                "date_order":"2018-08-03-10-00",
                "section":2,
-               "title_key":"sponsor-talk",
-               "talk_type":"sponsor-talk",
+               "title_key":"get-noticed",
+               "talk_type":null,
                "track_order":1
             },
             {
@@ -1370,8 +1377,9 @@
          "Coding Workshops":[
             {
                "date":"8/3/2018 11:00am",
-               "title":"SquareSpace Sponsor Workshop",
+               "title":"Rapid Prototyping / Hackathon Skills",
                "speaker":[
+                  "kelsey-rose",
                   "squarespace"
                ],
                "location":"Microsoft Conference Center Breakout 1 (Primary Venue)",
@@ -1379,13 +1387,13 @@
                "day":"Code/Ethics",
                "day_section":3,
                "track_key":"coding-workshops",
-               "key":"Fri--3--coding-workshops--squarespace-sponsor-workshop",
+               "key":"Fri--3--coding-workshops--rapid-prototyping-hackathon-ski",
                "dt":"2018-08-03T11:00:00.000+00:00",
                "dayname":"Fri",
                "time":"11:00 AM",
                "date_order":"2018-08-03-11-00",
                "section":3,
-               "title_key":"squarespace-sponsor-workshop",
+               "title_key":"rapid-prototyping-hackathon-ski",
                "talk_type":"medium-workshop-2-hr",
                "track_order":5
             }
@@ -1858,7 +1866,7 @@
             },
             {
                "date":"8/3/2018 5:45pm",
-               "title":"\"Art \u0026 Technology, Great But Also Bad\"",
+               "title":"Art \u0026 Technology\u0026#44; Great But Also Bad",
                "speaker":[
                   "jenn-schiffer"
                ],
@@ -1867,13 +1875,13 @@
                "day":"Code/Ethics",
                "day_section":6,
                "track_key":"all",
-               "key":"Fri--6--all--art-technology-great-but-also-b",
+               "key":"Fri--6--all--art-technology-44-great-but-als",
                "dt":"2018-08-03T17:45:00.000+00:00",
                "dayname":"Fri",
                "time":" 5:45 PM",
                "date_order":"2018-08-03-17-45",
                "section":6,
-               "title_key":"art-technology-great-but-also-b",
+               "title_key":"art-technology-44-great-but-als",
                "talk_type":"keynote-talk",
                "track_order":1
             },
@@ -1929,7 +1937,7 @@
             },
             {
                "date":"8/4/2018 10:10am",
-               "title":"Growth Day Opening Keynote",
+               "title":"Black Girls Are From The Future:  How to Create The Future And Not Die Before You Get There",
                "speaker":[
                   "tiffany-mikell",
                   "kortney-ziegler"
@@ -1939,13 +1947,13 @@
                "day":"Growth",
                "day_section":1,
                "track_key":"all",
-               "key":"Sat--1--all--growth-day-opening-keynote",
+               "key":"Sat--1--all--black-girls-are-from-the-future",
                "dt":"2018-08-04T10:10:00.000+00:00",
                "dayname":"Sat",
                "time":"10:10 AM",
                "date_order":"2018-08-04-10-10",
                "section":1,
-               "title_key":"growth-day-opening-keynote",
+               "title_key":"black-girls-are-from-the-future",
                "talk_type":"keynote-talk",
                "track_order":1
             },

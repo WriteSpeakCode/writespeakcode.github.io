@@ -1,9 +1,9 @@
 [
    {
-      "key":"rebecca-miller-webster",
-      "name":"Rebecca Miller-Webster",
-      "twitter":"rmillerwebster",
-      "headshot_filename":"rebecca-miller-webster.jpg",
+      "key":"lateesha-thomas",
+      "name":"Lateesha Thomas",
+      "twitter":"lateeshathomas",
+      "headshot_filename":"lateesha-thomas.jpg",
       "order":1,
       "role":"Director",
       "pronouns":"she/her"
@@ -18,10 +18,10 @@
       "pronouns":"she/her"
    },
    {
-      "key":"lateesha-thomas",
-      "name":"Lateesha Thomas",
-      "twitter":"lateeshathomas",
-      "headshot_filename":"lateesha-thomas.jpg",
+      "key":"rebecca-miller-webster",
+      "name":"Rebecca Miller-Webster",
+      "twitter":"rmillerwebster",
+      "headshot_filename":"rebecca-miller-webster.jpg",
       "order":1,
       "role":"Director",
       "pronouns":"she/her"
@@ -42,6 +42,14 @@
       "headshot_filename":"dalal-alrayes.jpg",
       "order":2,
       "role":"Board",
+      "pronouns":"she/her"
+   },
+   {
+      "key":"rebecca-long",
+      "name":"Rebecca Long",
+      "twitter":"amaya30",
+      "headshot_filename":"rebecca-long.jpg",
+      "order":5,
       "pronouns":"she/her"
    },
    {
@@ -68,10 +76,16 @@
       "pronouns":"she/her"
    },
    {
-      "key":"rebecca-long",
-      "name":"Rebecca Long",
-      "twitter":"amaya30",
-      "headshot_filename":"rebecca-long.jpg",
+      "key":"mercedes-bernard",
+      "name":"Mercedes Bernard",
+      "twitter":"mercedescodes",
+      "headshot_filename":"mercedesb.jpg",
+      "order":5,
+      "pronouns":"she/her"
+   },
+   {
+      "key":"mina-slater",
+      "name":"Mina Slater",
       "order":5,
       "pronouns":"she/her"
    },

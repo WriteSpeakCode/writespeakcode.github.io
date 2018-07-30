@@ -514,7 +514,7 @@
           "date": "8/1/2018 7:00pm",
           "title": "Opening Night Party",
           "speaker": null,
-          "location": "Opening Night Party Location (tbd)",
+          "location": "Public House",
           "track": "All",
           "day": "Write/Passion",
           "day_section": 4,
@@ -676,7 +676,11 @@
           "title": "Conference Organizers Panel",
           "speaker": [
             "leeann-kinney",
-            "shanise-barona"
+            "shanise-barona",
+            "hilary-stohs-krause",
+            "chiu-ki-chan",
+            "liz-fong-jones",
+            "raquel-hernandez"
           ],
           "location": "Microsoft Conference Center Main (Primary Venue)",
           "track": "Foundations",
@@ -698,7 +702,12 @@
           "title": "Say What? Pt. 1: Write Your Talk Proposal",
           "speaker": [
             "jamie-chung",
-            "write-speak-code"
+            "write-speak-code",
+            "evelyn-masso",
+            "mimi-nguyen",
+            "lisa-van-gelder",
+            "brittney-braxton",
+            "jessica-parsons"
           ],
           "location": "Microsoft Conference Center Main (Primary Venue)",
           "track": "Foundations",
@@ -739,7 +748,21 @@
           "title": "Say What? Pt. 2:  Write A 10 min Lightning Talk",
           "speaker": [
             "jamie-chung",
-            "write-speak-code"
+            "write-speak-code",
+            "crystal-martin",
+            "ann-guilinger",
+            "rebecca-holzschuh",
+            "jiaqi-liu",
+            "chiu-ki-chan",
+            "denise-yu",
+            "hilary-stohs-krause",
+            "chrys-wu",
+            "cynthia-rich",
+            "evelyn-masso",
+            "mimi-nguyen",
+            "lisa-van-gelder",
+            "brittney-braxton",
+            "jessica-parsons"
           ],
           "location": "We Work Breakouts",
           "track": "Foundations",
@@ -761,7 +784,16 @@
           "title": "Speak Now: Give A 10 min Lightning Talk",
           "speaker": [
             "jamie-chung",
-            "write-speak-code"
+            "write-speak-code",
+            "crystal-martin",
+            "ann-guilinger",
+            "rebecca-holzschuh",
+            "jiaqi-liu",
+            "chiu-ki-chan",
+            "denise-yu",
+            "hilary-stohs-krause",
+            "chrys-wu",
+            "cynthia-rich"
           ],
           "location": "We Work Breakouts",
           "track": "Foundations",
@@ -1005,7 +1037,9 @@
           "title": "How we're using drones to deliver blood and save lives",
           "speaker": [
             "jo-balme",
-            "zipline"
+            "zipline",
+            "emma-schott",
+            "manal-habib"
           ],
           "location": "Microsoft Conference Center Main (Primary Venue)",
           "track": "All",
@@ -1069,8 +1103,10 @@
         {
           "date": "8/2/2018 7:00pm",
           "title": "Starting a Write/Speak/Code Chapter",
-          "speaker": null,
-          "location": "Start a Chapter Location (tbd)",
+          "speaker": [
+            "neha-batra"
+          ],
+          "location": "Casper",
           "track": "All",
           "day": "Speak/Leadership",
           "day_section": 4,
@@ -1208,7 +1244,7 @@
           "track_order": 1
         },
         {
-          "date": "8/3/2018 10:15am",
+          "date": "8/3/2018 10:25am",
           "title": "Speak Your Truth: Code/Ethics Networking \u0026 Sponsor Mingle",
           "speaker": [
             "kara-carrell",
@@ -1221,10 +1257,10 @@
           "day_section": 2,
           "track_key": "all",
           "key": "Fri--2--all--speak-your-truth-code-ethics-ne",
-          "dt": "2018-08-03T10:15:00.000+00:00",
+          "dt": "2018-08-03T10:25:00.000+00:00",
           "dayname": "Fri",
-          "time": "10:15 AM",
-          "date_order": "2018-08-03-10-15",
+          "time": "10:25 AM",
+          "date_order": "2018-08-03-10-25",
           "section": 2,
           "title_key": "speak-your-truth-code-ethics-ne",
           "talk_type": "curriculum",
@@ -1235,7 +1271,7 @@
     {
       "Explorations": [
         {
-          "date": "8/3/2018 10:45am",
+          "date": "8/3/2018 10:55am",
           "title": "Podcasting Workshop",
           "speaker": [
             "christina-warren"
@@ -1246,10 +1282,10 @@
           "day_section": 3,
           "track_key": "explorations",
           "key": "Fri--3--explorations--podcasting-workshop",
-          "dt": "2018-08-03T10:45:00.000+00:00",
+          "dt": "2018-08-03T10:55:00.000+00:00",
           "dayname": "Fri",
-          "time": "10:45 AM",
-          "date_order": "2018-08-03-10-45",
+          "time": "10:55 AM",
+          "date_order": "2018-08-03-10-55",
           "section": 3,
           "title_key": "podcasting-workshop",
           "talk_type": "medium-workshop-2-hr",
@@ -1258,7 +1294,7 @@
       ],
       "Open Source": [
         {
-          "date": "8/3/2018 10:45am",
+          "date": "8/3/2018 10:55am",
           "title": "Open Source Project Shopping \u0026 Brainstorming",
           "speaker": [
             "courteney-ervin",
@@ -1270,17 +1306,17 @@
           "day_section": 3,
           "track_key": "open-source",
           "key": "Fri--3--open-source--open-source-project-shopping-br",
-          "dt": "2018-08-03T10:45:00.000+00:00",
+          "dt": "2018-08-03T10:55:00.000+00:00",
           "dayname": "Fri",
-          "time": "10:45 AM",
-          "date_order": "2018-08-03-10-45",
+          "time": "10:55 AM",
+          "date_order": "2018-08-03-10-55",
           "section": 3,
           "title_key": "open-source-project-shopping-br",
           "talk_type": "curriculum",
           "track_order": 2
         },
         {
-          "date": "8/3/2018 11:00am",
+          "date": "8/3/2018 11:10am",
           "title": "Open Source \u0026 Personal Project Coding",
           "speaker": [
             "courteney-ervin",
@@ -1289,7 +1325,8 @@
             "jessica-lord",
             "katrina-owen",
             "julia-nguyen",
-            "camille-villa"
+            "camille-villa",
+            "christine-zagrobleny"
           ],
           "location": "We Work Breakouts",
           "track": "Open Source",
@@ -1297,10 +1334,10 @@
           "day_section": 3,
           "track_key": "open-source",
           "key": "Fri--3--open-source--open-source-personal-project-co",
-          "dt": "2018-08-03T11:00:00.000+00:00",
+          "dt": "2018-08-03T11:10:00.000+00:00",
           "dayname": "Fri",
-          "time": "11:00 AM",
-          "date_order": "2018-08-03-11-00",
+          "time": "11:10 AM",
+          "date_order": "2018-08-03-11-10",
           "section": 3,
           "title_key": "open-source-personal-project-co",
           "talk_type": "curriculum",
@@ -1309,7 +1346,7 @@
       ],
       "Intro to Open Source": [
         {
-          "date": "8/3/2018 10:45am",
+          "date": "8/3/2018 10:55am",
           "title": "Open Source Project Shopping \u0026 Brainstorming",
           "speaker": [
             "courteney-ervin",
@@ -1321,39 +1358,39 @@
           "day_section": 3,
           "track_key": "intro-to-open-source",
           "key": "Fri--3--intro-to-open-source--open-source-project-shopping-br",
-          "dt": "2018-08-03T10:45:00.000+00:00",
+          "dt": "2018-08-03T10:55:00.000+00:00",
           "dayname": "Fri",
-          "time": "10:45 AM",
-          "date_order": "2018-08-03-10-45",
+          "time": "10:55 AM",
+          "date_order": "2018-08-03-10-55",
           "section": 3,
           "title_key": "open-source-project-shopping-br",
           "talk_type": "curriculum",
           "track_order": 3
         },
         {
-          "date": "8/3/2018 11:00am",
+          "date": "8/3/2018 11:10am",
           "title": "Intro to Open Source",
           "speaker": [
             "courteney-ervin",
             "write-speak-code"
           ],
-          "location": "Microsoft Conference Center  Breakout 2 (Primary Venue)",
+          "location": "Microsoft Conference Center  Breakout 1 (Primary Venue)",
           "track": "Intro to Open Source",
           "day": "Code/Ethics",
           "day_section": 3,
           "track_key": "intro-to-open-source",
           "key": "Fri--3--intro-to-open-source--intro-to-open-source",
-          "dt": "2018-08-03T11:00:00.000+00:00",
+          "dt": "2018-08-03T11:10:00.000+00:00",
           "dayname": "Fri",
-          "time": "11:00 AM",
-          "date_order": "2018-08-03-11-00",
+          "time": "11:10 AM",
+          "date_order": "2018-08-03-11-10",
           "section": 3,
           "title_key": "intro-to-open-source",
           "talk_type": "curriculum",
           "track_order": 3
         },
         {
-          "date": "8/3/2018 11:30am",
+          "date": "8/3/2018 11:40am",
           "title": "Open Source \u0026 Personal Project Coding",
           "speaker": [
             "courteney-ervin",
@@ -1362,18 +1399,19 @@
             "jessica-lord",
             "katrina-owen",
             "julia-nguyen",
-            "camille-villa"
+            "camille-villa",
+            "christine-zagrobleny"
           ],
-          "location": "Microsoft Conference Center  Breakout 2 (Primary Venue)",
+          "location": "Microsoft Conference Center  Breakout 1 (Primary Venue)",
           "track": "Intro to Open Source",
           "day": "Code/Ethics",
           "day_section": 3,
           "track_key": "intro-to-open-source",
           "key": "Fri--3--intro-to-open-source--open-source-personal-project-co",
-          "dt": "2018-08-03T11:30:00.000+00:00",
+          "dt": "2018-08-03T11:40:00.000+00:00",
           "dayname": "Fri",
-          "time": "11:30 AM",
-          "date_order": "2018-08-03-11-30",
+          "time": "11:40 AM",
+          "date_order": "2018-08-03-11-40",
           "section": 3,
           "title_key": "open-source-personal-project-co",
           "talk_type": "curriculum",
@@ -1382,22 +1420,22 @@
       ],
       "Coding Workshops": [
         {
-          "date": "8/3/2018 11:00am",
+          "date": "8/3/2018 11:10am",
           "title": "Rapid Prototyping / Hackathon Skills",
           "speaker": [
             "kelsey-rose",
             "squarespace"
           ],
-          "location": "Microsoft Conference Center Breakout 1 (Primary Venue)",
+          "location": "Microsoft Conference Center Breakout 2 (Primary Venue)",
           "track": "Coding Workshops",
           "day": "Code/Ethics",
           "day_section": 3,
           "track_key": "coding-workshops",
           "key": "Fri--3--coding-workshops--rapid-prototyping-hackathon-ski",
-          "dt": "2018-08-03T11:00:00.000+00:00",
+          "dt": "2018-08-03T11:10:00.000+00:00",
           "dayname": "Fri",
-          "time": "11:00 AM",
-          "date_order": "2018-08-03-11-00",
+          "time": "11:10 AM",
+          "date_order": "2018-08-03-11-10",
           "section": 3,
           "title_key": "rapid-prototyping-hackathon-ski",
           "talk_type": "medium-workshop-2-hr",
@@ -1408,7 +1446,7 @@
     {
       "Foundations": [
         {
-          "date": "8/3/2018 1:00pm",
+          "date": "8/3/2018 1:10pm",
           "title": "LUNCH",
           "speaker": null,
           "location": "Microsoft Conference Center Main (Primary Venue)",
@@ -1417,10 +1455,10 @@
           "day_section": 4,
           "track_key": "foundations",
           "key": "Fri--4--foundations--lunch",
-          "dt": "2018-08-03T13:00:00.000+00:00",
+          "dt": "2018-08-03T13:10:00.000+00:00",
           "dayname": "Fri",
-          "time": " 1:00 PM",
-          "date_order": "2018-08-03-13-00",
+          "time": " 1:10 PM",
+          "date_order": "2018-08-03-13-10",
           "section": 4,
           "title_key": "lunch",
           "talk_type": "food",
@@ -1429,7 +1467,7 @@
       ],
       "Explorations": [
         {
-          "date": "8/3/2018 1:00pm",
+          "date": "8/3/2018 1:10pm",
           "title": "LUNCH",
           "speaker": null,
           "location": "Studio Arte (Secondary Venue)",
@@ -1438,10 +1476,10 @@
           "day_section": 4,
           "track_key": "explorations",
           "key": "Fri--4--explorations--lunch",
-          "dt": "2018-08-03T13:00:00.000+00:00",
+          "dt": "2018-08-03T13:10:00.000+00:00",
           "dayname": "Fri",
-          "time": " 1:00 PM",
-          "date_order": "2018-08-03-13-00",
+          "time": " 1:10 PM",
+          "date_order": "2018-08-03-13-10",
           "section": 4,
           "title_key": "lunch",
           "talk_type": "food",
@@ -1452,7 +1490,7 @@
     {
       "Explorations": [
         {
-          "date": "8/3/2018 1:45pm",
+          "date": "8/3/2018 1:55pm",
           "title": "Speak Your Truth: Ethics",
           "speaker": [
             "write-speak-code",
@@ -1464,17 +1502,17 @@
           "day_section": 5,
           "track_key": "explorations",
           "key": "Fri--5--explorations--speak-your-truth-ethics",
-          "dt": "2018-08-03T13:45:00.000+00:00",
+          "dt": "2018-08-03T13:55:00.000+00:00",
           "dayname": "Fri",
-          "time": " 1:45 PM",
-          "date_order": "2018-08-03-13-45",
+          "time": " 1:55 PM",
+          "date_order": "2018-08-03-13-55",
           "section": 5,
           "title_key": "speak-your-truth-ethics",
           "talk_type": "curriculum",
           "track_order": 4
         },
         {
-          "date": "8/3/2018 1:55pm",
+          "date": "8/3/2018 2:05pm",
           "title": "Organizing for your Ethical Principles",
           "speaker": [
             "liz-fong-jones"
@@ -1485,17 +1523,17 @@
           "day_section": 5,
           "track_key": "explorations",
           "key": "Fri--5--explorations--organizing-for-your-ethical-pri",
-          "dt": "2018-08-03T13:55:00.000+00:00",
+          "dt": "2018-08-03T14:05:00.000+00:00",
           "dayname": "Fri",
-          "time": " 1:55 PM",
-          "date_order": "2018-08-03-13-55",
+          "time": " 2:05 PM",
+          "date_order": "2018-08-03-14-05",
           "section": 5,
           "title_key": "organizing-for-your-ethical-pri",
           "talk_type": "standard-talk",
           "track_order": 4
         },
         {
-          "date": "8/3/2018 2:30pm",
+          "date": "8/3/2018 2:40pm",
           "title": "Ethics at Design Time\u0026#44; not Run Time",
           "speaker": [
             "rowan-cota"
@@ -1506,17 +1544,17 @@
           "day_section": 5,
           "track_key": "explorations",
           "key": "Fri--5--explorations--ethics-at-design-time-44-not-ru",
-          "dt": "2018-08-03T14:30:00.000+00:00",
+          "dt": "2018-08-03T14:40:00.000+00:00",
           "dayname": "Fri",
-          "time": " 2:30 PM",
-          "date_order": "2018-08-03-14-30",
+          "time": " 2:40 PM",
+          "date_order": "2018-08-03-14-40",
           "section": 5,
           "title_key": "ethics-at-design-time-44-not-ru",
           "talk_type": "standard-talk",
           "track_order": 4
         },
         {
-          "date": "8/3/2018 3:05pm",
+          "date": "8/3/2018 3:15pm",
           "title": "Looking for artists who look like me: analyzing the MoMA GitHub repo",
           "speaker": [
             "sravanti-tekumalla"
@@ -1527,17 +1565,17 @@
           "day_section": 5,
           "track_key": "explorations",
           "key": "Fri--5--explorations--looking-for-artists-who-look-li",
-          "dt": "2018-08-03T15:05:00.000+00:00",
+          "dt": "2018-08-03T15:15:00.000+00:00",
           "dayname": "Fri",
-          "time": " 3:05 PM",
-          "date_order": "2018-08-03-15-05",
+          "time": " 3:15 PM",
+          "date_order": "2018-08-03-15-15",
           "section": 5,
           "title_key": "looking-for-artists-who-look-li",
           "talk_type": "standard-talk",
           "track_order": 4
         },
         {
-          "date": "8/3/2018 3:40pm",
+          "date": "8/3/2018 3:50pm",
           "title": "Using Open Source to Solve an Identity Crisis: Tracking the Bengali Diaspora",
           "speaker": [
             "nishat-anjum"
@@ -1548,17 +1586,17 @@
           "day_section": 5,
           "track_key": "explorations",
           "key": "Fri--5--explorations--using-open-source-to-solve-an-i",
-          "dt": "2018-08-03T15:40:00.000+00:00",
+          "dt": "2018-08-03T15:50:00.000+00:00",
           "dayname": "Fri",
-          "time": " 3:40 PM",
-          "date_order": "2018-08-03-15-40",
+          "time": " 3:50 PM",
+          "date_order": "2018-08-03-15-50",
           "section": 5,
           "title_key": "using-open-source-to-solve-an-i",
           "talk_type": "standard-talk",
           "track_order": 4
         },
         {
-          "date": "8/3/2018 4:10pm",
+          "date": "8/3/2018 4:20pm",
           "title": "SNACK",
           "speaker": null,
           "location": "Studio Arte (Secondary Venue)",
@@ -1567,17 +1605,17 @@
           "day_section": 5,
           "track_key": "explorations",
           "key": "Fri--5--explorations--snack",
-          "dt": "2018-08-03T16:10:00.000+00:00",
+          "dt": "2018-08-03T16:20:00.000+00:00",
           "dayname": "Fri",
-          "time": " 4:10 PM",
-          "date_order": "2018-08-03-16-10",
+          "time": " 4:20 PM",
+          "date_order": "2018-08-03-16-20",
           "section": 5,
           "title_key": "snack",
           "talk_type": "food",
           "track_order": 4
         },
         {
-          "date": "8/3/2018 4:20pm",
+          "date": "8/3/2018 4:30pm",
           "title": "How public speaking made me a better negotiator",
           "speaker": [
             "chiu-ki-chan"
@@ -1588,10 +1626,10 @@
           "day_section": 5,
           "track_key": "explorations",
           "key": "Fri--5--explorations--how-public-speaking-made-me-a-b",
-          "dt": "2018-08-03T16:20:00.000+00:00",
+          "dt": "2018-08-03T16:30:00.000+00:00",
           "dayname": "Fri",
-          "time": " 4:20 PM",
-          "date_order": "2018-08-03-16-20",
+          "time": " 4:30 PM",
+          "date_order": "2018-08-03-16-30",
           "section": 5,
           "title_key": "how-public-speaking-made-me-a-b",
           "talk_type": "standard-talk",
@@ -1600,7 +1638,7 @@
       ],
       "Open Source": [
         {
-          "date": "8/3/2018 1:45pm",
+          "date": "8/3/2018 1:55pm",
           "title": "Open Source \u0026 Personal Project Coding",
           "speaker": [
             "courteney-ervin",
@@ -1609,7 +1647,8 @@
             "jessica-lord",
             "katrina-owen",
             "julia-nguyen",
-            "camille-villa"
+            "camille-villa",
+            "christine-zagrobleny"
           ],
           "location": "We Work Breakouts",
           "track": "Open Source",
@@ -1617,17 +1656,17 @@
           "day_section": 5,
           "track_key": "open-source",
           "key": "Fri--5--open-source--open-source-personal-project-co",
-          "dt": "2018-08-03T13:45:00.000+00:00",
+          "dt": "2018-08-03T13:55:00.000+00:00",
           "dayname": "Fri",
-          "time": " 1:45 PM",
-          "date_order": "2018-08-03-13-45",
+          "time": " 1:55 PM",
+          "date_order": "2018-08-03-13-55",
           "section": 5,
           "title_key": "open-source-personal-project-co",
           "talk_type": "curriculum",
           "track_order": 2
         },
         {
-          "date": "8/3/2018 3:45pm",
+          "date": "8/3/2018 3:55pm",
           "title": "SNACK",
           "speaker": null,
           "location": "We Work Breakouts",
@@ -1636,17 +1675,17 @@
           "day_section": 5,
           "track_key": "open-source",
           "key": "Fri--5--open-source--snack",
-          "dt": "2018-08-03T15:45:00.000+00:00",
+          "dt": "2018-08-03T15:55:00.000+00:00",
           "dayname": "Fri",
-          "time": " 3:45 PM",
-          "date_order": "2018-08-03-15-45",
+          "time": " 3:55 PM",
+          "date_order": "2018-08-03-15-55",
           "section": 5,
           "title_key": "snack",
           "talk_type": "food",
           "track_order": 2
         },
         {
-          "date": "8/3/2018 3:55pm",
+          "date": "8/3/2018 4:05pm",
           "title": "Open Source \u0026 Personal Project Coding",
           "speaker": [
             "courteney-ervin",
@@ -1655,7 +1694,8 @@
             "jessica-lord",
             "katrina-owen",
             "julia-nguyen",
-            "camille-villa"
+            "camille-villa",
+            "christine-zagrobleny"
           ],
           "location": "We Work Breakouts",
           "track": "Open Source",
@@ -1663,10 +1703,10 @@
           "day_section": 5,
           "track_key": "open-source",
           "key": "Fri--5--open-source--open-source-personal-project-co",
-          "dt": "2018-08-03T15:55:00.000+00:00",
+          "dt": "2018-08-03T16:05:00.000+00:00",
           "dayname": "Fri",
-          "time": " 3:55 PM",
-          "date_order": "2018-08-03-15-55",
+          "time": " 4:05 PM",
+          "date_order": "2018-08-03-16-05",
           "section": 5,
           "title_key": "open-source-personal-project-co",
           "talk_type": "curriculum",
@@ -1675,48 +1715,48 @@
       ],
       "Coding Workshops": [
         {
-          "date": "8/3/2018 1:45pm",
+          "date": "8/3/2018 1:55pm",
           "title": "ElixirBridge: Building a web app in Elixir",
           "speaker": [
             "anna-neyzberg",
             "carbon-five"
           ],
-          "location": "Microsoft Conference Center Breakout 1 (Primary Venue)",
+          "location": "Microsoft Conference Center Breakout 2 (Primary Venue)",
           "track": "Coding Workshops",
           "day": "Code/Ethics",
           "day_section": 5,
           "track_key": "coding-workshops",
           "key": "Fri--5--coding-workshops--elixirbridge-building-a-web-app",
-          "dt": "2018-08-03T13:45:00.000+00:00",
+          "dt": "2018-08-03T13:55:00.000+00:00",
           "dayname": "Fri",
-          "time": " 1:45 PM",
-          "date_order": "2018-08-03-13-45",
+          "time": " 1:55 PM",
+          "date_order": "2018-08-03-13-55",
           "section": 5,
           "title_key": "elixirbridge-building-a-web-app",
           "talk_type": "medium-workshop-2-hr",
           "track_order": 5
         },
         {
-          "date": "8/3/2018 3:45pm",
+          "date": "8/3/2018 3:55pm",
           "title": "SNACK",
           "speaker": null,
-          "location": "Microsoft Conference Center Breakout 1 (Primary Venue)",
+          "location": "Microsoft Conference Center Breakout 2 (Primary Venue)",
           "track": "Coding Workshops",
           "day": "Code/Ethics",
           "day_section": 5,
           "track_key": "coding-workshops",
           "key": "Fri--5--coding-workshops--snack",
-          "dt": "2018-08-03T15:45:00.000+00:00",
+          "dt": "2018-08-03T15:55:00.000+00:00",
           "dayname": "Fri",
-          "time": " 3:45 PM",
-          "date_order": "2018-08-03-15-45",
+          "time": " 3:55 PM",
+          "date_order": "2018-08-03-15-55",
           "section": 5,
           "title_key": "snack",
           "talk_type": "food",
           "track_order": 5
         },
         {
-          "date": "8/3/2018 3:55pm",
+          "date": "8/3/2018 4:05pm",
           "title": "Open Source \u0026 Personal Project Coding",
           "speaker": [
             "courteney-ervin",
@@ -1725,18 +1765,19 @@
             "jessica-lord",
             "katrina-owen",
             "julia-nguyen",
-            "camille-villa"
+            "camille-villa",
+            "christine-zagrobleny"
           ],
-          "location": "Microsoft Conference Center Breakout 1 (Primary Venue)",
+          "location": "Microsoft Conference Center Breakout 2 (Primary Venue)",
           "track": "Coding Workshops",
           "day": "Code/Ethics",
           "day_section": 5,
           "track_key": "coding-workshops",
           "key": "Fri--5--coding-workshops--open-source-personal-project-co",
-          "dt": "2018-08-03T15:55:00.000+00:00",
+          "dt": "2018-08-03T16:05:00.000+00:00",
           "dayname": "Fri",
-          "time": " 3:55 PM",
-          "date_order": "2018-08-03-15-55",
+          "time": " 4:05 PM",
+          "date_order": "2018-08-03-16-05",
           "section": 5,
           "title_key": "open-source-personal-project-co",
           "talk_type": "curriculum",
@@ -1745,7 +1786,7 @@
       ],
       "Code for Thought": [
         {
-          "date": "8/3/2018 1:45pm",
+          "date": "8/3/2018 1:55pm",
           "title": "Open Source \u0026 Personal Project Coding",
           "speaker": [
             "courteney-ervin",
@@ -1754,60 +1795,61 @@
             "jessica-lord",
             "katrina-owen",
             "julia-nguyen",
-            "camille-villa"
+            "camille-villa",
+            "christine-zagrobleny"
           ],
-          "location": "Microsoft Conference Center  Breakout 2 (Primary Venue)",
+          "location": "Microsoft Conference Center  Breakout 1 (Primary Venue)",
           "track": "Code for Thought",
           "day": "Code/Ethics",
           "day_section": 5,
           "track_key": "code-for-thought",
           "key": "Fri--5--code-for-thought--open-source-personal-project-co",
-          "dt": "2018-08-03T13:45:00.000+00:00",
+          "dt": "2018-08-03T13:55:00.000+00:00",
           "dayname": "Fri",
-          "time": " 1:45 PM",
-          "date_order": "2018-08-03-13-45",
+          "time": " 1:55 PM",
+          "date_order": "2018-08-03-13-55",
           "section": 5,
           "title_key": "open-source-personal-project-co",
           "talk_type": "curriculum",
           "track_order": 6
         },
         {
-          "date": "8/3/2018 3:45pm",
+          "date": "8/3/2018 3:55pm",
           "title": "How to tell a better story in code",
           "speaker": [
             "bonnie-pan"
           ],
-          "location": "Microsoft Conference Center  Breakout 2 (Primary Venue)",
+          "location": "Microsoft Conference Center  Breakout 1 (Primary Venue)",
           "track": "Code for Thought",
           "day": "Code/Ethics",
           "day_section": 5,
           "track_key": "code-for-thought",
           "key": "Fri--5--code-for-thought--how-to-tell-a-better-story-in-c",
-          "dt": "2018-08-03T15:45:00.000+00:00",
+          "dt": "2018-08-03T15:55:00.000+00:00",
           "dayname": "Fri",
-          "time": " 3:45 PM",
-          "date_order": "2018-08-03-15-45",
+          "time": " 3:55 PM",
+          "date_order": "2018-08-03-15-55",
           "section": 5,
           "title_key": "how-to-tell-a-better-story-in-c",
           "talk_type": "standard-talk",
           "track_order": 6
         },
         {
-          "date": "8/3/2018 4:20pm",
+          "date": "8/3/2018 4:30pm",
           "title": "If You Build it\u0026#44; They Will Come; How to Build a Great Open Source Project",
           "speaker": [
             "rebecca-holzschuh"
           ],
-          "location": "Microsoft Conference Center  Breakout 2 (Primary Venue)",
+          "location": "Microsoft Conference Center  Breakout 1 (Primary Venue)",
           "track": "Code for Thought",
           "day": "Code/Ethics",
           "day_section": 5,
           "track_key": "code-for-thought",
           "key": "Fri--5--code-for-thought--if-you-build-it-44-they-will-co",
-          "dt": "2018-08-03T16:20:00.000+00:00",
+          "dt": "2018-08-03T16:30:00.000+00:00",
           "dayname": "Fri",
-          "time": " 4:20 PM",
-          "date_order": "2018-08-03-16-20",
+          "time": " 4:30 PM",
+          "date_order": "2018-08-03-16-30",
           "section": 5,
           "title_key": "if-you-build-it-44-they-will-co",
           "talk_type": "standard-talk",
@@ -1817,6 +1859,27 @@
     },
     {
       "All": [
+        {
+          "date": "8/3/2018 10:10am",
+          "title": "Sponsor Address featuring Kristin Arnold",
+          "speaker": [
+            "kristin-arnold"
+          ],
+          "location": "Microsoft Conference Center Main (Primary Venue)",
+          "track": "All",
+          "day": "Code/Ethics",
+          "day_section": 6,
+          "track_key": "all",
+          "key": "Fri--6--all--sponsor-address-featuring-krist",
+          "dt": "2018-08-03T10:10:00.000+00:00",
+          "dayname": "Fri",
+          "time": "10:10 AM",
+          "date_order": "2018-08-03-10-10",
+          "section": 6,
+          "title_key": "sponsor-address-featuring-krist",
+          "talk_type": "sponsor-talk",
+          "track_order": 1
+        },
         {
           "date": "8/3/2018 4:50pm",
           "title": "Speak Your Truth: Code/Ethics Networking \u0026 Sponsor Mingle",
@@ -1841,43 +1904,25 @@
           "track_order": 1
         },
         {
-          "date": "8/3/2018 5:20pm",
-          "title": "Sponsor Address featuring Kristin Arnold",
+          "date": "8/3/2018 5:30pm",
+          "title": "Storytelling with Fake Love",
           "speaker": [
-            "kristin-arnold"
+            "jasmin-rubinovitz",
+            "the-new-york-times"
           ],
           "location": "Microsoft Conference Center Main (Primary Venue)",
           "track": "All",
           "day": "Code/Ethics",
           "day_section": 6,
           "track_key": "all",
-          "key": "Fri--6--all--sponsor-address-featuring-krist",
-          "dt": "2018-08-03T17:20:00.000+00:00",
-          "dayname": "Fri",
-          "time": " 5:20 PM",
-          "date_order": "2018-08-03-17-20",
-          "section": 6,
-          "title_key": "sponsor-address-featuring-krist",
-          "talk_type": "sponsor-talk",
-          "track_order": 1
-        },
-        {
-          "date": "8/3/2018 5:30pm",
-          "title": "Attendee Talk!",
-          "speaker": null,
-          "location": "Microsoft Conference Center Main (Primary Venue)",
-          "track": "All",
-          "day": "Code/Ethics",
-          "day_section": 6,
-          "track_key": "all",
-          "key": "Fri--6--all--attendee-talk",
+          "key": "Fri--6--all--storytelling-with-fake-love",
           "dt": "2018-08-03T17:30:00.000+00:00",
           "dayname": "Fri",
           "time": " 5:30 PM",
           "date_order": "2018-08-03-17-30",
           "section": 6,
-          "title_key": "attendee-talk",
-          "talk_type": "lightning-talk",
+          "title_key": "storytelling-with-fake-love",
+          "talk_type": "sponsor-talk",
           "track_order": 1
         },
         {
@@ -2057,7 +2102,7 @@
         },
         {
           "date": "8/4/2018 1:45pm",
-          "title": "How can you become an investor? A fireside chat.",
+          "title": "How YOU can become an investor: A fireside chat.",
           "speaker": [
             "elisa-miller-out",
             "ope-bukola"
@@ -2067,52 +2112,52 @@
           "day": "Growth",
           "day_section": 1,
           "track_key": "all",
-          "key": "Sat--1--all--how-can-you-become-an-investor-",
+          "key": "Sat--1--all--how-you-can-become-an-investor-",
           "dt": "2018-08-04T13:45:00.000+00:00",
           "dayname": "Sat",
           "time": " 1:45 PM",
           "date_order": "2018-08-04-13-45",
           "section": 1,
-          "title_key": "how-can-you-become-an-investor-",
+          "title_key": "how-you-can-become-an-investor-",
           "talk_type": "panel",
           "track_order": 1
         },
         {
           "date": "8/4/2018 2:20pm",
-          "title": "(Sponsor Talk)",
+          "title": "Attendee Talk!",
           "speaker": null,
           "location": "Microsoft Conference Center Main (Primary Venue)",
           "track": "All",
           "day": "Growth",
           "day_section": 1,
           "track_key": "all",
-          "key": "Sat--1--all--sponsor-talk",
+          "key": "Sat--1--all--attendee-talk",
           "dt": "2018-08-04T14:20:00.000+00:00",
           "dayname": "Sat",
           "time": " 2:20 PM",
           "date_order": "2018-08-04-14-20",
           "section": 1,
-          "title_key": "sponsor-talk",
-          "talk_type": "sponsor-talk",
+          "title_key": "attendee-talk",
+          "talk_type": "lightning-talk",
           "track_order": 1
         },
         {
           "date": "8/4/2018 2:30pm",
-          "title": "(Sponsor Talk)",
+          "title": "Attendee Talk!",
           "speaker": null,
           "location": "Microsoft Conference Center Main (Primary Venue)",
           "track": "All",
           "day": "Growth",
           "day_section": 1,
           "track_key": "all",
-          "key": "Sat--1--all--sponsor-talk",
+          "key": "Sat--1--all--attendee-talk",
           "dt": "2018-08-04T14:30:00.000+00:00",
           "dayname": "Sat",
           "time": " 2:30 PM",
           "date_order": "2018-08-04-14-30",
           "section": 1,
-          "title_key": "sponsor-talk",
-          "talk_type": "sponsor-talk",
+          "title_key": "attendee-talk",
+          "talk_type": "lightning-talk",
           "track_order": 1
         },
         {

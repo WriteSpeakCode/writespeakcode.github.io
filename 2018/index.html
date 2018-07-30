@@ -55,21 +55,21 @@ twitter_img: https://2018.writespeakcode.com/assets/img/WSC-coral-bg.jpg -->
 <!-- ORGANIZERS SECTION -->
   <section class="organizers-section">
     <div class="qcContainer">
-      <h5 class="organizers-title">Meet the Organizers</h5>
+      <h5 id="organizers" class="organizers-title">Meet the Organizers</h5>
       <div class="row">
 
         {% for organizer in site.data.organizers %}
           <div class="col-xs-4 col-sm-2 organizer">
-
-            {% if organizer.headshot_filename %}
-              <img src="{{ organizer.headshot_filename | prepend: "/assets/img/speakers/"  | prepend: site.baseurl }}" alt="{{organizer.name}} headshot" nopin="nopin">
-            {% else %}
-              <img src="{{ "/assets/img/speakers/wsc-speak-placeholder.png"  | prepend: site.baseurl }}" alt="{{organizer.name}} headshot" nopin="nopin">
-            {% endif %}
-
-            <p>
-              {{ organizer.name }}
-            </p>
+            <a href="#organizers" class="tips" title="{{ organizer.role }}">
+              {% if organizer.headshot_filename %}
+                <img src="{{ organizer.headshot_filename | prepend: "/assets/img/speakers/"  | prepend: site.baseurl }}" alt="{{organizer.name}} headshot" nopin="nopin">
+              {% else %}
+                <img src="{{ "/assets/img/speakers/wsc-speak-placeholder.png"  | prepend: site.baseurl }}" alt="{{organizer.name}} headshot" nopin="nopin">
+              {% endif %}
+              <p>
+                {{ organizer.name }}
+              </p>
+            </a>
 
             <a target="_blank" rel="noopener" href="https://www.twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>
           </div>

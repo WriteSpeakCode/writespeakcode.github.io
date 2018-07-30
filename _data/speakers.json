@@ -566,7 +566,7 @@
   {
     "key": "the-new-york-times",
     "name": "The New York Times",
-    "headshot_filename": "../logos/new_york_times.jpg",
+    "headshot_filename": "new-york-times.jpg",
     "speaker_order": 5
   },
   {

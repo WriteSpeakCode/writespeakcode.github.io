@@ -152,6 +152,11 @@
       "name": "Elastic",
       "url":"https://www.elastic.co/",
       "image":"elastic-logo-V-full color.jpg"
+    },
+    "wework": {
+      "name": "WeWork",
+      "url": "https://www.wework.com/",
+      "image": "wework.png"
     }
   },
 
@@ -213,6 +218,16 @@
       "items": [
         "carbonfive",
         "squarespace"
+      ]
+    },
+    {
+      "show_conf": true,
+      "show_description": false,
+      "title": "Location",
+      "key": "location",
+      "items": [
+        "wework",
+        "azure"
       ]
     },
     {

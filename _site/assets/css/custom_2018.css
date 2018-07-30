@@ -764,8 +764,14 @@ section.speakers .qcTabTitle .section-title {
 .location-section {
   background-color: #F1D8D3; }
 
-.location-section .qcPageContentTabs > ul li {
-  width: 33%; }
+.location-section .qcPageContentTabs > ul {
+  display: flex; }
+  .location-section .qcPageContentTabs > ul li {
+    flex: 1;
+    width: initial; }
+    @media screen and (max-width: 768px) {
+      .location-section .qcPageContentTabs > ul li {
+        flex: 1 1 50%; } }
 
 .location-section .venue-info-bg {
   background-color: #172751; }

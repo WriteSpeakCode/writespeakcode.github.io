@@ -1,9 +1,8 @@
 [
   {
-    "key": "google-developer-studio",
-    "name": "Google Developer Studio",
-    "bio": "The Google Developers Studio produces video content for the Google Developers YouTube channel.  The channel features talks from events, educational series, best practices, tips, and the latest updates across our products and platforms.",
-    "website": "https://www.youtube.com/GoogleDevelopers",
+    "key": "datadog",
+    "name": "Datadog",
+    "headshot_filename": "../logos/datadog_logo.png",
     "speaker_order": -1
   },
   {
@@ -13,9 +12,10 @@
     "speaker_order": -1
   },
   {
-    "key": "datadog",
-    "name": "Datadog",
-    "headshot_filename": "../logos/datadog_logo.png",
+    "key": "carbon-five",
+    "name": "Carbon Five",
+    "headshot_filename": "carbon-5.png",
+    "company": "Carbon Five",
     "speaker_order": -1
   },
   {
@@ -25,16 +25,23 @@
     "speaker_order": -1
   },
   {
-    "key": "zipline",
-    "name": "Zipline",
-    "headshot_filename": "../logos/Zipline_Logo.png",
+    "key": "github",
+    "name": "Github",
+    "headshot_filename": "../logos/github-logo.png",
+    "company": "Github",
     "speaker_order": -1
   },
   {
-    "key": "carbon-five",
-    "name": "Carbon Five",
-    "headshot_filename": "carbon-5.png",
-    "company": "Carbon Five",
+    "key": "google-developer-studio",
+    "name": "Google Developer Studio",
+    "bio": "The Google Developers Studio produces video content for the Google Developers YouTube channel.  The channel features talks from events, educational series, best practices, tips, and the latest updates across our products and platforms.",
+    "website": "https://www.youtube.com/GoogleDevelopers",
+    "speaker_order": -1
+  },
+  {
+    "key": "zipline",
+    "name": "Zipline",
+    "headshot_filename": "../logos/Zipline_Logo.png",
     "speaker_order": -1
   },
   {
@@ -48,60 +55,6 @@
     "headshot_filename": "squarespace.jpg",
     "company": "Squarespace",
     "speaker_order": -1
-  },
-  {
-    "key": "github",
-    "name": "Github",
-    "headshot_filename": "../logos/github-logo.png",
-    "company": "Github",
-    "speaker_order": -1
-  },
-  {
-    "key": "alex-gordon",
-    "name": "Alex Gordon",
-    "headshot_filename": "alex-gordon.jpeg",
-    "bio": "I build software engineering teams that drive the most visible products and brands.\n\nFortune dropped me in advertising right when \"microsite + banner\" thinking gave way to more creative and playful experiences. I nabbed an operations role on an engineering team of 10, looking to establish themselves within a famous advertising agency. \n\nOver four years we grew the team by 700% - with creative engineers across five offices - and digital became half of the agency's revenue. The team built immersive web, mobile, social, experiential/ooh campaigns, and software for clients including Burger King, Microsoft, Old Navy, VW, Amex, Kraft and Domino's. They also claimed Digital Agency of the Year three times at Cannes. \n\nNeedless to say I was hooked and have since sought out companies and teams on the forefront of innovation - from wearables and home automation to music streaming and web hosting. I've also been lucky to learn from some of the brightest technology, creative, and strategic minds, furthering my understanding of how great teams are cultivated. \n\nWhile I've lead operations and resourcing for globally distributed engineering and design teams, my passion is for building and scaling them. Having said that, I believe deeply in growing talent from within. Partnering with CTOs, managers, and engineers to make talent acquisition (and cultivation) a holistic and participatory practice is an important part of my mission.",
-    "company": "Squarespace",
-    "job_title": "Talent Strategist",
-    "twitter": "universalexprts",
-    "linkedin": "https://www.linkedin.com/in/alexandradgordon/",
-    "pronouns": "she/her",
-    "speaker_order": -1
-  },
-  {
-    "key": "cate-huston",
-    "name": "Cate Huston",
-    "headshot_filename": "cate-huston.jpg",
-    "bio": "Cate has spent her career working on mobile and documenting everything she learns using WordPress. Now she combines the two as Automattic's mobile lead.",
-    "twitter": "catehstn",
-    "website": "https://cate.blog/",
-    "pronouns": "she/her",
-    "speaker_order": 1
-  },
-  {
-    "key": "kortney-ziegler",
-    "name": "Kortney Ziegler",
-    "headshot_filename": "kortney-ziegler.jpg",
-    "bio": "Kortney Ziegler is ZaMLabs’ Director of Research \u0026 Design, bringing to this role a passion for social-justice-based work in the tech space. He is the creator of Trans*H4CK (2013) and the first person to receive the PhD of African-American studies from Northwestern University (2011). An award-winning writer, filmmaker and social entrepreneur -- Ziegler was named one of the most influential African Americans by TheRoot100.",
-    "company": "ZaMLabs",
-    "job_title": "Director of Research \u0026 Design",
-    "twitter": "fakerapper",
-    "linkedin": "https://www.linkedin.com/in/dr-kortney-ziegler-65885845/",
-    "website": "https://appolition.us/",
-    "pronouns": "he/him",
-    "speaker_order": 1
-  },
-  {
-    "key": "lara-hogan",
-    "name": "Lara Hogan",
-    "headshot_filename": "lara-hogan.jpg",
-    "bio": "Lara Callender Hogan is an engineering leader, coach, and consultant at \u003ca href=\"http://where-with-all.com\"\u003eWherewithall\u003c/a\u003e. Lara is also the author of \u003ca href=\"http://shop.oreilly.com/product/0636920033578.do\"\u003e\u003ccite\u003eDesigning for Performance\u003c/cite\u003e\u003c/a\u003e, \u003ca href=\"http://buildingadevicelab.com\"\u003e\u003ccite\u003eBuilding a Device Lab\u003c/cite\u003e\u003c/a\u003e, and \u003ca href=\"https://abookapart.com/products/demystifying-public-speaking\"\u003e\u003ccite\u003eDemystifying Public Speaking\u003c/cite\u003e\u003c/a\u003e. She champions engineering management as a practice, helps people get comfortable public speaking, and believes it's important to celebrate career achievements with  \u003ca href=\"http://larahogan.me/donuts/\"\u003edonuts\u003c/a\u003e.",
-    "company": "Wherewithall",
-    "job_title": "Engineering Leader, Coach, and Consultant",
-    "twitter": "lara_hogan",
-    "website": "https://larahogan.me/",
-    "pronouns": "she/her",
-    "speaker_order": 1
   },
   {
     "key": "amy-wibowo",
@@ -121,11 +74,78 @@
     "company": "Slack",
     "job_title": "Senior Engineer",
     "twitter": "MinaMarkham",
-    "github": "github.com/minamarkham",
+    "github": "minamarkham",
     "linkedin": "linkedin.com/in/minamarkham",
     "website": "http://mina.codes/",
     "pronouns": "she/her",
     "speaker_order": 1
+  },
+  {
+    "key": "cate-huston",
+    "name": "Cate Huston",
+    "headshot_filename": "cate-huston.jpg",
+    "bio": "Cate has spent her career working on mobile and documenting everything she learns using WordPress. Now she combines the two as Automattic's mobile lead.",
+    "twitter": "catehstn",
+    "website": "https://cate.blog/",
+    "pronouns": "she/her",
+    "speaker_order": 1
+  },
+  {
+    "key": "lara-hogan",
+    "name": "Lara Hogan",
+    "headshot_filename": "lara-hogan.jpg",
+    "bio": "Lara Callender Hogan is an engineering leader, coach, and consultant at \u003ca href=\"http://where-with-all.com\"\u003eWherewithall\u003c/a\u003e. Lara is also the author of \u003ca href=\"http://shop.oreilly.com/product/0636920033578.do\"\u003e\u003ccite\u003eDesigning for Performance\u003c/cite\u003e\u003c/a\u003e, \u003ca href=\"http://buildingadevicelab.com\"\u003e\u003ccite\u003eBuilding a Device Lab\u003c/cite\u003e\u003c/a\u003e, and \u003ca href=\"https://abookapart.com/products/demystifying-public-speaking\"\u003e\u003ccite\u003eDemystifying Public Speaking\u003c/cite\u003e\u003c/a\u003e. She champions engineering management as a practice, helps people get comfortable public speaking, and believes it's important to celebrate career achievements with  \u003ca href=\"http://larahogan.me/donuts/\"\u003edonuts\u003c/a\u003e.",
+    "company": "Wherewithall",
+    "job_title": "Engineering Leader, Coach, and Consultant",
+    "twitter": "lara_hogan",
+    "website": "https://larahogan.me/",
+    "pronouns": "she/her",
+    "speaker_order": 1
+  },
+  {
+    "key": "kortney-ziegler",
+    "name": "Kortney Ziegler",
+    "headshot_filename": "kortney-ziegler.jpg",
+    "bio": "Kortney Ziegler is ZaMLabs’ Director of Research \u0026 Design, bringing to this role a passion for social-justice-based work in the tech space. He is the creator of Trans*H4CK (2013) and the first person to receive the PhD of African-American studies from Northwestern University (2011). An award-winning writer, filmmaker and social entrepreneur -- Ziegler was named one of the most influential African Americans by TheRoot100.",
+    "company": "ZaMLabs",
+    "job_title": "Director of Research \u0026 Design",
+    "twitter": "fakerapper",
+    "linkedin": "https://www.linkedin.com/in/dr-kortney-ziegler-65885845/",
+    "website": "https://appolition.us/",
+    "pronouns": "he/him",
+    "speaker_order": 1
+  },
+  {
+    "key": "fureigh",
+    "name": "Fureigh",
+    "speaker_order": 2
+  },
+  {
+    "key": "catt-small",
+    "name": "Catt Small",
+    "headshot_filename": "catt-small.jpeg",
+    "bio": "Catt is a product designer, game maker, and front-end web developer. She makes awesome things at Etsy. She has done design work for companies of all sizes including SoundCloud, Bedrocket, and Nasdaq. She started coding around the age of 10 and designing at the age of 15. In 2011, she graduated from SVA with a BFA in Graphic Design and later received an MS in Integrated Digital Media from NYU in 2016. Catt also makes video games with Brooklyn Gamery and helps make STEAM industries more inclusive with Good for PoC. You can follow her @cattsmall on Twitter and view her work at www.cattsmall.com.",
+    "company": "Etsy",
+    "job_title": "Product Designer",
+    "twitter": "cattsmall",
+    "github": "cattsmall",
+    "linkedin": "http://linkedin.com/in/cattsmall",
+    "website": "http://cattsmall.com",
+    "pronouns": "she/her",
+    "speaker_order": 2
+  },
+  {
+    "key": "sara-wachter-boettcher",
+    "name": "Sara Wachter-Boettcher",
+    "headshot_filename": "sara-wachter-boettcher.png",
+    "bio": "Sara Wachter-Boettcher is the principal of Rare Union, a digital product and content strategy consultancy, and the author of Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech (W.W. Norton, 2017), which was named one of the best tech books of the year by Wired. Her other books include Design for Real Life (with Eric Meyer) from A Book Apart, and Content Everywhere from Rosenfeld Media.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
+    "company": "Rare Union",
+    "job_title": "Principal",
+    "twitter": "sara_ann_marie",
+    "github": "sarawb",
+    "linkedin": "https://www.linkedin.com/in/saraboettcher/",
+    "website": "http://www.sarawb.com/",
+    "speaker_order": 2
   },
   {
     "key": "chiu-ki-chan",
@@ -150,19 +170,6 @@
     "linkedin": "http://www.linkedin.com/in/filmgirl",
     "website": "http://christina.is/",
     "pronouns": "she/her",
-    "speaker_order": 2
-  },
-  {
-    "key": "sara-wachter-boettcher",
-    "name": "Sara Wachter-Boettcher",
-    "headshot_filename": "sara-wachter-boettcher.png",
-    "bio": "Sara Wachter-Boettcher is the principal of Rare Union, a digital product and content strategy consultancy, and the author of Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech (W.W. Norton, 2017), which was named one of the best tech books of the year by Wired. Her other books include Design for Real Life (with Eric Meyer) from A Book Apart, and Content Everywhere from Rosenfeld Media.\n\nSara and Katel are also two-thirds of the badass team behind No, You Go, a weekly podcast with their friend Jenn Lukas about being ambitious, living your best feminist life at work, and giving—and getting—support along the way.",
-    "company": "Rare Union",
-    "job_title": "Principal",
-    "twitter": "sara_ann_marie",
-    "github": "sarawb",
-    "linkedin": "https://www.linkedin.com/in/saraboettcher/",
-    "website": "http://www.sarawb.com/",
     "speaker_order": 2
   },
   {
@@ -192,44 +199,6 @@
     "speaker_order": 2
   },
   {
-    "key": "catt-small",
-    "name": "Catt Small",
-    "headshot_filename": "catt-small.jpeg",
-    "bio": "Catt is a product designer, game maker, and front-end web developer. She makes awesome things at Etsy. She has done design work for companies of all sizes including SoundCloud, Bedrocket, and Nasdaq. She started coding around the age of 10 and designing at the age of 15. In 2011, she graduated from SVA with a BFA in Graphic Design and later received an MS in Integrated Digital Media from NYU in 2016. Catt also makes video games with Brooklyn Gamery and helps make STEAM industries more inclusive with Good for PoC. You can follow her @cattsmall on Twitter and view her work at www.cattsmall.com.",
-    "company": "Etsy",
-    "job_title": "Product Designer",
-    "twitter": "cattsmall",
-    "github": "cattsmall",
-    "linkedin": "http://linkedin.com/in/cattsmall",
-    "website": "http://cattsmall.com",
-    "pronouns": "she/her",
-    "speaker_order": 2
-  },
-  {
-    "key": "fureigh",
-    "name": "Fureigh",
-    "speaker_order": 2
-  },
-  {
-    "key": "jamie-chung",
-    "name": "Jamie Chung",
-    "headshot_filename": "jamie-chung.jpg",
-    "bio": "Jamie Chung (@jamieshark_) is currently an engineer with Trello, working remotely from Chicago. Previously, they worked on maintaining Foundation (an open-source frontend framework), built health apps with Northwestern University’s Medical School, then worked on Dropbox's monetization and brand design team. When it comes to programming, they focus on a user-centric experience with smart and sustainable code. Jamie's current phone lock screen is a picture of Mt. Tam Brie Cheese from Cowgirl Creamery which probably covers the rest of the bio.",
-    "company": "Trello",
-    "job_title": "Software Developer",
-    "twitter": "jamieshark_",
-    "website": "http://jamiechu.ng",
-    "pronouns": "they/them",
-    "speaker_order": 3
-  },
-  {
-    "key": "courteney-ervin",
-    "name": "Courteney Ervin",
-    "headshot_filename": "courteney-ervin.jpg",
-    "twitter": "courteneyervin",
-    "speaker_order": 3
-  },
-  {
     "key": "angie-jones",
     "name": "Angie Jones",
     "headshot_filename": "angie-jones.jpg",
@@ -244,16 +213,23 @@
     "speaker_order": 3
   },
   {
-    "key": "crystal-martin",
-    "name": "Crystal Martin",
-    "headshot_filename": "crystal-martin.jpg",
-    "bio": "Crystal is a Salesforce Development consultant at Slalom, a co-organizer of Strange Loop Conference, and diversity in tech and business advocate. As a Detroit Public Schools graduate, Crystal is passionate about equal access to education at all levels. She came to St. Louis as a 2010 Teach For America Corps Member and taught middle school math in St. Louis Public Schools for four years. After her time in the classroom, she wanted to explore a career that would allow her to bring together her love for creativity, science, and community and technology was just that! Crystal likes to call herself a “developing developer”, she’s a lifetime learner and is currently digging into JavaScript and Salesforce and fighting the patriarchy and imposter syndrome one key stroke at a time. She holds a B.S. in Nutritional Sciences from Michigan State University and an M.Ed. in Secondary Education from the University of Missouri-St. Louis, which goes to show, college degrees matter, but they really don’t.",
-    "company": "Slalom",
-    "job_title": "Consultant",
-    "twitter": "codermeow",
-    "linkedin": "https://www.linkedin.com/in/crystal-martin-05b0b838/",
-    "pronouns": "she/her",
-    "speaker_order": 4
+    "key": "courteney-ervin",
+    "name": "Courteney Ervin",
+    "headshot_filename": "courteney-ervin.jpg",
+    "twitter": "courteneyervin",
+    "speaker_order": 3
+  },
+  {
+    "key": "jamie-chung",
+    "name": "Jamie Chung",
+    "headshot_filename": "jamie-chung.jpg",
+    "bio": "Jamie Chung (@jamieshark_) is currently an engineer with Trello, working remotely from Chicago. Previously, they worked on maintaining Foundation (an open-source frontend framework), built health apps with Northwestern University’s Medical School, then worked on Dropbox's monetization and brand design team. When it comes to programming, they focus on a user-centric experience with smart and sustainable code. Jamie's current phone lock screen is a picture of Mt. Tam Brie Cheese from Cowgirl Creamery which probably covers the rest of the bio.",
+    "company": "Trello",
+    "job_title": "Software Developer",
+    "twitter": "jamieshark_",
+    "website": "http://jamiechu.ng",
+    "pronouns": "they/them",
+    "speaker_order": 3
   },
   {
     "key": "hilary-stohs-krause",
@@ -268,6 +244,54 @@
     "website": "http://hilarysk.com",
     "pronouns": "she/her",
     "speaker_order": 4
+  },
+  {
+    "key": "crystal-martin",
+    "name": "Crystal Martin",
+    "headshot_filename": "crystal-martin.jpg",
+    "bio": "Crystal is a Salesforce Development consultant at Slalom, a co-organizer of Strange Loop Conference, and diversity in tech and business advocate. As a Detroit Public Schools graduate, Crystal is passionate about equal access to education at all levels. She came to St. Louis as a 2010 Teach For America Corps Member and taught middle school math in St. Louis Public Schools for four years. After her time in the classroom, she wanted to explore a career that would allow her to bring together her love for creativity, science, and community and technology was just that! Crystal likes to call herself a “developing developer”, she’s a lifetime learner and is currently digging into JavaScript and Salesforce and fighting the patriarchy and imposter syndrome one key stroke at a time. She holds a B.S. in Nutritional Sciences from Michigan State University and an M.Ed. in Secondary Education from the University of Missouri-St. Louis, which goes to show, college degrees matter, but they really don’t.",
+    "company": "Slalom",
+    "job_title": "Consultant",
+    "twitter": "codermeow",
+    "linkedin": "https://www.linkedin.com/in/crystal-martin-05b0b838/",
+    "pronouns": "she/her",
+    "speaker_order": 4
+  },
+  {
+    "key": "jessica-forde",
+    "name": "Jessica Forde",
+    "speaker_order": 5
+  },
+  {
+    "key": "jessica-lord",
+    "name": "Jessica Lord",
+    "headshot_filename": "jessica-lord.png",
+    "bio": "Jessica is an urban designer turned web developer who is writing Go and JavaScript these days. She loves open source and tries to build tools to make the web more approachable.",
+    "company": "Splice",
+    "job_title": "Engineer",
+    "twitter": "jllord",
+    "github": "jlord",
+    "website": "http://jlord.us",
+    "pronouns": "she/her",
+    "speaker_order": 5
+  },
+  {
+    "key": "jessica-parsons",
+    "name": "Jessica Parsons",
+    "speaker_order": 5
+  },
+  {
+    "key": "jiaqi-liu",
+    "name": "Jiaqi Liu",
+    "headshot_filename": "jiaqi-liu.jpg",
+    "bio": "Jiaqi is a Software Engineer at Button building out their data platform. Prior to this, she was a Principal Data Scientist at Capital One Labs, where she worked on a variety of prototypes leveraging data science, design thinking and software engineering to improve financial wellness for consumers. She is passionate about challenges in bridging the gap between the science and engineering part of data-driven work. Outside of work, she is a Director at Women Who Code NYC and active in the NYC Python Community.",
+    "company": "Button",
+    "job_title": "Software Engineer",
+    "twitter": "jiaqicodes",
+    "github": "jiaqi216",
+    "linkedin": "https://www.linkedin.com/in/jiaqi-liu-4873b745/",
+    "pronouns": "she/her",
+    "speaker_order": 5
   },
   {
     "key": "jo-balme",
@@ -328,10 +352,23 @@
   {
     "key": "katrina-uychaco",
     "name": "Katrina Uychaco",
+    "bio": "Katrina is a software engineer at GitHub, where she works on integrating Git and GitHub into Atom. She loves nerding out about Git, and empowering others to use it with more confidence and ease.",
     "company": "GitHub",
     "job_title": "Application Engineer",
     "twitter": "kuychaco",
     "github": "kuychaco",
+    "linkedin": "https://www.linkedin.com/in/katrinauychaco/",
+    "pronouns": "she/her",
+    "speaker_order": 5
+  },
+  {
+    "key": "kelsey-rose",
+    "name": "Kelsey Rose",
+    "headshot_filename": "kelsey-rose.jpeg",
+    "bio": "Kelsey Rose is a fullstack Software Engineer on the Squarespace's Commerce team, powering Squarespace's eCommerce platform.",
+    "company": "Squarespace",
+    "job_title": "Software Engineer",
+    "linkedin": "https://www.linkedin.com/in/kelsey-rose-58756885/",
     "pronouns": "she/her",
     "speaker_order": 5
   },
@@ -369,6 +406,21 @@
     "speaker_order": 5
   },
   {
+    "key": "lisa-van-gelder",
+    "name": "Lisa van Gelder",
+    "speaker_order": 5
+  },
+  {
+    "key": "manal-habib",
+    "name": "Manal Habib",
+    "bio": "As a controls engineers at Zipline, I am responsible for the flight controls for our fleet of vehicles.  I am building new flight controls architectures, developing cutting edge technologies, such as reverse thrust, and improving flight performance of our vehicles.  In my free time, I love flying planes, building planes and outdoor sports.",
+    "company": "Zipline",
+    "job_title": "Software Flight Controls Enginner",
+    "linkedin": "https://www.linkedin.com/in/manal-habib-a5693a3a/",
+    "pronouns": "she/her",
+    "speaker_order": 5
+  },
+  {
     "key": "mariann-micsinai",
     "name": "Mariann Micsinai",
     "headshot_filename": "mariann-miscinai.jpg",
@@ -383,6 +435,11 @@
     "name": "Marie Casabonne",
     "headshot_filename": "marie-casabonne.jpg",
     "twitter": "goodcasa",
+    "speaker_order": 5
+  },
+  {
+    "key": "mimi-nguyen",
+    "name": "Mimi Nguyen",
     "speaker_order": 5
   },
   {
@@ -407,7 +464,7 @@
     "company": "Twitter",
     "job_title": "Software Engineer",
     "twitter": "thathijabae",
-    "github": "https://github.com/nailainbits",
+    "github": "nailainbits",
     "linkedin": "https://www.linkedin.com/in/nishatanjum",
     "website": "http://nishatanjum.com/",
     "pronouns": "she/her",
@@ -416,6 +473,15 @@
   {
     "key": "ope-bukola",
     "name": "Ope Bukola",
+    "bio": "Ope Bukola is a Product Manager at Google, where she works on Google Classroom and G Suite for Education. Previously, she was a product manager at Amplify Education, founded an edtech company that provided a web-based interactive Algebra course, and managed partnerships at CK-12 Foundation, a provider open-source digital textbooks. She is passionate about building technology that improves teaching and learning, and helps people thrive. She loves funding strong founders and ideas: she is a member of Pipeline Angels, Executive Board chair of Black Art Futures Fund, and a crowdfunding junkie. Ope holds a joint degree in Economics \u0026 Mathematics from New York University. She enjoys book clubs, dinner parties, and yoga.",
+    "twitter": "ope_bukola",
+    "linkedin": "www.opebukola.com",
+    "website": "https://www.linkedin.com/in/opebukola/",
+    "speaker_order": 5
+  },
+  {
+    "key": "raquel-hernandez",
+    "name": "Raquel Hernandez",
     "speaker_order": 5
   },
   {
@@ -446,13 +512,15 @@
     "speaker_order": 5
   },
   {
-    "key": "shanise-barona",
-    "name": "Shanise Barona",
-    "headshot_filename": "shanise-barona.jpg",
-    "twitter": "shanisebarona",
-    "github": "shanisebarona",
-    "linkedin": "https://www.linkedin.com/in/shanisebarona/",
-    "website": "http://shanisebarona.com/",
+    "key": "amelia-downs",
+    "name": "Amelia Downs",
+    "headshot_filename": "amelia-downs.jpg",
+    "bio": "Amelia Downs is an engineering anchor on the Container Networking team at Pivotal Cloud Foundry. She cares deeply about process and actually likes doing CI work.",
+    "company": "Pivotal",
+    "job_title": "Software Engineer",
+    "github": "ameowlia",
+    "linkedin": "https://www.linkedin.com/in/ameliadowns/",
+    "pronouns": "she/her",
     "speaker_order": 5
   },
   {
@@ -461,7 +529,7 @@
     "headshot_filename": "shemika-lamare.jpg",
     "bio": "Shemika Lamare is a Biologist turned Data Enthusiast. She is on a non-traditional path into Data Science and is passionate about the ways that data can be used to improve our society. She wants to ensure everyone is aware of how their data is being utilized and that society is held accountable when using data. When she is not playing with data she is attending conferences, and writing talks to help empower newbies in the tech field.",
     "twitter": "slamare15",
-    "github": "https://github.com/Slamare",
+    "github": "Slamare",
     "linkedin": "https://www.linkedin.com/in/slamare/",
     "website": "http://www.slamare.com/",
     "pronouns": "she/her",
@@ -493,6 +561,12 @@
     "linkedin": "https://www.linkedin.com/in/tanyareilly/",
     "website": "http://noidea.dog",
     "pronouns": "she/her",
+    "speaker_order": 5
+  },
+  {
+    "key": "the-new-york-times",
+    "name": "The New York Times",
+    "headshot_filename": "new-york-times.jpg",
     "speaker_order": 5
   },
   {
@@ -533,26 +607,13 @@
     "speaker_order": 5
   },
   {
-    "key": "kelsey-rose",
-    "name": "Kelsey Rose",
-    "headshot_filename": "kelsey-rose.jpeg",
-    "bio": "Kelsey Rose is a fullstack Software Engineer on the Squarespace's Commerce team, powering Squarespace's eCommerce platform.",
-    "company": "Squarespace",
-    "job_title": "Software Engineer",
-    "linkedin": "https://www.linkedin.com/in/kelsey-rose-58756885/",
-    "pronouns": "she/her",
-    "speaker_order": 5
-  },
-  {
-    "key": "amelia-downs",
-    "name": "Amelia Downs",
-    "headshot_filename": "amelia-downs.jpg",
-    "bio": "Amelia Downs is an engineering anchor on the Container Networking team at Pivotal Cloud Foundry. She cares deeply about process and actually likes doing CI work.",
-    "company": "Pivotal",
-    "job_title": "Software Engineer",
-    "github": "ameowlia",
-    "linkedin": "https://www.linkedin.com/in/ameliadowns/",
-    "pronouns": "she/her",
+    "key": "shanise-barona",
+    "name": "Shanise Barona",
+    "headshot_filename": "shanise-barona.jpg",
+    "twitter": "shanisebarona",
+    "github": "shanisebarona",
+    "linkedin": "https://www.linkedin.com/in/shanisebarona/",
+    "website": "http://shanisebarona.com/",
     "speaker_order": 5
   },
   {
@@ -565,11 +626,6 @@
     "twitter": "AGuilinger",
     "linkedin": "https://www.linkedin.com/in/ann-guilinger/",
     "pronouns": "she/her",
-    "speaker_order": 5
-  },
-  {
-    "key": "anna-neyzberg",
-    "name": "Anna Neyzberg",
     "speaker_order": 5
   },
   {
@@ -642,6 +698,11 @@
     "company": "Medidata Solutions",
     "job_title": "Staff Applications Engineer",
     "pronouns": "she/her",
+    "speaker_order": 5
+  },
+  {
+    "key": "brittney-braxton",
+    "name": "Brittney Braxton",
     "speaker_order": 5
   },
   {
@@ -739,6 +800,25 @@
   {
     "key": "elisa-miller-out",
     "name": "Elisa Miller-Out",
+    "headshot_filename": "elisa-miller-out.jpg",
+    "bio": "Elisa Miller-Out is an experienced tech entrepreneur, investor, board director and community builder. Elisa is Managing Partner at Chloe Capital, a seed stage venture capital firm investing in women-led innovation companies. She’s co-founder of PollQ, a chatbot startup, a board member at Women 2.0, a media brand with a global reach of over 1 million women in tech, and CFO and chair of the board at Singlebrook. Singlebrook is a custom software services firm Elisa co-founded and led as CEO for over 10 years. Singlebrook has Fortune 500, higher education and nonprofit clients from around the world, including: Cornell, Yale, Henry Schein, Hitachi, the Sierra Club, and the Environmental Defense Fund. Elisa has been featured in the New York Times, the Washington Post, USA Today, Forbes and other publications, and she speaks about technology and entrepreneurship at events across the country. Elisa graduated Summa Cum Laude from Barnard College of Columbia University.",
+    "company": "Chloe Capital",
+    "job_title": "Managing Partner",
+    "twitter": "ElisaMillerOut",
+    "linkedin": "https://www.linkedin.com/in/elisamillerout/",
+    "website": "http://chloecapital.com",
+    "pronouns": "she/her",
+    "speaker_order": 5
+  },
+  {
+    "key": "emma-schott",
+    "name": "Emma Schott",
+    "bio": "Emma's background is in satellite operations. She was a satellite flight operations engineer at Lockheed Martin before moving to Skybox Imaging, where she built the flight operations system for a constellation of high resolution imaging satellites. Emma started working at Google in 2014 when they acquired Skybox, and moved to Zipline in 2017. At Zipline, Emma is working on building a world-class flight and fulfillment operations system to deliver blood and medical supplies to remote hospitals.",
+    "company": "Zipline",
+    "job_title": "Technical Program Manager",
+    "twitter": "@itsarattle",
+    "linkedin": "https://www.linkedin.com/in/emmaschott/",
+    "pronouns": "she/her",
     "speaker_order": 5
   },
   {
@@ -748,7 +828,7 @@
     "bio": "Erica Stanley is a software engineer, entrepreneur and tech diversity \u0026 inclusion advocate. She is an engineering manager for the integrations and data analytics teams at SalesLoft – where she’s helping grow the product engineering team for the 4th fastest growing software company in North America. She’s worked with Fortune 500 companies, including Boeing, FOX Interactive Media, Turner Broadcasting, and Oracle, as well as early-stage and pre-acquisition startups.\n\nErica is active in the Atlanta technology community. She founded the Atlanta network of Women Who Code, where she organizes conferences, hackathons, developer workshops, monthly tech talks and networking events for women technologists. She also helps develop and teach youth coding programs, speaks at local hackathons, conferences, and user groups and mentors entrepreneurs for various incubators and accelerators.",
     "company": "SalesLoft",
     "job_title": "Software Engineering Manager",
-    "twitter": "@ericastanley",
+    "twitter": "ericastanley",
     "linkedin": "https://www.linkedin.com/in/ericastanley/",
     "website": "http://www.ericastanley.io/",
     "speaker_order": 5
@@ -790,6 +870,18 @@
     "speaker_order": 5
   },
   {
+    "key": "jasmin-rubinovitz",
+    "name": "Jasmin Rubinovitz",
+    "bio": "Jasmin Rubinovitz is a cross-disciplinary researcher, designer, and engineer.\n\nShe holds a Masters in Media Arts and Science from the MIT Media Lab, where she built innovative user interfaces with machine learning and data visualizations.\n\nJasmin is a lead creative technologist at Fake Love - a design driven Experiential Agency that creates unconventional immersive \u0026 artistic projects.",
+    "company": "NYTimes",
+    "job_title": "Lead Creative Technologist",
+    "github": "jasrub",
+    "linkedin": "https://www.linkedin.com/in/jasrub/",
+    "website": "www.jasrub.com",
+    "pronouns": "she/her",
+    "speaker_order": 5
+  },
+  {
     "key": "jess-lee",
     "name": "Jess Lee",
     "headshot_filename": "jess-lee.jpg",
@@ -800,32 +892,6 @@
     "github": "jessleenyc",
     "linkedin": "https://www.linkedin.com/in/jessleenyc/",
     "website": "https://dev.to/jess",
-    "pronouns": "she/her",
-    "speaker_order": 5
-  },
-  {
-    "key": "jessica-lord",
-    "name": "Jessica Lord",
-    "headshot_filename": "jessica-lord.png",
-    "bio": "Jessica is an urban designer turned web developer who is writing Go and JavaScript these days. She loves open source and tries to build tools to make the web more approachable.",
-    "company": "Splice",
-    "job_title": "Engineer",
-    "twitter": "jllord",
-    "github": "jlord",
-    "website": "http://jlord.us",
-    "pronouns": "she/her",
-    "speaker_order": 5
-  },
-  {
-    "key": "jiaqi-liu",
-    "name": "Jiaqi Liu",
-    "headshot_filename": "jiaqi-liu.jpg",
-    "bio": "Jiaqi is a Software Engineer at Button building out their data platform. Prior to this, she was a Principal Data Scientist at Capital One Labs, where she worked on a variety of prototypes leveraging data science, design thinking and software engineering to improve financial wellness for consumers. She is passionate about challenges in bridging the gap between the science and engineering part of data-driven work. Outside of work, she is a Director at Women Who Code NYC and active in the NYC Python Community.",
-    "company": "Button",
-    "job_title": "Software Engineer",
-    "twitter": "jiaqicodes",
-    "github": "@jiaqi216",
-    "linkedin": "https://www.linkedin.com/in/jiaqi-liu-4873b745/",
     "pronouns": "she/her",
     "speaker_order": 5
   },

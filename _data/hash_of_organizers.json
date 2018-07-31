@@ -1,197 +1,197 @@
 {
-  "rebecca-miller-webster": {
-    "twitter": "rmillerwebster",
-    "headshot_filename": "rebecca-miller-webster.jpg",
-    "pronouns": "she/her",
-    "role": "Founder \u0026 Director",
-    "order": 1,
-    "name": "Rebecca Miller-Webster",
-    "key": "rebecca-miller-webster"
-  },
-  "neha-batra": {
-    "twitter": "nerdneha",
-    "headshot_filename": "neha.jpg",
-    "pronouns": "she/her",
-    "role": "Director",
-    "order": 1,
-    "name": "Neha Batra",
-    "key": "neha-batra"
-  },
-  "lateesha-thomas": {
-    "twitter": "lateeshathomas",
-    "headshot_filename": "lateesha-thomas.jpg",
-    "pronouns": "she/her",
-    "role": "Director",
-    "order": 1,
-    "name": "Lateesha Thomas",
-    "key": "lateesha-thomas"
-  },
-  "dalal-al-rayes": {
-    "twitter": "dalrayes",
-    "headshot_filename": "dalal-alrayes.jpg",
-    "pronouns": "she/her",
-    "role": "Board",
-    "order": 2,
-    "name": "Dalal Al Rayes",
-    "key": "dalal-al-rayes"
-  },
-  "marie-casabonne": {
-    "twitter": "goodcasa",
-    "headshot_filename": "marie-casabonne.jpg",
-    "pronouns": "she/her",
-    "role": "Board",
-    "order": 2,
-    "name": "Marie Casabonne",
-    "key": "marie-casabonne"
-  },
-  "kara-carrell": {
-    "twitter": "KaraAJC",
-    "headshot_filename": "kara-carrell.png",
-    "pronouns": "she/her",
-    "role": "Chapter \u0026 Conference Organizer",
-    "order": 3,
-    "name": "Kara Carrell",
-    "key": "kara-carrell"
-  },
-  "lisa-van-gelder": {
-    "twitter": "lisa_van_gelder",
-    "headshot_filename": "lisa-van-gelder.jpg",
-    "pronouns": "she/her",
-    "role": "Chapter \u0026 Conference Organizer",
-    "order": 3,
-    "name": "Lisa van Gelder",
-    "key": "lisa-van-gelder"
-  },
-  "zoe-gagnon": {
-    "twitter": "UnusedPotential",
-    "headshot_filename": "dawn-parzych.jpg",
-    "pronouns": "she/her",
-    "role": "Conference Organizer",
-    "order": 4,
-    "name": "Zoe Gagnon",
-    "key": "zoe-gagnon"
-  },
-  "rebecca-long": {
-    "twitter": "amaya30",
-    "headshot_filename": "rebecca-long.jpg",
-    "pronouns": "she/her",
-    "role": "Conference Organizer",
-    "order": 4,
-    "name": "Rebecca Long",
-    "key": "rebecca-long"
-  },
-  "alex-millatmal": {
-    "twitter": "halfghaninNE",
-    "headshot_filename": "alexandra-millatmal.jpg",
-    "pronouns": "she/her",
-    "role": "Conference Organizer",
-    "order": 4,
-    "name": "Alex Millatmal",
-    "key": "alex-millatmal"
-  },
-  "mercedes-bernard": {
-    "twitter": "mercedescodes",
-    "headshot_filename": "mercedesb.jpg",
-    "pronouns": "she/her",
-    "role": "Conference Organizer",
-    "order": 5,
-    "name": "Mercedes Bernard",
-    "key": "mercedes-bernard"
-  },
-  "mina-slater": {
-    "twitter": "Minar528",
-    "headshot_filename": "mina-slater.jpg",
-    "pronouns": "she/her",
-    "role": "Conference Organizer",
-    "order": 5,
-    "name": "Mina Slater",
-    "key": "mina-slater"
-  },
-  "ifeoma-okereke": {
-    "twitter": "IfeomaRO",
-    "headshot_filename": "ifeoma-okereke.jpg",
-    "pronouns": "she/her",
-    "role": "Conference Organizer",
-    "order": 5,
-    "name": "Ifeoma Okereke",
-    "key": "ifeoma-okereke"
-  },
-  "rebecca-bever": {
-    "twitter": "beckabec",
-    "pronouns": "she/her",
-    "role": "Chapter Organizer",
-    "order": 6,
-    "name": "Rebecca Bever",
-    "key": "rebecca-bever"
-  },
-  "ting-deng": {
-    "twitter": "tingex",
-    "headshot_filename": "ting-deng.jpg",
-    "pronouns": "she/her",
-    "role": "Chapter Organizer",
-    "order": 6,
-    "name": "Ting Deng",
-    "key": "ting-deng"
-  },
-  "anna-watt": {
-    "twitter": "annalynnwatt",
-    "pronouns": "she/her",
-    "role": "Chapter Organizer",
-    "order": 6,
-    "name": "Anna Watt",
-    "key": "anna-watt"
-  },
-  "tien-mimi-nguyen": {
-    "twitter": "Mimi_Dumpling",
-    "headshot_filename": "tien-mimi-nguyen.jpg",
-    "pronouns": "she/her",
-    "role": "Chapter Organizer",
-    "order": 6,
-    "name": "Tien \"Mimi\" Nguyen",
-    "key": "tien-mimi-nguyen"
-  },
-  "kelly-mason": {
-    "twitter": "kellymase",
-    "headshot_filename": "kelly-mason.jpg",
-    "pronouns": "she/her",
-    "role": "Chapter Organizer",
-    "order": 6,
-    "name": "Kelly Mason",
-    "key": "kelly-mason"
-  },
-  "lauren-murphy": {
-    "twitter": "laurennor",
-    "pronouns": "she/her",
-    "role": "Chapter Organizer",
-    "order": 6,
-    "name": "Lauren Murphy",
-    "key": "lauren-murphy"
-  },
-  "jessica-simon": {
-    "headshot_filename": "jessica-simon.jpg",
-    "twitter": "jsimon727",
-    "pronouns": "she/her",
-    "role": "Chapter Organizer",
-    "order": 6,
-    "name": "Jessica Simon",
-    "key": "jessica-simon"
-  },
-  "evelyn-masso": {
-    "twitter": "outofambit",
-    "headshot_filename": "evelyn-masso.jpg",
-    "pronouns": "she/they",
-    "role": "Chapter Organizer",
-    "order": 6,
-    "name": "Evelyn Masso",
-    "key": "evelyn-masso"
-  },
-  "dawn-parzych": {
-    "twitter": "dparzych",
-    "headshot_filename": "dawn-parzych.jpg",
-    "pronouns": "she/her",
-    "role": "Chapter Organizer",
-    "order": 6,
-    "name": "Dawn Parzych",
-    "key": "dawn-parzych"
-  }
+   "neha-batra":{
+      "twitter":"nerdneha",
+      "headshot_filename":"neha.jpg",
+      "pronouns":"she/her",
+      "role":"Director",
+      "order":1,
+      "name":"Neha Batra",
+      "key":"neha-batra"
+   },
+   "rebecca-miller-webster":{
+      "twitter":"rmillerwebster",
+      "headshot_filename":"rebecca-miller-webster.jpg",
+      "pronouns":"she/her",
+      "role":"Founder \u0026 Director",
+      "order":1,
+      "name":"Rebecca Miller-Webster",
+      "key":"rebecca-miller-webster"
+   },
+   "lateesha-thomas":{
+      "twitter":"lateeshathomas",
+      "headshot_filename":"lateesha-thomas.jpg",
+      "pronouns":"she/her",
+      "role":"Director",
+      "order":1,
+      "name":"Lateesha Thomas",
+      "key":"lateesha-thomas"
+   },
+   "marie-casabonne":{
+      "twitter":"goodcasa",
+      "headshot_filename":"marie-casabonne.jpg",
+      "pronouns":"she/her",
+      "role":"Board",
+      "order":2,
+      "name":"Marie Casabonne",
+      "key":"marie-casabonne"
+   },
+   "dalal-al-rayes":{
+      "twitter":"dalrayes",
+      "headshot_filename":"dalal-alrayes.jpg",
+      "pronouns":"she/her",
+      "role":"Board",
+      "order":2,
+      "name":"Dalal Al Rayes",
+      "key":"dalal-al-rayes"
+   },
+   "kara-carrell":{
+      "twitter":"KaraAJC",
+      "headshot_filename":"kara-carrell.png",
+      "pronouns":"she/her",
+      "role":"Chapter \u0026 Conference Organizer",
+      "order":3,
+      "name":"Kara Carrell",
+      "key":"kara-carrell"
+   },
+   "lisa-van-gelder":{
+      "twitter":"lisa_van_gelder",
+      "headshot_filename":"lisa-van-gelder.jpg",
+      "pronouns":"she/her",
+      "role":"Chapter \u0026 Conference Organizer",
+      "order":3,
+      "name":"Lisa van Gelder",
+      "key":"lisa-van-gelder"
+   },
+   "zoe-gagnon":{
+      "twitter":"UnusedPotential",
+      "headshot_filename":"dawn-parzych.jpg",
+      "pronouns":"she/her",
+      "role":"Conference Organizer",
+      "order":4,
+      "name":"Zoe Gagnon",
+      "key":"zoe-gagnon"
+   },
+   "rebecca-long":{
+      "twitter":"amaya30",
+      "headshot_filename":"rebecca-long.jpg",
+      "pronouns":"she/her",
+      "role":"Conference Organizer",
+      "order":4,
+      "name":"Rebecca Long",
+      "key":"rebecca-long"
+   },
+   "alex-millatmal":{
+      "twitter":"halfghaninNE",
+      "headshot_filename":"alexandra-millatmal.jpg",
+      "pronouns":"she/her",
+      "role":"Conference Organizer",
+      "order":4,
+      "name":"Alex Millatmal",
+      "key":"alex-millatmal"
+   },
+   "mercedes-bernard":{
+      "twitter":"mercedescodes",
+      "headshot_filename":"mercedesb.jpg",
+      "pronouns":"she/her",
+      "role":"Conference Organizer",
+      "order":5,
+      "name":"Mercedes Bernard",
+      "key":"mercedes-bernard"
+   },
+   "mina-slater":{
+      "twitter":"Minar528",
+      "headshot_filename":"mina-slater.jpg",
+      "pronouns":"she/her",
+      "role":"Conference Organizer",
+      "order":5,
+      "name":"Mina Slater",
+      "key":"mina-slater"
+   },
+   "ifeoma-okereke":{
+      "twitter":"IfeomaRO",
+      "headshot_filename":"ifeoma-okereke.jpg",
+      "pronouns":"she/her",
+      "role":"Conference Organizer",
+      "order":5,
+      "name":"Ifeoma Okereke",
+      "key":"ifeoma-okereke"
+   },
+   "rebecca-bever":{
+      "twitter":"beckabec",
+      "pronouns":"she/her",
+      "role":"Chapter Organizer",
+      "order":6,
+      "name":"Rebecca Bever",
+      "key":"rebecca-bever"
+   },
+   "ting-deng":{
+      "twitter":"tingex",
+      "headshot_filename":"ting-deng.jpg",
+      "pronouns":"she/her",
+      "role":"Chapter Organizer",
+      "order":6,
+      "name":"Ting Deng",
+      "key":"ting-deng"
+   },
+   "anna-watt":{
+      "twitter":"annalynnwatt",
+      "pronouns":"she/her",
+      "role":"Chapter Organizer",
+      "order":6,
+      "name":"Anna Watt",
+      "key":"anna-watt"
+   },
+   "tien-mimi-nguyen":{
+      "twitter":"Mimi_Dumpling",
+      "headshot_filename":"tien-mimi-nguyen.jpg",
+      "pronouns":"she/her",
+      "role":"Chapter Organizer",
+      "order":6,
+      "name":"Tien \"Mimi\" Nguyen",
+      "key":"tien-mimi-nguyen"
+   },
+   "kelly-mason":{
+      "twitter":"kellymase",
+      "headshot_filename":"kelly-mason.jpg",
+      "pronouns":"she/her",
+      "role":"Chapter Organizer",
+      "order":6,
+      "name":"Kelly Mason",
+      "key":"kelly-mason"
+   },
+   "lauren-murphy":{
+      "twitter":"laurennor",
+      "pronouns":"she/her",
+      "role":"Chapter Organizer",
+      "order":6,
+      "name":"Lauren Murphy",
+      "key":"lauren-murphy"
+   },
+   "jessica-simon":{
+      "twitter":"jsimon727",
+      "headshot_filename":"jessica-simon.jpg",
+      "pronouns":"she/her",
+      "role":"Chapter Organizer",
+      "order":6,
+      "name":"Jessica Simon",
+      "key":"jessica-simon"
+   },
+   "evelyn-masso":{
+      "twitter":"outofambit",
+      "headshot_filename":"evelyn-masso.jpg",
+      "pronouns":"she/they",
+      "role":"Chapter Organizer",
+      "order":6,
+      "name":"Evelyn Masso",
+      "key":"evelyn-masso"
+   },
+   "dawn-parzych":{
+      "twitter":"dparzych",
+      "headshot_filename":"dawn-parzych.jpg",
+      "pronouns":"she/her",
+      "role":"Chapter Organizer",
+      "order":6,
+      "name":"Dawn Parzych",
+      "key":"dawn-parzych"
+   }
 }

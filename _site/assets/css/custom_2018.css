@@ -474,6 +474,18 @@ a.link.white {
           .sponsor-row .supporter .sponsor-logo img {
             width: 100%; } }
 
+.conference-map #conferenceMap {
+  margin: 0px auto;
+  text-align: center; }
+.conference-map iframe {
+  max-width: 1200px;
+  min-width: 415px;
+  width: 100%;
+  max-height: 900px;
+  min-height: 900px;
+  height: auto;
+  border: 5px solid #F1D8D3; }
+
 /* Update for "Talks" section TODO: fix */
 .qcSchSpeakers {
   min-height: 25px; }

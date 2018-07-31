@@ -1,1 +1,617 @@
-[{"key":"zine-making-workshop","title":"Zine-Making Workshop","description":"This workshop will be an introduction to technical zine making and writing. Participants will explore how to explain technical topics via drawings, comics, diagrams, and stories, with particular focus on making complex topics understandable and accessible. At the end of the workshop, participants will have technical zines that they can exchange with each other and other conference attendees.","talk_order":1,"speaker":["amy-wibowo"],"talk_type":"long-workshop-3-5-hr"},{"key":"creating-success-44-together","title":"Creating Success\u0026#44; Together","description":"As individuals we - implicitly or explicitly - define success, as do teams. But how do these definitions and incentives impact how and what we build?\n\nLet’s talk about the ways in which the dysfunctions of your organization become the dysfunctions of your product.","talk_order":1,"speaker":["cate-huston"],"talk_type":"standard-talk"},{"key":"from-blog-to-book-how-to-pitch-","title":"From Blog to Book: How to pitch\u0026#44; write\u0026#44; and get published","description":"You’ve started blogging about your work. Awesome! So what about writing even more…like, say, a book? If that sounds terrifying—but also kinda exciting—then this workshop is for you. We’re Katel LeDû, CEO of indie tech publishing company A Book Apart, and Sara Wachter-Boettcher, a three-time author, and we know that too many valuable, interesting voices are still missing from our industry’s bookshelves. We’re here to help change that. In this workshop, we’ll demystify the publishing process and answer questions about contracts, proposals, and more. Then, you'll get to work: you’ll share ideas with us and each other, get feedback, decide on an angle and audience, and start drafting an elevator pitch and outline. You’ll leave the session with a clearer idea of what it takes to get a book published, and practical advice on turning your topic into something publishers—and readers—will love. Don’t worry about having The Perfect Idea™ before you come—just bring 1-2 topics you want to explore!","talk_order":1,"speaker":["katel-ledu","sara-wachter-boettcher"],"talk_type":"long-workshop-3-5-hr"},{"key":"bragging-cause-you-re-showing-o","title":"Bragging: Cause you’re showing off and it’s all right","description":"How do you balance being confident and humble? It’s a challenge, but its an important part of being able to talk about yourself at networking events, interviews and so forth. Come add new tools to your toolbox as you continue on your journey on finding your voice and claiming your worth.","talk_order":2,"speaker":["shemika-lamare"],"talk_type":"keynote-talk"},{"key":"the-secret-history-of-women-and","title":"The secret history of women and nonbinary folks in tech","description":"Steve Jobs. Linus Torvalds. Alan Turing.\n\nBeen there, done that.\n\nThe interesting stories often aren’t the ones we grew up with; they’re the ones we’ve left behind. When it comes to tech, that means its women, and especially its women of color. And while there’s been a greater emphasis lately on rediscovering women’s contributions to technology, we need to expand our focus beyond just Grace Hopper and Ada Lovelace.\n\nFrom Radia Perlman to Sophie Wilson to Erica Baker, it’s time to explore both tech’s forgotten heroes and its modern-day pioneers, and help end the silent erasure of women in technology.","talk_order":2,"speaker":["hilary-stohs-krause"],"talk_type":"keynote-talk"},{"key":"how-public-speaking-made-me-a-b","title":"How public speaking made me a better negotiator","description":"When I started public speaking, I did not realize that I was signing up for negotiation practice. My first talk acceptance opened my eyes to the conference-speaker dynamics. From then on, each proposal, each conference became a safe place for me to push the envelope, pinpoint what I want, and ask for it. I learned how to frame the situation to my advantage, phrase my requests without the burden of excessive justification, and be comfortable with rejections. Come hear my stories, what I tried, what worked and what didn’t, and add a few tricks to your negotiation tool box.","talk_order":3,"speaker":["chiu-ki-chan"],"talk_type":"standard-talk"},{"key":"write-passion-opening-keynote","title":"Write/Passion Opening Keynote","talk_order":3,"speaker":["mina-markham"],"talk_type":"keynote-talk"},{"key":"art-technology-44-great-but-als","title":"Art \u0026 Technology\u0026#44; Great But Also Bad","description":"Those in tech who do not study art history are doomed to repeat its mishaps. It's time to discuss those mishaps, and how we in the tech industry are making the same mistakes, so we can try to turn things around and actually have a positive and profound affect on society.","talk_order":3,"speaker":["jenn-schiffer"],"talk_type":"keynote-talk"},{"key":"code-ethics-opening-keynote","title":"Code/Ethics Opening Keynote","talk_order":3,"speaker":["fureigh"],"talk_type":"keynote-talk"},{"key":"how-we-re-using-drones-to-deliv","title":"How we're using drones to deliver blood and save lives","description":"Zipline is designing, building, and operating drones that deliver blood and medical supplies to medical centers in some of the most difficult to reach places on Earth. In this talk we’ll discuss some of the exciting engineering challenges we’ve tackled so far and those that lie ahead.","talk_order":3,"speaker":["jo-balme","zipline","emma-schott","manal-habib"],"talk_type":"sponsor-talk"},{"key":"if-you-build-it-44-they-will-co","title":"If You Build it\u0026#44; They Will Come; How to Build a Great Open Source Project","description":"Launching an open source project is intimidating - it can seem like a lot of work just to make your code public (and therefore judgeable). This presentation will explain how to make sure your open source project is a success, from writing great documentation to marketing your project. You’ll also learn about some common pitfalls (like getting hacked) and how to avoid them.","talk_order":4,"speaker":["rebecca-holzschuh"],"talk_type":"standard-talk"},{"key":"growing-an-audience-on-youtube","title":"Growing an Audience on YouTube","description":"In this session, we will explore how to launch and optimize your YouTube channel and videos for discoverability and audience retention. We will also touch on how to measure your channel’s success using YouTube Analytics and answer questions such as how often one should publish a new video. Special focus will be placed on educational content. Become a #SkillTuber :)!","talk_order":4,"speaker":["google-developer-studio","anne-barto","claire-slattery"],"talk_type":"medium-workshop-2-hr"},{"key":"hacking-jewelry-how-using-code-","title":"Hacking jewelry: how using code to design jewelry has helped expand my creativity","description":"My hobby is making beaded earrings. I’ve evolved my design process over the years, and have recently been using code to help make my designs more accessible. This talk is about what I’ve learned by working to open source my earring designs and how it has brought me closer to the maker community.","talk_order":4,"speaker":["kathleen-simpson","github"],"talk_type":"sponsor-talk"},{"key":"how-write-speak-code-changed-my","title":"How Write/Speak/Code Changed My Life","description":"Carolyn shares how Write/Speak/Code kicked her career into high-gear and inspired her to double-down on paying it forward. Follow her journey from an underpaid, unknown developer to a well-respected international speaker and community leader, working 100% on open source at Microsoft.","talk_order":4,"speaker":["carolyn-van-slyck","microsoft"],"talk_type":"sponsor-talk"},{"key":"learning-from-machines","title":"Learning from machines","description":"Why can't you tickle yourself? How do you know where you are? Why do DeepDream images look so trippy? Why are experts in a field sometimes unable to accept new advances? Why does trauma come in waves, washing over us again and again? Computational neuroscience provides insight into these questions and more. In this talk, we'll look at models of cognition informed by machine learning and computation, and investigate how these models can help us examine and reconfigure our own processes of being.","talk_order":4,"speaker":["ashi-krishnan","github"],"talk_type":"standard-talk"},{"key":"podcasting-workshop","title":"Podcasting Workshop","talk_order":4,"speaker":["christina-warren"],"talk_type":"medium-workshop-2-hr"},{"key":"using-open-source-to-solve-an-i","title":"Using Open Source to Solve an Identity Crisis: Tracking the Bengali Diaspora","description":"As products of more than one society, immigrants often struggle to find their cultural footing. Add in recent genocide, religious tensions, plus life as a minority and it’s a toss up on how you define yourself. In this talk, I’ll be explaining the technical details behind using D3.js to track the Bengali diaspora as well as how this project has been bridging the gap between all of my identities. Who I am as a Bengali American, who I am as a software engineer, and who I am as a woman of color.","talk_order":5,"speaker":["nishat-anjum"],"talk_type":"standard-talk"},{"key":"how-you-can-become-an-investor-","title":"How YOU can become an investor: A fireside chat.","description":"You've heard the statistics about companies not investing in marginalized people.  Let's change that by becoming investors ourselves!   In this conversation, a new investor and a fund manager will discuss what you need to know about becoming an investor.  We will hear from Ope Bukola, a developer and product manager who went through \u003ca href=\"http://pipelineangels.com\"\u003ePipeline Angels\u003c/a\u003e to become an investor in woman and non-binary femme-led for-profit social ventures, and Elisa Miller-Out, manager partner at \u003ca href=\"http://chloecapital.com/\"\u003eChloe Capital\u003c/a\u003e, a seed stage investment fund focused on women-led tech companies.","talk_order":5,"speaker":["elisa-miller-out","ope-bukola"],"talk_type":"panel"},{"key":"chapter-organizers-summit","title":"Chapter Organizers Summit","talk_order":5,"speaker":null,"talk_type":"post-conference-event"},{"key":"writers-publishers-panel","title":"Writers \u0026 Publishers Panel","description":"In this panel of women and non-binary tech writers, authors, and technical publishers, you'll hear about the ways they use writing in their personal lives and careers, tips on how to get published, or self-publish, and the broader impact this work can have on the industry at large.","talk_order":5,"speaker":["chrys-wu","anne-t-griffin","debra-williams","jess-lee"],"talk_type":"panel"},{"key":"looking-for-artists-who-look-li","title":"Looking for artists who look like me: analyzing the MoMA GitHub repo","description":"If you walk into an art museum, you're likely to see works by mostly white, male artists.Picasso, Monet, Dali — these are household names that reflect a narrow view of \"legitimate\" art that belongs in a museum. Over time, this view is beginning to broaden. But just how much? Thanks to MoMA open sourcing data about their art collection, we can quantify the diversity of artists displayed at MoMA over time. Using data parsing and NLP, we will be better equipped to understand the evolution of acceptance of underrepresented groups in the art world.","talk_order":5,"speaker":["sravanti-tekumalla"],"talk_type":"standard-talk"},{"key":"mindfulness-your-way-through-th","title":"Mindfulness Your Way Through the Maelstrom","description":"As an underrepresented person in tech, you are often taught how to combat the outer forces of discrimination, being undermined, and overlooked. We are taught to be better, do better, outperform, tell em' who's boss-lady/enby! We are rarely given advice on how to look inside and find happiness and confidence in who we are, regardless of our circumstances, skill level or environment. This talk will be about the life-changing practice of mindfulness. This will not be an instructional on how to do 6 hour long meditations and transcend to a higher height, just the journey of a regular ass girl trying to navigate her way through life and how mindfulness helped her on the way and how mindfulness can do the same thing for you.","talk_order":5,"speaker":["crystal-martin"],"talk_type":"short-workshop-1-hr"},{"key":"being-glue","title":"Being Glue","description":"Your job title says \"engineer\" and that's what you want to be, but you seem to spend most of your time in meetings. You'd like to have time for code, but nobody else is unblocking the junior engineers, maintaining the relationship with your sister team in the other office, updating the roadmap, talking to teams whose projects overlap with yours, noticing the things that got dropped, asking questions on design documents, and making sure that everyone's going roughly in the same direction. If you stop doing those things, the team will function less well. But now someone's suggesting that 'you might be happier in a less technical role'. \n\n'Glue' work often lands on the only woman on the team, and it needs to be framed carefully. If you display this kind of leadership early in your career, there's a real risk of being seen as 'not technical enough' and pushed off the engineer ladder. Let's talk about how to get you recognised as the technical leader that you are, and keep you on the path to being a senior engineer.","talk_order":5,"speaker":["tanya-reilly"],"talk_type":"standard-talk"},{"key":"rapid-prototyping-hackathon-ski","title":"Rapid Prototyping / Hackathon Skills","description":"Walk away from this workshop with the ability and confidence to get up and running on a hackathon or personal project you’ve been thinking about starting. We’ll set up a local development server, learn how to expose it to the public internet, and discuss ways to expand the project.","talk_order":5,"speaker":["kelsey-rose","squarespace"],"talk_type":"medium-workshop-2-hr"},{"key":"starting-a-write-speak-code-cha","title":"Starting a Write/Speak/Code Chapter","talk_order":5,"speaker":["neha-batra"],"talk_type":"post-conference-event"},{"key":"storytelling-with-fake-love","title":"Storytelling with Fake Love","description":"Fake Love is an experiential design agency, that is part of The New York Times’  T Brand Studio. We do a wide range of experiential projects from permanent installations to one-off live events, and we use technology as a core component in our storytelling. Recent projects include Real-Time Data Visualizations, Generative Graphic Systems based on user input, Creative Audio/Responsive Lighting, Augmented Reality experiences, etc.  \nThis talk will discuss the technical aspects of implementing such projects and the challenges we run into while doing so.","talk_order":5,"speaker":["jasmin-rubinovitz","the-new-york-times"],"talk_type":"sponsor-talk"},{"key":"career-growth-and-performance-r","title":"Career Growth and Performance Reviews: An Engineering Leader Perspective","description":"Whether you are giving it or receiving it, performance reviews are stressful.  And not just because you are being assessed, but because it reflects on your relationship with your team and workplace as well as asking the existential question “What am I doing with my life?”  Let’s hear from a number of experienced current and former engineering managers about performance reviews and career growth.  We will discuss goals, progress, feedback, and the manager-report relationship.","talk_order":5,"speaker":["liz-fong-jones","erica-stanley","iliana-sach","neha-batra","dana-fried"],"talk_type":"panel"},{"key":"empathetic-engineering","title":"Empathetic Engineering","description":"Engineers empathize with a variety of people (end users, stakeholders, and other developers) to write useful, impactful, and well-structured software. We'll talk about how APIs, domain models, pull requests and other core technical practices require empathy skills. I’ll also share techniques to cultivate empathy as a core skill throughout the software development process.","talk_order":5,"speaker":["evelyn-masso"],"talk_type":"standard-talk"},{"key":"tools-are-only-useful-if-you-us","title":"Tools Are Only Useful If You Use Them: Developer Productivity And The Psychology Of Making Habits Stick","description":"Developer tools can be an efficiency multiplier, but it's tough to balance time between \"learning to use your tools better\" and \"getting things done.\"  When I started on the Atom Editor team, I learned about all these cool things a text editor can do, but I still found myself stuck in my old workflows.  In this session, I’ll tell you how I hacked my brain with psychology to change my work habits for the better, and how you can do the same.  I'll also touch on some lesser-known yet powerful editor features to supercharge your productivity.  Symbol finding, real-time collaborative text editing, built-in Git integration, folding, multiple cursors, bookmarks, and snippets: there's a lot you might not know a text editor can do.","talk_order":5,"speaker":["tilde-ann-thurium","github"],"talk_type":"standard-talk"},{"key":"how-to-tell-a-better-story-in-c","title":"How to tell a better story in code","description":"Learn how to effectively accomplish change in your working conditions or your employer's products through grassroots employee advocacy.","talk_order":5,"speaker":["bonnie-pan"],"talk_type":"standard-talk"},{"key":"conference-organizers-panel","title":"Conference Organizers Panel","description":"Wondering what conference organizers look for when selecting speakers for their events? Hear from several conference organizers offering advice on navigating the CFP process and how to make your proposal stand out.","talk_order":5,"speaker":["leeann-kinney","shanise-barona","hilary-stohs-krause","chiu-ki-chan","liz-fong-jones","raquel-hernandez"],"talk_type":"panel"},{"key":"black-girls-are-from-the-future","title":"Black Girls Are From The Future:  How to Create The Future And Not Die Before You Get There","description":"Tiffany \u0026 Kortney cofounded and have been running a tech incubator for the last 4 years.  This after they both had careers in design, film, tech and business for over 10 years.  6 months ago, they launched their fastest growing app \u0026mdash; Appolition. \n\nProduct growth was only achieved after some personal achievements were unlocked. \n\nDuring this talk, Tiffany \u0026 Kortney will discuss their professional journeys and how starting life as Black Girls helps inform their work today \u0026mdash; Creating the Future at ZaMLabs, Inc.","talk_order":5,"speaker":["tiffany-mikell","kortney-ziegler"],"talk_type":"keynote-talk"},{"key":"get-noticed","title":"Get Noticed","description":"What do you do when you're one of very few women on an engineering team? This talk focuses on how to turn a disadvantage into an asset.","talk_order":7,"speaker":["datadog","ashley-miller"],"talk_type":"sponsor-talk"},{"key":"intro-to-open-source","title":"Intro to Open Source","talk_order":7,"speaker":["courteney-ervin","write-speak-code"],"talk_type":"curriculum"},{"key":"pens-to-paper-breaking-through-","title":"Pens to Paper: Breaking through the Writer’s Block Pt. 2","description":"The most common reason are participants cite for not blogging or writing is “I don’t have time.” Lucky for you we scheduled it into this session. Use the outline you created to write a draft blog post and give/receive feedback from your peers.","talk_order":8,"speaker":["angie-jones","write-speak-code"],"talk_type":"curriculum"},{"key":"pseduocode-it-breaking-through-","title":"Pseduocode It!: Breaking through the Writer’s Block Pt. 1","description":"How can you present ideas quickly and effectively? In this session we’ll talk about the components of a powerful, evidence-based argument; and share a few helpful outline formats to help you put your ideas on the page.","talk_order":8,"speaker":["angie-jones","write-speak-code"],"talk_type":"curriculum"},{"key":"foundations-of-thought-leadersh","title":"Foundations of Thought Leadership: Reframing your Narrative","description":"To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.","talk_order":8,"speaker":["angie-jones","write-speak-code"],"talk_type":"curriculum"},{"key":"no-blank-spaces-tapping-into-ou","title":"No Blank Spaces: Tapping Into Our Expertise","description":"Want to write, but have no clue what you want to say? We’ll challenge you through fun collaborative exercises and design thinking activities to be more thoughtful and expansive when reflecting on your own knowledge, skills and experience. Participants will leave this session with no fewer than 20 new topics that they can blog or speak about.","talk_order":8,"speaker":["angie-jones","write-speak-code"],"talk_type":"curriculum"},{"key":"pivoting-to-data-science","title":"Pivoting To Data Science","description":"Mariann Micsinai is a Principal Data Scientist at Pivotal. Her talk, \"We can do it, practicing data science in a balanced team\" focuses how she made the transition from Wall Street, to data scientist and the tips and tricks she learned along the way. She'll also talk about her push to work at Pivotal, the cutting edge of data science, and the positives and challenges of working on a balanced team.","talk_order":9,"speaker":["mariann-micsinai","pivotal"],"talk_type":"sponsor-talk"},{"key":"say-what-pt-2-write-a-10-min-li","title":"Say What? Pt. 2:  Write A 10 min Lightning Talk","description":"Work with a mentor and a group of peers to create an outline, slides, and presenter notes for a 10 min lightning talk.","talk_order":9,"speaker":["jamie-chung","write-speak-code","crystal-martin","ann-guilinger","rebecca-holzschuh","jiaqi-liu","chiu-ki-chan","denise-yu","hilary-stohs-krause","chrys-wu","cynthia-rich","evelyn-masso","mimi-nguyen","lisa-van-gelder","brittney-braxton","jessica-parsons"],"talk_type":"curriculum"},{"key":"speak-now-give-a-10-min-lightni","title":"Speak Now: Give A 10 min Lightning Talk","description":"Never spoken at a conference? Been afraid to try out some new topics? Now’s the time to check that off your bucket list! Present a 10 min lightning talk  to a small group of conference attendees and receive feedback from your peers and an experienced speaker mentor.","talk_order":9,"speaker":["jamie-chung","write-speak-code","crystal-martin","ann-guilinger","rebecca-holzschuh","jiaqi-liu","chiu-ki-chan","denise-yu","hilary-stohs-krause","chrys-wu","cynthia-rich"],"talk_type":"curriculum"},{"key":"elixirbridge-building-a-web-app","title":"ElixirBridge: Building a web app in Elixir","description":"Elixir is a newer functional programming language that lends itself well to fault tolerant and highly concurrent applications. We'll learn about the power of asynchronous processes, functional programming, and massive parallel connections while building a web application in Elixir. We'll also gain a basic understanding of Elixir syntax, and get a feel for its idiosyncrasies. \n\nThis is a sponsored workshop presented by Carbon Five.","talk_order":9,"speaker":["anna-neyzberg","carbon-five"],"talk_type":"medium-workshop-2-hr"},{"key":"hacking-the-cfp-process-writing","title":"Hacking the CFP Process: Writing Powerful Talk Proposals","description":"Learn the ins and outs of writing conference talk proposals — what they are, the sections that matter, and how to write one. Review an actual talk proposal and feedback from a conference organizer.","talk_order":9,"speaker":["jamie-chung","write-speak-code"],"talk_type":"curriculum"},{"key":"say-what-pt-1-write-your-talk-p","title":"Say What? Pt. 1: Write Your Talk Proposal","description":"Write a draft conference talk proposal and get feedback from experienced women and non-binary conference speakers.","talk_order":9,"speaker":["jamie-chung","write-speak-code","evelyn-masso","mimi-nguyen","lisa-van-gelder","brittney-braxton","jessica-parsons"],"talk_type":"curriculum"}]
+[
+   {
+      "key":"creating-success-44-together",
+      "title":"Creating Success\u0026#44; Together",
+      "description":"As individuals we - implicitly or explicitly - define success, as do teams. But how do these definitions and incentives impact how and what we build?\n\nLet’s talk about the ways in which the dysfunctions of your organization become the dysfunctions of your product.",
+      "talk_order":1,
+      "speaker":[
+         "cate-huston"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"dealing-with-surprising-human-e",
+      "title":"Dealing with surprising human emotions",
+      "description":"Your teammates are guaranteed to have surprising reactions to things that happen in your work environment. How do you navigate it, understand it, and best support your teammate?\n\nIn this workshop, we’ll talk through humans’ six core needs in the workplace, what’s happening in our brains when we have surprising emotions, and how to recognize when your teammate is feeling some resistance or doubt. We’ll practice methods to unearth what might be behind those emotions, and we’ll cap it off by working through how to recover when you’ve triggered someone. Attendees will leave with tools and techniques to easily share with others so they, too, can know how to navigate these sticky moments.",
+      "talk_order":1,
+      "speaker":[
+         "lara-hogan"
+      ],
+      "talk_type":"short-workshop-1-hr"
+   },
+   {
+      "key":"from-blog-to-book-how-to-pitch-",
+      "title":"From Blog to Book: How to pitch\u0026#44; write\u0026#44; and get published",
+      "description":"You’ve started blogging about your work. Awesome! So what about writing even more…like, say, a book? If that sounds terrifying—but also kinda exciting—then this workshop is for you. We’re Katel LeDû, CEO of indie tech publishing company A Book Apart, and Sara Wachter-Boettcher, a three-time author, and we know that too many valuable, interesting voices are still missing from our industry’s bookshelves. We’re here to help change that. In this workshop, we’ll demystify the publishing process and answer questions about contracts, proposals, and more. Then, you'll get to work: you’ll share ideas with us and each other, get feedback, decide on an angle and audience, and start drafting an elevator pitch and outline. You’ll leave the session with a clearer idea of what it takes to get a book published, and practical advice on turning your topic into something publishers—and readers—will love. Don’t worry about having The Perfect Idea™ before you come—just bring 1-2 topics you want to explore!",
+      "talk_order":1,
+      "speaker":[
+         "katel-ledu",
+         "sara-wachter-boettcher"
+      ],
+      "talk_type":"long-workshop-3-5-hr"
+   },
+   {
+      "key":"zine-making-workshop",
+      "title":"Zine-Making Workshop",
+      "description":"This workshop will be an introduction to technical zine making and writing. Participants will explore how to explain technical topics via drawings, comics, diagrams, and stories, with particular focus on making complex topics understandable and accessible. At the end of the workshop, participants will have technical zines that they can exchange with each other and other conference attendees.",
+      "talk_order":1,
+      "speaker":[
+         "amy-wibowo"
+      ],
+      "talk_type":"long-workshop-3-5-hr"
+   },
+   {
+      "key":"the-secret-history-of-women-and",
+      "title":"The secret history of women and nonbinary folks in tech",
+      "description":"Steve Jobs. Linus Torvalds. Alan Turing.\n\nBeen there, done that.\n\nThe interesting stories often aren’t the ones we grew up with; they’re the ones we’ve left behind. When it comes to tech, that means its women, and especially its women of color. And while there’s been a greater emphasis lately on rediscovering women’s contributions to technology, we need to expand our focus beyond just Grace Hopper and Ada Lovelace.\n\nFrom Radia Perlman to Sophie Wilson to Erica Baker, it’s time to explore both tech’s forgotten heroes and its modern-day pioneers, and help end the silent erasure of women in technology.",
+      "talk_order":2,
+      "speaker":[
+         "hilary-stohs-krause"
+      ],
+      "talk_type":"keynote-talk"
+   },
+   {
+      "key":"bragging-cause-you-re-showing-o",
+      "title":"Bragging: Cause you’re showing off and it’s all right",
+      "description":"How do you balance being confident and humble? It’s a challenge, but its an important part of being able to talk about yourself at networking events, interviews and so forth. Come add new tools to your toolbox as you continue on your journey on finding your voice and claiming your worth.",
+      "talk_order":2,
+      "speaker":[
+         "shemika-lamare"
+      ],
+      "talk_type":"keynote-talk"
+   },
+   {
+      "key":"competitive-debate-44-gendered-",
+      "title":"Competitive Debate\u0026#44; Gendered Speech Patterns\u0026#44; and the Tech Industry",
+      "description":"I spent six years throughout university and graduate school roaming around the US and UK to competitive debating tournaments. I initially began the activity to improve my confidence and logical reasoning skills, but soon learnt that the playing field was far from fair. Despite the fact that 50% of first-year debaters were young women, by the end of their time on the circuit, most high-performing speakers were male. In this talk, I'll discuss the impact of gender-coded communication patterns not only on competitive debating performance, but also more generally in boardrooms, team meetings, and other everyday settings for technologists, using a data-driven approach to show the pervasive effects of subconscious bias.",
+      "talk_order":2,
+      "speaker":[
+         "denise-yu"
+      ],
+      "talk_type":"keynote-talk"
+   },
+   {
+      "key":"art-technology-44-great-but-als",
+      "title":"Art \u0026 Technology\u0026#44; Great But Also Bad",
+      "description":"Those in tech who do not study art history are doomed to repeat its mishaps. It's time to discuss those mishaps, and how we in the tech industry are making the same mistakes, so we can try to turn things around and actually have a positive and profound affect on society.",
+      "talk_order":3,
+      "speaker":[
+         "jenn-schiffer"
+      ],
+      "talk_type":"keynote-talk"
+   },
+   {
+      "key":"code-ethics-opening-keynote",
+      "title":"Code/Ethics Opening Keynote",
+      "talk_order":3,
+      "speaker":[
+         "fureigh"
+      ],
+      "talk_type":"keynote-talk"
+   },
+   {
+      "key":"organizing-for-your-ethical-pri",
+      "title":"Organizing for your Ethical Principles",
+      "description":"Our job as engineers does not stop with eliminating technical defects and ensuring high reliability. Engineers of all kinds must ensure their work serves the public good. A service that reliably harms, exacerbates injustices, or excludes marginalized groups is not a service worth building and maintaining.",
+      "talk_order":3,
+      "speaker":[
+         "liz-fong-jones"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"how-public-speaking-made-me-a-b",
+      "title":"How public speaking made me a better negotiator",
+      "description":"When I started public speaking, I did not realize that I was signing up for negotiation practice. My first talk acceptance opened my eyes to the conference-speaker dynamics. From then on, each proposal, each conference became a safe place for me to push the envelope, pinpoint what I want, and ask for it. I learned how to frame the situation to my advantage, phrase my requests without the burden of excessive justification, and be comfortable with rejections. Come hear my stories, what I tried, what worked and what didn’t, and add a few tricks to your negotiation tool box.",
+      "talk_order":3,
+      "speaker":[
+         "chiu-ki-chan"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"fostering-an-inclusive-engineer",
+      "title":"Fostering an Inclusive Engineering Culture",
+      "description":"Diversity \u0026 Inclusion goes hand in hand - and creating an inclusive engineering team starts with team culture. In this talk I want to call out specific practices, such as blameless postmortems and code ownership as a team, that allows for a more inclusive experience for all the engineers on a team. We’ll talk the small habits every engineering team can start doing to get to a strong and supportive culture as well as best practices for preserving good culture.",
+      "talk_order":3,
+      "speaker":[
+         "jiaqi-liu"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"how-we-re-using-drones-to-deliv",
+      "title":"How we're using drones to deliver blood and save lives",
+      "description":"Zipline is designing, building, and operating drones that deliver blood and medical supplies to medical centers in some of the most difficult to reach places on Earth. In this talk we’ll discuss some of the exciting engineering challenges we’ve tackled so far and those that lie ahead.",
+      "talk_order":3,
+      "speaker":[
+         "jo-balme",
+         "zipline",
+         "emma-schott",
+         "manal-habib"
+      ],
+      "talk_type":"sponsor-talk"
+   },
+   {
+      "key":"write-passion-opening-keynote",
+      "title":"Write/Passion Opening Keynote",
+      "talk_order":3,
+      "speaker":[
+         "mina-markham"
+      ],
+      "talk_type":"keynote-talk"
+   },
+   {
+      "key":"learning-from-machines",
+      "title":"Learning from machines",
+      "description":"Why can't you tickle yourself? How do you know where you are? Why do DeepDream images look so trippy? Why are experts in a field sometimes unable to accept new advances? Why does trauma come in waves, washing over us again and again? Computational neuroscience provides insight into these questions and more. In this talk, we'll look at models of cognition informed by machine learning and computation, and investigate how these models can help us examine and reconfigure our own processes of being.",
+      "talk_order":4,
+      "speaker":[
+         "ashi-krishnan",
+         "github"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"if-you-build-it-44-they-will-co",
+      "title":"If You Build it\u0026#44; They Will Come; How to Build a Great Open Source Project",
+      "description":"Launching an open source project is intimidating - it can seem like a lot of work just to make your code public (and therefore judgeable). This presentation will explain how to make sure your open source project is a success, from writing great documentation to marketing your project. You’ll also learn about some common pitfalls (like getting hacked) and how to avoid them.",
+      "talk_order":4,
+      "speaker":[
+         "rebecca-holzschuh"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"how-write-speak-code-changed-my",
+      "title":"How Write/Speak/Code Changed My Life",
+      "description":"Carolyn shares how Write/Speak/Code kicked her career into high-gear and inspired her to double-down on paying it forward. Follow her journey from an underpaid, unknown developer to a well-respected international speaker and community leader, working 100% on open source at Microsoft.",
+      "talk_order":4,
+      "speaker":[
+         "carolyn-van-slyck",
+         "microsoft"
+      ],
+      "talk_type":"sponsor-talk"
+   },
+   {
+      "key":"podcasting-workshop",
+      "title":"Podcasting Workshop",
+      "talk_order":4,
+      "speaker":[
+         "christina-warren"
+      ],
+      "talk_type":"medium-workshop-2-hr"
+   },
+   {
+      "key":"writing-performing-and-growing-",
+      "title":"Writing, Performing and Growing an Audience on YouTube",
+      "description":"In this interactive workshop learn to strengthen your authentic voice and begin crafting your script with helpful exercises to demystify the writing process and enjoy the journey. Speechless has helped transform thousands of presenters in to performers. We will then explore how to launch and optimize your YouTube channel and videos for discoverability and audience retention. We will also touch on how to measure your channel’s success using YouTube Analytics and answer questions such as how often one should publish a new video. Special focus will be placed on educational content. Become a #SkillTuber :)!",
+      "talk_order":4,
+      "speaker":[
+         "google-developer-studio",
+         "anne-barto",
+         "claire-slattery"
+      ],
+      "talk_type":"medium-workshop-2-hr"
+   },
+   {
+      "key":"hacking-jewelry-how-using-code-",
+      "title":"Hacking jewelry: how using code to design jewelry has helped expand my creativity",
+      "description":"My hobby is making beaded earrings. I’ve evolved my design process over the years, and have recently been using code to help make my designs more accessible. This talk is about what I’ve learned by working to open source my earring designs and how it has brought me closer to the maker community.",
+      "talk_order":4,
+      "speaker":[
+         "kathleen-simpson",
+         "github"
+      ],
+      "talk_type":"sponsor-talk"
+   },
+   {
+      "key":"the-full-story-presenting-compl",
+      "title":"The Full Story: Presenting Complete Ideas",
+      "description":"Telling a cohesive story is one of the hardest parts of public speaking. Many fledgling speakers find it challenging to string concepts together in an order that makes sense to other people. They also find themselves struggling to explain things in a way that feels approachable. In this talk, Catt will share methods to plan and present ideas so that your audience can better understand them. Attendees will leave the talk knowing how to outline and design presentations for speaking engagements.",
+      "talk_order":5,
+      "speaker":[
+         "catt-small"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"being-glue",
+      "title":"Being Glue",
+      "description":"Your job title says \"software engineer\", but you seem to spend most of your time in meetings. You'd like to have time for code, but nobody else is unblocking the junior engineers, talking to other teams, noticing the things that got dropped, asking questions on design documents, and making sure that everyone's going roughly in the same direction. If you stop doing those things, your team will function less well. But now someone's suggesting that \"you might be happier in a less technical role.\" \n\n\"Glue\" work often lands on the only woman on the team, and it needs to be framed carefully. If you display this kind of leadership early in your career, there's a real risk of being called \"not technical enough\" and getting pushed into a career path that wasn't where you planned to go.  \n\nWhether you're interested in becoming a senior engineer, a manager, or any other tech role, a mix of \"humaning\" and tech skills can serve you well. Let's talk about how to choose your path deliberately and frame \"glue work\" as \"promotable\" work. Let's get you recognized as the technical leader that you are.",
+      "talk_order":5,
+      "speaker":[
+         "tanya-reilly"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"black-girls-are-from-the-future",
+      "title":"Black Girls Are From The Future:  How to Create The Future And Not Die Before You Get There",
+      "description":"Tiffany \u0026 Kortney cofounded and have been running a tech incubator for the last 4 years.  This after they both had careers in design, film, tech and business for over 10 years.  6 months ago, they launched their fastest growing app \u0026mdash; Appolition. \n\nProduct growth was only achieved after some personal achievements were unlocked. \n\nDuring this talk, Tiffany \u0026 Kortney will discuss their professional journeys and how starting life as Black Girls helps inform their work today \u0026mdash; Creating the Future at ZaMLabs, Inc.",
+      "talk_order":5,
+      "speaker":[
+         "tiffany-mikell",
+         "kortney-ziegler"
+      ],
+      "talk_type":"keynote-talk"
+   },
+   {
+      "key":"career-growth-and-performance-r",
+      "title":"Career Growth and Performance Reviews: An Engineering Leader Perspective",
+      "description":"Whether you are giving it or receiving it, performance reviews are stressful.  And not just because you are being assessed, but because it reflects on your relationship with your team and workplace as well as asking the existential question “What am I doing with my life?”  Let’s hear from a number of experienced current and former engineering managers about performance reviews and career growth.  We will discuss goals, progress, feedback, and the manager-report relationship.",
+      "talk_order":5,
+      "speaker":[
+         "liz-fong-jones",
+         "erica-stanley",
+         "iliana-sach",
+         "neha-batra",
+         "dana-fried"
+      ],
+      "talk_type":"panel"
+   },
+   {
+      "key":"chapter-organizers-summit",
+      "title":"Chapter Organizers Summit",
+      "talk_order":5,
+      "speaker":null,
+      "talk_type":"post-conference-event"
+   },
+   {
+      "key":"conference-organizers-panel",
+      "title":"Conference Organizers Panel",
+      "description":"Wondering what conference organizers look for when selecting speakers for their events? Hear from several conference organizers offering advice on navigating the CFP process and how to make your proposal stand out.",
+      "talk_order":5,
+      "speaker":[
+         "leeann-kinney",
+         "shanise-barona",
+         "hilary-stohs-krause",
+         "chiu-ki-chan",
+         "liz-fong-jones",
+         "raquel-hernandez"
+      ],
+      "talk_type":"panel"
+   },
+   {
+      "key":"empathetic-engineering",
+      "title":"Empathetic Engineering",
+      "description":"Engineers empathize with a variety of people (end users, stakeholders, and other developers) to write useful, impactful, and well-structured software. We'll talk about how APIs, domain models, pull requests and other core technical practices require empathy skills. I’ll also share techniques to cultivate empathy as a core skill throughout the software development process.",
+      "talk_order":5,
+      "speaker":[
+         "evelyn-masso"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"ethics-at-design-time-44-not-ru",
+      "title":"Ethics at Design Time\u0026#44; not Run Time",
+      "description":"What if we treated ethics as a design problem, rather than waiting for it to be a compliance problem? This talk will explore how to include ethics in the design phase for software, by offering guidelines for a process-based approach to ethical review and feedback. When using these ideas as a framework any member of a development team has the tools to ensure their work is aligned with their principles and ethical values.",
+      "talk_order":5,
+      "speaker":[
+         "rowan-cota"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"how-to-tell-a-better-story-in-c",
+      "title":"How to tell a better story in code",
+      "description":"Learn how to effectively accomplish change in your working conditions or your employer's products through grassroots employee advocacy.",
+      "talk_order":5,
+      "speaker":[
+         "bonnie-pan"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"how-you-can-become-an-investor-",
+      "title":"How YOU can become an investor: A fireside chat.",
+      "description":"You've heard the statistics about companies not investing in marginalized people.  Let's change that by becoming investors ourselves!   In this conversation, a new investor and a fund manager will discuss what you need to know about becoming an investor.  We will hear from Ope Bukola, a developer and product manager who went through \u003ca href=\"http://pipelineangels.com\"\u003ePipeline Angels\u003c/a\u003e to become an investor in woman and non-binary femme-led for-profit social ventures, and Elisa Miller-Out, manager partner at \u003ca href=\"http://chloecapital.com/\"\u003eChloe Capital\u003c/a\u003e, a seed stage investment fund focused on women-led tech companies.",
+      "talk_order":5,
+      "speaker":[
+         "elisa-miller-out",
+         "ope-bukola"
+      ],
+      "talk_type":"panel"
+   },
+   {
+      "key":"looking-for-artists-who-look-li",
+      "title":"Looking for artists who look like me: analyzing the MoMA GitHub repo",
+      "description":"If you walk into an art museum, you're likely to see works by mostly white, male artists.Picasso, Monet, Dali — these are household names that reflect a narrow view of \"legitimate\" art that belongs in a museum. Over time, this view is beginning to broaden. But just how much? Thanks to MoMA open sourcing data about their art collection, we can quantify the diversity of artists displayed at MoMA over time. Using data parsing and NLP, we will be better equipped to understand the evolution of acceptance of underrepresented groups in the art world.",
+      "talk_order":5,
+      "speaker":[
+         "sravanti-tekumalla"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"mindfulness-your-way-through-th",
+      "title":"Mindfulness Your Way Through the Maelstrom",
+      "description":"As an underrepresented person in tech, you are often taught how to combat the outer forces of discrimination, being undermined, and overlooked. We are taught to be better, do better, outperform, tell em' who's boss-lady/enby! We are rarely given advice on how to look inside and find happiness and confidence in who we are, regardless of our circumstances, skill level or environment. This talk will be about the life-changing practice of mindfulness. This will not be an instructional on how to do 6 hour long meditations and transcend to a higher height, just the journey of a regular ass girl trying to navigate her way through life and how mindfulness helped her on the way and how mindfulness can do the same thing for you.",
+      "talk_order":5,
+      "speaker":[
+         "crystal-martin"
+      ],
+      "talk_type":"short-workshop-1-hr"
+   },
+   {
+      "key":"my-github-is-bare",
+      "title":"My Github is Bare",
+      "description":"Confessional time: I spend my spare time doing things other than coding, and that’s okay! Our industry is unique in that it expects that we will have Passion, but it doesn’t have to be that way. In fact, it might even be healthy to have a more clear division between work and free time. Come hear about how other professions address passion, why you might want to take a step back, and how to go about doing just that.",
+      "talk_order":5,
+      "speaker":[
+         "heather-herrington"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"open-source-project-mentoring",
+      "title":"Open Source Project Mentoring",
+      "talk_order":5,
+      "speaker":[
+         "camille-villa",
+         "julia-nguyen",
+         "jessica-forde",
+         "christine-zagrobleny",
+         "jessica-lord",
+         "vanessa-yuen",
+         "katrina-owen",
+         "evelyn-masso"
+      ],
+      "talk_type":"mentoring"
+   },
+   {
+      "key":"rapid-prototyping-hackathon-ski",
+      "title":"Rapid Prototyping / Hackathon Skills",
+      "description":"In this workshop, we’ll build a Node.js web app using Express. We'll set up our development environment, build a feature using a third party API, and discuss ways to expand the project. You'll walk away with the confidence to get up and running on building your own personal project.",
+      "talk_order":5,
+      "speaker":[
+         "kelsey-rose",
+         "squarespace"
+      ],
+      "talk_type":"medium-workshop-2-hr"
+   },
+   {
+      "key":"speak-day-mentoring",
+      "title":"Speak Day Mentoring",
+      "talk_order":5,
+      "speaker":[
+         "lisa-van-gelder",
+         "mimi-nguyen",
+         "brittney-braxton",
+         "jessica-parsons",
+         "heather-herrington",
+         "evelyn-masso",
+         "cynthia-rich",
+         "chrys-wu",
+         "jamie-chung",
+         "crystal-martin",
+         "ann-guilinger",
+         "rebecca-holzschuh",
+         "jiaqi-liu",
+         "chiu-ki-chan",
+         "denise-yu",
+         "hilary-stohs-krause",
+         "jessica-simon",
+         "angie-hilem"
+      ],
+      "talk_type":"mentoring"
+   },
+   {
+      "key":"starting-a-write-speak-code-cha",
+      "title":"Starting a Write/Speak/Code Chapter",
+      "talk_order":5,
+      "speaker":[
+         "neha-batra"
+      ],
+      "talk_type":"post-conference-event"
+   },
+   {
+      "key":"stop-telling-me-i-m-smiley-my-q",
+      "title":"Stop Telling Me I’m Smiley: My Quest to Gather Better Feedback",
+      "description":"As an upbeat, technical person, when I ask for feedback on my technical or leadership skills, I get more feedback on how smiley I am than on the topic I actually asked about. UGH!\nTo fix this, I’ve developed a workshop that allows me to gather the type of feedback I actually want. I’ll talk about my ideas behind this workshop and how to extend it to work for you.",
+      "talk_order":5,
+      "speaker":[
+         "amelia-downs"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"storytelling-with-fake-love",
+      "title":"Storytelling with Fake Love",
+      "description":"Fake Love is an experiential design agency, that is part of The New York Times’  T Brand Studio. We do a wide range of experiential projects from permanent installations to one-off live events, and we use technology as a core component in our storytelling. Recent projects include Real-Time Data Visualizations, Generative Graphic Systems based on user input, Creative Audio/Responsive Lighting, Augmented Reality experiences, etc.  \nThis talk will discuss the technical aspects of implementing such projects and the challenges we run into while doing so.",
+      "talk_order":5,
+      "speaker":[
+         "jasmin-rubinovitz",
+         "the-new-york-times"
+      ],
+      "talk_type":"sponsor-talk"
+   },
+   {
+      "key":"surviving-rockstar-programmers",
+      "title":"Surviving 'Rockstar' Programmers",
+      "description":"The image of the dismissive, overbearing, belittling programmer who thinks they are the \"Rockstar\" is pervasive in the software industry.  When you find yourself working with someone like that, it can be difficult both emotionally and professionally.  In this talk, we will identify the problematic behaviors of these \"rockstars,\" discuss ways to deal with the emotional responses you might have, figure out how to keep growing professionally, and know when to get help and when to get out.",
+      "talk_order":5,
+      "speaker":[
+         "ann-guilinger"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"tools-are-only-useful-if-you-us",
+      "title":"Tools Are Only Useful If You Use Them: Developer Productivity And The Psychology Of Making Habits Stick",
+      "description":"Developer tools can be an efficiency multiplier, but it's tough to balance time between \"learning to use your tools better\" and \"getting things done.\"  When I started on the Atom Editor team, I learned about all these cool things a text editor can do, but I still found myself stuck in my old workflows.  In this session, I’ll tell you how I hacked my brain with psychology to change my work habits for the better, and how you can do the same.  I'll also touch on some lesser-known yet powerful editor features to supercharge your productivity.  Symbol finding, real-time collaborative text editing, built-in Git integration, folding, multiple cursors, bookmarks, and snippets: there's a lot you might not know a text editor can do.",
+      "talk_order":5,
+      "speaker":[
+         "tilde-ann-thurium",
+         "github"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"using-open-source-to-solve-an-i",
+      "title":"Using Open Source to Solve an Identity Crisis: Tracking the Bengali Diaspora",
+      "description":"As products of more than one society, immigrants often struggle to find their cultural footing. Add in recent genocide, religious tensions, plus life as a minority and it’s a toss up on how you define yourself. In this talk, I’ll be explaining the technical details behind using D3.js to track the Bengali diaspora as well as how this project has been bridging the gap between all of my identities. Who I am as a Bengali American, who I am as a software engineer, and who I am as a woman of color.",
+      "talk_order":5,
+      "speaker":[
+         "nishat-anjum"
+      ],
+      "talk_type":"standard-talk"
+   },
+   {
+      "key":"writers-publishers-panel",
+      "title":"Writers \u0026 Publishers Panel",
+      "description":"In this panel of women and non-binary tech writers, authors, and technical publishers, you'll hear about the ways they use writing in their personal lives and careers, tips on how to get published, or self-publish, and the broader impact this work can have on the industry at large.",
+      "talk_order":5,
+      "speaker":[
+         "chrys-wu",
+         "anne-t-griffin",
+         "debra-williams",
+         "jess-lee",
+         "lara-hogan"
+      ],
+      "talk_type":"panel"
+   },
+   {
+      "key":"intro-to-git-github",
+      "title":"Intro to Git \u0026 GitHub",
+      "description":"Get started with git and Github.\n\nThis is a sponsored workshop by Github.",
+      "talk_order":6,
+      "speaker":[
+         "github",
+         "katrina-uychaco",
+         "cynthia-rich"
+      ],
+      "talk_type":"short-workshop-1-hr"
+   },
+   {
+      "key":"get-noticed",
+      "title":"Get Noticed",
+      "description":"What do you do when you're one of very few women on an engineering team? This talk focuses on how to turn a disadvantage into an asset.",
+      "talk_order":7,
+      "speaker":[
+         "datadog",
+         "ashley-miller"
+      ],
+      "talk_type":"sponsor-talk"
+   },
+   {
+      "key":"intro-to-open-source",
+      "title":"Intro to Open Source",
+      "talk_order":7,
+      "speaker":[
+         "courteney-ervin",
+         "write-speak-code"
+      ],
+      "talk_type":"curriculum"
+   },
+   {
+      "key":"foundations-of-thought-leadersh",
+      "title":"Foundations of Thought Leadership: Reframing your Narrative",
+      "description":"To kick-off our highly-interactive and energetic full-day seminar we explore the source of credibility and how to establish it. We cover strategies for making a greater impact through our writing, including how to escape a pigeonhole, how to preach beyond the choir, and the value of framing your message and yourself as part of a larger public conversation. Participants leave this session with a newly crafted professional bio.",
+      "talk_order":8,
+      "speaker":[
+         "angie-jones",
+         "write-speak-code"
+      ],
+      "talk_type":"curriculum"
+   },
+   {
+      "key":"no-blank-spaces-tapping-into-ou",
+      "title":"No Blank Spaces: Tapping Into Our Expertise",
+      "description":"Want to write, but have no clue what you want to say? We’ll challenge you through fun collaborative exercises and design thinking activities to be more thoughtful and expansive when reflecting on your own knowledge, skills and experience. Participants will leave this session with no fewer than 20 new topics that they can blog or speak about.",
+      "talk_order":8,
+      "speaker":[
+         "angie-jones",
+         "write-speak-code"
+      ],
+      "talk_type":"curriculum"
+   },
+   {
+      "key":"pseduocode-it-breaking-through-",
+      "title":"Pseduocode It!: Breaking through the Writer’s Block Pt. 1",
+      "description":"How can you present ideas quickly and effectively? In this session we’ll talk about the components of a powerful, evidence-based argument; and share a few helpful outline formats to help you put your ideas on the page.",
+      "talk_order":8,
+      "speaker":[
+         "angie-jones",
+         "write-speak-code"
+      ],
+      "talk_type":"curriculum"
+   },
+   {
+      "key":"pens-to-paper-breaking-through-",
+      "title":"Pens to Paper: Breaking through the Writer’s Block Pt. 2",
+      "description":"The most common reason are participants cite for not blogging or writing is “I don’t have time.” Lucky for you we scheduled it into this session. Use the outline you created to write a draft blog post and give/receive feedback from your peers.",
+      "talk_order":8,
+      "speaker":[
+         "angie-jones",
+         "write-speak-code"
+      ],
+      "talk_type":"curriculum"
+   },
+   {
+      "key":"pivoting-to-data-science",
+      "title":"Pivoting To Data Science",
+      "description":"Mariann Micsinai is a Principal Data Scientist at Pivotal. Her talk, \"We can do it, practicing data science in a balanced team\" focuses how she made the transition from Wall Street, to data scientist and the tips and tricks she learned along the way. She'll also talk about her push to work at Pivotal, the cutting edge of data science, and the positives and challenges of working on a balanced team.",
+      "talk_order":9,
+      "speaker":[
+         "mariann-micsinai",
+         "pivotal"
+      ],
+      "talk_type":"sponsor-talk"
+   },
+   {
+      "key":"hacking-the-cfp-process-writing",
+      "title":"Hacking the CFP Process: Writing Powerful Talk Proposals",
+      "description":"Learn the ins and outs of writing conference talk proposals — what they are, the sections that matter, and how to write one. Review an actual talk proposal and feedback from a conference organizer.",
+      "talk_order":9,
+      "speaker":[
+         "jamie-chung",
+         "write-speak-code"
+      ],
+      "talk_type":"curriculum"
+   },
+   {
+      "key":"elixirbridge-building-a-web-app",
+      "title":"ElixirBridge: Building a web app in Elixir",
+      "description":"Elixir is a newer functional programming language that lends itself well to fault tolerant and highly concurrent applications. We'll learn about the power of asynchronous processes, functional programming, and massive parallel connections while building a web application in Elixir. We'll also gain a basic understanding of Elixir syntax, and get a feel for its idiosyncrasies. \n\nThis is a sponsored workshop presented by Carbon Five.",
+      "talk_order":9,
+      "speaker":[
+         "anna-neyzberg",
+         "carbon-five"
+      ],
+      "talk_type":"medium-workshop-2-hr"
+   },
+   {
+      "key":"speak-now-give-a-10-min-lightni",
+      "title":"Speak Now: Give A 10 min Lightning Talk",
+      "description":"Never spoken at a conference? Been afraid to try out some new topics? Now’s the time to check that off your bucket list! Present a 10 min lightning talk  to a small group of conference attendees and receive feedback from your peers and an experienced speaker mentor.",
+      "talk_order":9,
+      "speaker":[
+         "jamie-chung",
+         "write-speak-code"
+      ],
+      "talk_type":"curriculum"
+   },
+   {
+      "key":"say-what-pt-1-write-your-talk-p",
+      "title":"Say What? Pt. 1: Write Your Talk Proposal",
+      "description":"Write a draft conference talk proposal and get feedback from experienced women and non-binary conference speakers.",
+      "talk_order":9,
+      "speaker":[
+         "jamie-chung",
+         "write-speak-code"
+      ],
+      "talk_type":"curriculum"
+   },
+   {
+      "key":"say-what-pt-2-write-a-10-min-li",
+      "title":"Say What? Pt. 2:  Write A 10 min Lightning Talk",
+      "description":"Work with a mentor and a group of peers to create an outline, slides, and presenter notes for a 10 min lightning talk.",
+      "talk_order":9,
+      "speaker":[
+         "jamie-chung",
+         "write-speak-code"
+      ],
+      "talk_type":"curriculum"
+   }
+]

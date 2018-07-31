@@ -1,0 +1,21 @@
+$map-max-width: $breakpoint-lg;
+$map-min-width: $breakpoint-xsm;
+$map-max-height: $map-max-width * .75;
+$map-min-height: $map-min-width * .75;
+
+.conference-map {
+  #conferenceMap {
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  iframe {
+    max-width: $map-max-width;
+    min-width: $map-min-width;
+    width: 100%;
+    max-height: $map-max-height;
+    min-height: $map-max-height;
+    height: auto;
+    border: 5px solid $brand-blush;
+  }
+}

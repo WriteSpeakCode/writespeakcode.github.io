@@ -66,7 +66,7 @@
       "key":"zoe-gagnon",
       "name":"Zoe Gagnon",
       "twitter":"UnusedPotential",
-      "headshot_filename":"dawn-parzych.jpg",
+      "headshot_filename":"zoe.jpg",
       "order":4,
       "role":"Conference Organizer",
       "pronouns":"she/her"
@@ -120,6 +120,7 @@
       "key":"rebecca-bever",
       "name":"Rebecca Bever",
       "twitter":"beckabec",
+      "headshot_filename":"rebecca-bever.jpg",
       "order":6,
       "role":"Chapter Organizer",
       "pronouns":"she/her"
@@ -137,6 +138,7 @@
       "key":"anna-watt",
       "name":"Anna Watt",
       "twitter":"annalynnwatt",
+      "headshot_filename":"anna-watt.jpg",
       "order":6,
       "role":"Chapter Organizer",
       "pronouns":"she/her"
@@ -163,6 +165,7 @@
       "key":"lauren-murphy",
       "name":"Lauren Murphy",
       "twitter":"laurennor",
+      "headshot_filename":"lauren-murphy.png",
       "order":6,
       "role":"Chapter Organizer",
       "pronouns":"she/her"

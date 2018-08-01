@@ -64,7 +64,7 @@
    },
    "zoe-gagnon":{
       "twitter":"UnusedPotential",
-      "headshot_filename":"dawn-parzych.jpg",
+      "headshot_filename":"zoe.jpg",
       "pronouns":"she/her",
       "role":"Conference Organizer",
       "order":4,
@@ -118,6 +118,7 @@
    },
    "rebecca-bever":{
       "twitter":"beckabec",
+      "headshot_filename":"rebecca-bever.jpg",
       "pronouns":"she/her",
       "role":"Chapter Organizer",
       "order":6,
@@ -135,6 +136,7 @@
    },
    "anna-watt":{
       "twitter":"annalynnwatt",
+      "headshot_filename":"anna-watt.jpg",
       "pronouns":"she/her",
       "role":"Chapter Organizer",
       "order":6,
@@ -161,6 +163,7 @@
    },
    "lauren-murphy":{
       "twitter":"laurennor",
+      "headshot_filename":"lauren-murphy.png",
       "pronouns":"she/her",
       "role":"Chapter Organizer",
       "order":6,

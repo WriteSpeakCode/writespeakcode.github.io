@@ -427,8 +427,6 @@ a.link.white {
   .sponsor-container {
     width: 100%; }
   .sponsor-logo {
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center; }

@@ -29,8 +29,7 @@ a.link.white {
   margin-top: 16px;
   font-size: 12px; }
   .button.primary {
-    background-color: #EB6851;
-    font-weight: bold; }
+    background-color: #EB6851; }
   .button.secondary {
     background-color: #172751; }
     .button.secondary:hover {

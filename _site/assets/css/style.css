@@ -461,10 +461,8 @@ video#qcBgVid {
 	letter-spacing: -0.016em;
 }
 .qcTabTitle p.qcTabDesc {
-	padding-left: 40px;
 	color: #999;
 	font: 500 16px/26px "Titillium Web", Helvetica, sans-serif;
-	border-left: 1px #ccc solid;
 }
 
 

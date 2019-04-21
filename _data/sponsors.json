@@ -168,11 +168,6 @@
       "url": "https://www.glympse.com/",
       "image": "glympse.png"
     },
-    "VTS": {
-      "name": "VTS",
-      "url": "https://www.vts.com/",
-      "image": "VTS-logo.png"
-    },
     "seatgeek": {
       "name": "SeatGeek",
       "url": "https://www.seatgeek.com/",
@@ -272,7 +267,7 @@
       "supporter": true,
       "title": "Local Meetups",
       "key": "chapters",
-      "items": ["glympse", "VTS", "seatgeek"]
+      "items": ["glympse", "vts", "seatgeek"]
     }
   ]
 }

@@ -51,7 +51,7 @@ $max-logo-width: 500px;
 }
 
 .sponsor-row {
-  border-bottom: 1px $brand-coral solid;
+  // border-bottom: 1px $brand-coral solid;
   display: flex;
   flex-wrap: wrap;
 
@@ -74,7 +74,7 @@ $max-logo-width: 500px;
   }
 
   @media screen and (min-width: 768px) {
-    justify-content: space-around;
+    // justify-content: space-around;
 
     .sponsor {
       width: calc(25% - 2em);
@@ -93,7 +93,7 @@ $max-logo-width: 500px;
     }
 
     &.gold, &.silver {
-      justify-content: space-around;
+      // justify-content: space-around;
 
       .sponsor {
         width: calc(33% - 5.5em);

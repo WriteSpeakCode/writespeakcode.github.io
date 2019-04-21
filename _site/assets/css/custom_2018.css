@@ -434,7 +434,6 @@ a.link.white {
       max-width: 500px; }
 
 .sponsor-row {
-  border-bottom: 1px #EB6851 solid;
   display: flex;
   flex-wrap: wrap; }
   .sponsor-row:last-child {
@@ -448,28 +447,24 @@ a.link.white {
       display: flex;
       flex-wrap: wrap; }
   @media screen and (min-width: 768px) {
-    .sponsor-row {
-      justify-content: space-around; }
-      .sponsor-row .sponsor {
-        width: calc(25% - 2em); }
-      .sponsor-row.platinum, .sponsor-row.lanyard {
-        justify-content: center; }
-        .sponsor-row.platinum .sponsor, .sponsor-row.lanyard .sponsor {
-          width: calc(50% - 5.5em); }
-          .sponsor-row.platinum .sponsor-logo img, .sponsor-row.lanyard .sponsor-logo img {
-            max-width: 300px; }
-      .sponsor-row.gold, .sponsor-row.silver {
-        justify-content: space-around; }
-        .sponsor-row.gold .sponsor, .sponsor-row.silver .sponsor {
-          width: calc(33% - 5.5em); }
-      .sponsor-row .supporter {
-        width: calc(50% - 2em); }
-        .sponsor-row .supporter-container {
-          display: flex; }
-        .sponsor-row .supporter .sponsor {
-          width: calc(20% - 2em); }
-          .sponsor-row .supporter .sponsor-logo img {
-            width: 100%; } }
+    .sponsor-row .sponsor {
+      width: calc(25% - 2em); }
+    .sponsor-row.platinum, .sponsor-row.lanyard {
+      justify-content: center; }
+      .sponsor-row.platinum .sponsor, .sponsor-row.lanyard .sponsor {
+        width: calc(50% - 5.5em); }
+        .sponsor-row.platinum .sponsor-logo img, .sponsor-row.lanyard .sponsor-logo img {
+          max-width: 300px; }
+    .sponsor-row.gold .sponsor, .sponsor-row.silver .sponsor {
+      width: calc(33% - 5.5em); }
+    .sponsor-row .supporter {
+      width: calc(50% - 2em); }
+      .sponsor-row .supporter-container {
+        display: flex; }
+      .sponsor-row .supporter .sponsor {
+        width: calc(20% - 2em); }
+        .sponsor-row .supporter .sponsor-logo img {
+          width: 100%; } }
 
 .conference-map #conferenceMap {
   margin: 0px auto;

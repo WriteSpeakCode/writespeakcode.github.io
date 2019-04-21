@@ -157,43 +157,50 @@
       "name": "WeWork",
       "url": "https://www.wework.com/",
       "image": "wework.png"
+    },
+    "atlassian": {
+      "name": "Atlassian",
+      "url": "https://www.atlassian.com/",
+      "image": "atlassian.svg"
+    },
+    "glympse": {
+      "name": "Glympse",
+      "url": "https://www.glympse.com/",
+      "image": "glympse.png"
+    },
+    "VTS": {
+      "name": "VTS",
+      "url": "https://www.vts.com/",
+      "image": "VTS-logo.png"
+    },
+    "seatgeek": {
+      "name": "SeatGeek",
+      "url": "https://www.seatgeek.com/",
+      "image": "seatgeek.jpg"
     }
   },
 
   "packages": [
-
     {
       "show_conf": true,
       "show_description": true,
       "title": "Platinum",
       "key": "platinum",
-      "items": [
-        "github"
-      ]
+      "items": []
     },
     {
       "show_conf": true,
       "show_description": true,
       "title": "Gold",
       "key": "gold",
-      "items": [
-        "azure",
-        "nytimes",
-        "pivotal",
-        "facebook",
-        "mailchimp",
-        "google",
-        "datadog"
-      ]
+      "items": []
     },
     {
       "show_conf": true,
       "show_description": true,
       "title": "Silver",
       "key": "silver",
-      "items": [
-        "zipline"
-      ]
+      "items": []
     },
     {
       "show_conf": true,
@@ -201,13 +208,7 @@
       "title": "Bronze",
       "key": "bronze",
       "items": [
-        "xogroup",
-        "allen",
-        "squarespace",
         "netlify",
-        "splunk",
-        "buzzfeed",
-        "elastic"
       ]
     },
     {
@@ -215,29 +216,21 @@
       "show_description": false,
       "title": "Workshops",
       "key": "workshops",
-      "items": [
-        "carbonfive",
-        "squarespace"
-      ]
+      "items": ["atlassian"]
     },
     {
       "show_conf": true,
       "show_description": false,
       "title": "Location",
       "key": "location",
-      "items": [
-        "wework",
-        "azure"
-      ]
+      "items": []
     },
     {
       "show_conf": true,
       "show_description": false,
       "title": "Lanyard",
       "key": "lanyard",
-      "items": [
-        "wtm"
-      ]
+      "items": []
     }
   ],
   "supporters": [
@@ -247,7 +240,7 @@
       "supporter": true,
       "key": "accessibility",
       "title": "Accessibility",
-      "items": ["azure"]
+      "items": []
     },
     {
       "show_conf": true,
@@ -255,7 +248,7 @@
       "supporter": true,
       "title": "Childcare",
       "key": "childcare",
-      "items": ["azure"]
+      "items": []
     },
     {
       "show_conf": false,
@@ -263,9 +256,7 @@
       "supporter": true,
       "title": "Headshots",
       "key": "headshots",
-      "items": [
-        "movableink"
-      ]
+      "items": []
     },
     {
       "show_conf": false,
@@ -273,15 +264,15 @@
       "supporter": true,
       "title": "Own Your Expertise",
       "key": "oye",
-      "items": ["generalui","devmynd"]
+      "items": []
     },
     {
       "show_conf": false,
       "show_description": false,
       "supporter": true,
-      "title": "Chapters",
+      "title": "Local Meetups",
       "key": "chapters",
-      "items": ["vts","movableink","medidata"]
+      "items": ["glympse", "VTS", "seatgeek"]
     }
   ]
 }

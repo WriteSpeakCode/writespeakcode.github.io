@@ -1,9 +1,9 @@
 {
-  "status": "closed",
+  "status": "open",
   "open": {
-    "tito_button_event": "write-speak-code/2018-conference",
-    "tickets_text": "2018 Conference Tickets",
-    "register_link": "https://ti.to/write-speak-code/2018-conference/",
+    "tito_button_event": "write-speak-code/2019-conference",
+    "tickets_text": "2019 Conference Tickets",
+    "register_link": "https://www.eventbrite.com/e/writespeakcode-2019-conference-tickets-58347757714",
     "register_text": "Register Now"
   },
   "closed": {

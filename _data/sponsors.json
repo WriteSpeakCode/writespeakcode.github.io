@@ -91,6 +91,18 @@
       "url": "https://www.squarespace.com/",
       "image": "squarespace-logo-stacked-black.jpg"
     },
+    "sentry":
+    {
+      "name": "Sentry",
+      "url": "https://www.sentry.io/",
+      "image": "sentry.png"
+    },
+    "textio":
+    {
+      "name": "Textio",
+      "url": "https://www.textio.com/",
+      "image": "textio.svg"
+    },
     "facebook":
     {
       "name": "Facebook",
@@ -188,14 +200,14 @@
       "show_description": true,
       "title": "Gold",
       "key": "gold",
-      "items": []
+      "items": ["zipline", "mailchimp", "splunk"]
     },
     {
       "show_conf": true,
       "show_description": true,
       "title": "Silver",
       "key": "silver",
-      "items": []
+      "items": ["sentry"]
     },
     {
       "show_conf": true,
@@ -203,7 +215,7 @@
       "title": "Bronze",
       "key": "bronze",
       "items": [
-        "netlify",
+        "netlify", "textio"
       ]
     },
     {

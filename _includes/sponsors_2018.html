@@ -1,0 +1,49 @@
+<!-- ## SPONSOR SECTION ## -->
+<section class="sponsors qcContainer anchor-section" id="sponsors">
+  <div class="qcTabTitle clearfix">
+    <div>
+      <div class="col-4 col">
+        <h2 class="section-title">Sponsors</h2>
+      </div>
+      <div class="col-8 col">
+        <p class="qcTabDesc">For great employers, sponsorship is the most effective way to recruit talented, driven technologists fill key technical positions and demonstrate your commitment to the professional development of people of marginalized genders at your organization. Write/Speak/Code is a 501c3 nonprofit. Contact <a href="mailto:sponsor@writespeakcode.com" target="_top">sponsor@writespeakcode.com</a> to learn more.<br /> <br />
+        <a href="{{ "/assets/WSC-SponsorshipProspectus-2018.pdf" | prepend: site.baseurl }}" target="_blank" rel="noopener" class="link coral">Read our 2018 Prospectus</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="all-sponsors">
+    {% for package in site.data.sponsors_2018.packages %}
+
+      {% if package.items.size > 0 %}
+        {% if include.is_conf == false or package.show_conf == include.is_conf %}
+          {% include sponsor_item.html package=package %}
+        {% endif %}
+      {% endif %}
+
+    {% endfor %}
+
+
+    {% for supporter in site.data.sponsors_2018.supporters %}
+
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% unless mod == 0 %}
+        <div class="sponsor-row">
+        {% endunless %}
+
+        {% if supporter.items.size > 0 %}
+          {% if include.is_conf == false or supporter.show_conf == include.is_conf %}
+            <div class="supporter">
+              {% include sponsor_item.html package=supporter %}
+            </div>
+          {% endif %}
+        {% endif %}
+
+        {% unless mod == 1 %}
+          </div>
+        {% endunless %}
+
+      {% endfor %}
+  </div>
+</section>

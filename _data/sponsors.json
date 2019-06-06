@@ -128,7 +128,10 @@
     {
       "name": "Splunk",
       "url": "https://www.splunk.com/",
-      "image": "logo_splunk_2color_K.png"
+      "image": "logo_splunk_2color_K.png",
+      "description": [
+        "Splunk Inc. (NASDAQ: SPLK) was founded to pursue a disruptive new vision: make machine data accessible, usable and valuable to everyone. Organizations use market-leading Splunk solutions with machine learning to monitor, investigate and act on all forms of business, IT, security, and Internet of Things (IoT) data. Use Splunk software in the cloud and on-premises to improve service levels, reduce operations costs, mitigate security risks, enable compliance, enhance DevOps collaboration and create new product and service offerings. Join millions of passionate users by trying Splunk software for free: www.splunk.com/free-trials."
+      ]
     },
     "google":
     {
